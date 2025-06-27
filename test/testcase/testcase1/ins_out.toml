@@ -1,0 +1,83 @@
+[ins1]
+vertical_address = 0
+vertical_x_step = 2
+vertical_ch_step = 16
+horizontal_address = 1024
+horizontal_x_step = 2
+horizontal_ch_step = 0
+output_address = 2048
+output_x_step = 2
+output_ch_step = 1
+flow_loop_times = 2
+work_mode = 0
+flow_mode = 0
+stride_mode = 0
+register_mode = 0
+conv_kernel = 0
+transpose_mode = 2
+bias_address = 0
+ins_start = 1
+ins_id = 0
+
+[ins2]
+vertical_address = 16
+vertical_x_step = 2
+vertical_ch_step = 16
+horizontal_address = 1024
+horizontal_x_step = 2
+horizontal_ch_step = 0
+output_address = 2064
+output_x_step = 2
+output_ch_step = 1
+flow_loop_times = 2
+work_mode = 0
+flow_mode = 0
+stride_mode = 0
+register_mode = 0
+conv_kernel = 0
+transpose_mode = 2
+bias_address = 0
+ins_start = 1
+ins_id = 1
+
+[ins3]
+vertical_address = 0
+vertical_x_step = 2
+vertical_ch_step = 16
+horizontal_address = 1536
+horizontal_x_step = 2
+horizontal_ch_step = 0
+output_address = 2560
+output_x_step = 2
+output_ch_step = 1
+flow_loop_times = 2
+work_mode = 0
+flow_mode = 0
+stride_mode = 0
+register_mode = 0
+conv_kernel = 0
+transpose_mode = 2
+bias_address = 0
+ins_start = 1
+ins_id = 2
+
+[ins4]
+vertical_address = 16
+vertical_x_step = 2
+vertical_ch_step = 16
+horizontal_address = 1536
+horizontal_x_step = 2
+horizontal_ch_step = 0
+output_address = 2576
+output_x_step = 2
+output_ch_step = 1
+flow_loop_times = 2
+work_mode = 0
+flow_mode = 0
+stride_mode = 0
+register_mode = 0
+conv_kernel = 0
+transpose_mode = 2
+bias_address = 0
+ins_start = 1
+ins_id = 3

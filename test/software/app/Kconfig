@@ -1,0 +1,127 @@
+menu "Select Testcase"
+
+choice SELECT_DESTINATION
+    prompt "Testcase List"
+    # If DESTINATION_TTY is not defined, you can adjust or comment out the default value
+    # default DESTINATION_TTY
+
+config MATRIX_TESTCASE1
+    bool "matrix_testcase1"
+    help
+        This option corresponds to matrix test case 1.
+        Detailed parameter information is as follows:
+        sram_width = 16
+        sram_depth = 8192
+        batch_size = 1
+        matrix_ch = 1
+        gemm_matrix_width = 32
+        gemm_matrix_depth = 32
+        data_range = 32
+
+config MATRIX_TESTCASE2
+    bool "matrix_testcase2"
+    help
+        This option corresponds to matrix test case 2.
+        Detailed parameter information is as follows:
+        sram_width = 16
+        sram_depth = 8192
+        batch_size = 1
+        matrix_ch = 1
+        gemm_matrix_width = 64
+        gemm_matrix_depth = 64
+        data_range = 32
+
+config CONV_TESTCASE1
+    bool "conv_testcase1"
+    help
+        This option corresponds to matrix test case 3.
+        Detailed parameter information is as follows:
+        sram_width = 16
+        sram_depth = 8192
+        batch_size = 1
+        conv_image_size = 30
+        conv_in_ch = 8
+        conv_out_ch = 16
+        conv_kernel = 3
+        stride = 1
+        padding = 1
+        data_range = 32
+
+config CONV_TESTCASE2
+    bool "conv_testcase2"
+    help
+        This option corresponds to matrix test case 4.
+        Detailed parameter information is as follows:
+        sram_width = 16
+        sram_depth = 8192
+        batch_size = 1
+        conv_image_size = 30
+        conv_in_ch = 16
+        conv_out_ch = 32
+        conv_kernel = 3
+        stride = 1
+        padding = 1
+        data_range = 32
+
+config PCONV_TESTCASE1
+    bool "pconv_testcase1"
+    help
+        This option corresponds to matrix test case 5.
+        Detailed parameter information is as follows:
+        sram_width = 16
+        sram_depth = 8192
+        batch_size = 1
+        conv_image_size = 32
+        conv_in_ch = 16
+        conv_out_ch = 32
+        conv_kernel = 1
+        stride = 1
+        padding = 0
+        data_range = 32
+
+config DCONV_TESTCASE1
+    bool "dconv_testcase1"
+    help
+        This option corresponds to matrix test case 6.
+        Detailed parameter information is as follows:
+        sram_width = 16
+        sram_depth = 8192
+        batch_size = 1
+        conv_image_size = 112
+        conv_in_ch = 3
+        conv_out_ch = 3
+        conv_kernel = 3
+        stride = 1
+        padding = 1
+        data_range = 32
+
+config CONV_TESTCASE3
+    bool "conv_testcase3"
+    help
+        This option corresponds to matrix test case 7.
+        Detailed parameter information is as follows:
+        sram_width = 16
+        sram_depth = 8192
+        batch_size = 1
+        conv_image_size = 30
+        conv_in_ch = 8
+        conv_out_ch = 16
+        conv_kernel = 3
+        stride = 2
+        padding = 1
+        data_range = 32
+
+endchoice
+
+# Assign the chosen protocol to the PROTOCOL variable
+config TESTCASE_CHOSEN
+    string
+    default "testcase1" if MATRIX_TESTCASE1
+    default "testcase2" if MATRIX_TESTCASE2
+    default "testcase3" if CONV_TESTCASE1
+    default "testcase4" if CONV_TESTCASE2
+    default "testcase5" if PCONV_TESTCASE1
+    default "testcase6" if DCONV_TESTCASE1
+    default "testcase7" if CONV_TESTCASE3
+
+endmenu

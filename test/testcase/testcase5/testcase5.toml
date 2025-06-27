@@ -1,0 +1,13 @@
+compute_class = "pconv"
+
+sram_width = 16
+sram_depth = 8192
+
+batch_size = 1
+conv_image_size = 32
+conv_in_ch = 16
+conv_out_ch = 32
+conv_kernel = 1
+stride = 1
+padding = 0
+data_range = 32

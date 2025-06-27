@@ -1,0 +1,13 @@
+compute_class = "conv"
+
+sram_width = 16
+sram_depth = 8192
+
+batch_size = 1
+conv_image_size = 30
+conv_in_ch = 8
+conv_out_ch = 16
+conv_kernel = 3
+stride = 2
+padding = 1
+data_range = 32

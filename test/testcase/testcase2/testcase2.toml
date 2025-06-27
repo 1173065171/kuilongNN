@@ -1,0 +1,10 @@
+compute_class = "matrix"
+
+sram_width = 16
+sram_depth = 8192
+
+batch_size = 1
+matrix_ch = 1
+gemm_matrix_width = 64
+gemm_matrix_depth = 64
+data_range = 32
