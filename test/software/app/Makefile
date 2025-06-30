@@ -31,7 +31,7 @@ build:
 	$(CC) -mabi=$(ABI) -march=$(ARCH) $(CFLAGS) $< -o $@
 
 # 静态链接库只能加在后面
-all: $(patsubst %.cpp,%.o,$(C_FILE)) $(patsubst %.S,%.o,$(ASM_FILE))
+all: build $(patsubst %.cpp,%.o,$(C_FILE)) $(patsubst %.S,%.o,$(ASM_FILE))
 	$(CC) -mabi=$(ABI) -march=$(ARCH) $(LDFLAGS) -o $(BUILD_DIR)/$(TARGET) $(patsubst %.cpp,%.o,$(C_FILE)) $(patsubst %.S,%.o,$(ASM_FILE)) -lm -lc -lgcc
 	$(OBJCOPY) -O binary $(BUILD_DIR)/$(TARGET) $(BUILD_DIR)/$(patsubst %.elf,%.bin,$(TARGET))
 	$(OBJDUMP) -d -a $(BUILD_DIR)/$(TARGET) > $(BUILD_DIR)/$(patsubst %.elf,%.txt,$(TARGET))
@@ -78,6 +78,9 @@ sim:
 	make move
 
 clean:
-	rm -vrf $(BUILD_DIR)/*
-	rm -vrf *.o $(INCLUDE_DIR)/*.o $(INCLUDE_DIR)/*.o *.d $(INCLUDE_DIR)/*.d *.elf *.bin *.hex *.coe *.mif *.map *.txt ../*.hex *.log
-	rm -vrf ../support/*.d ../support/*.o
+	@rm -rf build
+	@rm -rf *.o ../../../acenn/*.o ../../../acenn/*.o *.d ../../../acenn/*.d *.elf *.bin *.hex *.coe *.mif *.map *.txt ../*.hex *.log
+	@rm -rf ../support/*.d ../support/*.o
+
+help:
+	@echo "no help"
