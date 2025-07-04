@@ -26,10 +26,10 @@
 typedef unsigned int uint32_t;
 
 #ifdef USE_XILINX_UARTLITE
-    #define UART_ADDRESS_RX     0x81000000
-    #define UART_ADDRESS_TX     0x81000004
-    #define UART_ADDRESS_STAT   0x81000008
-    #define UART_ADDRESS_CTRL   0x8100000C
+    #define UART_ADDRESS_RX     0x20000000
+    #define UART_ADDRESS_TX     0x20000004
+    #define UART_ADDRESS_STAT   0x20000008
+    #define UART_ADDRESS_CTRL   0x2000000C
 
     void uart_putc(int c)
     {

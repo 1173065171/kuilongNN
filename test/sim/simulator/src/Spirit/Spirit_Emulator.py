@@ -111,23 +111,20 @@ class Spirit(_object):
     __swig_destroy__ = _Spirit_Emulator.delete_Spirit
     __del__ = lambda self: None
 
-    def emulator_init(self, inst_file_name, data_file_name):
-        return _Spirit_Emulator.Spirit_emulator_init(self, inst_file_name, data_file_name)
+    def emulator_init(self):
+        return _Spirit_Emulator.Spirit_emulator_init(self)
 
     def emulate(self):
         return _Spirit_Emulator.Spirit_emulate(self)
-
-    def get_sram(self, addr):
-        return _Spirit_Emulator.Spirit_get_sram(self, addr)
-
-    def set_sram(self, addr, data):
-        return _Spirit_Emulator.Spirit_set_sram(self, addr, data)
 
     def get_current_pc(self):
         return _Spirit_Emulator.Spirit_get_current_pc(self)
 
     def get_csr(self, addr):
         return _Spirit_Emulator.Spirit_get_csr(self, addr)
+
+    def set_instr(self, data_msb, data_lsb):
+        return _Spirit_Emulator.Spirit_set_instr(self, data_msb, data_lsb)
 
     def get_peripherals_bus_enable(self):
         return _Spirit_Emulator.Spirit_get_peripherals_bus_enable(self)
@@ -252,10 +249,6 @@ Spirit_swigregister = _Spirit_Emulator.Spirit_swigregister
 Spirit_swigregister(Spirit)
 cvar = _Spirit_Emulator.cvar
 REGNUM = cvar.REGNUM
-INST_SRAM_SIZE = cvar.INST_SRAM_SIZE
-GLOBAL_SRAM_SIZE = cvar.GLOBAL_SRAM_SIZE
-STACK1_SRAM_SIZE = cvar.STACK1_SRAM_SIZE
-STACK2_SRAM_SIZE = cvar.STACK2_SRAM_SIZE
 
 # This file is compatible with both classic and new-style classes.
 

@@ -9,7 +9,7 @@
 
 from sys import argv
 
-base = int("0x40000000", base=16)
+base = int("0x10000000", base=16)
 # print(base)
 binfile = argv[1]
 nwords = int(argv[2])

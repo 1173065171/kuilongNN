@@ -1,12 +1,16 @@
+# tools config
 /.idea
 /.vscode
 
+# python include cache
 __pycache__/
 
-*.so
+# post build files
 *.o
-*.cxx
-*.log
 *_Emulator.py
 
-veu_running.log
+# run log files
+*.log
+
+# build rep
+/test/software/app/build

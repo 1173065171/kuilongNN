@@ -107,8 +107,8 @@ static inline int list_empty(const struct list_head *head)
 /*                                      buddy algorithms                                            */
 /****************************************************************************************************/
 //  frac{4*(1-2^{9})}{1-2} = 2044 Byte
-#define MEM_END    0x50020000
-#define MEM_START  0x50000000
+#define MEM_END    0x10050000
+#define MEM_START  0x10030000
 
 //  1 page = 4096 Byte
 // #define PAGE_SHIFT  (12)

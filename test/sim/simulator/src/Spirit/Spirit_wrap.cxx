@@ -3121,133 +3121,7 @@ SWIGINTERNINLINE PyObject*
 }
 
 
-SWIGINTERN swig_type_info*
-SWIG_pchar_descriptor(void)
-{
-  static int init = 0;
-  static swig_type_info* info = 0;
-  if (!init) {
-    info = SWIG_TypeQuery("_p_char");
-    init = 1;
-  }
-  return info;
-}
-
-
-SWIGINTERN int
-SWIG_AsCharPtrAndSize(PyObject *obj, char** cptr, size_t* psize, int *alloc)
-{
-#if PY_VERSION_HEX>=0x03000000
-#if defined(SWIG_PYTHON_STRICT_BYTE_CHAR)
-  if (PyBytes_Check(obj))
-#else
-  if (PyUnicode_Check(obj))
-#endif
-#else  
-  if (PyString_Check(obj))
-#endif
-  {
-    char *cstr; Py_ssize_t len;
-#if PY_VERSION_HEX>=0x03000000
-#if !defined(SWIG_PYTHON_STRICT_BYTE_CHAR)
-    if (!alloc && cptr) {
-        /* We can't allow converting without allocation, since the internal
-           representation of string in Python 3 is UCS-2/UCS-4 but we require
-           a UTF-8 representation.
-           TODO(bhy) More detailed explanation */
-        return SWIG_RuntimeError;
-    }
-    obj = PyUnicode_AsUTF8String(obj);
-    if(alloc) *alloc = SWIG_NEWOBJ;
-#endif
-    PyBytes_AsStringAndSize(obj, &cstr, &len);
-#else
-    PyString_AsStringAndSize(obj, &cstr, &len);
-#endif
-    if (cptr) {
-      if (alloc) {
-	/* 
-	   In python the user should not be able to modify the inner
-	   string representation. To warranty that, if you define
-	   SWIG_PYTHON_SAFE_CSTRINGS, a new/copy of the python string
-	   buffer is always returned.
-
-	   The default behavior is just to return the pointer value,
-	   so, be careful.
-	*/ 
-#if defined(SWIG_PYTHON_SAFE_CSTRINGS)
-	if (*alloc != SWIG_OLDOBJ) 
-#else
-	if (*alloc == SWIG_NEWOBJ) 
-#endif
-	{
-	  *cptr = reinterpret_cast< char* >(memcpy(new char[len + 1], cstr, sizeof(char)*(len + 1)));
-	  *alloc = SWIG_NEWOBJ;
-	} else {
-	  *cptr = cstr;
-	  *alloc = SWIG_OLDOBJ;
-	}
-      } else {
-#if PY_VERSION_HEX>=0x03000000
-#if defined(SWIG_PYTHON_STRICT_BYTE_CHAR)
-	*cptr = PyBytes_AsString(obj);
-#else
-	assert(0); /* Should never reach here with Unicode strings in Python 3 */
-#endif
-#else
-	*cptr = SWIG_Python_str_AsChar(obj);
-#endif
-      }
-    }
-    if (psize) *psize = len + 1;
-#if PY_VERSION_HEX>=0x03000000 && !defined(SWIG_PYTHON_STRICT_BYTE_CHAR)
-    Py_XDECREF(obj);
-#endif
-    return SWIG_OK;
-  } else {
-#if defined(SWIG_PYTHON_2_UNICODE)
-#if defined(SWIG_PYTHON_STRICT_BYTE_CHAR)
-#error "Cannot use both SWIG_PYTHON_2_UNICODE and SWIG_PYTHON_STRICT_BYTE_CHAR at once"
-#endif
-#if PY_VERSION_HEX<0x03000000
-    if (PyUnicode_Check(obj)) {
-      char *cstr; Py_ssize_t len;
-      if (!alloc && cptr) {
-        return SWIG_RuntimeError;
-      }
-      obj = PyUnicode_AsUTF8String(obj);
-      if (PyString_AsStringAndSize(obj, &cstr, &len) != -1) {
-        if (cptr) {
-          if (alloc) *alloc = SWIG_NEWOBJ;
-          *cptr = reinterpret_cast< char* >(memcpy(new char[len + 1], cstr, sizeof(char)*(len + 1)));
-        }
-        if (psize) *psize = len + 1;
-
-        Py_XDECREF(obj);
-        return SWIG_OK;
-      } else {
-        Py_XDECREF(obj);
-      }
-    }
-#endif
-#endif
-
-    swig_type_info* pchar_descriptor = SWIG_pchar_descriptor();
-    if (pchar_descriptor) {
-      void* vptr = 0;
-      if (SWIG_ConvertPtr(obj, &vptr, pchar_descriptor, 0) == SWIG_OK) {
-	if (cptr) *cptr = (char *) vptr;
-	if (psize) *psize = vptr ? (strlen((char *)vptr) + 1) : 0;
-	if (alloc) *alloc = SWIG_OLDOBJ;
-	return SWIG_OK;
-      }
-    }
-  }
-  return SWIG_TypeError;
-}
-
-
-
+  #define SWIG_From_long   PyInt_FromLong 
 
 
 SWIGINTERN int
@@ -3375,9 +3249,6 @@ SWIG_AsVal_long (PyObject *obj, long* val)
 }
 
 
-  #define SWIG_From_long   PyInt_FromLong 
-
-
 #include <limits.h>
 #if !defined(SWIG_NO_LLONG_MAX)
 # if !defined(LLONG_MAX) && defined(__GNUC__) && defined (__LONG_LONG_MAX__)
@@ -3441,62 +3312,6 @@ SWIGINTERN PyObject *Swig_var_REGNUM_get(void) {
 }
 
 
-SWIGINTERN int Swig_var_INST_SRAM_SIZE_set(PyObject *) {
-  SWIG_Error(SWIG_AttributeError,"Variable INST_SRAM_SIZE is read-only.");
-  return 1;
-}
-
-
-SWIGINTERN PyObject *Swig_var_INST_SRAM_SIZE_get(void) {
-  PyObject *pyobj = 0;
-  
-  pyobj = SWIG_From_int(static_cast< int >(SPIRIT::INST_SRAM_SIZE));
-  return pyobj;
-}
-
-
-SWIGINTERN int Swig_var_GLOBAL_SRAM_SIZE_set(PyObject *) {
-  SWIG_Error(SWIG_AttributeError,"Variable GLOBAL_SRAM_SIZE is read-only.");
-  return 1;
-}
-
-
-SWIGINTERN PyObject *Swig_var_GLOBAL_SRAM_SIZE_get(void) {
-  PyObject *pyobj = 0;
-  
-  pyobj = SWIG_From_int(static_cast< int >(SPIRIT::GLOBAL_SRAM_SIZE));
-  return pyobj;
-}
-
-
-SWIGINTERN int Swig_var_STACK1_SRAM_SIZE_set(PyObject *) {
-  SWIG_Error(SWIG_AttributeError,"Variable STACK1_SRAM_SIZE is read-only.");
-  return 1;
-}
-
-
-SWIGINTERN PyObject *Swig_var_STACK1_SRAM_SIZE_get(void) {
-  PyObject *pyobj = 0;
-  
-  pyobj = SWIG_From_int(static_cast< int >(SPIRIT::STACK1_SRAM_SIZE));
-  return pyobj;
-}
-
-
-SWIGINTERN int Swig_var_STACK2_SRAM_SIZE_set(PyObject *) {
-  SWIG_Error(SWIG_AttributeError,"Variable STACK2_SRAM_SIZE is read-only.");
-  return 1;
-}
-
-
-SWIGINTERN PyObject *Swig_var_STACK2_SRAM_SIZE_get(void) {
-  PyObject *pyobj = 0;
-  
-  pyobj = SWIG_From_int(static_cast< int >(SPIRIT::STACK2_SRAM_SIZE));
-  return pyobj;
-}
-
-
 SWIGINTERN PyObject *_wrap_new_Spirit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   Spirit *result = 0 ;
@@ -3534,44 +3349,20 @@ fail:
 SWIGINTERN PyObject *_wrap_Spirit_emulator_init(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   Spirit *arg1 = (Spirit *) 0 ;
-  char *arg2 = (char *) 0 ;
-  char *arg3 = (char *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  int res2 ;
-  char *buf2 = 0 ;
-  int alloc2 = 0 ;
-  int res3 ;
-  char *buf3 = 0 ;
-  int alloc3 = 0 ;
   PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
   
-  if (!PyArg_ParseTuple(args,(char *)"OOO:Spirit_emulator_init",&obj0,&obj1,&obj2)) SWIG_fail;
+  if (!PyArg_ParseTuple(args,(char *)"O:Spirit_emulator_init",&obj0)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_emulator_init" "', argument " "1"" of type '" "Spirit *""'"); 
   }
   arg1 = reinterpret_cast< Spirit * >(argp1);
-  res2 = SWIG_AsCharPtrAndSize(obj1, &buf2, NULL, &alloc2);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Spirit_emulator_init" "', argument " "2"" of type '" "char *""'");
-  }
-  arg2 = reinterpret_cast< char * >(buf2);
-  res3 = SWIG_AsCharPtrAndSize(obj2, &buf3, NULL, &alloc3);
-  if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "Spirit_emulator_init" "', argument " "3"" of type '" "char *""'");
-  }
-  arg3 = reinterpret_cast< char * >(buf3);
-  (arg1)->emulator_init(arg2,arg3);
+  (arg1)->emulator_init();
   resultobj = SWIG_Py_Void();
-  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
-  if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
   return resultobj;
 fail:
-  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
-  if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
   return NULL;
 }
 
@@ -3590,76 +3381,6 @@ SWIGINTERN PyObject *_wrap_Spirit_emulate(PyObject *SWIGUNUSEDPARM(self), PyObje
   }
   arg1 = reinterpret_cast< Spirit * >(argp1);
   (arg1)->emulate();
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_Spirit_get_sram(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  Spirit *arg1 = (Spirit *) 0 ;
-  long arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  long val2 ;
-  int ecode2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  long result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:Spirit_get_sram",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_get_sram" "', argument " "1"" of type '" "Spirit *""'"); 
-  }
-  arg1 = reinterpret_cast< Spirit * >(argp1);
-  ecode2 = SWIG_AsVal_long(obj1, &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Spirit_get_sram" "', argument " "2"" of type '" "long""'");
-  } 
-  arg2 = static_cast< long >(val2);
-  result = (long)(arg1)->get_sram(arg2);
-  resultobj = SWIG_From_long(static_cast< long >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_Spirit_set_sram(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  Spirit *arg1 = (Spirit *) 0 ;
-  long arg2 ;
-  long arg3 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  long val2 ;
-  int ecode2 = 0 ;
-  long val3 ;
-  int ecode3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOO:Spirit_set_sram",&obj0,&obj1,&obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_set_sram" "', argument " "1"" of type '" "Spirit *""'"); 
-  }
-  arg1 = reinterpret_cast< Spirit * >(argp1);
-  ecode2 = SWIG_AsVal_long(obj1, &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Spirit_set_sram" "', argument " "2"" of type '" "long""'");
-  } 
-  arg2 = static_cast< long >(val2);
-  ecode3 = SWIG_AsVal_long(obj2, &val3);
-  if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "Spirit_set_sram" "', argument " "3"" of type '" "long""'");
-  } 
-  arg3 = static_cast< long >(val3);
-  (arg1)->set_sram(arg2,arg3);
   resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
@@ -3714,6 +3435,45 @@ SWIGINTERN PyObject *_wrap_Spirit_get_csr(PyObject *SWIGUNUSEDPARM(self), PyObje
   arg2 = static_cast< long >(val2);
   result = (long)(arg1)->get_csr(arg2);
   resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_set_instr(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  long arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OOO:Spirit_set_instr",&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_set_instr" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Spirit_set_instr" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "Spirit_set_instr" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  (arg1)->set_instr(arg2,arg3);
+  resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
   return NULL;
@@ -4929,10 +4689,9 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"delete_Spirit", _wrap_delete_Spirit, METH_VARARGS, NULL},
 	 { (char *)"Spirit_emulator_init", _wrap_Spirit_emulator_init, METH_VARARGS, NULL},
 	 { (char *)"Spirit_emulate", _wrap_Spirit_emulate, METH_VARARGS, NULL},
-	 { (char *)"Spirit_get_sram", _wrap_Spirit_get_sram, METH_VARARGS, NULL},
-	 { (char *)"Spirit_set_sram", _wrap_Spirit_set_sram, METH_VARARGS, NULL},
 	 { (char *)"Spirit_get_current_pc", _wrap_Spirit_get_current_pc, METH_VARARGS, NULL},
 	 { (char *)"Spirit_get_csr", _wrap_Spirit_get_csr, METH_VARARGS, NULL},
+	 { (char *)"Spirit_set_instr", _wrap_Spirit_set_instr, METH_VARARGS, NULL},
 	 { (char *)"Spirit_get_peripherals_bus_enable", _wrap_Spirit_get_peripherals_bus_enable, METH_VARARGS, NULL},
 	 { (char *)"Spirit_get_peripherals_bus_wstrb", _wrap_Spirit_get_peripherals_bus_wstrb, METH_VARARGS, NULL},
 	 { (char *)"Spirit_get_peripherals_bus_addr", _wrap_Spirit_get_peripherals_bus_addr, METH_VARARGS, NULL},
@@ -5692,10 +5451,6 @@ SWIG_init(void) {
   
   PyDict_SetItemString(md,(char *)"cvar", SWIG_globals());
   SWIG_addvarlink(SWIG_globals(),(char *)"REGNUM",Swig_var_REGNUM_get, Swig_var_REGNUM_set);
-  SWIG_addvarlink(SWIG_globals(),(char *)"INST_SRAM_SIZE",Swig_var_INST_SRAM_SIZE_get, Swig_var_INST_SRAM_SIZE_set);
-  SWIG_addvarlink(SWIG_globals(),(char *)"GLOBAL_SRAM_SIZE",Swig_var_GLOBAL_SRAM_SIZE_get, Swig_var_GLOBAL_SRAM_SIZE_set);
-  SWIG_addvarlink(SWIG_globals(),(char *)"STACK1_SRAM_SIZE",Swig_var_STACK1_SRAM_SIZE_get, Swig_var_STACK1_SRAM_SIZE_set);
-  SWIG_addvarlink(SWIG_globals(),(char *)"STACK2_SRAM_SIZE",Swig_var_STACK2_SRAM_SIZE_get, Swig_var_STACK2_SRAM_SIZE_set);
 #if PY_VERSION_HEX >= 0x03000000
   return m;
 #else

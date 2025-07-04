@@ -47,7 +47,6 @@
 #define CLEAR_OB(value)     ((value & 0b1) << 9)
 #define WRITE_BACK(value)   ((value & 0b1) << 10)
 #define SCALAR_EN(value)    ((value & 0b1) << 11)
-#define RADDR3_EN(value)    ((value & 0b1) << 12)
 
 #define __kuiloong_ace_vorcsr(rs1, csr)         __builtin_riscv_ace_vorcsr(rs1, csr)        
 #define __kuiloong_ace_vandcsr(rs1, csr)        __builtin_riscv_ace_vandcsr(rs1, csr)       
