@@ -191,7 +191,7 @@ int main()
 	// test_printf_();
 	// test_malloc();
 	// veu_benchmark();
-	sau_benchmark();
+	sau_benchmark(matrix1, matrix2, matrix3);
 
 
 	EndInsn = insn();

@@ -4,6 +4,7 @@
 
 # python include cache
 __pycache__/
+command.md
 
 # post build files
 *.o

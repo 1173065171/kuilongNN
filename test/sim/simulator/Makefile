@@ -1,27 +1,60 @@
+# 配置仿真器环境
+# 由于macos的限制，需要对gcc有独特的配置
+
+ifeq ($(IS_MACOS),1)
+    export CC=gcc-11
+    export CXX=g++-11
+    export MACOS_FLAG=-undefined dynamic_lookup
+    export PYTHON=/opt/anaconda3/envs/npu_sim/bin/python
+    export PYTHONH=/opt/anaconda3/envs/npu_sim/include/python3.10
+else
+    export CC=gcc
+    export CXX=g++
+    export MACOS_FLAG=
+    export PYTHON=/home/zbn/software/miniconda3/envs/lpnpu_sim/bin/python
+    export PYTHONH=/home/zbn/software/miniconda3/envs/lpnpu_sim/include/python3.10
+endif
+export SWIG=swig
+
+# work dir
+export SIMULATOR_HOME=$(shell pwd)
+
+# swig-work dir
+include ${SIMULATOR_HOME}/src/Spirit/Makefile
+include ${SIMULATOR_HOME}/src/Device/Makefile
+include ${SIMULATOR_HOME}/src/UART/Makefile
+
+# main
+build:
+	cd ./src/Spirit && make swig_cpu -B
+	cd ./src/Device && make swig_device -B
+	cd ./src/UART && make swig_uart -B
 
 all:
-	mkdir -p out
-	python3 main.py 2>&1 | tee record.log
+	${PYTHON} main_kui.py | tee ${SIMULATOR_HOME}/log/record.log
 
-build:
-	cd ./src/Spirit && make all -B
-	cd ./src/Device && make all -B
-	cd ./src/UART && make all -B
-	cd ./src/VEU && make all -B
+test:
+	${PYTHON} main_kui.py
 
 # remove \x1b
 r1b:
-	@python3 remove_ansi_escapes.py
+	${PYTHON} remove_ansi_escapes.py
 
 clean_log:
 	rm -vrf *.log
 
-
-clean_out:
-	rm -rf ./out/
-	mkdir out
-
-
 clean:
-	@rm -rf *.log *_output.txt
-	@rm -rf ./out/
+	cd ./src/Spirit && make clean_cpu
+	cd ./src/Device && make clean_device
+	cd ./src/UART && make clean_uart
+	rm -vrf *.log
+
+package:
+	rm -rf .idea
+	rm -rf build
+	rm -rf test
+	rm -rf tmp
+	find ./src/ -name "*.cpp" -exec rm -rf {} \;
+	find ./src/ -name "*.hpp" -exec rm -rf {} \;
+	find ./ -name "__pycache__" -exec rm -rf {} \;
+	sh package.sh

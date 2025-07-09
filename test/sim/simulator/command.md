@@ -1,1 +1,0 @@
-cp -r /home/zbn/tmp/kuilongNN/test/sim/simulator/firmware/gcc_backend/ /home/zbn/IC/lpnpu_sim/firmware/

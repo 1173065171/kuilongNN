@@ -32,5 +32,6 @@ class SimulatorTime():
 		"""
 		print("VEU running time: ", self.veu_running_time)
 		print("SAU running time: ", self.sau_running_time)
+		print("CPU running time: ", self.cpu_running_time)
 		
 		print("Total running time: ", self.cpu_running_time + self.veu_running_time + self.sau_running_time)

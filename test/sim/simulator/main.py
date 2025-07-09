@@ -11,6 +11,7 @@ from tools.sram_connect import get_sram_from_stack, set_sram_from_stack
 import re
 import time
 import logging
+from dataclasses import dataclass
 
 # logging level：DEBUG, INFO, WARNING, ERROR, CRITICAL
 logger= logging.getLogger("main_kui")
@@ -26,6 +27,16 @@ REDC = '\033[91m'
 GREENC = '\033[92m'
 YELLOWC = '\033[93m'
 RESETC = '\033[0m'  # reset color
+
+@dataclass
+class csr_bus:
+	csr_re: int = 0  # csr read enable
+	csr_we: int = 0  # csr write enable
+	csr_write_type: int = 0  # csr write type
+	csr_addr: int = 0  # csr address
+	csr_wdata1: int = 0  # csr write data1
+	csr_wdata2: int = 0  # csr write data2
+	csr_rdata: int = 0  # csr read data
 
 
 def debug_print(output, color=REDC):
@@ -79,7 +90,7 @@ def step_debug(asm_file_path, pc_value):
 		debug_print("No matching PC value was found.", GREENC)
 
 
-def main():
+def sim():
 	# log start
 	logger.info("program start running!")
 	# load file
@@ -113,7 +124,6 @@ def main():
 
 	# sau init
 	sau = SAU(1, 16, 'int8')
-	sau = SAU(2, 16, 'int8')
 	sau_debug_flag = None
 
 	# sram init
@@ -122,7 +132,8 @@ def main():
 	sram1 =SramSp(width=128, depth=32768, base_addr=0x10000000)
 	sram1.read_from_file(sram_data_file)
 
-	logger.info(sram1.data[2374])
+	# csr_bus
+	csr = csr_bus()
 	
 
 	# 初始化时间统计模块
@@ -186,29 +197,29 @@ def main():
 			elif spirit.peripherals_req == 4:  # write and read csr
 				# -----------------  run the Heterogeneous (veu)  --------------------------
 				if (spirit.get_csr_bus_addr() & 0xF00) == 0x100:
-					# 接收csr
-					csr_re = spirit.get_csr_bus_re()
-					csr_we = spirit.get_csr_bus_we()
-					csr_write_type = spirit.get_csr_bus_write_type()
-					csr_addr = spirit.get_csr_bus_addr() & 0xF0F
-					csr_wdata1 = spirit.get_csr_bus_wdata1()
-					csr_wdata2 = spirit.get_csr_bus_wdata2()
-					csr_vestart = spirit.get_csr_bus_vestart()
-					# 读取csr
-					csr_rdata = veu.get_csr(csr_addr)
-					spirit.set_csr_bus_rdata(csr_rdata)
-					# 写入csr
-					veu.set_csr(csr_en=csr_we,
-								operation=csr_write_type,
-								csr_addr=csr_addr,
-								csr_wdata1=csr_wdata1,
-								csr_wdata2=csr_wdata2,
-								csr_status=csr_vestart)
+					# 1.接收csr
+					csr.csr_re = spirit.get_csr_bus_re()
+					csr.csr_we = spirit.get_csr_bus_we()
+					csr.csr_write_type = spirit.get_csr_bus_write_type()
+					csr.csr_addr = spirit.get_csr_bus_addr() & 0xF0F
+					csr.csr_wdata1 = spirit.get_csr_bus_wdata1()
+					csr.csr_wdata2 = spirit.get_csr_bus_wdata2()
+					csr.csr_vestart = spirit.get_csr_bus_vestart()
+					# 2.读取csr
+					csr.csr_rdata = veu.get_csr(csr.csr_addr)
+					spirit.set_csr_bus_rdata(csr.csr_rdata)
+					# 3.写入csr
+					veu.set_csr(csr_en=csr.csr_we,
+								operation=csr.csr_write_type,
+								csr_addr=csr.csr_addr,
+								csr_wdata1=csr.csr_wdata1,
+								csr_wdata2=csr.csr_wdata2,
+								csr_status=csr.csr_vestart)
 					# log csr read and write
-					logger.info(f"🐱--VEU now_pc: {hex(pc)}, csr_en: {csr_re}, csr_we: {csr_we}, csr_write_type: {csr_write_type}, addr: {csr_addr}, csr_wdata1: {csr_wdata1}, csr_wdata2: {csr_wdata2}, csr_vstart:{csr_vestart}, csr_rdata:{csr_rdata}")
-					# 获取工作信号
+					logger.info(f"🐱--VEU now_pc: {hex(pc)}, csr: {csr}")
+					# 4.获取工作信号
 					running = veu.get_csr(veu.csr_addr.VEU_STATUS)
-					# 硬件循环 （running = 1）
+					# 5.硬件循环 （running = 1）
 					while (running & 0x1) != 0:
 						# 更新status和config寄存器
 						veu.update_status()
@@ -231,46 +242,47 @@ def main():
 						run_time.accumulate_veu_time(running_time)
 				# -----------------  run the Heterogeneous (sau)  --------------------------
 				elif (spirit.get_csr_bus_addr() & 0xF00) == 0x200:
-					# 1、获取csr接口数据
-					sau_en = spirit.get_csr_bus_we() | spirit.get_csr_bus_re()
-					csr_re = spirit.get_csr_bus_re()
-					csr_we = spirit.get_csr_bus_we()
-					sau_operation = spirit.get_csr_bus_write_type()
-					sau_addr = spirit.get_csr_bus_addr() & 0x00f
-					sau_wdata1 = spirit.get_csr_bus_wdata1()
-					sau_wdata2 = spirit.get_csr_bus_wdata2()
-					# 2、写入 csr 缓存区
-					if sau_en == 1 & sau_operation == 1:
-						sau.set_csr_bus(sau_en, sau_operation, sau_addr, sau_wdata2, sau_wdata1)
+					# 1.接收csr
+					csr.csr_re = spirit.get_csr_bus_re()
+					csr.csr_we = spirit.get_csr_bus_we()
+					csr.csr_write_type = spirit.get_csr_bus_write_type()
+					csr.csr_addr = spirit.get_csr_bus_addr() & 0xF0F
+					csr.csr_wdata1 = spirit.get_csr_bus_wdata1()
+					csr.csr_wdata2 = spirit.get_csr_bus_wdata2()
+					# 2.读取csr
+					csr.csr_rdata = sau.get_csr(csr.csr_addr)
+					spirit.set_csr_bus_rdata(csr.csr_rdata)
+					# 3、写入 csr 缓存区
+					sau.set_csr(csr_en=csr.csr_we, 
+				 				operation=csr.csr_write_type, 
+								csr_addr=csr.csr_addr, 
+								csr_wdata1=csr.csr_wdata1, 
+								csr_wdata2=csr.csr_wdata2)
 
-					if sau_en == 1 & (sau_addr // 2 == 2):
-						sau.set_sau()
-					# 4、解析出指令项 start==1 启动SAU执行，硬件循环在里面
-					if sau.ins.start == 1:
-						# TODO： sram的分块映射，考虑多核地址
-						# 这里对 spirit.sram 做一个虚拟映射，处理完后再映射回去，read_sram和write_sram可能会需要循环
-						# sram_arrayd的格式是list[int32, int32, int32, ...]
-						if sau_debug_flag:
-							# 测试一些仿真器搬移操作需要多少时间
-							start_time = time.time()
-							i_sram_array = get_sram_from_stack(spirit, 0x50000000, 32768)
-							end_time = time.time()
-							print("get sram_array time:", end_time - start_time)
-							print("sram_array element type:", type(i_sram_array[0]))
-							print("sram_array size:", len(i_sram_array))
-							with open("i_sram_array_output.txt", "w") as file:
-								for item in i_sram_array:
-									file.write(f"{item}\n")
-						else:
-							# 直接搬移
-							i_sram_array = get_sram_from_stack(spirit, 0x50000000, 32768)
-						sau.read_sram(i_sram_array)
-						# 执行一次sau指令运算操作
+					# log csr read and write
+					logger.info(f"🐱--SAU now_pc: {hex(pc)}, csr: {csr}")
+					# 4、获取工作信号
+					running = sau.status.running
+					# 5.硬件循环 （running = 1）
+					while running:
+						# 更新寄存器
+						sau.update_status()
+						sau.update_input_m1(sram1.read_burst(True, sau.status.A_address, sau.status.A_step, sau.status.A_count))
+						sau.update_input_m2(sram1.read_burst(True, sau.status.B_address, sau.status.B_step, sau.status.B_count))
+						sau.update_input_m3(sram1.read(True, sau.status.C_address))
+
+						# 执行一次 systolic array 的 flow
 						sau.run()
-						# 将sau的ram数据写回 spirit.sram
-						o_sram_array = sau.write_sram()
-						set_sram_from_stack(spirit, 0x50000000, o_sram_array)
 
+						# 更新状态寄存器
+						sau.update_status()
+
+						# 写回结果
+						if sau.status.flow_i == sau.config.flow_loop_times:
+							sram1.write_burst(True, 0xFFFF, sau.status.D_address, sau.status.D_step, sau.status.D_count, sau.output_matrix.matrix)
+							sau.repair_backward()
+
+						running = sau.status.running
 					# 累计计算运行时间
 					running_time = sau.total_time
 					run_time.accumulate_sau_time(running_time)
@@ -323,6 +335,8 @@ def main():
 	run_time.print_run_time()
 
 
+def main():
+	sim()
 
 if __name__ == "__main__":
 	main()
