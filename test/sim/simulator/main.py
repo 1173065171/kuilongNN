@@ -274,9 +274,6 @@ def sim():
 						# 执行一次 systolic array 的 flow
 						sau.run()
 
-						# 更新状态寄存器
-						sau.update_status()
-
 						# 写回结果
 						if sau.status.flow_i == sau.config.flow_loop_times:
 							sram1.write_burst(True, 0xFFFF, sau.status.D_address, sau.status.D_step, sau.status.D_count, sau.output_matrix.matrix)
