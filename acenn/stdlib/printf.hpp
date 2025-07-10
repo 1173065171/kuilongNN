@@ -23,11 +23,23 @@
 #include "stddef.h"
 #include "stdarg.h"
 
+#define KUILOONG_DEBUG
+
+// 条件编译 print功能是否执行， 不执行可以减少cpu操作数
+#ifndef KUILOONG_DEBUG
+
+#define ACENN_DEBUG(fmt,...);  do { \
+} while(0);
+
+#else
+
 #define ACENN_DEBUG(fmt,...);  do { \
     printf_("[%s : %s : %05d] ", __FILE__ , __func__, __LINE__); \
     printf_(fmt, ## __VA_ARGS__); \
     printf_("\n"); \
 } while(0);
+
+#endif
 
 int printf_(const char* format, ...);
 

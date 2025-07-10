@@ -1,5 +1,5 @@
 #include "stdint.h"
-#include <string.h> 
+#include "string.h"
 #include "stdlib/printf.hpp"
 #include "stdlib/malloc.hpp"
 #include "veu_benchmark.hpp"
@@ -27,7 +27,6 @@ long insn()
 {
 	int insns;
 	asm volatile ("rdinstret %0" : "=r"(insns));
-	// printf("[insn() -> %d]", insns);
 	return insns;
 }
 
@@ -187,11 +186,13 @@ int main()
 	int8_t *matrix1=(int8_t *)malloc(1024);
 	int8_t *matrix2=(int8_t *)malloc(1024);
 	int8_t *matrix3=(int8_t *)malloc(1024);
+	int8_t *matrix4=(int8_t *)malloc(1024);
+
 
 	// test_printf_();
 	// test_malloc();
 	// veu_benchmark();
-	sau_benchmark(matrix1, matrix2, matrix3);
+	sau_benchmark(matrix1, matrix2, matrix3, matrix4);
 
 
 	EndInsn = insn();

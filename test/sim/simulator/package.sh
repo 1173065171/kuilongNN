@@ -23,6 +23,7 @@ find ./ -name "__pycache__" -exec rm -rf {} \;
 find ./firmware -mindepth 1 -maxdepth 1 -type d ! -name "gcc_backend" -exec rm -rf {} \;
 
 # 删除Cython的编译脚本
+rm -rf .gitignore
 rm -rf cython_setup.py
 rm -rf command.md
 rm -rf main.py
