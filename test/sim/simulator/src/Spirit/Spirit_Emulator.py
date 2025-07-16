@@ -81,6 +81,9 @@ class Spirit(object):
     def get_csr(self, addr):
         return _Spirit_Emulator.Spirit_get_csr(self, addr)
 
+    def get_cpuregs(self, index):
+        return _Spirit_Emulator.Spirit_get_cpuregs(self, index)
+
     def set_instr(self, data_msb, data_lsb):
         return _Spirit_Emulator.Spirit_set_instr(self, data_msb, data_lsb)
 
@@ -176,6 +179,31 @@ class Spirit(object):
     trap = property(_Spirit_Emulator.Spirit_trap_get, _Spirit_Emulator.Spirit_trap_set)
     use_one_sram = property(_Spirit_Emulator.Spirit_use_one_sram_get, _Spirit_Emulator.Spirit_use_one_sram_set)
     peripherals_req = property(_Spirit_Emulator.Spirit_peripherals_req_get, _Spirit_Emulator.Spirit_peripherals_req_set)
+    VEUSTATUS = property(_Spirit_Emulator.Spirit_VEUSTATUS_get, _Spirit_Emulator.Spirit_VEUSTATUS_set)
+    VEURADDR1 = property(_Spirit_Emulator.Spirit_VEURADDR1_get, _Spirit_Emulator.Spirit_VEURADDR1_set)
+    VEURADDR2 = property(_Spirit_Emulator.Spirit_VEURADDR2_get, _Spirit_Emulator.Spirit_VEURADDR2_set)
+    VEUWADDR = property(_Spirit_Emulator.Spirit_VEUWADDR_get, _Spirit_Emulator.Spirit_VEUWADDR_set)
+    VEUCFG = property(_Spirit_Emulator.Spirit_VEUCFG_get, _Spirit_Emulator.Spirit_VEUCFG_set)
+    VEUVLEN = property(_Spirit_Emulator.Spirit_VEUVLEN_get, _Spirit_Emulator.Spirit_VEUVLEN_set)
+    VEUMASK = property(_Spirit_Emulator.Spirit_VEUMASK_get, _Spirit_Emulator.Spirit_VEUMASK_set)
+    VEUDEBUG = property(_Spirit_Emulator.Spirit_VEUDEBUG_get, _Spirit_Emulator.Spirit_VEUDEBUG_set)
+    SAUINS1 = property(_Spirit_Emulator.Spirit_SAUINS1_get, _Spirit_Emulator.Spirit_SAUINS1_set)
+    SAUINS2 = property(_Spirit_Emulator.Spirit_SAUINS2_get, _Spirit_Emulator.Spirit_SAUINS2_set)
+    SAUINS3 = property(_Spirit_Emulator.Spirit_SAUINS3_get, _Spirit_Emulator.Spirit_SAUINS3_set)
+    cpuregs = property(_Spirit_Emulator.Spirit_cpuregs_get, _Spirit_Emulator.Spirit_cpuregs_set)
+    instr_sram_msb = property(_Spirit_Emulator.Spirit_instr_sram_msb_get, _Spirit_Emulator.Spirit_instr_sram_msb_set)
+    instr_sram_lsb = property(_Spirit_Emulator.Spirit_instr_sram_lsb_get, _Spirit_Emulator.Spirit_instr_sram_lsb_set)
+    spirit_observe = property(_Spirit_Emulator.Spirit_spirit_observe_get, _Spirit_Emulator.Spirit_spirit_observe_set)
+    peripherals_baseaddr = property(_Spirit_Emulator.Spirit_peripherals_baseaddr_get, _Spirit_Emulator.Spirit_peripherals_baseaddr_set)
+    peripherals_bus = property(_Spirit_Emulator.Spirit_peripherals_bus_get, _Spirit_Emulator.Spirit_peripherals_bus_set)
+    csr_bus = property(_Spirit_Emulator.Spirit_csr_bus_get, _Spirit_Emulator.Spirit_csr_bus_set)
+    csr = property(_Spirit_Emulator.Spirit_csr_get, _Spirit_Emulator.Spirit_csr_set)
+
+    def cidu(self, instr_raw):
+        return _Spirit_Emulator.Spirit_cidu(self, instr_raw)
+
+    def make_sure_address_legal(self):
+        return _Spirit_Emulator.Spirit_make_sure_address_legal(self)
 
 # Register Spirit in _Spirit_Emulator:
 _Spirit_Emulator.Spirit_swigregister(Spirit)

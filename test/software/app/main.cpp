@@ -4,6 +4,8 @@
 #include "stdlib/malloc.hpp"
 #include "veu_benchmark.hpp"
 #include "sau_benchmark.hpp"
+#include "sau_benchmark_8x8.hpp"
+#include "sau_benchmark_8x8_16b.hpp"
 
 // #include "matrixA.hpp"
 // #include "matrixB.hpp"
@@ -182,19 +184,21 @@ int main()
 	BeginInsn = insn();
 
 	malloc_initial();
-
-	int8_t *matrix1=(int8_t *)malloc(1024);
-	int8_t *matrix2=(int8_t *)malloc(1024);
-	int8_t *matrix3=(int8_t *)malloc(1024);
-	int8_t *matrix4=(int8_t *)malloc(1024);
-
+	int8_t  *matrix1 = (int8_t  *)malloc(1024 * sizeof(int8_t));
+	// int16_t *matrix1 = (int16_t *)malloc(1024 * sizeof(int16_t));
+	int8_t  *matrix2 = (int8_t  *)malloc(1024 * sizeof(int8_t));
+	int8_t  *matrix3 = (int8_t  *)malloc(1024 * sizeof(int8_t));
+	// int16_t *matrix3 = (int16_t *)malloc(1024 * sizeof(int16_t));
+	int8_t  *matrix4 = (int8_t  *)malloc(1024 * sizeof(int8_t));
+	// int16_t  *matrix4 = (int16_t  *)malloc(1024 * sizeof(int16_t));
 
 	// test_printf_();
 	// test_malloc();
 	// veu_benchmark();
 	sau_benchmark(matrix1, matrix2, matrix3, matrix4);
-
-
+	// sau_benchmark_8x8(matrix1, matrix2, matrix3, matrix4);
+	// sau_benchmark_8x8_16b(matrix1, matrix2, matrix3, matrix4);
+	
 	EndInsn = insn();
 	ACENN_DEBUG("test insn: %ld", EndInsn - BeginInsn);
 

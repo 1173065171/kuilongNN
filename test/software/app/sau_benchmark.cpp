@@ -122,7 +122,7 @@ void minimum_matmul_single_1(int8_t *input_block1, int8_t *input_block2, int8_t 
     bool pass=true;
     for(int i=0;i<256;++i){if(output_block3[i]!=C_ref_int[i]){pass=false;ACENN_DEBUG("Mismatch[%d]: ref=%d sa=%d", i, C_ref_int[i], output_block3[i]);}}
     ACENN_DEBUG(pass?"PASS minimum_matmul_multi":"FAIL minimum_matmul_multi");
-    asm("ebreak;");
+    // asm("ebreak;");
 }
 
 
@@ -247,7 +247,7 @@ void minimum_matmul_multi_1(int8_t *input_block1, int8_t *input_block2, int8_t *
     bool pass=true;
     for(int i=0;i<256;++i){if(output_block3[i]!=C_ref_int[i]){pass=false;ACENN_DEBUG("Mismatch[%d]: ref=%d sa=%d", i, C_ref_int[i], output_block3[i]);}}
     ACENN_DEBUG(pass?"PASS minimum_matmul_multi":"FAIL minimum_matmul_multi");
-    asm("ebreak;");
+    // asm("ebreak;");
 }
 
 
@@ -341,7 +341,7 @@ void minimum_matmul_single(int8_t *input_block1, int8_t *input_block2, int8_t *o
 	} else {
 		ACENN_DEBUG("FAIL: %d mismatches found.\n", errors);
 	}
-	asm("ebreak;"); // 中断，停止运行
+	// asm("ebreak;"); // 中断，停止运行
 }
 
 void minimum_pwconv_single(int8_t *input_block1, int8_t *input_block2, int8_t *output_block3) {
@@ -488,10 +488,10 @@ void minimum_pwconv_single(int8_t *input_block1, int8_t *input_block2, int8_t *o
 	// 6. 对比处理结果
 	bool pass=true;
     for(int i=0;i<256;++i){if(output_block3[i]!=Result[i]){pass=false;ACENN_DEBUG("Mismatch[%d]: ref=%d sa=%d", i, Result[i], output_block3[i]);}}
-    ACENN_DEBUG(pass?"PASS minimum_matmul_multi":"FAIL minimum_matmul_multi");
+    ACENN_DEBUG(pass?"PASS minimum_pwconv_single":"FAIL minimum_pwconv_single");
 }
 
-void minimum_conv_single(int8_t *input_block1, int8_t *input_block2, int8_t *output_block3, int8_t *input_block4) {
+void minimum_conv_single(int8_t *input_block1, int8_t *input_block2, int8_t *output_block3, int8_t *input_block4, int8_t stride = 1) {
 	ACENN_DEBUG("SAU minimum_conv_single START!");
     // 1. 直接写入预定义 Active, Weight, Result 数组到 input_block1, input_block2, output_block3
     static const int8_t Active[432] = {
@@ -635,7 +635,7 @@ void minimum_conv_single(int8_t *input_block1, int8_t *input_block2, int8_t *out
     int32_t o_addr = (int32_t)(uintptr_t)output_block3;
     int32_t b_addr = (int32_t)(uintptr_t)input_block4;
     // 模式字段
-    int32_t stride_mode = 1;
+    int32_t stride_mode = stride;
     int32_t transpose_mode = 0;
     int32_t conv_kernel = 3;
     int32_t register_mode = 0;
@@ -668,23 +668,226 @@ void minimum_conv_single(int8_t *input_block1, int8_t *input_block2, int8_t *out
     }else{
         for(int i=0;i<256;++i){if(output_block3[i]!=Result_stride[i]){pass=false;ACENN_DEBUG("Mismatch[%d]: ref=%d sa=%d", i, Result_stride[i], output_block3[i]);}}
     }
-    ACENN_DEBUG(pass?"PASS minimum_matmul_multi":"FAIL minimum_matmul_multi");
+    ACENN_DEBUG(pass?"PASS minimum_conv_single":"FAIL minimum_conv_single");
 
 }
 
+void minimum_dwconv_single(int8_t *input_block1, int8_t *input_block2, int8_t *output_block3, int8_t *input_block4,int8_t stride =1) {
+	ACENN_DEBUG("SAU minimum_dwconv_single START!");
+    // 1. 直接写入预定义 Active, Weight, Result 数组到 input_block1, input_block2, output_block3
+    static const int8_t Active[864] = {
+    //ROW0
+        -115,-114,-114,-113,-112,-111,-111,-110,-109,-108,-107,-107,-106,-105,-104,-104,
+        -103,-102,-101,-100,-100,-99,-98,-97,-97,-96,-95,-94,-93,-93,-92,-91,
+        88,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,
+    //ROW1
+        -90,-90,-89,-88,-87,-86,-86,-85,-84,-83,-83,-82,-81,-80,-79,-79,
+        -78,-77,-76,-76,-75,-74,-73,-72,-72,-71,-70,-69,-69,-68,-67,-66,
+        77,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,
+    //ROW2
+        -65,-64,-63,-62,-61,-60,-59,-58,-57,-56,-55,-54,-53,-52,-51,-50,
+        -49,-48,-47,-46,-45,-44,-43,-42,-41,-40,-39,-38,-37,-36,-35,-34,
+        66,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,
+    //ROW3
+        -33,-32,-31,-30,-29,-28,-27,-26,-25,-24,-23,-22,-21,-20,-19,-18,
+        -17,-16,-15,-14,-13,-12,-11,-10,-9,-8,-7,-6,-5,-4,-3,-2,
+        88,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,
+    //ROW4
+        -3,-2,-1,0,1,2,3,4,5,6,7,8,9,10,11,12,
+        13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,
+        77,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,
+    //ROW5
+        29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,
+        45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,
+        66,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,
+    //ROW6
+        61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,
+        77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,
+        88,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,
+    //ROW7
+        93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,
+        109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,
+        77,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,
+    //ROW8
+        -115,-114,-114,-113,-112,-111,-111,-110,-109,-108,-107,-107,-106,-105,-104,-104,
+        -103,-102,-101,-100,-100,-99,-98,-97,-97,-96,-95,-94,-93,-93,-92,-91,
+        88,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,
+    //ROW9
+        -90,-90,-89,-88,-87,-86,-86,-85,-84,-83,-83,-82,-81,-80,-79,-79,
+        -78,-77,-76,-76,-75,-74,-73,-72,-72,-71,-70,-69,-69,-68,-67,-66,
+        77,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,
+    //ROW10
+        -65,-64,-63,-62,-61,-60,-59,-58,-57,-56,-55,-54,-53,-52,-51,-50,
+        -49,-48,-47,-46,-45,-44,-43,-42,-41,-40,-39,-38,-37,-36,-35,-34,
+        66,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,
+    //ROW11
+        -33,-32,-31,-30,-29,-28,-27,-26,-25,-24,-23,-22,-21,-20,-19,-18,
+        -17,-16,-15,-14,-13,-12,-11,-10,-9,-8,-7,-6,-5,-4,-3,-2,
+        88,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,    
+    //ROW12
+        -3,-2,-1,0,1,2,3,4,5,6,7,8,9,10,11,12,
+        13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,
+        77,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,
+    //ROW13
+        29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,
+        45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,
+        66,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,    
+    //ROW14
+        61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,
+        77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,
+        88,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,
+    //ROW15
+        93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,
+        109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,
+        77,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,
+    //ROW16
+        93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,
+        109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,
+        77,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,
+    //ROW17
+        93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,
+        109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,
+        77,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11
+    };
+    static const int8_t Weight[256] = {
+        -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,
+        -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,
+        -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,
+        -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,
+        -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,
+        -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,
+        -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,
+        -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,
+        -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,
+        0 ,0 ,0 , 0, 0, 0, 0, 0,0,0,0,0,0,0,0,0,
+        0 ,0 ,0 , 0, 0, 0, 0, 0,0,0,0,0,0,0,0,0,
+        0 ,0 ,0 , 0, 0, 0, 0, 0,0,0,0,0,0,0,0,0,
+        0 ,0 ,0 , 0, 0, 0, 0, 0,0,0,0,0,0,0,0,0,
+        0 ,0 ,0 , 0, 0, 0, 0, 0,0,0,0,0,0,0,0,0,
+        0 ,0 ,0 , 0, 0, 0, 0, 0,0,0,0,0,0,0,0,0,
+        0 ,0 ,0 , 0, 0, 0, 0, 0,0,0,0,0,0,0,0,0,
+    };
 
+    static const int8_t Bias[16] = {
+    2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+    };
+    static const int8_t Result[256] = {
+    14,14,14,14,14,13,13,13,13,13,13,13,13,13,12,12,
+    10,10,10,10,10,10,9,9,9,9,9,9,9,9,8,8,
+    6,6,6,6,6,5,5,5,5,5,5,5,4,4,4,4,
+    2,2,1,1,1,1,1,1,1,0,0,0,0,0,0,0,
+    -3,-3,-3,-3,-3,-3,-4,-4,-4,-4,-4,-4,-4,-5,-5,-5,
+    -7,-7,-7,-8,-8,-8,-8,-8,-8,-8,-9,-9,-9,-9,-9,-9,
+    0,-1,-1,-1,-1,-1,-1,-1,-1,-2,-2,-2,-2,-2,-2,-2,
+    7,7,6,6,6,6,6,6,6,6,5,5,5,5,5,5,
+    14,14,14,14,14,13,13,13,13,13,13,13,13,13,12,12,
+    10,10,10,10,10,10,9,9,9,9,9,9,9,9,8,8,
+    6,6,6,6,6,5,5,5,5,5,5,5,4,4,4,4,
+    2,2,1,1,1,1,1,1,1,0,0,0,0,0,0,0,
+    -3,-3,-3,-3,-3,-3,-4,-4,-4,-4,-4,-4,-4,-5,-5,-5,
+    -7,-7,-7,-8,-8,-8,-8,-8,-8,-8,-9,-9,-9,-9,-9,-9,
+    -10,-10,-10,-11,-11,-11,-11,-11,-11,-11,-12,-12,-12,-12,-12,-12,
+    -12,-12,-12,-12,-12,-12,-13,-13,-13,-13,-13,-13,-13,-14,-14,-14
+    };
+    static const int8_t Result_stride[256] = {
+    14,14,14,13,13,13,13,12,12,12,12,11,11,11,11,4,
+    6,6,6,5,5,5,4,4,4,4,3,3,3,2,2,-2,
+    -3,-3,-3,-4,-4,-4,-4,-5,-5,-5,-6,-6,-6,-6,-7,-8,
+    0,-1,-1,-1,-1,-2,-2,-2,-3,-3,-3,-3,-4,-4,-4,-6,
+    14,14,14,13,13,13,13,12,12,12,12,11,11,11,11,4,
+    6,6,6,5,5,5,4,4,4,4,3,3,3,2,2,-2,
+    -3,-3,-3,-4,-4,-4,-4,-5,-5,-5,-6,-6,-6,-6,-7,-8,
+    -10,-10,-11,-11,-11,-12,-12,-12,-12,-13,-13,-13,-14,-14,-14,-13,
+    2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+    2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+    2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+    2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+    2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+    2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+    2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+    2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+    };
+
+
+        // 将静态数组写入硬件缓冲
+    for (int i = 0; i < 864; ++i) {
+        input_block1[i] = Active[i];
+    }
+    for (int j = 0; j < 256; ++j) {
+        input_block2[j] = Weight[j];
+        output_block3[j] = 0;
+    }
+    for (int k = 0; k < 16; ++k) {
+        input_block4[k] = Bias[k];
+    }
+
+    // 4. 按例程顺序配置 a-f 寄存器字段
+    int32_t a, b, c, d, e, f;
+    // e = start flag, 0x1 为启动标志
+    f = 0x00000001;
+    // 通道与步长配置
+    int32_t h_ch = 3, h_x = 3;
+    int32_t v_ch = 0, v_x = 1;
+    int32_t o_ch = 1, o_x = 1;
+    int32_t id = 0;
+    int32_t flow_loop_times = 16/(stride+1);
+    // 基址偏移
+    int32_t h_addr = (int32_t)(uintptr_t)input_block1;
+    int32_t v_addr = (int32_t)(uintptr_t)input_block2;
+    int32_t o_addr = (int32_t)(uintptr_t)output_block3;
+    int32_t b_addr = (int32_t)(uintptr_t)input_block4;
+    // 模式字段
+    int32_t stride_mode = stride;
+    int32_t transpose_mode= 0;
+    int32_t conv_kernel = 3;
+    int32_t register_mode = 2;
+    int32_t flow_mode = 1;
+    int32_t work_mode = 2;
+    int32_t cutbit=6, shift_mode=0;
+    // 组装 a-f
+    a = (h_ch << 25) | (h_x << 20) | (h_addr & 0xFFFFF);
+    b = (v_ch << 25) | (v_x << 20) | (v_addr & 0xFFFFF);
+    c = (cutbit<<18)
+      | (shift_mode<<17)
+      | (stride_mode << 16)
+      | (transpose_mode << 14)
+      | (conv_kernel << 12)
+      | (register_mode << 10)
+      | (flow_mode << 8)
+      | (work_mode << 6)
+      | flow_loop_times;
+    d = (o_ch << 25) | (o_x << 20) | (o_addr & 0xFFFFF);
+	e = ((b_addr & 0xFFFFF) << 8) | id;
+
+    // 5. 下发指令：直接传入 int32_t a–f
+    __kuiloong_ace_msetins1(a, b);
+    __kuiloong_ace_msetins2(c, d);
+    __kuiloong_ace_msetins3(e, f);
+
+	bool pass=true;
+    if(stride_mode==0){
+        for(int i=0;i<256;++i){if(output_block3[i]!=Result[i]){pass=false;ACENN_DEBUG("Mismatch[%d]: ref=%d sa=%d", i, Result[i], output_block3[i]);}}
+    }else{
+        for(int i=0;i<256;++i){if(output_block3[i]!=Result_stride[i]){pass=false;ACENN_DEBUG("Mismatch[%d]: ref=%d sa=%d", i, Result_stride[i], output_block3[i]);}}
+    }
+    ACENN_DEBUG(pass?"PASS minimum_dwconv_single":"FAIL minimum_dwconv_single");
+
+}
 void sau_benchmark(int8_t *input_block1, int8_t *input_block2, int8_t *output_block3, int8_t *input_block4)
 {
 	ACENN_DEBUG("SAU BENCHMARK START!");
 
 	// matrix_csr_set_test();
 
-	// minimum_matmul_single_1(input_block1, input_block2, output_block3);
+	minimum_matmul_single_1(input_block1, input_block2, output_block3);
 
-	// minimum_pwconv_single(input_block1, input_block2, output_block3);
+	minimum_pwconv_single(input_block1, input_block2, output_block3);
 
-    minimum_conv_single(input_block1, input_block2, output_block3, input_block4);
+    minimum_conv_single(input_block1, input_block2, output_block3, input_block4, 0);
+    minimum_conv_single(input_block1, input_block2, output_block3, input_block4, 1);
 
+    minimum_dwconv_single(input_block1, input_block2, output_block3, input_block4, 0);
+    minimum_dwconv_single(input_block1, input_block2, output_block3, input_block4, 1);
 	ACENN_DEBUG("SAU BENCHMARK PASS!");
 }
 

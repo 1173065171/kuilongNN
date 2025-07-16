@@ -118,18 +118,18 @@ def sim():
 	uart.clean()
 
 	# veu init
-	veu = VEU(1, 16)
+	veu = VEU(1, 8)
 	veu.init()
 	veu_debug_flag = None
 
 	# sau init
-	sau = SAU(1, 16, 'int8')
+	sau = SAU(1, 8)
 	sau_debug_flag = None
 
 	# sram init
 	sram_ins =SramSp(width=32, depth=65536, base_addr=0x00000000)
 	sram_ins.read_from_file(sram_ins_file)
-	sram1 =SramSp(width=128, depth=32768, base_addr=0x10000000)
+	sram1 =SramSp(width=128, depth=32768, base_addr=0x10000000, burst_bytes=8)
 	sram1.read_from_file(sram_data_file)
 
 	# csr_bus
@@ -160,6 +160,14 @@ def sim():
 			current_cpu_cnt = spirit.get_csr(0)
 			logger.debug(f"🐱--cpu current cnt is: {current_cpu_cnt}, last cnt is: {last_cpu_cnt}, now_pc_is: {hex(pc)}")
 
+			# pc调试器，观察cpu中的寄存器值
+			# if pc == 0x1a56:
+			# 	for i in range(32):
+			# 		logger.info(f'cpu register {i}: {hex(spirit.get_cpuregs(i))}')
+			# 	logger.info(f"--spirit address: {hex(spirit.get_peripherals_bus_addr())}, wstrb: {spirit.get_peripherals_bus_wstrb()}, wdata: {hex(spirit.get_peripherals_bus_wdata())}")
+			# 	print("🐱--pc is 0x1a56, now read and write sram!")
+
+
 			# run extra devices
 			if (spirit.peripherals_req == 1) | (spirit.peripherals_req == 2):
 				# (1)write device // (2)read device
@@ -188,11 +196,9 @@ def sim():
 					# finish once operation
 					spirit.peripherals_req = 3
 					# log printf 函数的信息
-					if sram_cpu_addr == 37984:
-						logger.info("🐱--Main CPU read and write is pc: %s, en: %s, wstrb: %s, addr: %s, wdata: %s, rdata: %s",
+					if sram_cpu_addr == (0x10037800 & 0xFFF_FFFC):
+						logger.debug("🐱--Main CPU read and write is pc: %s, en: %s, wstrb: %s, addr: %s, wdata: %s, rdata: %s",
 									  hex(pc), sram_cpu_en, sram_cpu_wstrb, hex(sram_cpu_addr), hex(sram_cpu_wdata), hex(sram_cpu_rdata))
-					logger.debug("🐱--Main CPU read and write is pc: %s, en: %s, wstrb: %s, addr: %s, wdata: %s, rdata: %s",
-						hex(pc), sram_cpu_en, sram_cpu_wstrb, hex(sram_cpu_addr), hex(sram_cpu_wdata), hex(sram_cpu_rdata))
 			# run the Heterogeneous device
 			elif spirit.peripherals_req == 4:  # write and read csr
 				# -----------------  run the Heterogeneous (veu)  --------------------------
@@ -268,8 +274,8 @@ def sim():
 						# 更新寄存器
 						sau.update_status()
 						# burst读数据
-						sau.update_input_m1(sram1.read_burst(True, sau.status.A_address, sau.status.A_step, sau.status.A_count, sau.status.A_kernel))
-						sau.update_input_m2(sram1.read_burst(True, sau.status.B_address, sau.status.B_step, sau.status.B_count, sau.status.B_kernel))
+						sau.update_input_m1(sram1.read_burst(True, sau.status.A_address, sau.status.A_step, sau.status.A_count, sau.status.A_kernel, sau.status.A_bytes))
+						sau.update_input_m2(sram1.read_burst(True, sau.status.B_address, sau.status.B_step, sau.status.B_count, sau.status.B_kernel, sau.status.B_bytes))
 						sau.update_input_m3(sram1.read(True, sau.status.C_address))
 
 						# 执行一次 systolic array 的 flow
@@ -278,7 +284,7 @@ def sim():
 						# 写回结果
 						if sau.status.flow_i == sau.config.flow_loop_times:
 							# burst写数据
-							sram1.write_burst(True, 0xFFFF, sau.status.D_address, sau.status.D_step, sau.status.D_count, sau.output_matrix.matrix)
+							sram1.write_burst(True, sau.status.D_wstrb, sau.status.D_address, sau.status.D_step, sau.status.D_count, sau.output_matrix.matrix)
 							# 写回后修补操作
 							sau.repair_backward()
 

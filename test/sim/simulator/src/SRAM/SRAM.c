@@ -2674,6 +2674,7 @@ static const char __pyx_k_Burst_write[] = "\360\237\220\261--Burst write ";
 static const char __pyx_k_FileHandler[] = "FileHandler";
 static const char __pyx_k_SRAM_height[] = "SRAM height: ";
 static const char __pyx_k_SramSp_read[] = "SramSp.read";
+static const char __pyx_k_burst_bytes[] = "burst_bytes";
 static const char __pyx_k_burst_count[] = "burst_count";
 static const char __pyx_k_dataclasses[] = "dataclasses";
 static const char __pyx_k_k_all_match[] = "k_all_match";
@@ -2781,25 +2782,25 @@ static const char __pyx_k_Large_scale_performance_test[] = "Large-scale performa
 static const char __pyx_k_does_not_match_burst_count_k[] = ") does not match burst count * k (";
 static const char __pyx_k_Some_k_parameter_tests_failed[] = "\342\235\214 Some k parameter tests failed!";
 static const char __pyx_k_Testing_original_file_reading[] = "\nTesting original file reading:";
+static const char __pyx_k_8_V1B_7_Q_Cq_1_1B_FlRS_ha_iq_j[] = "\320\001\"\320\"8\270\001\360\n\000\003\016\210V\2201\220B\320\0267\260~\300Q\330\002\003\330\003\n\210&\220\002\220\"\220C\220q\330\002\t\320\t\033\2301\330\003\t\210\032\2201\220B\320\026F\300l\320RS\340\002\006\200h\210a\330\002\006\200i\210q\330\002\006\200j\220\001\330\002\006\200i\210v\220S\230\001\330\002\006\200i\210v\220S\230\001\330\002\006\200o\220Q\330\002\006\200m\2201\330\002\006\200h\210a\210q\220\002\220$\220e\2305\240\001\240\024\240X\250T\260\025\260e\2701\270D\300\001";
 static const char __pyx_k_File_tmp_matrixA_hex_not_found[] = "\342\232\240\357\270\217  File './tmp/matrixA.hex' not found, skipping file read test";
+static const char __pyx_k_NeSVV__llyyz_T_fAQ_1E_WD_U_r_A[] = "\320\001\032\320\032/\250}\320<N\310e\320SV\320V_\320_l\320ly\320yz\360\024\000\003\021\220\001\340\002\005\200T\210\021\330\003\016\210f\220A\220Q\330\003\n\210!\2101\210E\220\024\220W\230D\240\005\240U\250!\250<\260r\270\021\340\002\005\200\\\220\023\220A\330\003\021\220\024\220Q\340\002\006\200e\2105\220\001\220\021\330\003\031\230\036\240r\250\022\2502\250Q\360\006\000\004\010\200u\210E\220\021\220!\330\004\026\320\026*\250\"\250B\250b\260\001\330\004\021\320\021!\240\022\2404\240|\2603\260d\270!\340\004\007\200z\220\022\2202\220S\230\n\240#\240T\250\021\330\005\020\220\007\220q\230\001\230\025\230d\240!\330\005\020\220\005\220Q\220b\320\030>\270a\270q\300\t\310\021\310!\310=\320XY\330\005\020\220\006\220a\220r\320\0318\3208c\320cx\320x|\320|}\360\006\000\006\021\220\007\220q\230\004\230E\240\021\240*\250A\330\005\020\220\006\220a\220r\320\031+\2501\250A\250T\3201D\300A\300Q\300d\310/\320YZ\340\002\t\210\021";
 static const char __pyx_k_SRAM_burst_read_error_at_burst[] = "\360\237\220\261--SRAM burst read error at burst ";
 static const char __pyx_k_SRAM_burst_write_is_miss_en_is[] = "\360\237\220\261--SRAM burst write is miss, en is 0.";
 static const char __pyx_k_SRAM_read_error_which_could_be[] = "\360\237\220\261--SRAM read error, which could be running veu with scalar";
-static const char __pyx_k_V1B_7_Q_Cq_1_1B_FlRS_ha_iq_ivS[] = "\320\001\"\240!\360\n\000\003\016\210V\2201\220B\320\0267\260~\300Q\330\002\003\330\003\n\210&\220\002\220\"\220C\220q\330\002\t\320\t\033\2301\330\003\t\210\032\2201\220B\320\026F\300l\320RS\340\002\006\200h\210a\330\002\006\200i\210q\330\002\006\200i\210v\220S\230\001\330\002\006\200i\210v\220S\230\001\330\002\006\200j\220\001\330\002\006\200m\2201\330\002\006\200h\210a\210q\220\002\220$\220e\2305\240\001\240\024\240X\250T\260\025\260e\2701\270D\300\001";
 static const char __pyx_k_1Kxq_1D_c_XRs_fA_G3c_q_we1Cs_81[] = "\200\021\330\007\013\2101\210K\220x\230q\340\003\013\2101\210D\220\006\220c\230\024\230X\240R\240s\250$\250f\260A\330\003\020\220\004\220G\2303\230c\240\021\240%\240q\250\001\360\006\000\004\010\200w\210e\2201\220C\220s\230!\2308\2401\330\004\014\210E\220\021\220$\220d\230\"\230A\330\004\007\200s\210!\2107\220\"\220A\330\005\013\210:\220Q\220a\360\006\000\005\017\210b\220\005\220Q\220e\2304\230q\330\004\021\220\021\220#\220Q\220g\230Q\230b\240\002\240\"\240D\250\004\250D\260\005\260U\270!\2703\270c\300\021\300*\310A\340\004\007\200s\210!\210<\220s\230$\230a\330\005\013\210:\220Q\220b\230\005\230T\240\023\240A\330\004\007\200t\2103\210k\230\023\230D\240\001\330\005\013\210:\220Q\220a\360\006\000\005\t\210\005\210Q\210d\220#\220^\2401";
 static const char __pyx_k_4q_82T_t5_Q_t1D_Zq_Q_d_Bc_S_A_A[] = "\320\001(\250\001\360\n\000\003\t\210\010\220\003\2204\220q\330\002\013\2108\2202\220T\230\021\360\010\000\003\020\210t\2205\230\001\230\024\230Q\330\002\017\210t\2201\220D\230\t\240\021\240#\240Z\250q\330\002\005\200Q\330\003\006\200d\210\"\210B\210c\220\024\220S\230\004\230A\330\004\n\210*\220A\220Q\360\006\000\004\010\200u\210E\220\021\220!\330\004\010\210\006\210c\220\023\220B\220a\330\005\010\210\007\210r\220\022\2202\220T\230\021\340\006\020\220\001\220\023\220B\220g\230R\230u\240J\250a\250q\260\001\260\021\360\010\000\007\r\210J\220a\220q\330\003\007\200u\210A\210W\220A\360\006\000\004\017\210f\220A\220Q";
 static const char __pyx_k_All_burst_read_write_tests_pass[] = "\360\237\216\211 All burst read/write tests passed!";
 static const char __pyx_k_All_error_condition_tests_passe[] = "\360\237\216\211 All error condition tests passed!";
 static const char __pyx_k_Average_read_time_per_operation[] = "  Average read time per operation: ";
 static const char __pyx_k_Average_write_time_per_operatio[] = "  Average write time per operation: ";
+static const char __pyx_k_B_Oaaq_r_C_C_F_F_G_T_fAQ_S_C_2Q[] = "\320\001\033\230=\320(B\300-\320Oa\320aq\360\000\000r\001C\002\360\000\000C\002F\002\360\000\000F\002G\002\360\026\000\003\006\200T\210\021\330\003\016\210f\220A\220Q\330\003\004\340\002\005\200S\210\001\210\033\220C\220|\2402\240Q\330\003\t\210\032\2201\220B\320\026,\250C\250q\3200^\320^j\320jl\320lm\340\002\017\210q\330\002\006\200e\2105\220\001\220\021\330\003\031\230\036\240r\250\022\2502\250Q\330\003\026\320\026*\250\"\250D\260\014\270C\270t\3001\360\006\000\004\010\200u\210E\220\021\220!\330\004\020\320\020 \240\002\240!\330\004\026\320\026*\250\"\250B\250b\260\004\260A\340\004\007\200z\220\022\2202\220S\230\n\240#\240T\250\021\330\005\013\210:\220Q\220b\320\0300\3200X\320Xa\320ab\340\004\007\200s\210!\2109\220A\220]\240#\240T\250\021\330\005\013\210:\220Q\220b\320\030/\250y\270\001\360\006\000\005\022\220\024\220U\230!\230:\240Q\360\006\000\005\t\210\014\220E\230\021\230$\230a\330\005\t\210\025\210a\210s\220#\220Z\230r\240\021\330\006\020\220\001\220\034\230Y\240a\240{\260!\2601\340\004\010\210\005\210Q\210m\2301\330\004\017\210v\220Q\220b\320\030+\2501\250A\250T\3201D\300A\300Q\300d\310/\320YZ\330\004\022\220!";
 static const char __pyx_k_Correctly_caught_data_length_er[] = "\342\234\205 Correctly caught data length error: ";
 static const char __pyx_k_Correctly_caught_out_of_range_e[] = "\342\234\205 Correctly caught out of range error: ";
 static const char __pyx_k_Executing_burst_read_with_timin[] = "\nExecuting burst_read with timing:";
 static const char __pyx_k_Executing_burst_write_with_timi[] = "\nExecuting burst_write with timing:";
 static const char __pyx_k_L_Zq_xr_D_t5_1_Q_j_Cz_D_AQ_c_4q[] = "\320\001\024\220L\240\r\250Z\260q\340\002\017\210x\220r\230\024\230\\\250\023\250D\260\001\330\002\017\210t\2205\230\001\230\032\2401\330\002\005\200Q\330\003\006\200j\220\002\220\"\220C\220z\240\023\240D\250\001\330\004\n\210*\220A\220Q\330\003\006\200c\210\021\210&\220\003\2204\220q\330\004\n\210*\220A\220Q\340\003\007\200u\210E\220\021\220$\220a\330\004\010\210\006\210c\220\023\220B\220a\330\005\017\210q\220\005\220T\230\021\230!\340\003\016\210f\220A\220Q\330\002\006\200e\2101\210M\230\021";
 static const char __pyx_k_Large_scale_Performance_Statist[] = "\n\360\237\223\212 Large-scale Performance Statistics:";
-static const char __pyx_k_MI_kk_A_T_fAQ_S_C_2Q_1B_Cq0_jjl[] = "\320\001\033\230=\320(<\270M\320I[\320[k\320k|\320|\360\000\000@\002A\002\360\026\000\003\006\200T\210\021\330\003\016\210f\220A\220Q\330\003\004\340\002\005\200S\210\001\210\033\220C\220|\2402\240Q\330\003\t\210\032\2201\220B\320\026,\250C\250q\3200^\320^j\320jl\320lm\340\002\017\210q\330\002\006\200e\2105\220\001\220\021\330\003\031\230\036\240r\250\022\2502\250Q\330\003\026\320\026*\250\"\250D\260\014\270C\270t\3001\360\006\000\004\010\200u\210E\220\021\220!\330\004\020\320\020 \240\002\240!\330\004\026\320\026*\250\"\250B\250b\260\004\260A\340\004\007\200z\220\022\2202\220S\230\n\240#\240T\250\021\330\005\013\210:\220Q\220b\320\0300\3200X\320Xa\320ab\340\004\007\200s\210!\2109\220A\220]\240#\240T\250\021\330\005\013\210:\220Q\220b\320\030/\250y\270\001\360\006\000\005\022\220\024\220U\230!\230:\240Q\360\006\000\005\t\210\014\220E\230\021\230$\230a\330\005\t\210\026\210s\220*\230B\230a\330\006\020\220\001\220\034\230Y\240a\240{\260!\2601\340\004\010\210\005\210Q\210m\2301\330\004\017\210v\220Q\220b\320\030+\2501\250A\250T\3201D\300A\300Q\300d\310/\320YZ\330\004\022\220!";
-static const char __pyx_k_NeSVVbbc_T_fAQ_1E_WD_U_r_e5_r_2[] = "\320\001\032\320\032/\250}\320<N\310e\320SV\320Vb\320bc\360\024\000\003\021\220\001\340\002\005\200T\210\021\330\003\016\210f\220A\220Q\330\003\n\210!\2101\210E\220\024\220W\230D\240\005\240U\250!\250<\260r\270\021\340\002\006\200e\2105\220\001\220\021\330\003\031\230\036\240r\250\022\2502\250Q\330\003\026\320\026*\250\"\250D\260\014\270C\270t\3001\360\006\000\004\010\200u\210E\220\021\220!\330\004\020\320\020 \240\002\240!\330\004\026\320\026*\250\"\250B\250b\260\004\260A\340\004\007\200z\220\022\2202\220S\230\n\240#\240T\250\021\330\005\020\220\005\220Q\220b\320\030>\270a\270q\300\t\310\021\310!\310=\320XY\330\005\020\220\006\220a\220r\320\0318\3208c\320cx\320x|\320|}\330\005\020\220\007\220q\230\001\230\025\230d\240!\360\006\000\006\021\220\007\220q\230\004\230E\240\021\240*\250A\330\005\020\220\006\220a\220r\320\031+\2501\250A\250T\3201D\300A\300Q\300d\310/\320YZ\340\002\t\210\021";
 static const char __pyx_k_SRAM_burst_read_is_miss_en_is_0[] = "\360\237\220\261--SRAM burst read is miss, en is 0.";
 static const char __pyx_k_Should_have_raised_error_for_da[] = "\342\235\214 Should have raised error for data length mismatch";
 static const char __pyx_k_Should_have_raised_error_for_ou[] = "\342\235\214 Should have raised error for out of range address";
@@ -2814,14 +2815,14 @@ static const char __pyx_k_SRAM_width_must_be_a_multiple_of[] = "SRAM width must 
 static const char __pyx_k_Testing_burst_write_and_burst_re[] = "Testing burst_write and burst_read with performance analysis:";
 static const char __pyx_k_Testing_k_parameter_functionalit[] = "Testing k parameter functionality:";
 /* #### Code section: decls ### */
-static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_width, PyObject *__pyx_v_depth, PyObject *__pyx_v_base_addr); /* proto */
+static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_width, PyObject *__pyx_v_depth, PyObject *__pyx_v_base_addr, PyObject *__pyx_v_burst_bytes); /* proto */
 static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_inputfile); /* proto */
 static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_4write(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_en, PyObject *__pyx_v_wstrb, PyObject *__pyx_v_address, PyObject *__pyx_v_data); /* proto */
 static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_6read(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_en, PyObject *__pyx_v_address); /* proto */
 static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_8write_cpu(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_en, PyObject *__pyx_v_wstrb, PyObject *__pyx_v_address, PyObject *__pyx_v_data); /* proto */
 static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_10read_cpu(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_en, PyObject *__pyx_v_address); /* proto */
 static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_en, PyObject *__pyx_v_wstrb, PyObject *__pyx_v_start_address, PyObject *__pyx_v_stride, PyObject *__pyx_v_burst_count, PyObject *__pyx_v_data_list, PyObject *__pyx_v_k); /* proto */
-static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_14read_burst(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_en, PyObject *__pyx_v_start_address, PyObject *__pyx_v_stride, PyObject *__pyx_v_burst_count, PyObject *__pyx_v_k); /* proto */
+static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_14read_burst(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_en, PyObject *__pyx_v_start_address, PyObject *__pyx_v_stride, PyObject *__pyx_v_burst_count, PyObject *__pyx_v_k, PyObject *__pyx_v_burst_bytes); /* proto */
 /* #### Code section: late_includes ### */
 /* #### Code section: module_state ### */
 /* SmallCodeConfig */
@@ -2862,9 +2863,9 @@ typedef struct {
   #endif
   __Pyx_CachedCFunction __pyx_umethod_PyDict_Type_pop;
   PyObject *__pyx_slice[4];
-  PyObject *__pyx_tuple[5];
+  PyObject *__pyx_tuple[6];
   PyObject *__pyx_codeobj_tab[8];
-  PyObject *__pyx_string_tab[284];
+  PyObject *__pyx_string_tab[285];
   PyObject *__pyx_int_0;
   PyObject *__pyx_int_1;
   PyObject *__pyx_int_2;
@@ -3051,166 +3052,167 @@ static __pyx_mstatetype * const __pyx_mstate_global = &__pyx_mstate_global_stati
 #define __pyx_n_u_base_addr __pyx_string_tab[121]
 #define __pyx_n_u_big __pyx_string_tab[122]
 #define __pyx_n_u_bool __pyx_string_tab[123]
-#define __pyx_n_u_burst_count __pyx_string_tab[124]
-#define __pyx_n_u_burst_start_address __pyx_string_tab[125]
-#define __pyx_n_u_burst_start_row __pyx_string_tab[126]
-#define __pyx_kp_u_bursts_each_with __pyx_string_tab[127]
-#define __pyx_n_u_byte_idx __pyx_string_tab[128]
-#define __pyx_n_u_byteorder __pyx_string_tab[129]
-#define __pyx_n_u_bytes __pyx_string_tab[130]
-#define __pyx_kp_u_bytes_2 __pyx_string_tab[131]
-#define __pyx_kp_u_bytes_3 __pyx_string_tab[132]
-#define __pyx_n_u_bytes_list __pyx_string_tab[133]
-#define __pyx_kp_u_bytes_second __pyx_string_tab[134]
-#define __pyx_kp_u_bytes_second_2 __pyx_string_tab[135]
-#define __pyx_n_u_cache_data __pyx_string_tab[136]
-#define __pyx_n_u_class_getitem __pyx_string_tab[137]
-#define __pyx_n_u_cline_in_traceback __pyx_string_tab[138]
-#define __pyx_kp_u_consecutive_rows __pyx_string_tab[139]
-#define __pyx_n_u_current_address __pyx_string_tab[140]
-#define __pyx_n_u_data __pyx_string_tab[141]
-#define __pyx_n_u_data_bytes __pyx_string_tab[142]
-#define __pyx_n_u_data_index __pyx_string_tab[143]
-#define __pyx_n_u_data_list __pyx_string_tab[144]
-#define __pyx_n_u_data_row __pyx_string_tab[145]
-#define __pyx_n_u_dataclass __pyx_string_tab[146]
-#define __pyx_n_u_dataclasses __pyx_string_tab[147]
-#define __pyx_n_u_debug __pyx_string_tab[148]
-#define __pyx_n_u_depth __pyx_string_tab[149]
-#define __pyx_kp_u_depth_2 __pyx_string_tab[150]
-#define __pyx_n_u_doc __pyx_string_tab[151]
-#define __pyx_kp_u_does_not_match_SRAM_width __pyx_string_tab[152]
-#define __pyx_kp_u_does_not_match_burst_count_k __pyx_string_tab[153]
-#define __pyx_n_u_e __pyx_string_tab[154]
-#define __pyx_n_u_en __pyx_string_tab[155]
-#define __pyx_n_u_encoding __pyx_string_tab[156]
-#define __pyx_n_u_enter __pyx_string_tab[157]
-#define __pyx_n_u_enumerate __pyx_string_tab[158]
-#define __pyx_n_u_error __pyx_string_tab[159]
-#define __pyx_n_u_exit __pyx_string_tab[160]
-#define __pyx_n_u_f __pyx_string_tab[161]
-#define __pyx_n_u_fh __pyx_string_tab[162]
-#define __pyx_n_u_field __pyx_string_tab[163]
-#define __pyx_n_u_file_read_duration __pyx_string_tab[164]
-#define __pyx_n_u_file_read_end_time __pyx_string_tab[165]
-#define __pyx_n_u_file_read_start_time __pyx_string_tab[166]
-#define __pyx_n_u_from_bytes __pyx_string_tab[167]
-#define __pyx_n_u_func __pyx_string_tab[168]
-#define __pyx_n_u_getLogger __pyx_string_tab[169]
-#define __pyx_n_u_group __pyx_string_tab[170]
-#define __pyx_n_u_group_size __pyx_string_tab[171]
-#define __pyx_n_u_handlers __pyx_string_tab[172]
-#define __pyx_n_u_height __pyx_string_tab[173]
-#define __pyx_kp_u_height_2 __pyx_string_tab[174]
-#define __pyx_n_u_hex_str __pyx_string_tab[175]
-#define __pyx_n_u_i __pyx_string_tab[176]
-#define __pyx_n_u_idx __pyx_string_tab[177]
-#define __pyx_n_u_info __pyx_string_tab[178]
-#define __pyx_n_u_init __pyx_string_tab[179]
-#define __pyx_n_u_initializing __pyx_string_tab[180]
-#define __pyx_n_u_inputfile __pyx_string_tab[181]
-#define __pyx_n_u_int __pyx_string_tab[182]
-#define __pyx_n_u_is_coroutine __pyx_string_tab[183]
-#define __pyx_n_u_j __pyx_string_tab[184]
-#define __pyx_n_u_k __pyx_string_tab[185]
-#define __pyx_n_u_k_all_match __pyx_string_tab[186]
-#define __pyx_n_u_k_burst_count __pyx_string_tab[187]
-#define __pyx_n_u_k_read_data __pyx_string_tab[188]
-#define __pyx_n_u_k_start_addr __pyx_string_tab[189]
-#define __pyx_n_u_k_stride __pyx_string_tab[190]
-#define __pyx_n_u_k_test_data __pyx_string_tab[191]
-#define __pyx_n_u_k_value __pyx_string_tab[192]
-#define __pyx_n_u_large_read_data __pyx_string_tab[193]
-#define __pyx_n_u_large_read_duration __pyx_string_tab[194]
-#define __pyx_n_u_large_read_end_time __pyx_string_tab[195]
-#define __pyx_n_u_large_read_start_time __pyx_string_tab[196]
-#define __pyx_n_u_large_start_addr __pyx_string_tab[197]
-#define __pyx_n_u_large_stride __pyx_string_tab[198]
-#define __pyx_n_u_large_test_count __pyx_string_tab[199]
-#define __pyx_n_u_large_test_data __pyx_string_tab[200]
-#define __pyx_n_u_large_total_bytes __pyx_string_tab[201]
-#define __pyx_n_u_large_write_duration __pyx_string_tab[202]
-#define __pyx_n_u_large_write_end_time __pyx_string_tab[203]
-#define __pyx_n_u_large_write_start_time __pyx_string_tab[204]
-#define __pyx_kp_u_levelname_s_message_s_line_line __pyx_string_tab[205]
-#define __pyx_n_u_line __pyx_string_tab[206]
-#define __pyx_n_u_lines __pyx_string_tab[207]
-#define __pyx_kp_u_log_sram_running_log __pyx_string_tab[208]
-#define __pyx_n_u_logger_sram __pyx_string_tab[209]
-#define __pyx_n_u_logging __pyx_string_tab[210]
-#define __pyx_n_u_main __pyx_string_tab[211]
-#define __pyx_n_u_metaclass __pyx_string_tab[212]
-#define __pyx_n_u_mode __pyx_string_tab[213]
-#define __pyx_n_u_module __pyx_string_tab[214]
-#define __pyx_kp_u_ms __pyx_string_tab[215]
-#define __pyx_n_u_name __pyx_string_tab[216]
-#define __pyx_n_u_name_2 __pyx_string_tab[217]
-#define __pyx_n_u_offset __pyx_string_tab[218]
-#define __pyx_n_u_open __pyx_string_tab[219]
-#define __pyx_kp_u_out_of_range_at_burst __pyx_string_tab[220]
-#define __pyx_kp_u_out_of_range_row_index __pyx_string_tab[221]
-#define __pyx_n_u_output __pyx_string_tab[222]
-#define __pyx_n_u_output_list __pyx_string_tab[223]
-#define __pyx_n_u_pop __pyx_string_tab[224]
-#define __pyx_n_u_prep_duration __pyx_string_tab[225]
-#define __pyx_n_u_prep_end_time __pyx_string_tab[226]
-#define __pyx_n_u_prep_start_time __pyx_string_tab[227]
-#define __pyx_n_u_prepare __pyx_string_tab[228]
-#define __pyx_n_u_print __pyx_string_tab[229]
-#define __pyx_n_u_propagate __pyx_string_tab[230]
-#define __pyx_n_u_qualname __pyx_string_tab[231]
-#define __pyx_n_u_r __pyx_string_tab[232]
-#define __pyx_n_u_raiseExceptions __pyx_string_tab[233]
-#define __pyx_n_u_range __pyx_string_tab[234]
-#define __pyx_n_u_read __pyx_string_tab[235]
-#define __pyx_n_u_read_burst __pyx_string_tab[236]
-#define __pyx_n_u_read_cpu __pyx_string_tab[237]
-#define __pyx_n_u_read_data __pyx_string_tab[238]
-#define __pyx_n_u_read_duration __pyx_string_tab[239]
-#define __pyx_n_u_read_end_time __pyx_string_tab[240]
-#define __pyx_n_u_read_from_file __pyx_string_tab[241]
-#define __pyx_n_u_read_start_time __pyx_string_tab[242]
-#define __pyx_n_u_return __pyx_string_tab[243]
-#define __pyx_kp_u_row __pyx_string_tab[244]
-#define __pyx_n_u_row_2 __pyx_string_tab[245]
-#define __pyx_n_u_row_index __pyx_string_tab[246]
-#define __pyx_kp_u_rows __pyx_string_tab[247]
-#define __pyx_kp_u_rows_of_test_data __pyx_string_tab[248]
-#define __pyx_kp_u_seconds __pyx_string_tab[249]
-#define __pyx_n_u_self __pyx_string_tab[250]
-#define __pyx_n_u_setFormatter __pyx_string_tab[251]
-#define __pyx_n_u_setLevel __pyx_string_tab[252]
-#define __pyx_n_u_set_name __pyx_string_tab[253]
-#define __pyx_n_u_signed __pyx_string_tab[254]
-#define __pyx_n_u_spec __pyx_string_tab[255]
-#define __pyx_n_u_sram __pyx_string_tab[256]
-#define __pyx_kp_u_src_SRAM_SRAM_pyx __pyx_string_tab[257]
-#define __pyx_n_u_start_addr __pyx_string_tab[258]
-#define __pyx_n_u_start_address __pyx_string_tab[259]
-#define __pyx_n_u_stride __pyx_string_tab[260]
-#define __pyx_n_u_strip __pyx_string_tab[261]
-#define __pyx_n_u_test __pyx_string_tab[262]
-#define __pyx_n_u_test_data __pyx_string_tab[263]
-#define __pyx_n_u_time __pyx_string_tab[264]
-#define __pyx_kp_u_tmp_matrixA_hex __pyx_string_tab[265]
-#define __pyx_n_u_to_bytes __pyx_string_tab[266]
-#define __pyx_n_u_total_bytes __pyx_string_tab[267]
-#define __pyx_n_u_typing __pyx_string_tab[268]
-#define __pyx_kp_u_utf_8 __pyx_string_tab[269]
-#define __pyx_n_u_verify_duration __pyx_string_tab[270]
-#define __pyx_n_u_verify_end_time __pyx_string_tab[271]
-#define __pyx_n_u_verify_start_time __pyx_string_tab[272]
-#define __pyx_n_u_w __pyx_string_tab[273]
-#define __pyx_n_u_width __pyx_string_tab[274]
-#define __pyx_n_u_words __pyx_string_tab[275]
-#define __pyx_n_u_write __pyx_string_tab[276]
-#define __pyx_n_u_write_burst __pyx_string_tab[277]
-#define __pyx_n_u_write_cpu __pyx_string_tab[278]
-#define __pyx_n_u_write_duration __pyx_string_tab[279]
-#define __pyx_n_u_write_end_time __pyx_string_tab[280]
-#define __pyx_n_u_write_start_time __pyx_string_tab[281]
-#define __pyx_n_u_wrong_data __pyx_string_tab[282]
-#define __pyx_n_u_wstrb __pyx_string_tab[283]
+#define __pyx_n_u_burst_bytes __pyx_string_tab[124]
+#define __pyx_n_u_burst_count __pyx_string_tab[125]
+#define __pyx_n_u_burst_start_address __pyx_string_tab[126]
+#define __pyx_n_u_burst_start_row __pyx_string_tab[127]
+#define __pyx_kp_u_bursts_each_with __pyx_string_tab[128]
+#define __pyx_n_u_byte_idx __pyx_string_tab[129]
+#define __pyx_n_u_byteorder __pyx_string_tab[130]
+#define __pyx_n_u_bytes __pyx_string_tab[131]
+#define __pyx_kp_u_bytes_2 __pyx_string_tab[132]
+#define __pyx_kp_u_bytes_3 __pyx_string_tab[133]
+#define __pyx_n_u_bytes_list __pyx_string_tab[134]
+#define __pyx_kp_u_bytes_second __pyx_string_tab[135]
+#define __pyx_kp_u_bytes_second_2 __pyx_string_tab[136]
+#define __pyx_n_u_cache_data __pyx_string_tab[137]
+#define __pyx_n_u_class_getitem __pyx_string_tab[138]
+#define __pyx_n_u_cline_in_traceback __pyx_string_tab[139]
+#define __pyx_kp_u_consecutive_rows __pyx_string_tab[140]
+#define __pyx_n_u_current_address __pyx_string_tab[141]
+#define __pyx_n_u_data __pyx_string_tab[142]
+#define __pyx_n_u_data_bytes __pyx_string_tab[143]
+#define __pyx_n_u_data_index __pyx_string_tab[144]
+#define __pyx_n_u_data_list __pyx_string_tab[145]
+#define __pyx_n_u_data_row __pyx_string_tab[146]
+#define __pyx_n_u_dataclass __pyx_string_tab[147]
+#define __pyx_n_u_dataclasses __pyx_string_tab[148]
+#define __pyx_n_u_debug __pyx_string_tab[149]
+#define __pyx_n_u_depth __pyx_string_tab[150]
+#define __pyx_kp_u_depth_2 __pyx_string_tab[151]
+#define __pyx_n_u_doc __pyx_string_tab[152]
+#define __pyx_kp_u_does_not_match_SRAM_width __pyx_string_tab[153]
+#define __pyx_kp_u_does_not_match_burst_count_k __pyx_string_tab[154]
+#define __pyx_n_u_e __pyx_string_tab[155]
+#define __pyx_n_u_en __pyx_string_tab[156]
+#define __pyx_n_u_encoding __pyx_string_tab[157]
+#define __pyx_n_u_enter __pyx_string_tab[158]
+#define __pyx_n_u_enumerate __pyx_string_tab[159]
+#define __pyx_n_u_error __pyx_string_tab[160]
+#define __pyx_n_u_exit __pyx_string_tab[161]
+#define __pyx_n_u_f __pyx_string_tab[162]
+#define __pyx_n_u_fh __pyx_string_tab[163]
+#define __pyx_n_u_field __pyx_string_tab[164]
+#define __pyx_n_u_file_read_duration __pyx_string_tab[165]
+#define __pyx_n_u_file_read_end_time __pyx_string_tab[166]
+#define __pyx_n_u_file_read_start_time __pyx_string_tab[167]
+#define __pyx_n_u_from_bytes __pyx_string_tab[168]
+#define __pyx_n_u_func __pyx_string_tab[169]
+#define __pyx_n_u_getLogger __pyx_string_tab[170]
+#define __pyx_n_u_group __pyx_string_tab[171]
+#define __pyx_n_u_group_size __pyx_string_tab[172]
+#define __pyx_n_u_handlers __pyx_string_tab[173]
+#define __pyx_n_u_height __pyx_string_tab[174]
+#define __pyx_kp_u_height_2 __pyx_string_tab[175]
+#define __pyx_n_u_hex_str __pyx_string_tab[176]
+#define __pyx_n_u_i __pyx_string_tab[177]
+#define __pyx_n_u_idx __pyx_string_tab[178]
+#define __pyx_n_u_info __pyx_string_tab[179]
+#define __pyx_n_u_init __pyx_string_tab[180]
+#define __pyx_n_u_initializing __pyx_string_tab[181]
+#define __pyx_n_u_inputfile __pyx_string_tab[182]
+#define __pyx_n_u_int __pyx_string_tab[183]
+#define __pyx_n_u_is_coroutine __pyx_string_tab[184]
+#define __pyx_n_u_j __pyx_string_tab[185]
+#define __pyx_n_u_k __pyx_string_tab[186]
+#define __pyx_n_u_k_all_match __pyx_string_tab[187]
+#define __pyx_n_u_k_burst_count __pyx_string_tab[188]
+#define __pyx_n_u_k_read_data __pyx_string_tab[189]
+#define __pyx_n_u_k_start_addr __pyx_string_tab[190]
+#define __pyx_n_u_k_stride __pyx_string_tab[191]
+#define __pyx_n_u_k_test_data __pyx_string_tab[192]
+#define __pyx_n_u_k_value __pyx_string_tab[193]
+#define __pyx_n_u_large_read_data __pyx_string_tab[194]
+#define __pyx_n_u_large_read_duration __pyx_string_tab[195]
+#define __pyx_n_u_large_read_end_time __pyx_string_tab[196]
+#define __pyx_n_u_large_read_start_time __pyx_string_tab[197]
+#define __pyx_n_u_large_start_addr __pyx_string_tab[198]
+#define __pyx_n_u_large_stride __pyx_string_tab[199]
+#define __pyx_n_u_large_test_count __pyx_string_tab[200]
+#define __pyx_n_u_large_test_data __pyx_string_tab[201]
+#define __pyx_n_u_large_total_bytes __pyx_string_tab[202]
+#define __pyx_n_u_large_write_duration __pyx_string_tab[203]
+#define __pyx_n_u_large_write_end_time __pyx_string_tab[204]
+#define __pyx_n_u_large_write_start_time __pyx_string_tab[205]
+#define __pyx_kp_u_levelname_s_message_s_line_line __pyx_string_tab[206]
+#define __pyx_n_u_line __pyx_string_tab[207]
+#define __pyx_n_u_lines __pyx_string_tab[208]
+#define __pyx_kp_u_log_sram_running_log __pyx_string_tab[209]
+#define __pyx_n_u_logger_sram __pyx_string_tab[210]
+#define __pyx_n_u_logging __pyx_string_tab[211]
+#define __pyx_n_u_main __pyx_string_tab[212]
+#define __pyx_n_u_metaclass __pyx_string_tab[213]
+#define __pyx_n_u_mode __pyx_string_tab[214]
+#define __pyx_n_u_module __pyx_string_tab[215]
+#define __pyx_kp_u_ms __pyx_string_tab[216]
+#define __pyx_n_u_name __pyx_string_tab[217]
+#define __pyx_n_u_name_2 __pyx_string_tab[218]
+#define __pyx_n_u_offset __pyx_string_tab[219]
+#define __pyx_n_u_open __pyx_string_tab[220]
+#define __pyx_kp_u_out_of_range_at_burst __pyx_string_tab[221]
+#define __pyx_kp_u_out_of_range_row_index __pyx_string_tab[222]
+#define __pyx_n_u_output __pyx_string_tab[223]
+#define __pyx_n_u_output_list __pyx_string_tab[224]
+#define __pyx_n_u_pop __pyx_string_tab[225]
+#define __pyx_n_u_prep_duration __pyx_string_tab[226]
+#define __pyx_n_u_prep_end_time __pyx_string_tab[227]
+#define __pyx_n_u_prep_start_time __pyx_string_tab[228]
+#define __pyx_n_u_prepare __pyx_string_tab[229]
+#define __pyx_n_u_print __pyx_string_tab[230]
+#define __pyx_n_u_propagate __pyx_string_tab[231]
+#define __pyx_n_u_qualname __pyx_string_tab[232]
+#define __pyx_n_u_r __pyx_string_tab[233]
+#define __pyx_n_u_raiseExceptions __pyx_string_tab[234]
+#define __pyx_n_u_range __pyx_string_tab[235]
+#define __pyx_n_u_read __pyx_string_tab[236]
+#define __pyx_n_u_read_burst __pyx_string_tab[237]
+#define __pyx_n_u_read_cpu __pyx_string_tab[238]
+#define __pyx_n_u_read_data __pyx_string_tab[239]
+#define __pyx_n_u_read_duration __pyx_string_tab[240]
+#define __pyx_n_u_read_end_time __pyx_string_tab[241]
+#define __pyx_n_u_read_from_file __pyx_string_tab[242]
+#define __pyx_n_u_read_start_time __pyx_string_tab[243]
+#define __pyx_n_u_return __pyx_string_tab[244]
+#define __pyx_kp_u_row __pyx_string_tab[245]
+#define __pyx_n_u_row_2 __pyx_string_tab[246]
+#define __pyx_n_u_row_index __pyx_string_tab[247]
+#define __pyx_kp_u_rows __pyx_string_tab[248]
+#define __pyx_kp_u_rows_of_test_data __pyx_string_tab[249]
+#define __pyx_kp_u_seconds __pyx_string_tab[250]
+#define __pyx_n_u_self __pyx_string_tab[251]
+#define __pyx_n_u_setFormatter __pyx_string_tab[252]
+#define __pyx_n_u_setLevel __pyx_string_tab[253]
+#define __pyx_n_u_set_name __pyx_string_tab[254]
+#define __pyx_n_u_signed __pyx_string_tab[255]
+#define __pyx_n_u_spec __pyx_string_tab[256]
+#define __pyx_n_u_sram __pyx_string_tab[257]
+#define __pyx_kp_u_src_SRAM_SRAM_pyx __pyx_string_tab[258]
+#define __pyx_n_u_start_addr __pyx_string_tab[259]
+#define __pyx_n_u_start_address __pyx_string_tab[260]
+#define __pyx_n_u_stride __pyx_string_tab[261]
+#define __pyx_n_u_strip __pyx_string_tab[262]
+#define __pyx_n_u_test __pyx_string_tab[263]
+#define __pyx_n_u_test_data __pyx_string_tab[264]
+#define __pyx_n_u_time __pyx_string_tab[265]
+#define __pyx_kp_u_tmp_matrixA_hex __pyx_string_tab[266]
+#define __pyx_n_u_to_bytes __pyx_string_tab[267]
+#define __pyx_n_u_total_bytes __pyx_string_tab[268]
+#define __pyx_n_u_typing __pyx_string_tab[269]
+#define __pyx_kp_u_utf_8 __pyx_string_tab[270]
+#define __pyx_n_u_verify_duration __pyx_string_tab[271]
+#define __pyx_n_u_verify_end_time __pyx_string_tab[272]
+#define __pyx_n_u_verify_start_time __pyx_string_tab[273]
+#define __pyx_n_u_w __pyx_string_tab[274]
+#define __pyx_n_u_width __pyx_string_tab[275]
+#define __pyx_n_u_words __pyx_string_tab[276]
+#define __pyx_n_u_write __pyx_string_tab[277]
+#define __pyx_n_u_write_burst __pyx_string_tab[278]
+#define __pyx_n_u_write_cpu __pyx_string_tab[279]
+#define __pyx_n_u_write_duration __pyx_string_tab[280]
+#define __pyx_n_u_write_end_time __pyx_string_tab[281]
+#define __pyx_n_u_write_start_time __pyx_string_tab[282]
+#define __pyx_n_u_wrong_data __pyx_string_tab[283]
+#define __pyx_n_u_wstrb __pyx_string_tab[284]
 /* #### Code section: module_state_clear ### */
 #if CYTHON_USE_MODULE_STATE
 static CYTHON_SMALL_CODE int __pyx_m_clear(PyObject *m) {
@@ -3232,9 +3234,9 @@ static CYTHON_SMALL_CODE int __pyx_m_clear(PyObject *m) {
   __Pyx_State_RemoveModule(NULL);
   #endif
   for (int i=0; i<4; ++i) { Py_CLEAR(clear_module_state->__pyx_slice[i]); }
-  for (int i=0; i<5; ++i) { Py_CLEAR(clear_module_state->__pyx_tuple[i]); }
+  for (int i=0; i<6; ++i) { Py_CLEAR(clear_module_state->__pyx_tuple[i]); }
   for (int i=0; i<8; ++i) { Py_CLEAR(clear_module_state->__pyx_codeobj_tab[i]); }
-  for (int i=0; i<284; ++i) { Py_CLEAR(clear_module_state->__pyx_string_tab[i]); }
+  for (int i=0; i<285; ++i) { Py_CLEAR(clear_module_state->__pyx_string_tab[i]); }
   Py_CLEAR(clear_module_state->__pyx_int_0);
   Py_CLEAR(clear_module_state->__pyx_int_1);
   Py_CLEAR(clear_module_state->__pyx_int_2);
@@ -3281,9 +3283,9 @@ static CYTHON_SMALL_CODE int __pyx_m_traverse(PyObject *m, visitproc visit, void
   Py_VISIT(traverse_module_state->__pyx_FusedFunctionType);
   #endif
   for (int i=0; i<4; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_slice[i]); }
-  for (int i=0; i<5; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_tuple[i]); }
+  for (int i=0; i<6; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_tuple[i]); }
   for (int i=0; i<8; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_codeobj_tab[i]); }
-  for (int i=0; i<284; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_string_tab[i]); }
+  for (int i=0; i<285; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_string_tab[i]); }
   __Pyx_VISIT_CONST(traverse_module_state->__pyx_int_0);
   __Pyx_VISIT_CONST(traverse_module_state->__pyx_int_1);
   __Pyx_VISIT_CONST(traverse_module_state->__pyx_int_2);
@@ -3317,7 +3319,7 @@ static CYTHON_SMALL_CODE int __pyx_m_traverse(PyObject *m, visitproc visit, void
 /* "SRAM/SRAM.pyx":19
  * 
  * class SramSp:
- * 	def __init__(self, width, depth, base_addr=0x00000000):             # <<<<<<<<<<<<<<
+ * 	def __init__(self, width, depth, base_addr=0x00000000, burst_bytes=16):             # <<<<<<<<<<<<<<
  * 		"""
  * 		Byte-aligned SRAM
 */
@@ -3343,11 +3345,12 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   PyObject *__pyx_v_width = 0;
   PyObject *__pyx_v_depth = 0;
   PyObject *__pyx_v_base_addr = 0;
+  PyObject *__pyx_v_burst_bytes = 0;
   #if !CYTHON_METH_FASTCALL
   CYTHON_UNUSED Py_ssize_t __pyx_nargs;
   #endif
   CYTHON_UNUSED PyObject *const *__pyx_kwvalues;
-  PyObject* values[4] = {0,0,0,0};
+  PyObject* values[5] = {0,0,0,0,0};
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
@@ -3363,11 +3366,15 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   #endif
   __pyx_kwvalues = __Pyx_KwValues_FASTCALL(__pyx_args, __pyx_nargs);
   {
-    PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_self,&__pyx_mstate_global->__pyx_n_u_width,&__pyx_mstate_global->__pyx_n_u_depth,&__pyx_mstate_global->__pyx_n_u_base_addr,0};
+    PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_self,&__pyx_mstate_global->__pyx_n_u_width,&__pyx_mstate_global->__pyx_n_u_depth,&__pyx_mstate_global->__pyx_n_u_base_addr,&__pyx_mstate_global->__pyx_n_u_burst_bytes,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
     if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 19, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
+        case  5:
+        values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 19, __pyx_L3_error)
+        CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
         if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 19, __pyx_L3_error)
@@ -3390,11 +3397,16 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
       if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "__init__", 0) < 0) __PYX_ERR(0, 19, __pyx_L3_error)
       if (!values[3]) values[3] = __Pyx_NewRef(((PyObject *)((PyObject*)__pyx_mstate_global->__pyx_int_0)));
+      if (!values[4]) values[4] = __Pyx_NewRef(((PyObject *)((PyObject*)__pyx_mstate_global->__pyx_int_16)));
       for (Py_ssize_t i = __pyx_nargs; i < 3; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("__init__", 0, 3, 4, i); __PYX_ERR(0, 19, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("__init__", 0, 3, 5, i); __PYX_ERR(0, 19, __pyx_L3_error) }
       }
     } else {
       switch (__pyx_nargs) {
+        case  5:
+        values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 19, __pyx_L3_error)
+        CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
         if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 19, __pyx_L3_error)
@@ -3410,15 +3422,17 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
         default: goto __pyx_L5_argtuple_error;
       }
       if (!values[3]) values[3] = __Pyx_NewRef(((PyObject *)((PyObject*)__pyx_mstate_global->__pyx_int_0)));
+      if (!values[4]) values[4] = __Pyx_NewRef(((PyObject *)((PyObject*)__pyx_mstate_global->__pyx_int_16)));
     }
     __pyx_v_self = values[0];
     __pyx_v_width = values[1];
     __pyx_v_depth = values[2];
     __pyx_v_base_addr = values[3];
+    __pyx_v_burst_bytes = values[4];
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("__init__", 0, 3, 4, __pyx_nargs); __PYX_ERR(0, 19, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("__init__", 0, 3, 5, __pyx_nargs); __PYX_ERR(0, 19, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -3429,7 +3443,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_4SRAM_4SRAM_6SramSp___init__(__pyx_self, __pyx_v_self, __pyx_v_width, __pyx_v_depth, __pyx_v_base_addr);
+  __pyx_r = __pyx_pf_4SRAM_4SRAM_6SramSp___init__(__pyx_self, __pyx_v_self, __pyx_v_width, __pyx_v_depth, __pyx_v_base_addr, __pyx_v_burst_bytes);
 
   /* function exit code */
   for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
@@ -3439,7 +3453,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_width, PyObject *__pyx_v_depth, PyObject *__pyx_v_base_addr) {
+static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp___init__(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_width, PyObject *__pyx_v_depth, PyObject *__pyx_v_base_addr, PyObject *__pyx_v_burst_bytes) {
   PyObject *__pyx_v_e = NULL;
   CYTHON_UNUSED PyObject *__pyx_7genexpr__pyx_v_j = NULL;
   CYTHON_UNUSED PyObject *__pyx_8genexpr1__pyx_v_i = NULL;
@@ -3704,7 +3718,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp___init__(CYTHON_UNUSED PyObject *_
  * 		# self init
  * 		self.name = "SRAM_SP"             # <<<<<<<<<<<<<<
  * 		self.width = width
- * 		self.words = width // 4 # 4
+ * 		self.height = depth		#
 */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_name, __pyx_mstate_global->__pyx_n_u_SRAM_SP) < 0) __PYX_ERR(0, 30, __pyx_L1_error)
 
@@ -3712,67 +3726,76 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp___init__(CYTHON_UNUSED PyObject *_
  * 		# self init
  * 		self.name = "SRAM_SP"
  * 		self.width = width             # <<<<<<<<<<<<<<
+ * 		self.height = depth		#
  * 		self.words = width // 4 # 4
- * 		self.bytes = width // 8	# 84
 */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_width, __pyx_v_width) < 0) __PYX_ERR(0, 31, __pyx_L1_error)
 
   /* "SRAM/SRAM.pyx":32
  * 		self.name = "SRAM_SP"
  * 		self.width = width
- * 		self.words = width // 4 # 4             # <<<<<<<<<<<<<<
- * 		self.bytes = width // 8	# 84
- * 		self.height = depth		#
+ * 		self.height = depth		#             # <<<<<<<<<<<<<<
+ * 		self.words = width // 4 # 4
+ * 		self.bytes = width // 8	# 8
 */
-  __pyx_t_7 = __Pyx_PyLong_FloorDivideObjC(__pyx_v_width, __pyx_mstate_global->__pyx_int_4, 4, 0, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 32, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_words, __pyx_t_7) < 0) __PYX_ERR(0, 32, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_height, __pyx_v_depth) < 0) __PYX_ERR(0, 32, __pyx_L1_error)
 
   /* "SRAM/SRAM.pyx":33
  * 		self.width = width
- * 		self.words = width // 4 # 4
- * 		self.bytes = width // 8	# 84             # <<<<<<<<<<<<<<
  * 		self.height = depth		#
- * 		self.base_addr = base_addr
+ * 		self.words = width // 4 # 4             # <<<<<<<<<<<<<<
+ * 		self.bytes = width // 8	# 8
+ * 		self.burst_bytes = burst_bytes
 */
-  __pyx_t_7 = __Pyx_PyLong_FloorDivideObjC(__pyx_v_width, __pyx_mstate_global->__pyx_int_8, 8, 0, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 33, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyLong_FloorDivideObjC(__pyx_v_width, __pyx_mstate_global->__pyx_int_4, 4, 0, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 33, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes, __pyx_t_7) < 0) __PYX_ERR(0, 33, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_words, __pyx_t_7) < 0) __PYX_ERR(0, 33, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "SRAM/SRAM.pyx":34
+ * 		self.height = depth		#
  * 		self.words = width // 4 # 4
- * 		self.bytes = width // 8	# 84
- * 		self.height = depth		#             # <<<<<<<<<<<<<<
+ * 		self.bytes = width // 8	# 8             # <<<<<<<<<<<<<<
+ * 		self.burst_bytes = burst_bytes
+ * 		self.base_addr = base_addr
+*/
+  __pyx_t_7 = __Pyx_PyLong_FloorDivideObjC(__pyx_v_width, __pyx_mstate_global->__pyx_int_8, 8, 0, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 34, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes, __pyx_t_7) < 0) __PYX_ERR(0, 34, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+
+  /* "SRAM/SRAM.pyx":35
+ * 		self.words = width // 4 # 4
+ * 		self.bytes = width // 8	# 8
+ * 		self.burst_bytes = burst_bytes             # <<<<<<<<<<<<<<
  * 		self.base_addr = base_addr
  * 		self.data = [[0 for i in range(self.bytes)]for j in range(self.height)]
 */
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_height, __pyx_v_depth) < 0) __PYX_ERR(0, 34, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_burst_bytes, __pyx_v_burst_bytes) < 0) __PYX_ERR(0, 35, __pyx_L1_error)
 
-  /* "SRAM/SRAM.pyx":35
- * 		self.bytes = width // 8	# 84
- * 		self.height = depth		#
+  /* "SRAM/SRAM.pyx":36
+ * 		self.bytes = width // 8	# 8
+ * 		self.burst_bytes = burst_bytes
  * 		self.base_addr = base_addr             # <<<<<<<<<<<<<<
  * 		self.data = [[0 for i in range(self.bytes)]for j in range(self.height)]
  * 
 */
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_base_addr, __pyx_v_base_addr) < 0) __PYX_ERR(0, 35, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_base_addr, __pyx_v_base_addr) < 0) __PYX_ERR(0, 36, __pyx_L1_error)
 
-  /* "SRAM/SRAM.pyx":36
- * 		self.height = depth		#
+  /* "SRAM/SRAM.pyx":37
+ * 		self.burst_bytes = burst_bytes
  * 		self.base_addr = base_addr
  * 		self.data = [[0 for i in range(self.bytes)]for j in range(self.height)]             # <<<<<<<<<<<<<<
  * 
  * 	def read_from_file(self, inputfile):
 */
   { /* enter inner scope */
-    __pyx_t_7 = PyList_New(0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 36, __pyx_L22_error)
+    __pyx_t_7 = PyList_New(0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 37, __pyx_L22_error)
     __Pyx_GOTREF(__pyx_t_7);
     __pyx_t_1 = NULL;
     __Pyx_INCREF(__pyx_builtin_range);
     __pyx_t_2 = __pyx_builtin_range; 
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_height); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 36, __pyx_L22_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_height); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 37, __pyx_L22_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_8 = 1;
     {
@@ -3781,7 +3804,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp___init__(CYTHON_UNUSED PyObject *_
       __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 36, __pyx_L22_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 37, __pyx_L22_error)
       __Pyx_GOTREF(__pyx_t_4);
     }
     if (likely(PyList_CheckExact(__pyx_t_4)) || PyTuple_CheckExact(__pyx_t_4)) {
@@ -3789,9 +3812,9 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp___init__(CYTHON_UNUSED PyObject *_
       __pyx_t_25 = 0;
       __pyx_t_26 = NULL;
     } else {
-      __pyx_t_25 = -1; __pyx_t_2 = PyObject_GetIter(__pyx_t_4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 36, __pyx_L22_error)
+      __pyx_t_25 = -1; __pyx_t_2 = PyObject_GetIter(__pyx_t_4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 37, __pyx_L22_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_26 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_2); if (unlikely(!__pyx_t_26)) __PYX_ERR(0, 36, __pyx_L22_error)
+      __pyx_t_26 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_2); if (unlikely(!__pyx_t_26)) __PYX_ERR(0, 37, __pyx_L22_error)
     }
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     for (;;) {
@@ -3800,7 +3823,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp___init__(CYTHON_UNUSED PyObject *_
           {
             Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_2);
             #if !CYTHON_ASSUME_SAFE_SIZE
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 36, __pyx_L22_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 37, __pyx_L22_error)
             #endif
             if (__pyx_t_25 >= __pyx_temp) break;
           }
@@ -3810,7 +3833,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp___init__(CYTHON_UNUSED PyObject *_
           {
             Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_2);
             #if !CYTHON_ASSUME_SAFE_SIZE
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 36, __pyx_L22_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 37, __pyx_L22_error)
             #endif
             if (__pyx_t_25 >= __pyx_temp) break;
           }
@@ -3821,13 +3844,13 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp___init__(CYTHON_UNUSED PyObject *_
           #endif
           ++__pyx_t_25;
         }
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 36, __pyx_L22_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 37, __pyx_L22_error)
       } else {
         __pyx_t_4 = __pyx_t_26(__pyx_t_2);
         if (unlikely(!__pyx_t_4)) {
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
-            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 36, __pyx_L22_error)
+            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 37, __pyx_L22_error)
             PyErr_Clear();
           }
           break;
@@ -3837,12 +3860,12 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp___init__(CYTHON_UNUSED PyObject *_
       __Pyx_XDECREF_SET(__pyx_7genexpr__pyx_v_j, __pyx_t_4);
       __pyx_t_4 = 0;
       { /* enter inner scope */
-        __pyx_t_4 = PyList_New(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 36, __pyx_L27_error)
+        __pyx_t_4 = PyList_New(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 37, __pyx_L27_error)
         __Pyx_GOTREF(__pyx_t_4);
         __pyx_t_1 = NULL;
         __Pyx_INCREF(__pyx_builtin_range);
         __pyx_t_16 = __pyx_builtin_range; 
-        __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 36, __pyx_L27_error)
+        __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 37, __pyx_L27_error)
         __Pyx_GOTREF(__pyx_t_5);
         __pyx_t_8 = 1;
         {
@@ -3851,7 +3874,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp___init__(CYTHON_UNUSED PyObject *_
           __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
-          if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 36, __pyx_L27_error)
+          if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 37, __pyx_L27_error)
           __Pyx_GOTREF(__pyx_t_3);
         }
         if (likely(PyList_CheckExact(__pyx_t_3)) || PyTuple_CheckExact(__pyx_t_3)) {
@@ -3859,9 +3882,9 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp___init__(CYTHON_UNUSED PyObject *_
           __pyx_t_27 = 0;
           __pyx_t_28 = NULL;
         } else {
-          __pyx_t_27 = -1; __pyx_t_16 = PyObject_GetIter(__pyx_t_3); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 36, __pyx_L27_error)
+          __pyx_t_27 = -1; __pyx_t_16 = PyObject_GetIter(__pyx_t_3); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 37, __pyx_L27_error)
           __Pyx_GOTREF(__pyx_t_16);
-          __pyx_t_28 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_16); if (unlikely(!__pyx_t_28)) __PYX_ERR(0, 36, __pyx_L27_error)
+          __pyx_t_28 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_16); if (unlikely(!__pyx_t_28)) __PYX_ERR(0, 37, __pyx_L27_error)
         }
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         for (;;) {
@@ -3870,7 +3893,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp___init__(CYTHON_UNUSED PyObject *_
               {
                 Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_16);
                 #if !CYTHON_ASSUME_SAFE_SIZE
-                if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 36, __pyx_L27_error)
+                if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 37, __pyx_L27_error)
                 #endif
                 if (__pyx_t_27 >= __pyx_temp) break;
               }
@@ -3880,7 +3903,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp___init__(CYTHON_UNUSED PyObject *_
               {
                 Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_16);
                 #if !CYTHON_ASSUME_SAFE_SIZE
-                if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 36, __pyx_L27_error)
+                if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 37, __pyx_L27_error)
                 #endif
                 if (__pyx_t_27 >= __pyx_temp) break;
               }
@@ -3891,13 +3914,13 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp___init__(CYTHON_UNUSED PyObject *_
               #endif
               ++__pyx_t_27;
             }
-            if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 36, __pyx_L27_error)
+            if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 37, __pyx_L27_error)
           } else {
             __pyx_t_3 = __pyx_t_28(__pyx_t_16);
             if (unlikely(!__pyx_t_3)) {
               PyObject* exc_type = PyErr_Occurred();
               if (exc_type) {
-                if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 36, __pyx_L27_error)
+                if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 37, __pyx_L27_error)
                 PyErr_Clear();
               }
               break;
@@ -3906,7 +3929,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp___init__(CYTHON_UNUSED PyObject *_
           __Pyx_GOTREF(__pyx_t_3);
           __Pyx_XDECREF_SET(__pyx_8genexpr1__pyx_v_i, __pyx_t_3);
           __pyx_t_3 = 0;
-          if (unlikely(__Pyx_ListComp_Append(__pyx_t_4, (PyObject*)__pyx_mstate_global->__pyx_int_0))) __PYX_ERR(0, 36, __pyx_L27_error)
+          if (unlikely(__Pyx_ListComp_Append(__pyx_t_4, (PyObject*)__pyx_mstate_global->__pyx_int_0))) __PYX_ERR(0, 37, __pyx_L27_error)
         }
         __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
         __Pyx_XDECREF(__pyx_8genexpr1__pyx_v_i); __pyx_8genexpr1__pyx_v_i = 0;
@@ -3916,7 +3939,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp___init__(CYTHON_UNUSED PyObject *_
         goto __pyx_L22_error;
         __pyx_L31_exit_scope:;
       } /* exit inner scope */
-      if (unlikely(__Pyx_ListComp_Append(__pyx_t_7, (PyObject*)__pyx_t_4))) __PYX_ERR(0, 36, __pyx_L22_error)
+      if (unlikely(__Pyx_ListComp_Append(__pyx_t_7, (PyObject*)__pyx_t_4))) __PYX_ERR(0, 37, __pyx_L22_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -3927,13 +3950,13 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp___init__(CYTHON_UNUSED PyObject *_
     goto __pyx_L1_error;
     __pyx_L33_exit_scope:;
   } /* exit inner scope */
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_data, __pyx_t_7) < 0) __PYX_ERR(0, 36, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_data, __pyx_t_7) < 0) __PYX_ERR(0, 37, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
   /* "SRAM/SRAM.pyx":19
  * 
  * class SramSp:
- * 	def __init__(self, width, depth, base_addr=0x00000000):             # <<<<<<<<<<<<<<
+ * 	def __init__(self, width, depth, base_addr=0x00000000, burst_bytes=16):             # <<<<<<<<<<<<<<
  * 		"""
  * 		Byte-aligned SRAM
 */
@@ -3961,7 +3984,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp___init__(CYTHON_UNUSED PyObject *_
   return __pyx_r;
 }
 
-/* "SRAM/SRAM.pyx":38
+/* "SRAM/SRAM.pyx":39
  * 		self.data = [[0 for i in range(self.bytes)]for j in range(self.height)]
  * 
  * 	def read_from_file(self, inputfile):             # <<<<<<<<<<<<<<
@@ -4009,39 +4032,39 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_self,&__pyx_mstate_global->__pyx_n_u_inputfile,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 38, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 39, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 38, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 39, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 38, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 39, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "read_from_file", 0) < 0) __PYX_ERR(0, 38, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "read_from_file", 0) < 0) __PYX_ERR(0, 39, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 2; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("read_from_file", 1, 2, 2, i); __PYX_ERR(0, 38, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("read_from_file", 1, 2, 2, i); __PYX_ERR(0, 39, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 2)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 38, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 39, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 38, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 39, __pyx_L3_error)
     }
     __pyx_v_self = values[0];
     __pyx_v_inputfile = values[1];
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("read_from_file", 1, 2, 2, __pyx_nargs); __PYX_ERR(0, 38, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("read_from_file", 1, 2, 2, __pyx_nargs); __PYX_ERR(0, 39, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -4102,7 +4125,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("read_from_file", 0);
 
-  /* "SRAM/SRAM.pyx":39
+  /* "SRAM/SRAM.pyx":40
  * 
  * 	def read_from_file(self, inputfile):
  * 		with open(inputfile, 'r') as f:             # <<<<<<<<<<<<<<
@@ -4119,13 +4142,13 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
       __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+__pyx_t_4, (3-__pyx_t_4) | (__pyx_t_4*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 39, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 40, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
     }
-    __pyx_t_5 = __Pyx_PyObject_LookupSpecial(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_exit); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 39, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_LookupSpecial(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_exit); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 40, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __pyx_t_2 = NULL;
-    __pyx_t_6 = __Pyx_PyObject_LookupSpecial(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_enter); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 39, __pyx_L3_error)
+    __pyx_t_6 = __Pyx_PyObject_LookupSpecial(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_enter); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 40, __pyx_L3_error)
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_t_4 = 1;
     #if CYTHON_UNPACK_METHODS
@@ -4144,7 +4167,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
       __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+__pyx_t_4, (1-__pyx_t_4) | (__pyx_t_4*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 39, __pyx_L3_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 40, __pyx_L3_error)
       __Pyx_GOTREF(__pyx_t_3);
     }
     __pyx_t_6 = __pyx_t_3;
@@ -4162,7 +4185,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
           __pyx_v_f = __pyx_t_6;
           __pyx_t_6 = 0;
 
-          /* "SRAM/SRAM.pyx":41
+          /* "SRAM/SRAM.pyx":42
  * 		with open(inputfile, 'r') as f:
  * 			#
  * 			lines = [line.strip() for line in f if line.strip()]             # <<<<<<<<<<<<<<
@@ -4170,16 +4193,16 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
  * 
 */
           { /* enter inner scope */
-            __pyx_t_6 = PyList_New(0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 41, __pyx_L15_error)
+            __pyx_t_6 = PyList_New(0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 42, __pyx_L15_error)
             __Pyx_GOTREF(__pyx_t_6);
             if (likely(PyList_CheckExact(__pyx_v_f)) || PyTuple_CheckExact(__pyx_v_f)) {
               __pyx_t_1 = __pyx_v_f; __Pyx_INCREF(__pyx_t_1);
               __pyx_t_10 = 0;
               __pyx_t_11 = NULL;
             } else {
-              __pyx_t_10 = -1; __pyx_t_1 = PyObject_GetIter(__pyx_v_f); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 41, __pyx_L15_error)
+              __pyx_t_10 = -1; __pyx_t_1 = PyObject_GetIter(__pyx_v_f); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 42, __pyx_L15_error)
               __Pyx_GOTREF(__pyx_t_1);
-              __pyx_t_11 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_1); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 41, __pyx_L15_error)
+              __pyx_t_11 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_1); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 42, __pyx_L15_error)
             }
             for (;;) {
               if (likely(!__pyx_t_11)) {
@@ -4187,7 +4210,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
                   {
                     Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_1);
                     #if !CYTHON_ASSUME_SAFE_SIZE
-                    if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 41, __pyx_L15_error)
+                    if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 42, __pyx_L15_error)
                     #endif
                     if (__pyx_t_10 >= __pyx_temp) break;
                   }
@@ -4197,7 +4220,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
                   {
                     Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_1);
                     #if !CYTHON_ASSUME_SAFE_SIZE
-                    if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 41, __pyx_L15_error)
+                    if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 42, __pyx_L15_error)
                     #endif
                     if (__pyx_t_10 >= __pyx_temp) break;
                   }
@@ -4208,13 +4231,13 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
                   #endif
                   ++__pyx_t_10;
                 }
-                if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 41, __pyx_L15_error)
+                if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 42, __pyx_L15_error)
               } else {
                 __pyx_t_3 = __pyx_t_11(__pyx_t_1);
                 if (unlikely(!__pyx_t_3)) {
                   PyObject* exc_type = PyErr_Occurred();
                   if (exc_type) {
-                    if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 41, __pyx_L15_error)
+                    if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 42, __pyx_L15_error)
                     PyErr_Clear();
                   }
                   break;
@@ -4230,10 +4253,10 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
                 PyObject *__pyx_callargs[2] = {__pyx_t_2, NULL};
                 __pyx_t_3 = __Pyx_PyObject_FastCallMethod(__pyx_mstate_global->__pyx_n_u_strip, __pyx_callargs+__pyx_t_4, (1-__pyx_t_4) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
                 __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-                if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 41, __pyx_L15_error)
+                if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 42, __pyx_L15_error)
                 __Pyx_GOTREF(__pyx_t_3);
               }
-              __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 41, __pyx_L15_error)
+              __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 42, __pyx_L15_error)
               __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
               if (__pyx_t_12) {
                 __pyx_t_2 = __pyx_8genexpr2__pyx_v_line;
@@ -4243,10 +4266,10 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
                   PyObject *__pyx_callargs[2] = {__pyx_t_2, NULL};
                   __pyx_t_3 = __Pyx_PyObject_FastCallMethod(__pyx_mstate_global->__pyx_n_u_strip, __pyx_callargs+__pyx_t_4, (1-__pyx_t_4) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
                   __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-                  if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 41, __pyx_L15_error)
+                  if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 42, __pyx_L15_error)
                   __Pyx_GOTREF(__pyx_t_3);
                 }
-                if (unlikely(__Pyx_ListComp_Append(__pyx_t_6, (PyObject*)__pyx_t_3))) __PYX_ERR(0, 41, __pyx_L15_error)
+                if (unlikely(__Pyx_ListComp_Append(__pyx_t_6, (PyObject*)__pyx_t_3))) __PYX_ERR(0, 42, __pyx_L15_error)
                 __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
               }
             }
@@ -4261,29 +4284,29 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
           __pyx_v_lines = ((PyObject*)__pyx_t_6);
           __pyx_t_6 = 0;
 
-          /* "SRAM/SRAM.pyx":42
+          /* "SRAM/SRAM.pyx":43
  * 			#
  * 			lines = [line.strip() for line in f if line.strip()]
  * 			group_size = self.words // len(lines[0])             # <<<<<<<<<<<<<<
  * 
  * 			#
 */
-          __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_words); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 42, __pyx_L7_error)
+          __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_words); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 43, __pyx_L7_error)
           __Pyx_GOTREF(__pyx_t_6);
-          __pyx_t_1 = __Pyx_GetItemInt_List(__pyx_v_lines, 0, long, 1, __Pyx_PyLong_From_long, 1, 0, 1, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 42, __pyx_L7_error)
+          __pyx_t_1 = __Pyx_GetItemInt_List(__pyx_v_lines, 0, long, 1, __Pyx_PyLong_From_long, 1, 0, 1, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 43, __pyx_L7_error)
           __Pyx_GOTREF(__pyx_t_1);
-          __pyx_t_10 = PyObject_Length(__pyx_t_1); if (unlikely(__pyx_t_10 == ((Py_ssize_t)-1))) __PYX_ERR(0, 42, __pyx_L7_error)
+          __pyx_t_10 = PyObject_Length(__pyx_t_1); if (unlikely(__pyx_t_10 == ((Py_ssize_t)-1))) __PYX_ERR(0, 43, __pyx_L7_error)
           __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-          __pyx_t_1 = PyLong_FromSsize_t(__pyx_t_10); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 42, __pyx_L7_error)
+          __pyx_t_1 = PyLong_FromSsize_t(__pyx_t_10); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 43, __pyx_L7_error)
           __Pyx_GOTREF(__pyx_t_1);
-          __pyx_t_3 = PyNumber_FloorDivide(__pyx_t_6, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 42, __pyx_L7_error)
+          __pyx_t_3 = PyNumber_FloorDivide(__pyx_t_6, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 43, __pyx_L7_error)
           __Pyx_GOTREF(__pyx_t_3);
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
           __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
           __pyx_v_group_size = __pyx_t_3;
           __pyx_t_3 = 0;
 
-          /* "SRAM/SRAM.pyx":45
+          /* "SRAM/SRAM.pyx":46
  * 
  * 			#
  * 			for idx in range(0, len(lines), group_size):             # <<<<<<<<<<<<<<
@@ -4293,8 +4316,8 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
           __pyx_t_1 = NULL;
           __Pyx_INCREF(__pyx_builtin_range);
           __pyx_t_6 = __pyx_builtin_range; 
-          __pyx_t_10 = __Pyx_PyList_GET_SIZE(__pyx_v_lines); if (unlikely(__pyx_t_10 == ((Py_ssize_t)-1))) __PYX_ERR(0, 45, __pyx_L7_error)
-          __pyx_t_2 = PyLong_FromSsize_t(__pyx_t_10); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 45, __pyx_L7_error)
+          __pyx_t_10 = __Pyx_PyList_GET_SIZE(__pyx_v_lines); if (unlikely(__pyx_t_10 == ((Py_ssize_t)-1))) __PYX_ERR(0, 46, __pyx_L7_error)
+          __pyx_t_2 = PyLong_FromSsize_t(__pyx_t_10); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 46, __pyx_L7_error)
           __Pyx_GOTREF(__pyx_t_2);
           __pyx_t_4 = 1;
           {
@@ -4303,7 +4326,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
             __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
             __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
             __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-            if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 45, __pyx_L7_error)
+            if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 46, __pyx_L7_error)
             __Pyx_GOTREF(__pyx_t_3);
           }
           if (likely(PyList_CheckExact(__pyx_t_3)) || PyTuple_CheckExact(__pyx_t_3)) {
@@ -4311,9 +4334,9 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
             __pyx_t_10 = 0;
             __pyx_t_11 = NULL;
           } else {
-            __pyx_t_10 = -1; __pyx_t_6 = PyObject_GetIter(__pyx_t_3); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 45, __pyx_L7_error)
+            __pyx_t_10 = -1; __pyx_t_6 = PyObject_GetIter(__pyx_t_3); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 46, __pyx_L7_error)
             __Pyx_GOTREF(__pyx_t_6);
-            __pyx_t_11 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_6); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 45, __pyx_L7_error)
+            __pyx_t_11 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_6); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 46, __pyx_L7_error)
           }
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
           for (;;) {
@@ -4322,7 +4345,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
                 {
                   Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_6);
                   #if !CYTHON_ASSUME_SAFE_SIZE
-                  if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 45, __pyx_L7_error)
+                  if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 46, __pyx_L7_error)
                   #endif
                   if (__pyx_t_10 >= __pyx_temp) break;
                 }
@@ -4332,7 +4355,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
                 {
                   Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_6);
                   #if !CYTHON_ASSUME_SAFE_SIZE
-                  if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 45, __pyx_L7_error)
+                  if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 46, __pyx_L7_error)
                   #endif
                   if (__pyx_t_10 >= __pyx_temp) break;
                 }
@@ -4343,13 +4366,13 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
                 #endif
                 ++__pyx_t_10;
               }
-              if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 45, __pyx_L7_error)
+              if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 46, __pyx_L7_error)
             } else {
               __pyx_t_3 = __pyx_t_11(__pyx_t_6);
               if (unlikely(!__pyx_t_3)) {
                 PyObject* exc_type = PyErr_Occurred();
                 if (exc_type) {
-                  if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 45, __pyx_L7_error)
+                  if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 46, __pyx_L7_error)
                   PyErr_Clear();
                 }
                 break;
@@ -4359,7 +4382,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
             __Pyx_XDECREF_SET(__pyx_v_idx, __pyx_t_3);
             __pyx_t_3 = 0;
 
-            /* "SRAM/SRAM.pyx":46
+            /* "SRAM/SRAM.pyx":47
  * 			#
  * 			for idx in range(0, len(lines), group_size):
  * 				group = lines[idx:idx + group_size]             # <<<<<<<<<<<<<<
@@ -4372,42 +4395,42 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
             if (__pyx_t_12) {
               __pyx_t_13 = 0;
             } else {
-              __pyx_t_14 = __Pyx_PyIndex_AsSsize_t(__pyx_t_3); if (unlikely((__pyx_t_14 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 46, __pyx_L7_error)
+              __pyx_t_14 = __Pyx_PyIndex_AsSsize_t(__pyx_t_3); if (unlikely((__pyx_t_14 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 47, __pyx_L7_error)
               __pyx_t_13 = __pyx_t_14;
             }
             __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-            __pyx_t_3 = PyNumber_Add(__pyx_v_idx, __pyx_v_group_size); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 46, __pyx_L7_error)
+            __pyx_t_3 = PyNumber_Add(__pyx_v_idx, __pyx_v_group_size); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 47, __pyx_L7_error)
             __Pyx_GOTREF(__pyx_t_3);
             __pyx_t_12 = (__pyx_t_3 == Py_None);
             if (__pyx_t_12) {
               __pyx_t_14 = PY_SSIZE_T_MAX;
             } else {
-              __pyx_t_15 = __Pyx_PyIndex_AsSsize_t(__pyx_t_3); if (unlikely((__pyx_t_15 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 46, __pyx_L7_error)
+              __pyx_t_15 = __Pyx_PyIndex_AsSsize_t(__pyx_t_3); if (unlikely((__pyx_t_15 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 47, __pyx_L7_error)
               __pyx_t_14 = __pyx_t_15;
             }
             __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-            __pyx_t_3 = __Pyx_PyList_GetSlice(__pyx_v_lines, __pyx_t_13, __pyx_t_14); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 46, __pyx_L7_error)
+            __pyx_t_3 = __Pyx_PyList_GetSlice(__pyx_v_lines, __pyx_t_13, __pyx_t_14); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 47, __pyx_L7_error)
             __Pyx_GOTREF(__pyx_t_3);
             __Pyx_XDECREF_SET(__pyx_v_group, ((PyObject*)__pyx_t_3));
             __pyx_t_3 = 0;
 
-            /* "SRAM/SRAM.pyx":47
+            /* "SRAM/SRAM.pyx":48
  * 			for idx in range(0, len(lines), group_size):
  * 				group = lines[idx:idx + group_size]
  * 				if len(group) < group_size:             # <<<<<<<<<<<<<<
  * 					raise ValueError("")
  * 
 */
-            __pyx_t_14 = __Pyx_PyList_GET_SIZE(__pyx_v_group); if (unlikely(__pyx_t_14 == ((Py_ssize_t)-1))) __PYX_ERR(0, 47, __pyx_L7_error)
-            __pyx_t_3 = PyLong_FromSsize_t(__pyx_t_14); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 47, __pyx_L7_error)
+            __pyx_t_14 = __Pyx_PyList_GET_SIZE(__pyx_v_group); if (unlikely(__pyx_t_14 == ((Py_ssize_t)-1))) __PYX_ERR(0, 48, __pyx_L7_error)
+            __pyx_t_3 = PyLong_FromSsize_t(__pyx_t_14); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 48, __pyx_L7_error)
             __Pyx_GOTREF(__pyx_t_3);
-            __pyx_t_2 = PyObject_RichCompare(__pyx_t_3, __pyx_v_group_size, Py_LT); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 47, __pyx_L7_error)
+            __pyx_t_2 = PyObject_RichCompare(__pyx_t_3, __pyx_v_group_size, Py_LT); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 48, __pyx_L7_error)
             __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-            __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 47, __pyx_L7_error)
+            __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 48, __pyx_L7_error)
             __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
             if (unlikely(__pyx_t_12)) {
 
-              /* "SRAM/SRAM.pyx":48
+              /* "SRAM/SRAM.pyx":49
  * 				group = lines[idx:idx + group_size]
  * 				if len(group) < group_size:
  * 					raise ValueError("")             # <<<<<<<<<<<<<<
@@ -4423,14 +4446,14 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
                 __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+__pyx_t_4, (2-__pyx_t_4) | (__pyx_t_4*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
                 __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
                 __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-                if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 48, __pyx_L7_error)
+                if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 49, __pyx_L7_error)
                 __Pyx_GOTREF(__pyx_t_2);
               }
               __Pyx_Raise(__pyx_t_2, 0, 0, 0);
               __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-              __PYX_ERR(0, 48, __pyx_L7_error)
+              __PYX_ERR(0, 49, __pyx_L7_error)
 
-              /* "SRAM/SRAM.pyx":47
+              /* "SRAM/SRAM.pyx":48
  * 			for idx in range(0, len(lines), group_size):
  * 				group = lines[idx:idx + group_size]
  * 				if len(group) < group_size:             # <<<<<<<<<<<<<<
@@ -4439,22 +4462,22 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
 */
             }
 
-            /* "SRAM/SRAM.pyx":51
+            /* "SRAM/SRAM.pyx":52
  * 
  * 				#
  * 				hex_str = ''.join(group[::-1])             # <<<<<<<<<<<<<<
  * 				bytes_list = [int(hex_str[i:i + 2], 16) for i in range(0, len(hex_str), 2)]
  * 
 */
-            __pyx_t_2 = __Pyx_PyObject_GetItem(__pyx_v_group, __pyx_mstate_global->__pyx_slice[0]); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 51, __pyx_L7_error)
+            __pyx_t_2 = __Pyx_PyObject_GetItem(__pyx_v_group, __pyx_mstate_global->__pyx_slice[0]); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 52, __pyx_L7_error)
             __Pyx_GOTREF(__pyx_t_2);
-            __pyx_t_1 = PyUnicode_Join(__pyx_mstate_global->__pyx_kp_u__3, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 51, __pyx_L7_error)
+            __pyx_t_1 = PyUnicode_Join(__pyx_mstate_global->__pyx_kp_u__3, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 52, __pyx_L7_error)
             __Pyx_GOTREF(__pyx_t_1);
             __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
             __Pyx_XDECREF_SET(__pyx_v_hex_str, ((PyObject*)__pyx_t_1));
             __pyx_t_1 = 0;
 
-            /* "SRAM/SRAM.pyx":52
+            /* "SRAM/SRAM.pyx":53
  * 				#
  * 				hex_str = ''.join(group[::-1])
  * 				bytes_list = [int(hex_str[i:i + 2], 16) for i in range(0, len(hex_str), 2)]             # <<<<<<<<<<<<<<
@@ -4462,17 +4485,17 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
  * 				if len(bytes_list) != self.bytes:
 */
             { /* enter inner scope */
-              __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 52, __pyx_L26_error)
+              __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 53, __pyx_L26_error)
               __Pyx_GOTREF(__pyx_t_1);
               __pyx_t_3 = NULL;
               __Pyx_INCREF(__pyx_builtin_range);
               __pyx_t_16 = __pyx_builtin_range; 
               if (unlikely(__pyx_v_hex_str == Py_None)) {
                 PyErr_SetString(PyExc_TypeError, "object of type 'NoneType' has no len()");
-                __PYX_ERR(0, 52, __pyx_L26_error)
+                __PYX_ERR(0, 53, __pyx_L26_error)
               }
-              __pyx_t_14 = __Pyx_PyUnicode_GET_LENGTH(__pyx_v_hex_str); if (unlikely(__pyx_t_14 == ((Py_ssize_t)-1))) __PYX_ERR(0, 52, __pyx_L26_error)
-              __pyx_t_17 = PyLong_FromSsize_t(__pyx_t_14); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 52, __pyx_L26_error)
+              __pyx_t_14 = __Pyx_PyUnicode_GET_LENGTH(__pyx_v_hex_str); if (unlikely(__pyx_t_14 == ((Py_ssize_t)-1))) __PYX_ERR(0, 53, __pyx_L26_error)
+              __pyx_t_17 = PyLong_FromSsize_t(__pyx_t_14); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 53, __pyx_L26_error)
               __Pyx_GOTREF(__pyx_t_17);
               __pyx_t_4 = 1;
               {
@@ -4481,7 +4504,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
                 __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
                 __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
                 __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
-                if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 52, __pyx_L26_error)
+                if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 53, __pyx_L26_error)
                 __Pyx_GOTREF(__pyx_t_2);
               }
               if (likely(PyList_CheckExact(__pyx_t_2)) || PyTuple_CheckExact(__pyx_t_2)) {
@@ -4489,9 +4512,9 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
                 __pyx_t_14 = 0;
                 __pyx_t_18 = NULL;
               } else {
-                __pyx_t_14 = -1; __pyx_t_16 = PyObject_GetIter(__pyx_t_2); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 52, __pyx_L26_error)
+                __pyx_t_14 = -1; __pyx_t_16 = PyObject_GetIter(__pyx_t_2); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 53, __pyx_L26_error)
                 __Pyx_GOTREF(__pyx_t_16);
-                __pyx_t_18 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_16); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 52, __pyx_L26_error)
+                __pyx_t_18 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_16); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 53, __pyx_L26_error)
               }
               __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
               for (;;) {
@@ -4500,7 +4523,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
                     {
                       Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_16);
                       #if !CYTHON_ASSUME_SAFE_SIZE
-                      if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 52, __pyx_L26_error)
+                      if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 53, __pyx_L26_error)
                       #endif
                       if (__pyx_t_14 >= __pyx_temp) break;
                     }
@@ -4510,7 +4533,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
                     {
                       Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_16);
                       #if !CYTHON_ASSUME_SAFE_SIZE
-                      if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 52, __pyx_L26_error)
+                      if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 53, __pyx_L26_error)
                       #endif
                       if (__pyx_t_14 >= __pyx_temp) break;
                     }
@@ -4521,13 +4544,13 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
                     #endif
                     ++__pyx_t_14;
                   }
-                  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 52, __pyx_L26_error)
+                  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 53, __pyx_L26_error)
                 } else {
                   __pyx_t_2 = __pyx_t_18(__pyx_t_16);
                   if (unlikely(!__pyx_t_2)) {
                     PyObject* exc_type = PyErr_Occurred();
                     if (exc_type) {
-                      if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 52, __pyx_L26_error)
+                      if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 53, __pyx_L26_error)
                       PyErr_Clear();
                     }
                     break;
@@ -4541,7 +4564,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
                 __pyx_t_3 = ((PyObject *)(&PyLong_Type)); 
                 if (unlikely(__pyx_v_hex_str == Py_None)) {
                   PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
-                  __PYX_ERR(0, 52, __pyx_L26_error)
+                  __PYX_ERR(0, 53, __pyx_L26_error)
                 }
                 __Pyx_INCREF(__pyx_8genexpr3__pyx_v_i);
                 __pyx_t_19 = __pyx_8genexpr3__pyx_v_i;
@@ -4549,21 +4572,21 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
                 if (__pyx_t_12) {
                   __pyx_t_13 = 0;
                 } else {
-                  __pyx_t_15 = __Pyx_PyIndex_AsSsize_t(__pyx_t_19); if (unlikely((__pyx_t_15 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 52, __pyx_L26_error)
+                  __pyx_t_15 = __Pyx_PyIndex_AsSsize_t(__pyx_t_19); if (unlikely((__pyx_t_15 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 53, __pyx_L26_error)
                   __pyx_t_13 = __pyx_t_15;
                 }
                 __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
-                __pyx_t_19 = __Pyx_PyLong_AddObjC(__pyx_8genexpr3__pyx_v_i, __pyx_mstate_global->__pyx_int_2, 2, 0, 0); if (unlikely(!__pyx_t_19)) __PYX_ERR(0, 52, __pyx_L26_error)
+                __pyx_t_19 = __Pyx_PyLong_AddObjC(__pyx_8genexpr3__pyx_v_i, __pyx_mstate_global->__pyx_int_2, 2, 0, 0); if (unlikely(!__pyx_t_19)) __PYX_ERR(0, 53, __pyx_L26_error)
                 __Pyx_GOTREF(__pyx_t_19);
                 __pyx_t_12 = (__pyx_t_19 == Py_None);
                 if (__pyx_t_12) {
                   __pyx_t_15 = PY_SSIZE_T_MAX;
                 } else {
-                  __pyx_t_20 = __Pyx_PyIndex_AsSsize_t(__pyx_t_19); if (unlikely((__pyx_t_20 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 52, __pyx_L26_error)
+                  __pyx_t_20 = __Pyx_PyIndex_AsSsize_t(__pyx_t_19); if (unlikely((__pyx_t_20 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 53, __pyx_L26_error)
                   __pyx_t_15 = __pyx_t_20;
                 }
                 __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
-                __pyx_t_19 = __Pyx_PyUnicode_Substring(__pyx_v_hex_str, __pyx_t_13, __pyx_t_15); if (unlikely(!__pyx_t_19)) __PYX_ERR(0, 52, __pyx_L26_error)
+                __pyx_t_19 = __Pyx_PyUnicode_Substring(__pyx_v_hex_str, __pyx_t_13, __pyx_t_15); if (unlikely(!__pyx_t_19)) __PYX_ERR(0, 53, __pyx_L26_error)
                 __Pyx_GOTREF(__pyx_t_19);
                 __pyx_t_4 = 1;
                 {
@@ -4572,10 +4595,10 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
                   __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
                   __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
                   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-                  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 52, __pyx_L26_error)
+                  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 53, __pyx_L26_error)
                   __Pyx_GOTREF(__pyx_t_2);
                 }
-                if (unlikely(__Pyx_ListComp_Append(__pyx_t_1, (PyObject*)__pyx_t_2))) __PYX_ERR(0, 52, __pyx_L26_error)
+                if (unlikely(__Pyx_ListComp_Append(__pyx_t_1, (PyObject*)__pyx_t_2))) __PYX_ERR(0, 53, __pyx_L26_error)
                 __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
               }
               __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
@@ -4589,26 +4612,26 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
             __Pyx_XDECREF_SET(__pyx_v_bytes_list, ((PyObject*)__pyx_t_1));
             __pyx_t_1 = 0;
 
-            /* "SRAM/SRAM.pyx":54
+            /* "SRAM/SRAM.pyx":55
  * 				bytes_list = [int(hex_str[i:i + 2], 16) for i in range(0, len(hex_str), 2)]
  * 
  * 				if len(bytes_list) != self.bytes:             # <<<<<<<<<<<<<<
  * 					raise ValueError(f"{idx // group_size}SRAM")
  * 				if idx // group_size >= self.height:
 */
-            __pyx_t_14 = __Pyx_PyList_GET_SIZE(__pyx_v_bytes_list); if (unlikely(__pyx_t_14 == ((Py_ssize_t)-1))) __PYX_ERR(0, 54, __pyx_L7_error)
-            __pyx_t_1 = PyLong_FromSsize_t(__pyx_t_14); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 54, __pyx_L7_error)
+            __pyx_t_14 = __Pyx_PyList_GET_SIZE(__pyx_v_bytes_list); if (unlikely(__pyx_t_14 == ((Py_ssize_t)-1))) __PYX_ERR(0, 55, __pyx_L7_error)
+            __pyx_t_1 = PyLong_FromSsize_t(__pyx_t_14); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 55, __pyx_L7_error)
             __Pyx_GOTREF(__pyx_t_1);
-            __pyx_t_16 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 54, __pyx_L7_error)
+            __pyx_t_16 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 55, __pyx_L7_error)
             __Pyx_GOTREF(__pyx_t_16);
-            __pyx_t_2 = PyObject_RichCompare(__pyx_t_1, __pyx_t_16, Py_NE); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 54, __pyx_L7_error)
+            __pyx_t_2 = PyObject_RichCompare(__pyx_t_1, __pyx_t_16, Py_NE); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 55, __pyx_L7_error)
             __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
             __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
-            __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 54, __pyx_L7_error)
+            __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 55, __pyx_L7_error)
             __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
             if (unlikely(__pyx_t_12)) {
 
-              /* "SRAM/SRAM.pyx":55
+              /* "SRAM/SRAM.pyx":56
  * 
  * 				if len(bytes_list) != self.bytes:
  * 					raise ValueError(f"{idx // group_size}SRAM")             # <<<<<<<<<<<<<<
@@ -4618,16 +4641,16 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
               __pyx_t_16 = NULL;
               __Pyx_INCREF(__pyx_builtin_ValueError);
               __pyx_t_1 = __pyx_builtin_ValueError; 
-              __pyx_t_3 = PyNumber_FloorDivide(__pyx_v_idx, __pyx_v_group_size); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 55, __pyx_L7_error)
+              __pyx_t_3 = PyNumber_FloorDivide(__pyx_v_idx, __pyx_v_group_size); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 56, __pyx_L7_error)
               __Pyx_GOTREF(__pyx_t_3);
-              __pyx_t_19 = __Pyx_PyObject_FormatSimple(__pyx_t_3, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_19)) __PYX_ERR(0, 55, __pyx_L7_error)
+              __pyx_t_19 = __Pyx_PyObject_FormatSimple(__pyx_t_3, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_19)) __PYX_ERR(0, 56, __pyx_L7_error)
               __Pyx_GOTREF(__pyx_t_19);
               __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
               __pyx_t_21[0] = __pyx_mstate_global->__pyx_n_u__4;
               __pyx_t_21[1] = __pyx_t_19;
               __pyx_t_21[2] = __pyx_mstate_global->__pyx_n_u_SRAM;
               __pyx_t_3 = __Pyx_PyUnicode_Join(__pyx_t_21, 3, 1 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_19) + 14, 65535 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_19));
-              if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 55, __pyx_L7_error)
+              if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 56, __pyx_L7_error)
               __Pyx_GOTREF(__pyx_t_3);
               __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
               __pyx_t_4 = 1;
@@ -4637,14 +4660,14 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
                 __Pyx_XDECREF(__pyx_t_16); __pyx_t_16 = 0;
                 __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
                 __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-                if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 55, __pyx_L7_error)
+                if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 56, __pyx_L7_error)
                 __Pyx_GOTREF(__pyx_t_2);
               }
               __Pyx_Raise(__pyx_t_2, 0, 0, 0);
               __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-              __PYX_ERR(0, 55, __pyx_L7_error)
+              __PYX_ERR(0, 56, __pyx_L7_error)
 
-              /* "SRAM/SRAM.pyx":54
+              /* "SRAM/SRAM.pyx":55
  * 				bytes_list = [int(hex_str[i:i + 2], 16) for i in range(0, len(hex_str), 2)]
  * 
  * 				if len(bytes_list) != self.bytes:             # <<<<<<<<<<<<<<
@@ -4653,25 +4676,25 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
 */
             }
 
-            /* "SRAM/SRAM.pyx":56
+            /* "SRAM/SRAM.pyx":57
  * 				if len(bytes_list) != self.bytes:
  * 					raise ValueError(f"{idx // group_size}SRAM")
  * 				if idx // group_size >= self.height:             # <<<<<<<<<<<<<<
  * 					raise ValueError("SRAM")
  * 
 */
-            __pyx_t_2 = PyNumber_FloorDivide(__pyx_v_idx, __pyx_v_group_size); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 56, __pyx_L7_error)
+            __pyx_t_2 = PyNumber_FloorDivide(__pyx_v_idx, __pyx_v_group_size); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 57, __pyx_L7_error)
             __Pyx_GOTREF(__pyx_t_2);
-            __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_height); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 56, __pyx_L7_error)
+            __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_height); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 57, __pyx_L7_error)
             __Pyx_GOTREF(__pyx_t_1);
-            __pyx_t_3 = PyObject_RichCompare(__pyx_t_2, __pyx_t_1, Py_GE); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 56, __pyx_L7_error)
+            __pyx_t_3 = PyObject_RichCompare(__pyx_t_2, __pyx_t_1, Py_GE); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 57, __pyx_L7_error)
             __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
             __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-            __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 56, __pyx_L7_error)
+            __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely((__pyx_t_12 < 0))) __PYX_ERR(0, 57, __pyx_L7_error)
             __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
             if (unlikely(__pyx_t_12)) {
 
-              /* "SRAM/SRAM.pyx":57
+              /* "SRAM/SRAM.pyx":58
  * 					raise ValueError(f"{idx // group_size}SRAM")
  * 				if idx // group_size >= self.height:
  * 					raise ValueError("SRAM")             # <<<<<<<<<<<<<<
@@ -4687,14 +4710,14 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
                 __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+__pyx_t_4, (2-__pyx_t_4) | (__pyx_t_4*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
                 __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
                 __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-                if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 57, __pyx_L7_error)
+                if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 58, __pyx_L7_error)
                 __Pyx_GOTREF(__pyx_t_3);
               }
               __Pyx_Raise(__pyx_t_3, 0, 0, 0);
               __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-              __PYX_ERR(0, 57, __pyx_L7_error)
+              __PYX_ERR(0, 58, __pyx_L7_error)
 
-              /* "SRAM/SRAM.pyx":56
+              /* "SRAM/SRAM.pyx":57
  * 				if len(bytes_list) != self.bytes:
  * 					raise ValueError(f"{idx // group_size}SRAM")
  * 				if idx // group_size >= self.height:             # <<<<<<<<<<<<<<
@@ -4703,22 +4726,22 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
 */
             }
 
-            /* "SRAM/SRAM.pyx":60
+            /* "SRAM/SRAM.pyx":61
  * 
  * 				# SRAM
  * 				self.data[idx // group_size] = bytes_list             # <<<<<<<<<<<<<<
  * 
  * 	def write(self, en:bool, wstrb:int, address:int, data:List[int]):
 */
-            __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_data); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 60, __pyx_L7_error)
+            __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_data); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 61, __pyx_L7_error)
             __Pyx_GOTREF(__pyx_t_3);
-            __pyx_t_2 = PyNumber_FloorDivide(__pyx_v_idx, __pyx_v_group_size); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 60, __pyx_L7_error)
+            __pyx_t_2 = PyNumber_FloorDivide(__pyx_v_idx, __pyx_v_group_size); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 61, __pyx_L7_error)
             __Pyx_GOTREF(__pyx_t_2);
-            if (unlikely((PyObject_SetItem(__pyx_t_3, __pyx_t_2, __pyx_v_bytes_list) < 0))) __PYX_ERR(0, 60, __pyx_L7_error)
+            if (unlikely((PyObject_SetItem(__pyx_t_3, __pyx_t_2, __pyx_v_bytes_list) < 0))) __PYX_ERR(0, 61, __pyx_L7_error)
             __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
             __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-            /* "SRAM/SRAM.pyx":45
+            /* "SRAM/SRAM.pyx":46
  * 
  * 			#
  * 			for idx in range(0, len(lines), group_size):             # <<<<<<<<<<<<<<
@@ -4728,7 +4751,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
           }
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-          /* "SRAM/SRAM.pyx":39
+          /* "SRAM/SRAM.pyx":40
  * 
  * 	def read_from_file(self, inputfile):
  * 		with open(inputfile, 'r') as f:             # <<<<<<<<<<<<<<
@@ -4750,20 +4773,20 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
         /*except:*/ {
           __Pyx_AddTraceback("SRAM.SRAM.SramSp.read_from_file", __pyx_clineno, __pyx_lineno, __pyx_filename);
-          if (__Pyx_GetException(&__pyx_t_6, &__pyx_t_2, &__pyx_t_3) < 0) __PYX_ERR(0, 39, __pyx_L9_except_error)
+          if (__Pyx_GetException(&__pyx_t_6, &__pyx_t_2, &__pyx_t_3) < 0) __PYX_ERR(0, 40, __pyx_L9_except_error)
           __Pyx_XGOTREF(__pyx_t_6);
           __Pyx_XGOTREF(__pyx_t_2);
           __Pyx_XGOTREF(__pyx_t_3);
-          __pyx_t_1 = PyTuple_Pack(3, __pyx_t_6, __pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 39, __pyx_L9_except_error)
+          __pyx_t_1 = PyTuple_Pack(3, __pyx_t_6, __pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 40, __pyx_L9_except_error)
           __Pyx_GOTREF(__pyx_t_1);
           __pyx_t_22 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_1, NULL);
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-          if (unlikely(!__pyx_t_22)) __PYX_ERR(0, 39, __pyx_L9_except_error)
+          if (unlikely(!__pyx_t_22)) __PYX_ERR(0, 40, __pyx_L9_except_error)
           __Pyx_GOTREF(__pyx_t_22);
           __pyx_t_12 = __Pyx_PyObject_IsTrue(__pyx_t_22);
           __Pyx_DECREF(__pyx_t_22); __pyx_t_22 = 0;
-          if (__pyx_t_12 < 0) __PYX_ERR(0, 39, __pyx_L9_except_error)
+          if (__pyx_t_12 < 0) __PYX_ERR(0, 40, __pyx_L9_except_error)
           __pyx_t_23 = (!__pyx_t_12);
           if (unlikely(__pyx_t_23)) {
             __Pyx_GIVEREF(__pyx_t_6);
@@ -4771,7 +4794,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
             __Pyx_XGIVEREF(__pyx_t_3);
             __Pyx_ErrRestoreWithState(__pyx_t_6, __pyx_t_2, __pyx_t_3);
             __pyx_t_6 = 0;  __pyx_t_2 = 0;  __pyx_t_3 = 0; 
-            __PYX_ERR(0, 39, __pyx_L9_except_error)
+            __PYX_ERR(0, 40, __pyx_L9_except_error)
           }
           __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
           __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -4797,7 +4820,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
         if (__pyx_t_5) {
           __pyx_t_9 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_mstate_global->__pyx_tuple[0], NULL);
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-          if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 39, __pyx_L1_error)
+          if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 40, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_9);
           __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
         }
@@ -4812,7 +4835,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
     __pyx_L37:;
   }
 
-  /* "SRAM/SRAM.pyx":38
+  /* "SRAM/SRAM.pyx":39
  * 		self.data = [[0 for i in range(self.bytes)]for j in range(self.height)]
  * 
  * 	def read_from_file(self, inputfile):             # <<<<<<<<<<<<<<
@@ -4848,7 +4871,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_2read_from_file(CYTHON_UNUSED PyOb
   return __pyx_r;
 }
 
-/* "SRAM/SRAM.pyx":62
+/* "SRAM/SRAM.pyx":63
  * 				self.data[idx // group_size] = bytes_list
  * 
  * 	def write(self, en:bool, wstrb:int, address:int, data:List[int]):             # <<<<<<<<<<<<<<
@@ -4899,50 +4922,50 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_self,&__pyx_mstate_global->__pyx_n_u_en,&__pyx_mstate_global->__pyx_n_u_wstrb,&__pyx_mstate_global->__pyx_n_u_address,&__pyx_mstate_global->__pyx_n_u_data,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 62, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 63, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  5:
         values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 62, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 63, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 62, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 63, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 62, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 63, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 62, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 63, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 62, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 63, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "write", 0) < 0) __PYX_ERR(0, 62, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "write", 0) < 0) __PYX_ERR(0, 63, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 5; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("write", 1, 5, 5, i); __PYX_ERR(0, 62, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("write", 1, 5, 5, i); __PYX_ERR(0, 63, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 5)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 62, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 63, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 62, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 63, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 62, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 63, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 62, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 63, __pyx_L3_error)
       values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 62, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 63, __pyx_L3_error)
     }
     __pyx_v_self = values[0];
     __pyx_v_en = values[1];
@@ -4952,7 +4975,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("write", 1, 5, 5, __pyx_nargs); __PYX_ERR(0, 62, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("write", 1, 5, 5, __pyx_nargs); __PYX_ERR(0, 63, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -4963,9 +4986,9 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_wstrb), (&PyLong_Type), 0, "wstrb", 2))) __PYX_ERR(0, 62, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_address), (&PyLong_Type), 0, "address", 2))) __PYX_ERR(0, 62, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_data), (&PyList_Type), 0, "data", 2))) __PYX_ERR(0, 62, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_wstrb), (&PyLong_Type), 0, "wstrb", 2))) __PYX_ERR(0, 63, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_address), (&PyLong_Type), 0, "address", 2))) __PYX_ERR(0, 63, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_data), (&PyList_Type), 0, "data", 2))) __PYX_ERR(0, 63, __pyx_L1_error)
   __pyx_r = __pyx_pf_4SRAM_4SRAM_6SramSp_4write(__pyx_self, __pyx_v_self, __pyx_v_en, __pyx_v_wstrb, __pyx_v_address, __pyx_v_data);
 
   /* function exit code */
@@ -5005,81 +5028,81 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_4write(CYTHON_UNUSED PyObject *__p
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("write", 0);
 
-  /* "SRAM/SRAM.pyx":64
+  /* "SRAM/SRAM.pyx":65
  * 	def write(self, en:bool, wstrb:int, address:int, data:List[int]):
  * 		#
  * 		row_index = (address - self.base_addr) // self.bytes             # <<<<<<<<<<<<<<
  * 		cache_data = self.data[row_index][:]
  * 		if en:
 */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_base_addr); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 64, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_base_addr); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 65, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyNumber_Subtract(__pyx_v_address, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 64, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Subtract(__pyx_v_address, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 65, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 64, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 65, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = PyNumber_FloorDivide(__pyx_t_2, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 64, __pyx_L1_error)
+  __pyx_t_3 = PyNumber_FloorDivide(__pyx_t_2, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 65, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_row_index = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "SRAM/SRAM.pyx":65
+  /* "SRAM/SRAM.pyx":66
  * 		#
  * 		row_index = (address - self.base_addr) // self.bytes
  * 		cache_data = self.data[row_index][:]             # <<<<<<<<<<<<<<
  * 		if en:
  * 			if row_index < 0 or row_index >= self.height:
 */
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_data); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 65, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_data); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 66, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_1 = __Pyx_PyObject_GetItem(__pyx_t_3, __pyx_v_row_index); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 65, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetItem(__pyx_t_3, __pyx_v_row_index); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 66, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyObject_GetSlice(__pyx_t_1, 0, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[1], 0, 0, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 65, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetSlice(__pyx_t_1, 0, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[1], 0, 0, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 66, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_cache_data = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "SRAM/SRAM.pyx":66
+  /* "SRAM/SRAM.pyx":67
  * 		row_index = (address - self.base_addr) // self.bytes
  * 		cache_data = self.data[row_index][:]
  * 		if en:             # <<<<<<<<<<<<<<
  * 			if row_index < 0 or row_index >= self.height:
  * 				raise ValueError("Address out of range")
 */
-  __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_v_en); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 66, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_v_en); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 67, __pyx_L1_error)
   if (__pyx_t_4) {
 
-    /* "SRAM/SRAM.pyx":67
+    /* "SRAM/SRAM.pyx":68
  * 		cache_data = self.data[row_index][:]
  * 		if en:
  * 			if row_index < 0 or row_index >= self.height:             # <<<<<<<<<<<<<<
  * 				raise ValueError("Address out of range")
  * 			if len(data) != self.bytes:
 */
-    __pyx_t_3 = PyObject_RichCompare(__pyx_v_row_index, __pyx_mstate_global->__pyx_int_0, Py_LT); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 67, __pyx_L1_error)
-    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 67, __pyx_L1_error)
+    __pyx_t_3 = PyObject_RichCompare(__pyx_v_row_index, __pyx_mstate_global->__pyx_int_0, Py_LT); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 68, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 68, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     if (!__pyx_t_5) {
     } else {
       __pyx_t_4 = __pyx_t_5;
       goto __pyx_L5_bool_binop_done;
     }
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_height); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 67, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_height); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 68, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_1 = PyObject_RichCompare(__pyx_v_row_index, __pyx_t_3, Py_GE); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 67, __pyx_L1_error)
+    __pyx_t_1 = PyObject_RichCompare(__pyx_v_row_index, __pyx_t_3, Py_GE); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 68, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 67, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 68, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __pyx_t_4 = __pyx_t_5;
     __pyx_L5_bool_binop_done:;
     if (unlikely(__pyx_t_4)) {
 
-      /* "SRAM/SRAM.pyx":68
+      /* "SRAM/SRAM.pyx":69
  * 		if en:
  * 			if row_index < 0 or row_index >= self.height:
  * 				raise ValueError("Address out of range")             # <<<<<<<<<<<<<<
@@ -5095,14 +5118,14 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_4write(CYTHON_UNUSED PyObject *__p
         __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-        if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 68, __pyx_L1_error)
+        if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 69, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
       }
       __Pyx_Raise(__pyx_t_1, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __PYX_ERR(0, 68, __pyx_L1_error)
+      __PYX_ERR(0, 69, __pyx_L1_error)
 
-      /* "SRAM/SRAM.pyx":67
+      /* "SRAM/SRAM.pyx":68
  * 		cache_data = self.data[row_index][:]
  * 		if en:
  * 			if row_index < 0 or row_index >= self.height:             # <<<<<<<<<<<<<<
@@ -5111,26 +5134,26 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_4write(CYTHON_UNUSED PyObject *__p
 */
     }
 
-    /* "SRAM/SRAM.pyx":69
+    /* "SRAM/SRAM.pyx":70
  * 			if row_index < 0 or row_index >= self.height:
  * 				raise ValueError("Address out of range")
  * 			if len(data) != self.bytes:             # <<<<<<<<<<<<<<
  * 				raise ValueError("Data size does not match SRAM width")
  * 			# wstrb
 */
-    __pyx_t_7 = __Pyx_PyList_GET_SIZE(__pyx_v_data); if (unlikely(__pyx_t_7 == ((Py_ssize_t)-1))) __PYX_ERR(0, 69, __pyx_L1_error)
-    __pyx_t_1 = PyLong_FromSsize_t(__pyx_t_7); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 69, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyList_GET_SIZE(__pyx_v_data); if (unlikely(__pyx_t_7 == ((Py_ssize_t)-1))) __PYX_ERR(0, 70, __pyx_L1_error)
+    __pyx_t_1 = PyLong_FromSsize_t(__pyx_t_7); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 70, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 69, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 70, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_3 = PyObject_RichCompare(__pyx_t_1, __pyx_t_2, Py_NE); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 69, __pyx_L1_error)
+    __pyx_t_3 = PyObject_RichCompare(__pyx_t_1, __pyx_t_2, Py_NE); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 70, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 69, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 70, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     if (unlikely(__pyx_t_4)) {
 
-      /* "SRAM/SRAM.pyx":70
+      /* "SRAM/SRAM.pyx":71
  * 				raise ValueError("Address out of range")
  * 			if len(data) != self.bytes:
  * 				raise ValueError("Data size does not match SRAM width")             # <<<<<<<<<<<<<<
@@ -5146,14 +5169,14 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_4write(CYTHON_UNUSED PyObject *__p
         __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-        if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 70, __pyx_L1_error)
+        if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 71, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
       }
       __Pyx_Raise(__pyx_t_3, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __PYX_ERR(0, 70, __pyx_L1_error)
+      __PYX_ERR(0, 71, __pyx_L1_error)
 
-      /* "SRAM/SRAM.pyx":69
+      /* "SRAM/SRAM.pyx":70
  * 			if row_index < 0 or row_index >= self.height:
  * 				raise ValueError("Address out of range")
  * 			if len(data) != self.bytes:             # <<<<<<<<<<<<<<
@@ -5162,7 +5185,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_4write(CYTHON_UNUSED PyObject *__p
 */
     }
 
-    /* "SRAM/SRAM.pyx":72
+    /* "SRAM/SRAM.pyx":73
  * 				raise ValueError("Data size does not match SRAM width")
  * 			# wstrb
  * 			for i in range(self.bytes):             # <<<<<<<<<<<<<<
@@ -5172,7 +5195,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_4write(CYTHON_UNUSED PyObject *__p
     __pyx_t_1 = NULL;
     __Pyx_INCREF(__pyx_builtin_range);
     __pyx_t_2 = __pyx_builtin_range; 
-    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 72, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 73, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __pyx_t_6 = 1;
     {
@@ -5181,7 +5204,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_4write(CYTHON_UNUSED PyObject *__p
       __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 72, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 73, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
     }
     if (likely(PyList_CheckExact(__pyx_t_3)) || PyTuple_CheckExact(__pyx_t_3)) {
@@ -5189,9 +5212,9 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_4write(CYTHON_UNUSED PyObject *__p
       __pyx_t_7 = 0;
       __pyx_t_9 = NULL;
     } else {
-      __pyx_t_7 = -1; __pyx_t_2 = PyObject_GetIter(__pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 72, __pyx_L1_error)
+      __pyx_t_7 = -1; __pyx_t_2 = PyObject_GetIter(__pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 73, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_9 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_2); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 72, __pyx_L1_error)
+      __pyx_t_9 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_2); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 73, __pyx_L1_error)
     }
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     for (;;) {
@@ -5200,7 +5223,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_4write(CYTHON_UNUSED PyObject *__p
           {
             Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_2);
             #if !CYTHON_ASSUME_SAFE_SIZE
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 72, __pyx_L1_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 73, __pyx_L1_error)
             #endif
             if (__pyx_t_7 >= __pyx_temp) break;
           }
@@ -5210,7 +5233,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_4write(CYTHON_UNUSED PyObject *__p
           {
             Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_2);
             #if !CYTHON_ASSUME_SAFE_SIZE
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 72, __pyx_L1_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 73, __pyx_L1_error)
             #endif
             if (__pyx_t_7 >= __pyx_temp) break;
           }
@@ -5221,13 +5244,13 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_4write(CYTHON_UNUSED PyObject *__p
           #endif
           ++__pyx_t_7;
         }
-        if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 72, __pyx_L1_error)
+        if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 73, __pyx_L1_error)
       } else {
         __pyx_t_3 = __pyx_t_9(__pyx_t_2);
         if (unlikely(!__pyx_t_3)) {
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
-            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 72, __pyx_L1_error)
+            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 73, __pyx_L1_error)
             PyErr_Clear();
           }
           break;
@@ -5237,35 +5260,35 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_4write(CYTHON_UNUSED PyObject *__p
       __Pyx_XDECREF_SET(__pyx_v_i, __pyx_t_3);
       __pyx_t_3 = 0;
 
-      /* "SRAM/SRAM.pyx":73
+      /* "SRAM/SRAM.pyx":74
  * 			# wstrb
  * 			for i in range(self.bytes):
  * 				if (wstrb >> i) & 0x1:             # <<<<<<<<<<<<<<
  * 					cache_data[i] = data[i]
  * 		else:
 */
-      __pyx_t_3 = PyNumber_Rshift(__pyx_v_wstrb, __pyx_v_i); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 73, __pyx_L1_error)
+      __pyx_t_3 = PyNumber_Rshift(__pyx_v_wstrb, __pyx_v_i); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 74, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_8 = __Pyx_PyLong_AndObjC(__pyx_t_3, __pyx_mstate_global->__pyx_int_1, 0x1, 0, 0); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 73, __pyx_L1_error)
+      __pyx_t_8 = __Pyx_PyLong_AndObjC(__pyx_t_3, __pyx_mstate_global->__pyx_int_1, 0x1, 0, 0); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 74, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_8); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 73, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_8); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 74, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
       if (__pyx_t_4) {
 
-        /* "SRAM/SRAM.pyx":74
+        /* "SRAM/SRAM.pyx":75
  * 			for i in range(self.bytes):
  * 				if (wstrb >> i) & 0x1:
  * 					cache_data[i] = data[i]             # <<<<<<<<<<<<<<
  * 		else:
  * 			logger_sram.debug("--VEU write is miss, en is 0.")
 */
-        __pyx_t_8 = __Pyx_PyObject_GetItem(__pyx_v_data, __pyx_v_i); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 74, __pyx_L1_error)
+        __pyx_t_8 = __Pyx_PyObject_GetItem(__pyx_v_data, __pyx_v_i); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 75, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_8);
-        if (unlikely((PyObject_SetItem(__pyx_v_cache_data, __pyx_v_i, __pyx_t_8) < 0))) __PYX_ERR(0, 74, __pyx_L1_error)
+        if (unlikely((PyObject_SetItem(__pyx_v_cache_data, __pyx_v_i, __pyx_t_8) < 0))) __PYX_ERR(0, 75, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-        /* "SRAM/SRAM.pyx":73
+        /* "SRAM/SRAM.pyx":74
  * 			# wstrb
  * 			for i in range(self.bytes):
  * 				if (wstrb >> i) & 0x1:             # <<<<<<<<<<<<<<
@@ -5274,7 +5297,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_4write(CYTHON_UNUSED PyObject *__p
 */
       }
 
-      /* "SRAM/SRAM.pyx":72
+      /* "SRAM/SRAM.pyx":73
  * 				raise ValueError("Data size does not match SRAM width")
  * 			# wstrb
  * 			for i in range(self.bytes):             # <<<<<<<<<<<<<<
@@ -5284,7 +5307,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_4write(CYTHON_UNUSED PyObject *__p
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "SRAM/SRAM.pyx":66
+    /* "SRAM/SRAM.pyx":67
  * 		row_index = (address - self.base_addr) // self.bytes
  * 		cache_data = self.data[row_index][:]
  * 		if en:             # <<<<<<<<<<<<<<
@@ -5294,7 +5317,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_4write(CYTHON_UNUSED PyObject *__p
     goto __pyx_L3;
   }
 
-  /* "SRAM/SRAM.pyx":76
+  /* "SRAM/SRAM.pyx":77
  * 					cache_data[i] = data[i]
  * 		else:
  * 			logger_sram.debug("--VEU write is miss, en is 0.")             # <<<<<<<<<<<<<<
@@ -5303,9 +5326,9 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_4write(CYTHON_UNUSED PyObject *__p
 */
   /*else*/ {
     __pyx_t_8 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_logger_sram); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 76, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_logger_sram); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 77, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_debug); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 76, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_debug); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 77, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_6 = 1;
@@ -5325,26 +5348,26 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_4write(CYTHON_UNUSED PyObject *__p
       __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 76, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 77, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __pyx_L3:;
 
-  /* "SRAM/SRAM.pyx":77
+  /* "SRAM/SRAM.pyx":78
  * 		else:
  * 			logger_sram.debug("--VEU write is miss, en is 0.")
  * 		self.data[row_index] = cache_data             # <<<<<<<<<<<<<<
  * 
  * 	def read(self, en:bool, address:int):
 */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_data); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 77, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_data); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 78, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (unlikely((PyObject_SetItem(__pyx_t_2, __pyx_v_row_index, __pyx_v_cache_data) < 0))) __PYX_ERR(0, 77, __pyx_L1_error)
+  if (unlikely((PyObject_SetItem(__pyx_t_2, __pyx_v_row_index, __pyx_v_cache_data) < 0))) __PYX_ERR(0, 78, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "SRAM/SRAM.pyx":62
+  /* "SRAM/SRAM.pyx":63
  * 				self.data[idx // group_size] = bytes_list
  * 
  * 	def write(self, en:bool, wstrb:int, address:int, data:List[int]):             # <<<<<<<<<<<<<<
@@ -5371,7 +5394,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_4write(CYTHON_UNUSED PyObject *__p
   return __pyx_r;
 }
 
-/* "SRAM/SRAM.pyx":79
+/* "SRAM/SRAM.pyx":80
  * 		self.data[row_index] = cache_data
  * 
  * 	def read(self, en:bool, address:int):             # <<<<<<<<<<<<<<
@@ -5420,38 +5443,38 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_self,&__pyx_mstate_global->__pyx_n_u_en,&__pyx_mstate_global->__pyx_n_u_address,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 79, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 80, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 79, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 80, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 79, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 80, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 79, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 80, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "read", 0) < 0) __PYX_ERR(0, 79, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "read", 0) < 0) __PYX_ERR(0, 80, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 3; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("read", 1, 3, 3, i); __PYX_ERR(0, 79, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("read", 1, 3, 3, i); __PYX_ERR(0, 80, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 3)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 79, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 80, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 79, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 80, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 79, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 80, __pyx_L3_error)
     }
     __pyx_v_self = values[0];
     __pyx_v_en = values[1];
@@ -5459,7 +5482,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("read", 1, 3, 3, __pyx_nargs); __PYX_ERR(0, 79, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("read", 1, 3, 3, __pyx_nargs); __PYX_ERR(0, 80, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -5470,7 +5493,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_address), (&PyLong_Type), 0, "address", 2))) __PYX_ERR(0, 79, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_address), (&PyLong_Type), 0, "address", 2))) __PYX_ERR(0, 80, __pyx_L1_error)
   __pyx_r = __pyx_pf_4SRAM_4SRAM_6SramSp_6read(__pyx_self, __pyx_v_self, __pyx_v_en, __pyx_v_address);
 
   /* function exit code */
@@ -5511,42 +5534,42 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_6read(CYTHON_UNUSED PyObject *__py
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("read", 0);
 
-  /* "SRAM/SRAM.pyx":80
+  /* "SRAM/SRAM.pyx":81
  * 
  * 	def read(self, en:bool, address:int):
  * 		row_index = (address - self.base_addr) // self.bytes             # <<<<<<<<<<<<<<
  * 		output = [0] * self.bytes
  * 		if en:
 */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_base_addr); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 80, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_base_addr); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 81, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyNumber_Subtract(__pyx_v_address, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 80, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Subtract(__pyx_v_address, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 81, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 80, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 81, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = PyNumber_FloorDivide(__pyx_t_2, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 80, __pyx_L1_error)
+  __pyx_t_3 = PyNumber_FloorDivide(__pyx_t_2, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 81, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_row_index = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "SRAM/SRAM.pyx":81
+  /* "SRAM/SRAM.pyx":82
  * 	def read(self, en:bool, address:int):
  * 		row_index = (address - self.base_addr) // self.bytes
  * 		output = [0] * self.bytes             # <<<<<<<<<<<<<<
  * 		if en:
  * 			if row_index < 0 or row_index >= self.height:
 */
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 81, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 82, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 81, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 82, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__pyx_mstate_global->__pyx_int_0);
   __Pyx_GIVEREF(__pyx_mstate_global->__pyx_int_0);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 0, __pyx_mstate_global->__pyx_int_0) != (0)) __PYX_ERR(0, 81, __pyx_L1_error);
-  { PyObject* __pyx_temp = PyNumber_InPlaceMultiply(__pyx_t_1, __pyx_t_3); if (unlikely(!__pyx_temp)) __PYX_ERR(0, 81, __pyx_L1_error)
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 0, __pyx_mstate_global->__pyx_int_0) != (0)) __PYX_ERR(0, 82, __pyx_L1_error);
+  { PyObject* __pyx_temp = PyNumber_InPlaceMultiply(__pyx_t_1, __pyx_t_3); if (unlikely(!__pyx_temp)) __PYX_ERR(0, 82, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_temp);
     __Pyx_DECREF(__pyx_t_1);
     __pyx_t_1 = __pyx_temp;
@@ -5555,42 +5578,42 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_6read(CYTHON_UNUSED PyObject *__py
   __pyx_v_output = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "SRAM/SRAM.pyx":82
+  /* "SRAM/SRAM.pyx":83
  * 		row_index = (address - self.base_addr) // self.bytes
  * 		output = [0] * self.bytes
  * 		if en:             # <<<<<<<<<<<<<<
  * 			if row_index < 0 or row_index >= self.height:
  * 				logger_sram.info(f"--SRAM read error, which could be running veu with scalar")
 */
-  __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_v_en); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 82, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_v_en); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 83, __pyx_L1_error)
   if (__pyx_t_4) {
 
-    /* "SRAM/SRAM.pyx":83
+    /* "SRAM/SRAM.pyx":84
  * 		output = [0] * self.bytes
  * 		if en:
  * 			if row_index < 0 or row_index >= self.height:             # <<<<<<<<<<<<<<
  * 				logger_sram.info(f"--SRAM read error, which could be running veu with scalar")
  * 				logger_sram.error(f"--SRAM read address {address} out of range, row_index: {row_index}, height: {self.height}")
 */
-    __pyx_t_1 = PyObject_RichCompare(__pyx_v_row_index, __pyx_mstate_global->__pyx_int_0, Py_LT); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 83, __pyx_L1_error)
-    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 83, __pyx_L1_error)
+    __pyx_t_1 = PyObject_RichCompare(__pyx_v_row_index, __pyx_mstate_global->__pyx_int_0, Py_LT); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 84, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 84, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     if (!__pyx_t_5) {
     } else {
       __pyx_t_4 = __pyx_t_5;
       goto __pyx_L5_bool_binop_done;
     }
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_height); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 83, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_height); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 84, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_3 = PyObject_RichCompare(__pyx_v_row_index, __pyx_t_1, Py_GE); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 83, __pyx_L1_error)
+    __pyx_t_3 = PyObject_RichCompare(__pyx_v_row_index, __pyx_t_1, Py_GE); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 84, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 83, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 84, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_4 = __pyx_t_5;
     __pyx_L5_bool_binop_done:;
     if (__pyx_t_4) {
 
-      /* "SRAM/SRAM.pyx":84
+      /* "SRAM/SRAM.pyx":85
  * 		if en:
  * 			if row_index < 0 or row_index >= self.height:
  * 				logger_sram.info(f"--SRAM read error, which could be running veu with scalar")             # <<<<<<<<<<<<<<
@@ -5598,9 +5621,9 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_6read(CYTHON_UNUSED PyObject *__py
  * 				output = [0] * self.bytes
 */
       __pyx_t_1 = NULL;
-      __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_logger_sram); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 84, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_logger_sram); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 85, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_info); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 84, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_info); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 85, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __pyx_t_7 = 1;
@@ -5620,12 +5643,12 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_6read(CYTHON_UNUSED PyObject *__py
         __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+__pyx_t_7, (2-__pyx_t_7) | (__pyx_t_7*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 84, __pyx_L1_error)
+        if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 85, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
       }
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-      /* "SRAM/SRAM.pyx":85
+      /* "SRAM/SRAM.pyx":86
  * 			if row_index < 0 or row_index >= self.height:
  * 				logger_sram.info(f"--SRAM read error, which could be running veu with scalar")
  * 				logger_sram.error(f"--SRAM read address {address} out of range, row_index: {row_index}, height: {self.height}")             # <<<<<<<<<<<<<<
@@ -5633,18 +5656,18 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_6read(CYTHON_UNUSED PyObject *__py
  * 			else:
 */
       __pyx_t_6 = NULL;
-      __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_logger_sram); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 85, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_logger_sram); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 86, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_error); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 85, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_error); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 86, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __pyx_t_1 = __Pyx_PyObject_FormatSimple(__pyx_v_address, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 85, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_FormatSimple(__pyx_v_address, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 86, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_8 = __Pyx_PyObject_FormatSimple(__pyx_v_row_index, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 85, __pyx_L1_error)
+      __pyx_t_8 = __Pyx_PyObject_FormatSimple(__pyx_v_row_index, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 86, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
-      __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_height); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 85, __pyx_L1_error)
+      __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_height); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 86, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
-      __pyx_t_10 = __Pyx_PyObject_FormatSimple(__pyx_t_9, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 85, __pyx_L1_error)
+      __pyx_t_10 = __Pyx_PyObject_FormatSimple(__pyx_t_9, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 86, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
       __pyx_t_11[0] = __pyx_mstate_global->__pyx_kp_u_SRAM_read_address;
@@ -5654,7 +5677,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_6read(CYTHON_UNUSED PyObject *__py
       __pyx_t_11[4] = __pyx_mstate_global->__pyx_kp_u_height_2;
       __pyx_t_11[5] = __pyx_t_10;
       __pyx_t_9 = __Pyx_PyUnicode_Join(__pyx_t_11, 6, 21 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_1) + 26 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_8) + 10 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_10), 1114111 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_1) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_8) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_10));
-      if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 85, __pyx_L1_error)
+      if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 86, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -5677,26 +5700,26 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_6read(CYTHON_UNUSED PyObject *__py
         __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-        if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 85, __pyx_L1_error)
+        if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 86, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
       }
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-      /* "SRAM/SRAM.pyx":86
+      /* "SRAM/SRAM.pyx":87
  * 				logger_sram.info(f"--SRAM read error, which could be running veu with scalar")
  * 				logger_sram.error(f"--SRAM read address {address} out of range, row_index: {row_index}, height: {self.height}")
  * 				output = [0] * self.bytes             # <<<<<<<<<<<<<<
  * 			else:
  * 				# self.data[row_index][:]
 */
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 86, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 87, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_2 = PyList_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 86, __pyx_L1_error)
+      __pyx_t_2 = PyList_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 87, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_INCREF(__pyx_mstate_global->__pyx_int_0);
       __Pyx_GIVEREF(__pyx_mstate_global->__pyx_int_0);
-      if (__Pyx_PyList_SET_ITEM(__pyx_t_2, 0, __pyx_mstate_global->__pyx_int_0) != (0)) __PYX_ERR(0, 86, __pyx_L1_error);
-      { PyObject* __pyx_temp = PyNumber_InPlaceMultiply(__pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_temp)) __PYX_ERR(0, 86, __pyx_L1_error)
+      if (__Pyx_PyList_SET_ITEM(__pyx_t_2, 0, __pyx_mstate_global->__pyx_int_0) != (0)) __PYX_ERR(0, 87, __pyx_L1_error);
+      { PyObject* __pyx_temp = PyNumber_InPlaceMultiply(__pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_temp)) __PYX_ERR(0, 87, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_temp);
         __Pyx_DECREF(__pyx_t_2);
         __pyx_t_2 = __pyx_temp;
@@ -5705,7 +5728,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_6read(CYTHON_UNUSED PyObject *__py
       __Pyx_DECREF_SET(__pyx_v_output, __pyx_t_2);
       __pyx_t_2 = 0;
 
-      /* "SRAM/SRAM.pyx":83
+      /* "SRAM/SRAM.pyx":84
  * 		output = [0] * self.bytes
  * 		if en:
  * 			if row_index < 0 or row_index >= self.height:             # <<<<<<<<<<<<<<
@@ -5715,7 +5738,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_6read(CYTHON_UNUSED PyObject *__py
       goto __pyx_L4;
     }
 
-    /* "SRAM/SRAM.pyx":89
+    /* "SRAM/SRAM.pyx":90
  * 			else:
  * 				# self.data[row_index][:]
  * 				output = self.data[row_index][:]             # <<<<<<<<<<<<<<
@@ -5723,12 +5746,12 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_6read(CYTHON_UNUSED PyObject *__py
  * 			logger_sram.debug("--VEU read is miss, en is 0.")
 */
     /*else*/ {
-      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_data); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 89, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_data); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 90, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_3 = __Pyx_PyObject_GetItem(__pyx_t_2, __pyx_v_row_index); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 89, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_GetItem(__pyx_t_2, __pyx_v_row_index); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 90, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_2 = __Pyx_PyObject_GetSlice(__pyx_t_3, 0, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[1], 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 89, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_GetSlice(__pyx_t_3, 0, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[1], 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 90, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF_SET(__pyx_v_output, __pyx_t_2);
@@ -5736,7 +5759,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_6read(CYTHON_UNUSED PyObject *__py
     }
     __pyx_L4:;
 
-    /* "SRAM/SRAM.pyx":82
+    /* "SRAM/SRAM.pyx":83
  * 		row_index = (address - self.base_addr) // self.bytes
  * 		output = [0] * self.bytes
  * 		if en:             # <<<<<<<<<<<<<<
@@ -5746,7 +5769,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_6read(CYTHON_UNUSED PyObject *__py
     goto __pyx_L3;
   }
 
-  /* "SRAM/SRAM.pyx":91
+  /* "SRAM/SRAM.pyx":92
  * 				output = self.data[row_index][:]
  * 		else:
  * 			logger_sram.debug("--VEU read is miss, en is 0.")             # <<<<<<<<<<<<<<
@@ -5755,9 +5778,9 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_6read(CYTHON_UNUSED PyObject *__py
 */
   /*else*/ {
     __pyx_t_3 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_logger_sram); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 91, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_logger_sram); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 92, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_debug); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 91, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_debug); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 92, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
     __pyx_t_7 = 1;
@@ -5777,14 +5800,14 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_6read(CYTHON_UNUSED PyObject *__py
       __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+__pyx_t_7, (2-__pyx_t_7) | (__pyx_t_7*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 91, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 92, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __pyx_L3:;
 
-  /* "SRAM/SRAM.pyx":92
+  /* "SRAM/SRAM.pyx":93
  * 		else:
  * 			logger_sram.debug("--VEU read is miss, en is 0.")
  * 		return output             # <<<<<<<<<<<<<<
@@ -5796,7 +5819,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_6read(CYTHON_UNUSED PyObject *__py
   __pyx_r = __pyx_v_output;
   goto __pyx_L0;
 
-  /* "SRAM/SRAM.pyx":79
+  /* "SRAM/SRAM.pyx":80
  * 		self.data[row_index] = cache_data
  * 
  * 	def read(self, en:bool, address:int):             # <<<<<<<<<<<<<<
@@ -5823,7 +5846,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_6read(CYTHON_UNUSED PyObject *__py
   return __pyx_r;
 }
 
-/* "SRAM/SRAM.pyx":94
+/* "SRAM/SRAM.pyx":95
  * 		return output
  * 
  * 	def write_cpu(self, en, wstrb, address:int, data):             # <<<<<<<<<<<<<<
@@ -5875,50 +5898,50 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_self,&__pyx_mstate_global->__pyx_n_u_en,&__pyx_mstate_global->__pyx_n_u_wstrb,&__pyx_mstate_global->__pyx_n_u_address,&__pyx_mstate_global->__pyx_n_u_data,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 94, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 95, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  5:
         values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 94, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 95, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 94, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 95, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 94, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 95, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 94, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 95, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 94, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 95, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "write_cpu", 0) < 0) __PYX_ERR(0, 94, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "write_cpu", 0) < 0) __PYX_ERR(0, 95, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 5; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("write_cpu", 1, 5, 5, i); __PYX_ERR(0, 94, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("write_cpu", 1, 5, 5, i); __PYX_ERR(0, 95, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 5)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 94, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 95, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 94, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 95, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 94, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 95, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 94, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 95, __pyx_L3_error)
       values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 94, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 95, __pyx_L3_error)
     }
     __pyx_v_self = values[0];
     __pyx_v_en = values[1];
@@ -5928,7 +5951,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("write_cpu", 1, 5, 5, __pyx_nargs); __PYX_ERR(0, 94, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("write_cpu", 1, 5, 5, __pyx_nargs); __PYX_ERR(0, 95, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -5939,7 +5962,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_address), (&PyLong_Type), 0, "address", 2))) __PYX_ERR(0, 94, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_address), (&PyLong_Type), 0, "address", 2))) __PYX_ERR(0, 95, __pyx_L1_error)
   __pyx_r = __pyx_pf_4SRAM_4SRAM_6SramSp_8write_cpu(__pyx_self, __pyx_v_self, __pyx_v_en, __pyx_v_wstrb, __pyx_v_address, __pyx_v_data);
 
   /* function exit code */
@@ -5980,55 +6003,55 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_8write_cpu(CYTHON_UNUSED PyObject 
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("write_cpu", 0);
 
-  /* "SRAM/SRAM.pyx":99
+  /* "SRAM/SRAM.pyx":100
  * 		"""
  * 		#
  * 		row = address // self.bytes             # <<<<<<<<<<<<<<
  * 		offset = address % self.bytes
  * 		# print(f"row: {row}, offset: {offset}, wstrb: {wstrb}, data: {data}")
 */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 99, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 100, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyNumber_FloorDivide(__pyx_v_address, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 99, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_FloorDivide(__pyx_v_address, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 100, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_row = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "SRAM/SRAM.pyx":100
+  /* "SRAM/SRAM.pyx":101
  * 		#
  * 		row = address // self.bytes
  * 		offset = address % self.bytes             # <<<<<<<<<<<<<<
  * 		# print(f"row: {row}, offset: {offset}, wstrb: {wstrb}, data: {data}")
  * 		# exit()
 */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 101, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_1 = PyNumber_Remainder(__pyx_v_address, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 100, __pyx_L1_error)
+  __pyx_t_1 = PyNumber_Remainder(__pyx_v_address, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 101, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_offset = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "SRAM/SRAM.pyx":104
+  /* "SRAM/SRAM.pyx":105
  * 		# exit()
  * 
  * 		cache_data = self.data[row][:]             # <<<<<<<<<<<<<<
  * 		data_bytes = list(data.to_bytes(4, byteorder='big'))
  * 		if en:
 */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_data); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_data); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 105, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_GetItem(__pyx_t_1, __pyx_v_row); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetItem(__pyx_t_1, __pyx_v_row); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 105, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_GetSlice(__pyx_t_2, 0, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[1], 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetSlice(__pyx_t_2, 0, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[1], 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 105, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_cache_data = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "SRAM/SRAM.pyx":105
+  /* "SRAM/SRAM.pyx":106
  * 
  * 		cache_data = self.data[row][:]
  * 		data_bytes = list(data.to_bytes(4, byteorder='big'))             # <<<<<<<<<<<<<<
@@ -6040,57 +6063,57 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_8write_cpu(CYTHON_UNUSED PyObject 
   __pyx_t_3 = 0;
   {
     PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_2, __pyx_mstate_global->__pyx_int_4};
-    __pyx_t_4 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 105, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 106, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_byteorder, __pyx_mstate_global->__pyx_n_u_big, __pyx_t_4, __pyx_callargs+2, 0) < 0) __PYX_ERR(0, 105, __pyx_L1_error)
+    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_byteorder, __pyx_mstate_global->__pyx_n_u_big, __pyx_t_4, __pyx_callargs+2, 0) < 0) __PYX_ERR(0, 106, __pyx_L1_error)
     __pyx_t_1 = __Pyx_Object_VectorcallMethod_CallFromBuilder(__pyx_mstate_global->__pyx_n_u_to_bytes, __pyx_callargs+__pyx_t_3, (2-__pyx_t_3) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_4);
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 105, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 106, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
   }
-  __pyx_t_4 = __Pyx_PySequence_ListKeepNew(__pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 105, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PySequence_ListKeepNew(__pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 106, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_data_bytes = ((PyObject*)__pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* "SRAM/SRAM.pyx":106
+  /* "SRAM/SRAM.pyx":107
  * 		cache_data = self.data[row][:]
  * 		data_bytes = list(data.to_bytes(4, byteorder='big'))
  * 		if en:             # <<<<<<<<<<<<<<
  * 			if row < 0 or row >= self.height:
  * 				raise ValueError("Address out of range")
 */
-  __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_v_en); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 106, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_v_en); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 107, __pyx_L1_error)
   if (__pyx_t_5) {
 
-    /* "SRAM/SRAM.pyx":107
+    /* "SRAM/SRAM.pyx":108
  * 		data_bytes = list(data.to_bytes(4, byteorder='big'))
  * 		if en:
  * 			if row < 0 or row >= self.height:             # <<<<<<<<<<<<<<
  * 				raise ValueError("Address out of range")
  * 
 */
-    __pyx_t_4 = PyObject_RichCompare(__pyx_v_row, __pyx_mstate_global->__pyx_int_0, Py_LT); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 107, __pyx_L1_error)
-    __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely((__pyx_t_6 < 0))) __PYX_ERR(0, 107, __pyx_L1_error)
+    __pyx_t_4 = PyObject_RichCompare(__pyx_v_row, __pyx_mstate_global->__pyx_int_0, Py_LT); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 108, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely((__pyx_t_6 < 0))) __PYX_ERR(0, 108, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     if (!__pyx_t_6) {
     } else {
       __pyx_t_5 = __pyx_t_6;
       goto __pyx_L5_bool_binop_done;
     }
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_height); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 107, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_height); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 108, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_1 = PyObject_RichCompare(__pyx_v_row, __pyx_t_4, Py_GE); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 107, __pyx_L1_error)
+    __pyx_t_1 = PyObject_RichCompare(__pyx_v_row, __pyx_t_4, Py_GE); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 108, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_6 < 0))) __PYX_ERR(0, 107, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_6 < 0))) __PYX_ERR(0, 108, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __pyx_t_5 = __pyx_t_6;
     __pyx_L5_bool_binop_done:;
     if (unlikely(__pyx_t_5)) {
 
-      /* "SRAM/SRAM.pyx":108
+      /* "SRAM/SRAM.pyx":109
  * 		if en:
  * 			if row < 0 or row >= self.height:
  * 				raise ValueError("Address out of range")             # <<<<<<<<<<<<<<
@@ -6106,14 +6129,14 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_8write_cpu(CYTHON_UNUSED PyObject 
         __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+__pyx_t_3, (2-__pyx_t_3) | (__pyx_t_3*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-        if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 108, __pyx_L1_error)
+        if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 109, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
       }
       __Pyx_Raise(__pyx_t_1, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __PYX_ERR(0, 108, __pyx_L1_error)
+      __PYX_ERR(0, 109, __pyx_L1_error)
 
-      /* "SRAM/SRAM.pyx":107
+      /* "SRAM/SRAM.pyx":108
  * 		data_bytes = list(data.to_bytes(4, byteorder='big'))
  * 		if en:
  * 			if row < 0 or row >= self.height:             # <<<<<<<<<<<<<<
@@ -6122,7 +6145,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_8write_cpu(CYTHON_UNUSED PyObject 
 */
     }
 
-    /* "SRAM/SRAM.pyx":111
+    /* "SRAM/SRAM.pyx":112
  * 
  * 			# wstrb
  * 			for i in range(4):             # <<<<<<<<<<<<<<
@@ -6130,67 +6153,67 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_8write_cpu(CYTHON_UNUSED PyObject 
  * 					if offset + i < self.bytes:
 */
     for (__pyx_t_7 = 0; __pyx_t_7 < 4; __pyx_t_7+=1) {
-      __pyx_t_1 = PyLong_FromSsize_t(__pyx_t_7); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 111, __pyx_L1_error)
+      __pyx_t_1 = PyLong_FromSsize_t(__pyx_t_7); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 112, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_XDECREF_SET(__pyx_v_i, __pyx_t_1);
       __pyx_t_1 = 0;
 
-      /* "SRAM/SRAM.pyx":112
+      /* "SRAM/SRAM.pyx":113
  * 			# wstrb
  * 			for i in range(4):
  * 				if (wstrb >> i) & 0x1:             # <<<<<<<<<<<<<<
  * 					if offset + i < self.bytes:
  * 						# hex // python list
 */
-      __pyx_t_1 = PyNumber_Rshift(__pyx_v_wstrb, __pyx_v_i); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 112, __pyx_L1_error)
+      __pyx_t_1 = PyNumber_Rshift(__pyx_v_wstrb, __pyx_v_i); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 113, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_2 = __Pyx_PyLong_AndObjC(__pyx_t_1, __pyx_mstate_global->__pyx_int_1, 0x1, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 112, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyLong_AndObjC(__pyx_t_1, __pyx_mstate_global->__pyx_int_1, 0x1, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 113, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 112, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 113, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       if (__pyx_t_5) {
 
-        /* "SRAM/SRAM.pyx":113
+        /* "SRAM/SRAM.pyx":114
  * 			for i in range(4):
  * 				if (wstrb >> i) & 0x1:
  * 					if offset + i < self.bytes:             # <<<<<<<<<<<<<<
  * 						# hex // python list
  * 						cache_data[15 - offset - i] = data_bytes[3-i]
 */
-        __pyx_t_2 = PyNumber_Add(__pyx_v_offset, __pyx_v_i); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 113, __pyx_L1_error)
+        __pyx_t_2 = PyNumber_Add(__pyx_v_offset, __pyx_v_i); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 114, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
-        __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 113, __pyx_L1_error)
+        __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 114, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
-        __pyx_t_4 = PyObject_RichCompare(__pyx_t_2, __pyx_t_1, Py_LT); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 113, __pyx_L1_error)
+        __pyx_t_4 = PyObject_RichCompare(__pyx_t_2, __pyx_t_1, Py_LT); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 114, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 113, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 114, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         if (likely(__pyx_t_5)) {
 
-          /* "SRAM/SRAM.pyx":115
+          /* "SRAM/SRAM.pyx":116
  * 					if offset + i < self.bytes:
  * 						# hex // python list
  * 						cache_data[15 - offset - i] = data_bytes[3-i]             # <<<<<<<<<<<<<<
  * 						# TODO:
  * 
 */
-          __pyx_t_4 = __Pyx_PyLong_SubtractCObj(__pyx_mstate_global->__pyx_int_3, __pyx_v_i, 3, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 115, __pyx_L1_error)
+          __pyx_t_4 = __Pyx_PyLong_SubtractCObj(__pyx_mstate_global->__pyx_int_3, __pyx_v_i, 3, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 116, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_4);
-          __pyx_t_1 = __Pyx_PyObject_GetItem(__pyx_v_data_bytes, __pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 115, __pyx_L1_error)
+          __pyx_t_1 = __Pyx_PyObject_GetItem(__pyx_v_data_bytes, __pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 116, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_1);
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-          __pyx_t_4 = __Pyx_PyLong_SubtractCObj(__pyx_mstate_global->__pyx_int_15, __pyx_v_offset, 15, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 115, __pyx_L1_error)
+          __pyx_t_4 = __Pyx_PyLong_SubtractCObj(__pyx_mstate_global->__pyx_int_15, __pyx_v_offset, 15, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 116, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_4);
-          __pyx_t_2 = PyNumber_Subtract(__pyx_t_4, __pyx_v_i); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 115, __pyx_L1_error)
+          __pyx_t_2 = PyNumber_Subtract(__pyx_t_4, __pyx_v_i); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 116, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-          if (unlikely((PyObject_SetItem(__pyx_v_cache_data, __pyx_t_2, __pyx_t_1) < 0))) __PYX_ERR(0, 115, __pyx_L1_error)
+          if (unlikely((PyObject_SetItem(__pyx_v_cache_data, __pyx_t_2, __pyx_t_1) < 0))) __PYX_ERR(0, 116, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
           __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-          /* "SRAM/SRAM.pyx":113
+          /* "SRAM/SRAM.pyx":114
  * 			for i in range(4):
  * 				if (wstrb >> i) & 0x1:
  * 					if offset + i < self.bytes:             # <<<<<<<<<<<<<<
@@ -6200,7 +6223,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_8write_cpu(CYTHON_UNUSED PyObject 
           goto __pyx_L10;
         }
 
-        /* "SRAM/SRAM.pyx":119
+        /* "SRAM/SRAM.pyx":120
  * 
  * 					else:
  * 						raise ValueError("Write exceeds row boundary")             # <<<<<<<<<<<<<<
@@ -6217,16 +6240,16 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_8write_cpu(CYTHON_UNUSED PyObject 
             __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+__pyx_t_3, (2-__pyx_t_3) | (__pyx_t_3*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
             __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
             __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-            if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 119, __pyx_L1_error)
+            if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 120, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_1);
           }
           __Pyx_Raise(__pyx_t_1, 0, 0, 0);
           __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-          __PYX_ERR(0, 119, __pyx_L1_error)
+          __PYX_ERR(0, 120, __pyx_L1_error)
         }
         __pyx_L10:;
 
-        /* "SRAM/SRAM.pyx":112
+        /* "SRAM/SRAM.pyx":113
  * 			# wstrb
  * 			for i in range(4):
  * 				if (wstrb >> i) & 0x1:             # <<<<<<<<<<<<<<
@@ -6236,19 +6259,19 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_8write_cpu(CYTHON_UNUSED PyObject 
       }
     }
 
-    /* "SRAM/SRAM.pyx":120
+    /* "SRAM/SRAM.pyx":121
  * 					else:
  * 						raise ValueError("Write exceeds row boundary")
  * 			self.data[row] = cache_data             # <<<<<<<<<<<<<<
  * 
  * 		else:
 */
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_data); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 120, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_data); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    if (unlikely((PyObject_SetItem(__pyx_t_1, __pyx_v_row, __pyx_v_cache_data) < 0))) __PYX_ERR(0, 120, __pyx_L1_error)
+    if (unlikely((PyObject_SetItem(__pyx_t_1, __pyx_v_row, __pyx_v_cache_data) < 0))) __PYX_ERR(0, 121, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "SRAM/SRAM.pyx":106
+    /* "SRAM/SRAM.pyx":107
  * 		cache_data = self.data[row][:]
  * 		data_bytes = list(data.to_bytes(4, byteorder='big'))
  * 		if en:             # <<<<<<<<<<<<<<
@@ -6258,7 +6281,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_8write_cpu(CYTHON_UNUSED PyObject 
     goto __pyx_L3;
   }
 
-  /* "SRAM/SRAM.pyx":123
+  /* "SRAM/SRAM.pyx":124
  * 
  * 		else:
  * 			logger_sram.debug("--VEU write is miss, en is 0.")             # <<<<<<<<<<<<<<
@@ -6267,9 +6290,9 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_8write_cpu(CYTHON_UNUSED PyObject 
 */
   /*else*/ {
     __pyx_t_4 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_logger_sram); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 123, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_logger_sram); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 124, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_debug); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 123, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_debug); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 124, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_t_3 = 1;
@@ -6289,14 +6312,14 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_8write_cpu(CYTHON_UNUSED PyObject 
       __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_8, __pyx_callargs+__pyx_t_3, (2-__pyx_t_3) | (__pyx_t_3*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 123, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 124, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
     }
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   }
   __pyx_L3:;
 
-  /* "SRAM/SRAM.pyx":94
+  /* "SRAM/SRAM.pyx":95
  * 		return output
  * 
  * 	def write_cpu(self, en, wstrb, address:int, data):             # <<<<<<<<<<<<<<
@@ -6325,7 +6348,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_8write_cpu(CYTHON_UNUSED PyObject 
   return __pyx_r;
 }
 
-/* "SRAM/SRAM.pyx":125
+/* "SRAM/SRAM.pyx":126
  * 			logger_sram.debug("--VEU write is miss, en is 0.")
  * 
  * 	def read_cpu(self, en, address: int):             # <<<<<<<<<<<<<<
@@ -6374,38 +6397,38 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_self,&__pyx_mstate_global->__pyx_n_u_en,&__pyx_mstate_global->__pyx_n_u_address,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 125, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 126, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 125, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 126, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 125, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 126, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 125, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 126, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "read_cpu", 0) < 0) __PYX_ERR(0, 125, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "read_cpu", 0) < 0) __PYX_ERR(0, 126, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 3; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("read_cpu", 1, 3, 3, i); __PYX_ERR(0, 125, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("read_cpu", 1, 3, 3, i); __PYX_ERR(0, 126, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 3)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 125, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 126, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 125, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 126, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 125, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 126, __pyx_L3_error)
     }
     __pyx_v_self = values[0];
     __pyx_v_en = values[1];
@@ -6413,7 +6436,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("read_cpu", 1, 3, 3, __pyx_nargs); __PYX_ERR(0, 125, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("read_cpu", 1, 3, 3, __pyx_nargs); __PYX_ERR(0, 126, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -6424,7 +6447,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_address), (&PyLong_Type), 0, "address", 2))) __PYX_ERR(0, 125, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_address), (&PyLong_Type), 0, "address", 2))) __PYX_ERR(0, 126, __pyx_L1_error)
   __pyx_r = __pyx_pf_4SRAM_4SRAM_6SramSp_10read_cpu(__pyx_self, __pyx_v_self, __pyx_v_en, __pyx_v_address);
 
   /* function exit code */
@@ -6463,115 +6486,115 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_10read_cpu(CYTHON_UNUSED PyObject 
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("read_cpu", 0);
 
-  /* "SRAM/SRAM.pyx":128
+  /* "SRAM/SRAM.pyx":129
  * 		# cpu data interface only has 32bit, so we need to convert the data to 4 bytes
  * 		# , 4byte
  * 		row = (address & 0xFFFFFFFC) // self.bytes             # <<<<<<<<<<<<<<
  * 		offset = (address & 0xFFFFFFFC) % self.bytes
  * 		cache_data = self.data[row][:]
 */
-  __pyx_t_1 = PyNumber_And(__pyx_v_address, __pyx_mstate_global->__pyx_int_4294967292); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 128, __pyx_L1_error)
+  __pyx_t_1 = PyNumber_And(__pyx_v_address, __pyx_mstate_global->__pyx_int_4294967292); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 129, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 128, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 129, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyNumber_FloorDivide(__pyx_t_1, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 128, __pyx_L1_error)
+  __pyx_t_3 = PyNumber_FloorDivide(__pyx_t_1, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 129, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_row = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "SRAM/SRAM.pyx":129
+  /* "SRAM/SRAM.pyx":130
  * 		# , 4byte
  * 		row = (address & 0xFFFFFFFC) // self.bytes
  * 		offset = (address & 0xFFFFFFFC) % self.bytes             # <<<<<<<<<<<<<<
  * 		cache_data = self.data[row][:]
  * 		output = [0] * 4
 */
-  __pyx_t_3 = PyNumber_And(__pyx_v_address, __pyx_mstate_global->__pyx_int_4294967292); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 129, __pyx_L1_error)
+  __pyx_t_3 = PyNumber_And(__pyx_v_address, __pyx_mstate_global->__pyx_int_4294967292); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 130, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 129, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 130, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_1 = PyNumber_Remainder(__pyx_t_3, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 129, __pyx_L1_error)
+  __pyx_t_1 = PyNumber_Remainder(__pyx_t_3, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 130, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_offset = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "SRAM/SRAM.pyx":130
+  /* "SRAM/SRAM.pyx":131
  * 		row = (address & 0xFFFFFFFC) // self.bytes
  * 		offset = (address & 0xFFFFFFFC) % self.bytes
  * 		cache_data = self.data[row][:]             # <<<<<<<<<<<<<<
  * 		output = [0] * 4
  * 		if en:
 */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_data); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 130, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_data); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 131, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_GetItem(__pyx_t_1, __pyx_v_row); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 130, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetItem(__pyx_t_1, __pyx_v_row); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 131, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_GetSlice(__pyx_t_2, 0, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[1], 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 130, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetSlice(__pyx_t_2, 0, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[1], 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 131, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_cache_data = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "SRAM/SRAM.pyx":131
+  /* "SRAM/SRAM.pyx":132
  * 		offset = (address & 0xFFFFFFFC) % self.bytes
  * 		cache_data = self.data[row][:]
  * 		output = [0] * 4             # <<<<<<<<<<<<<<
  * 		if en:
  * 			if row < 0 or row >= self.height:
 */
-  __pyx_t_1 = PyList_New(1 * 4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 131, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(1 * 4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 132, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   { Py_ssize_t __pyx_temp;
     for (__pyx_temp=0; __pyx_temp < 4; __pyx_temp++) {
       __Pyx_INCREF(__pyx_mstate_global->__pyx_int_0);
       __Pyx_GIVEREF(__pyx_mstate_global->__pyx_int_0);
-      if (__Pyx_PyList_SET_ITEM(__pyx_t_1, __pyx_temp, __pyx_mstate_global->__pyx_int_0) != (0)) __PYX_ERR(0, 131, __pyx_L1_error);
+      if (__Pyx_PyList_SET_ITEM(__pyx_t_1, __pyx_temp, __pyx_mstate_global->__pyx_int_0) != (0)) __PYX_ERR(0, 132, __pyx_L1_error);
     }
   }
   __pyx_v_output = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "SRAM/SRAM.pyx":132
+  /* "SRAM/SRAM.pyx":133
  * 		cache_data = self.data[row][:]
  * 		output = [0] * 4
  * 		if en:             # <<<<<<<<<<<<<<
  * 			if row < 0 or row >= self.height:
  * 				raise ValueError("Address out of range")
 */
-  __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_v_en); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 132, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_v_en); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 133, __pyx_L1_error)
   if (__pyx_t_4) {
 
-    /* "SRAM/SRAM.pyx":133
+    /* "SRAM/SRAM.pyx":134
  * 		output = [0] * 4
  * 		if en:
  * 			if row < 0 or row >= self.height:             # <<<<<<<<<<<<<<
  * 				raise ValueError("Address out of range")
  * 			# 4
 */
-    __pyx_t_1 = PyObject_RichCompare(__pyx_v_row, __pyx_mstate_global->__pyx_int_0, Py_LT); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 133, __pyx_L1_error)
-    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 133, __pyx_L1_error)
+    __pyx_t_1 = PyObject_RichCompare(__pyx_v_row, __pyx_mstate_global->__pyx_int_0, Py_LT); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 134, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 134, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     if (!__pyx_t_5) {
     } else {
       __pyx_t_4 = __pyx_t_5;
       goto __pyx_L5_bool_binop_done;
     }
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_height); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 133, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_height); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 134, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_2 = PyObject_RichCompare(__pyx_v_row, __pyx_t_1, Py_GE); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 133, __pyx_L1_error)
+    __pyx_t_2 = PyObject_RichCompare(__pyx_v_row, __pyx_t_1, Py_GE); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 134, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 133, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 134, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_t_4 = __pyx_t_5;
     __pyx_L5_bool_binop_done:;
     if (unlikely(__pyx_t_4)) {
 
-      /* "SRAM/SRAM.pyx":134
+      /* "SRAM/SRAM.pyx":135
  * 		if en:
  * 			if row < 0 or row >= self.height:
  * 				raise ValueError("Address out of range")             # <<<<<<<<<<<<<<
@@ -6587,14 +6610,14 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_10read_cpu(CYTHON_UNUSED PyObject 
         __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 134, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 135, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
       }
       __Pyx_Raise(__pyx_t_2, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __PYX_ERR(0, 134, __pyx_L1_error)
+      __PYX_ERR(0, 135, __pyx_L1_error)
 
-      /* "SRAM/SRAM.pyx":133
+      /* "SRAM/SRAM.pyx":134
  * 		output = [0] * 4
  * 		if en:
  * 			if row < 0 or row >= self.height:             # <<<<<<<<<<<<<<
@@ -6603,43 +6626,43 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_10read_cpu(CYTHON_UNUSED PyObject 
 */
     }
 
-    /* "SRAM/SRAM.pyx":136
+    /* "SRAM/SRAM.pyx":137
  * 				raise ValueError("Address out of range")
  * 			# 4
  * 			if offset + 4 <= self.bytes:             # <<<<<<<<<<<<<<
  * 				output = cache_data[12-offset:16-offset]
  * 			else:
 */
-    __pyx_t_2 = __Pyx_PyLong_AddObjC(__pyx_v_offset, __pyx_mstate_global->__pyx_int_4, 4, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 136, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyLong_AddObjC(__pyx_v_offset, __pyx_mstate_global->__pyx_int_4, 4, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 137, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 136, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 137, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_1 = PyObject_RichCompare(__pyx_t_2, __pyx_t_3, Py_LE); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 136, __pyx_L1_error)
+    __pyx_t_1 = PyObject_RichCompare(__pyx_t_2, __pyx_t_3, Py_LE); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 137, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 136, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 137, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     if (likely(__pyx_t_4)) {
 
-      /* "SRAM/SRAM.pyx":137
+      /* "SRAM/SRAM.pyx":138
  * 			# 4
  * 			if offset + 4 <= self.bytes:
  * 				output = cache_data[12-offset:16-offset]             # <<<<<<<<<<<<<<
  * 			else:
  * 				raise ValueError("Read exceeds row boundary")
 */
-      __pyx_t_1 = __Pyx_PyLong_SubtractCObj(__pyx_mstate_global->__pyx_int_12, __pyx_v_offset, 12, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 137, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyLong_SubtractCObj(__pyx_mstate_global->__pyx_int_12, __pyx_v_offset, 12, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 138, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_3 = __Pyx_PyLong_SubtractCObj(__pyx_mstate_global->__pyx_int_16, __pyx_v_offset, 16, 0, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 137, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyLong_SubtractCObj(__pyx_mstate_global->__pyx_int_16, __pyx_v_offset, 16, 0, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 138, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_2 = __Pyx_PyObject_GetSlice(__pyx_v_cache_data, 0, 0, &__pyx_t_1, &__pyx_t_3, NULL, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 137, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_GetSlice(__pyx_v_cache_data, 0, 0, &__pyx_t_1, &__pyx_t_3, NULL, 0, 0, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 138, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF_SET(__pyx_v_output, __pyx_t_2);
       __pyx_t_2 = 0;
 
-      /* "SRAM/SRAM.pyx":136
+      /* "SRAM/SRAM.pyx":137
  * 				raise ValueError("Address out of range")
  * 			# 4
  * 			if offset + 4 <= self.bytes:             # <<<<<<<<<<<<<<
@@ -6649,7 +6672,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_10read_cpu(CYTHON_UNUSED PyObject 
       goto __pyx_L7;
     }
 
-    /* "SRAM/SRAM.pyx":139
+    /* "SRAM/SRAM.pyx":140
  * 				output = cache_data[12-offset:16-offset]
  * 			else:
  * 				raise ValueError("Read exceeds row boundary")             # <<<<<<<<<<<<<<
@@ -6666,16 +6689,16 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_10read_cpu(CYTHON_UNUSED PyObject 
         __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 139, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 140, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
       }
       __Pyx_Raise(__pyx_t_2, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __PYX_ERR(0, 139, __pyx_L1_error)
+      __PYX_ERR(0, 140, __pyx_L1_error)
     }
     __pyx_L7:;
 
-    /* "SRAM/SRAM.pyx":132
+    /* "SRAM/SRAM.pyx":133
  * 		cache_data = self.data[row][:]
  * 		output = [0] * 4
  * 		if en:             # <<<<<<<<<<<<<<
@@ -6685,7 +6708,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_10read_cpu(CYTHON_UNUSED PyObject 
     goto __pyx_L3;
   }
 
-  /* "SRAM/SRAM.pyx":141
+  /* "SRAM/SRAM.pyx":142
  * 				raise ValueError("Read exceeds row boundary")
  * 		else:
  * 			logger_sram.debug("--VEU read is miss, en is 0.")             # <<<<<<<<<<<<<<
@@ -6694,9 +6717,9 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_10read_cpu(CYTHON_UNUSED PyObject 
 */
   /*else*/ {
     __pyx_t_1 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_logger_sram); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 141, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_logger_sram); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 142, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_debug); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 141, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_debug); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 142, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_6 = 1;
@@ -6716,19 +6739,19 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_10read_cpu(CYTHON_UNUSED PyObject 
       __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 141, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 142, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __pyx_L3:;
 
-  /* "SRAM/SRAM.pyx":142
+  /* "SRAM/SRAM.pyx":143
  * 		else:
  * 			logger_sram.debug("--VEU read is miss, en is 0.")
  * 		return int.from_bytes(output, byteorder='big', signed=True)             # <<<<<<<<<<<<<<
  * 
- * 	def write_burst(self, en: bool, wstrb: int, start_address: int, stride: int, burst_count: int, data_list: List[List[int]], k: int = 1):
+ * 	def write_burst(self, en: bool, wstrb: List[int], start_address: int, stride: int, burst_count: int, data_list: List[List[int]], k: int = 1):
 */
   __Pyx_XDECREF(__pyx_r);
   __pyx_t_7 = ((PyObject *)(&PyLong_Type));
@@ -6736,21 +6759,21 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_10read_cpu(CYTHON_UNUSED PyObject 
   __pyx_t_6 = 0;
   {
     PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 2 : 0)] = {__pyx_t_7, __pyx_v_output};
-    __pyx_t_1 = __Pyx_MakeVectorcallBuilderKwds(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 142, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_MakeVectorcallBuilderKwds(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 143, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_byteorder, __pyx_mstate_global->__pyx_n_u_big, __pyx_t_1, __pyx_callargs+2, 0) < 0) __PYX_ERR(0, 142, __pyx_L1_error)
-    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_signed, Py_True, __pyx_t_1, __pyx_callargs+2, 1) < 0) __PYX_ERR(0, 142, __pyx_L1_error)
+    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_byteorder, __pyx_mstate_global->__pyx_n_u_big, __pyx_t_1, __pyx_callargs+2, 0) < 0) __PYX_ERR(0, 143, __pyx_L1_error)
+    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_signed, Py_True, __pyx_t_1, __pyx_callargs+2, 1) < 0) __PYX_ERR(0, 143, __pyx_L1_error)
     __pyx_t_2 = __Pyx_Object_VectorcallMethod_CallFromBuilder(__pyx_mstate_global->__pyx_n_u_from_bytes, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_1);
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 142, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 143, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "SRAM/SRAM.pyx":125
+  /* "SRAM/SRAM.pyx":126
  * 			logger_sram.debug("--VEU write is miss, en is 0.")
  * 
  * 	def read_cpu(self, en, address: int):             # <<<<<<<<<<<<<<
@@ -6776,10 +6799,10 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_10read_cpu(CYTHON_UNUSED PyObject 
   return __pyx_r;
 }
 
-/* "SRAM/SRAM.pyx":144
+/* "SRAM/SRAM.pyx":145
  * 		return int.from_bytes(output, byteorder='big', signed=True)
  * 
- * 	def write_burst(self, en: bool, wstrb: int, start_address: int, stride: int, burst_count: int, data_list: List[List[int]], k: int = 1):             # <<<<<<<<<<<<<<
+ * 	def write_burst(self, en: bool, wstrb: List[int], start_address: int, stride: int, burst_count: int, data_list: List[List[int]], k: int = 1):             # <<<<<<<<<<<<<<
  * 		"""
  * 		Burst write operation with stride addressing
 */
@@ -6831,71 +6854,71 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_self,&__pyx_mstate_global->__pyx_n_u_en,&__pyx_mstate_global->__pyx_n_u_wstrb,&__pyx_mstate_global->__pyx_n_u_start_address,&__pyx_mstate_global->__pyx_n_u_stride,&__pyx_mstate_global->__pyx_n_u_burst_count,&__pyx_mstate_global->__pyx_n_u_data_list,&__pyx_mstate_global->__pyx_n_u_k,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 144, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 145, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  8:
         values[7] = __Pyx_ArgRef_FASTCALL(__pyx_args, 7);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 144, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 145, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  7:
         values[6] = __Pyx_ArgRef_FASTCALL(__pyx_args, 6);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 144, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 145, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  6:
         values[5] = __Pyx_ArgRef_FASTCALL(__pyx_args, 5);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 144, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 145, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  5:
         values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 144, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 145, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 144, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 145, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 144, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 145, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 144, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 145, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 144, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 145, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "write_burst", 0) < 0) __PYX_ERR(0, 144, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "write_burst", 0) < 0) __PYX_ERR(0, 145, __pyx_L3_error)
       if (!values[7]) values[7] = __Pyx_NewRef(((PyObject*)((PyObject*)__pyx_mstate_global->__pyx_int_1)));
       for (Py_ssize_t i = __pyx_nargs; i < 7; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("write_burst", 0, 7, 8, i); __PYX_ERR(0, 144, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("write_burst", 0, 7, 8, i); __PYX_ERR(0, 145, __pyx_L3_error) }
       }
     } else {
       switch (__pyx_nargs) {
         case  8:
         values[7] = __Pyx_ArgRef_FASTCALL(__pyx_args, 7);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 144, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[7])) __PYX_ERR(0, 145, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  7:
         values[6] = __Pyx_ArgRef_FASTCALL(__pyx_args, 6);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 144, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 145, __pyx_L3_error)
         values[5] = __Pyx_ArgRef_FASTCALL(__pyx_args, 5);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 144, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 145, __pyx_L3_error)
         values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 144, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 145, __pyx_L3_error)
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 144, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 145, __pyx_L3_error)
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 144, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 145, __pyx_L3_error)
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 144, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 145, __pyx_L3_error)
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 144, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 145, __pyx_L3_error)
         break;
         default: goto __pyx_L5_argtuple_error;
       }
@@ -6912,7 +6935,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("write_burst", 0, 7, 8, __pyx_nargs); __PYX_ERR(0, 144, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("write_burst", 0, 7, 8, __pyx_nargs); __PYX_ERR(0, 145, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -6923,12 +6946,12 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_wstrb), (&PyLong_Type), 0, "wstrb", 2))) __PYX_ERR(0, 144, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_start_address), (&PyLong_Type), 0, "start_address", 2))) __PYX_ERR(0, 144, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_stride), (&PyLong_Type), 0, "stride", 2))) __PYX_ERR(0, 144, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_burst_count), (&PyLong_Type), 0, "burst_count", 2))) __PYX_ERR(0, 144, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_data_list), (&PyList_Type), 0, "data_list", 2))) __PYX_ERR(0, 144, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_k), (&PyLong_Type), 0, "k", 2))) __PYX_ERR(0, 144, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_wstrb), (&PyList_Type), 0, "wstrb", 2))) __PYX_ERR(0, 145, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_start_address), (&PyLong_Type), 0, "start_address", 2))) __PYX_ERR(0, 145, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_stride), (&PyLong_Type), 0, "stride", 2))) __PYX_ERR(0, 145, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_burst_count), (&PyLong_Type), 0, "burst_count", 2))) __PYX_ERR(0, 145, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_data_list), (&PyList_Type), 0, "data_list", 2))) __PYX_ERR(0, 145, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_k), (&PyLong_Type), 0, "k", 2))) __PYX_ERR(0, 145, __pyx_L1_error)
   __pyx_r = __pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(__pyx_self, __pyx_v_self, __pyx_v_en, __pyx_v_wstrb, __pyx_v_start_address, __pyx_v_stride, __pyx_v_burst_count, __pyx_v_data_list, __pyx_v_k);
 
   /* function exit code */
@@ -6988,18 +7011,18 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("write_burst", 0);
 
-  /* "SRAM/SRAM.pyx":155
+  /* "SRAM/SRAM.pyx":156
  * 		:param k: Number of consecutive rows to write per burst operation
  * 		"""
  * 		if not en:             # <<<<<<<<<<<<<<
  * 			logger_sram.debug("--SRAM burst write is miss, en is 0.")
  * 			return
 */
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_en); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 155, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_en); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 156, __pyx_L1_error)
   __pyx_t_2 = (!__pyx_t_1);
   if (__pyx_t_2) {
 
-    /* "SRAM/SRAM.pyx":156
+    /* "SRAM/SRAM.pyx":157
  * 		"""
  * 		if not en:
  * 			logger_sram.debug("--SRAM burst write is miss, en is 0.")             # <<<<<<<<<<<<<<
@@ -7007,9 +7030,9 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
  * 
 */
     __pyx_t_4 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_logger_sram); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 156, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_logger_sram); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 157, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_debug); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 156, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_debug); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 157, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_t_7 = 1;
@@ -7029,12 +7052,12 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
       __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+__pyx_t_7, (2-__pyx_t_7) | (__pyx_t_7*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 156, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 157, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
     }
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "SRAM/SRAM.pyx":157
+    /* "SRAM/SRAM.pyx":158
  * 		if not en:
  * 			logger_sram.debug("--SRAM burst write is miss, en is 0.")
  * 			return             # <<<<<<<<<<<<<<
@@ -7045,7 +7068,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
     __pyx_r = Py_None; __Pyx_INCREF(Py_None);
     goto __pyx_L0;
 
-    /* "SRAM/SRAM.pyx":155
+    /* "SRAM/SRAM.pyx":156
  * 		:param k: Number of consecutive rows to write per burst operation
  * 		"""
  * 		if not en:             # <<<<<<<<<<<<<<
@@ -7054,26 +7077,26 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
 */
   }
 
-  /* "SRAM/SRAM.pyx":159
+  /* "SRAM/SRAM.pyx":160
  * 			return
  * 
  * 		if len(data_list) != burst_count * k:             # <<<<<<<<<<<<<<
  * 			raise ValueError(f"Data list length ({len(data_list)}) does not match burst count * k ({burst_count * k})")
  * 
 */
-  __pyx_t_8 = __Pyx_PyList_GET_SIZE(__pyx_v_data_list); if (unlikely(__pyx_t_8 == ((Py_ssize_t)-1))) __PYX_ERR(0, 159, __pyx_L1_error)
-  __pyx_t_3 = PyLong_FromSsize_t(__pyx_t_8); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 159, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyList_GET_SIZE(__pyx_v_data_list); if (unlikely(__pyx_t_8 == ((Py_ssize_t)-1))) __PYX_ERR(0, 160, __pyx_L1_error)
+  __pyx_t_3 = PyLong_FromSsize_t(__pyx_t_8); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 160, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_6 = PyNumber_Multiply(__pyx_v_burst_count, __pyx_v_k); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 159, __pyx_L1_error)
+  __pyx_t_6 = PyNumber_Multiply(__pyx_v_burst_count, __pyx_v_k); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 160, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_4 = PyObject_RichCompare(__pyx_t_3, __pyx_t_6, Py_NE); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 159, __pyx_L1_error)
+  __pyx_t_4 = PyObject_RichCompare(__pyx_t_3, __pyx_t_6, Py_NE); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 160, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 159, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 160, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   if (unlikely(__pyx_t_2)) {
 
-    /* "SRAM/SRAM.pyx":160
+    /* "SRAM/SRAM.pyx":161
  * 
  * 		if len(data_list) != burst_count * k:
  * 			raise ValueError(f"Data list length ({len(data_list)}) does not match burst count * k ({burst_count * k})")             # <<<<<<<<<<<<<<
@@ -7083,12 +7106,12 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
     __pyx_t_6 = NULL;
     __Pyx_INCREF(__pyx_builtin_ValueError);
     __pyx_t_3 = __pyx_builtin_ValueError; 
-    __pyx_t_8 = __Pyx_PyList_GET_SIZE(__pyx_v_data_list); if (unlikely(__pyx_t_8 == ((Py_ssize_t)-1))) __PYX_ERR(0, 160, __pyx_L1_error)
-    __pyx_t_5 = __Pyx_PyUnicode_From_Py_ssize_t(__pyx_t_8, 0, ' ', 'd'); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 160, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyList_GET_SIZE(__pyx_v_data_list); if (unlikely(__pyx_t_8 == ((Py_ssize_t)-1))) __PYX_ERR(0, 161, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyUnicode_From_Py_ssize_t(__pyx_t_8, 0, ' ', 'd'); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 161, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_9 = PyNumber_Multiply(__pyx_v_burst_count, __pyx_v_k); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 160, __pyx_L1_error)
+    __pyx_t_9 = PyNumber_Multiply(__pyx_v_burst_count, __pyx_v_k); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 161, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
-    __pyx_t_10 = __Pyx_PyObject_FormatSimple(__pyx_t_9, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 160, __pyx_L1_error)
+    __pyx_t_10 = __Pyx_PyObject_FormatSimple(__pyx_t_9, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 161, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
     __pyx_t_11[0] = __pyx_mstate_global->__pyx_kp_u_Data_list_length;
@@ -7097,7 +7120,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
     __pyx_t_11[3] = __pyx_t_10;
     __pyx_t_11[4] = __pyx_mstate_global->__pyx_kp_u__5;
     __pyx_t_9 = __Pyx_PyUnicode_Join(__pyx_t_11, 5, 18 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_5) + 34 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_10) + 1, 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_10));
-    if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 160, __pyx_L1_error)
+    if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 161, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
@@ -7108,14 +7131,14 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
       __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 160, __pyx_L1_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 161, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
     }
     __Pyx_Raise(__pyx_t_4, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __PYX_ERR(0, 160, __pyx_L1_error)
+    __PYX_ERR(0, 161, __pyx_L1_error)
 
-    /* "SRAM/SRAM.pyx":159
+    /* "SRAM/SRAM.pyx":160
  * 			return
  * 
  * 		if len(data_list) != burst_count * k:             # <<<<<<<<<<<<<<
@@ -7124,7 +7147,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
 */
   }
 
-  /* "SRAM/SRAM.pyx":162
+  /* "SRAM/SRAM.pyx":163
  * 			raise ValueError(f"Data list length ({len(data_list)}) does not match burst count * k ({burst_count * k})")
  * 
  * 		data_index = 0             # <<<<<<<<<<<<<<
@@ -7134,7 +7157,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
   __Pyx_INCREF(__pyx_mstate_global->__pyx_int_0);
   __pyx_v_data_index = __pyx_mstate_global->__pyx_int_0;
 
-  /* "SRAM/SRAM.pyx":163
+  /* "SRAM/SRAM.pyx":164
  * 
  * 		data_index = 0
  * 		for i in range(burst_count):             # <<<<<<<<<<<<<<
@@ -7150,7 +7173,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
     __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_9, __pyx_callargs+__pyx_t_7, (2-__pyx_t_7) | (__pyx_t_7*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-    if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 163, __pyx_L1_error)
+    if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 164, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
   }
   if (likely(PyList_CheckExact(__pyx_t_4)) || PyTuple_CheckExact(__pyx_t_4)) {
@@ -7158,9 +7181,9 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
     __pyx_t_8 = 0;
     __pyx_t_12 = NULL;
   } else {
-    __pyx_t_8 = -1; __pyx_t_9 = PyObject_GetIter(__pyx_t_4); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 163, __pyx_L1_error)
+    __pyx_t_8 = -1; __pyx_t_9 = PyObject_GetIter(__pyx_t_4); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 164, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
-    __pyx_t_12 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_9); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 163, __pyx_L1_error)
+    __pyx_t_12 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_9); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 164, __pyx_L1_error)
   }
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   for (;;) {
@@ -7169,7 +7192,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
         {
           Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_9);
           #if !CYTHON_ASSUME_SAFE_SIZE
-          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 163, __pyx_L1_error)
+          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 164, __pyx_L1_error)
           #endif
           if (__pyx_t_8 >= __pyx_temp) break;
         }
@@ -7179,7 +7202,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
         {
           Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_9);
           #if !CYTHON_ASSUME_SAFE_SIZE
-          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 163, __pyx_L1_error)
+          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 164, __pyx_L1_error)
           #endif
           if (__pyx_t_8 >= __pyx_temp) break;
         }
@@ -7190,60 +7213,60 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
         #endif
         ++__pyx_t_8;
       }
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 163, __pyx_L1_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 164, __pyx_L1_error)
     } else {
       __pyx_t_4 = __pyx_t_12(__pyx_t_9);
       if (unlikely(!__pyx_t_4)) {
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
-          if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 163, __pyx_L1_error)
+          if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 164, __pyx_L1_error)
           PyErr_Clear();
         }
         break;
       }
     }
     __Pyx_GOTREF(__pyx_t_4);
-    if (!(likely(PyLong_CheckExact(__pyx_t_4))||((__pyx_t_4) == Py_None) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_t_4))) __PYX_ERR(0, 163, __pyx_L1_error)
+    if (!(likely(PyLong_CheckExact(__pyx_t_4))||((__pyx_t_4) == Py_None) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_t_4))) __PYX_ERR(0, 164, __pyx_L1_error)
     __Pyx_XDECREF_SET(__pyx_v_i, ((PyObject*)__pyx_t_4));
     __pyx_t_4 = 0;
 
-    /* "SRAM/SRAM.pyx":164
+    /* "SRAM/SRAM.pyx":165
  * 		data_index = 0
  * 		for i in range(burst_count):
  * 			burst_start_address = start_address + i * stride             # <<<<<<<<<<<<<<
  * 			burst_start_row = (burst_start_address - self.base_addr) // self.bytes
  * 
 */
-    __pyx_t_4 = PyNumber_Multiply(__pyx_v_i, __pyx_v_stride); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 164, __pyx_L1_error)
+    __pyx_t_4 = PyNumber_Multiply(__pyx_v_i, __pyx_v_stride); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 165, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_3 = PyNumber_Add(__pyx_v_start_address, __pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 164, __pyx_L1_error)
+    __pyx_t_3 = PyNumber_Add(__pyx_v_start_address, __pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 165, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_XDECREF_SET(__pyx_v_burst_start_address, ((PyObject*)__pyx_t_3));
     __pyx_t_3 = 0;
 
-    /* "SRAM/SRAM.pyx":165
+    /* "SRAM/SRAM.pyx":166
  * 		for i in range(burst_count):
  * 			burst_start_address = start_address + i * stride
  * 			burst_start_row = (burst_start_address - self.base_addr) // self.bytes             # <<<<<<<<<<<<<<
  * 
  * 			# k
 */
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_base_addr); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 165, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_base_addr); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 166, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = PyNumber_Subtract(__pyx_v_burst_start_address, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 165, __pyx_L1_error)
+    __pyx_t_4 = PyNumber_Subtract(__pyx_v_burst_start_address, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 166, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 165, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 166, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_6 = PyNumber_FloorDivide(__pyx_t_4, __pyx_t_3); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 165, __pyx_L1_error)
+    __pyx_t_6 = PyNumber_FloorDivide(__pyx_t_4, __pyx_t_3); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 166, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_XDECREF_SET(__pyx_v_burst_start_row, __pyx_t_6);
     __pyx_t_6 = 0;
 
-    /* "SRAM/SRAM.pyx":168
+    /* "SRAM/SRAM.pyx":169
  * 
  * 			# k
  * 			for j in range(k):             # <<<<<<<<<<<<<<
@@ -7259,7 +7282,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
       __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+__pyx_t_7, (2-__pyx_t_7) | (__pyx_t_7*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 168, __pyx_L1_error)
+      if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 169, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
     }
     if (likely(PyList_CheckExact(__pyx_t_6)) || PyTuple_CheckExact(__pyx_t_6)) {
@@ -7267,9 +7290,9 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
       __pyx_t_13 = 0;
       __pyx_t_14 = NULL;
     } else {
-      __pyx_t_13 = -1; __pyx_t_4 = PyObject_GetIter(__pyx_t_6); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 168, __pyx_L1_error)
+      __pyx_t_13 = -1; __pyx_t_4 = PyObject_GetIter(__pyx_t_6); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 169, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_14 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_4); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 168, __pyx_L1_error)
+      __pyx_t_14 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_4); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 169, __pyx_L1_error)
     }
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     for (;;) {
@@ -7278,7 +7301,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
           {
             Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_4);
             #if !CYTHON_ASSUME_SAFE_SIZE
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 168, __pyx_L1_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 169, __pyx_L1_error)
             #endif
             if (__pyx_t_13 >= __pyx_temp) break;
           }
@@ -7288,7 +7311,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
           {
             Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_4);
             #if !CYTHON_ASSUME_SAFE_SIZE
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 168, __pyx_L1_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 169, __pyx_L1_error)
             #endif
             if (__pyx_t_13 >= __pyx_temp) break;
           }
@@ -7299,79 +7322,79 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
           #endif
           ++__pyx_t_13;
         }
-        if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 168, __pyx_L1_error)
+        if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 169, __pyx_L1_error)
       } else {
         __pyx_t_6 = __pyx_t_14(__pyx_t_4);
         if (unlikely(!__pyx_t_6)) {
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
-            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 168, __pyx_L1_error)
+            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 169, __pyx_L1_error)
             PyErr_Clear();
           }
           break;
         }
       }
       __Pyx_GOTREF(__pyx_t_6);
-      if (!(likely(PyLong_CheckExact(__pyx_t_6))||((__pyx_t_6) == Py_None) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_t_6))) __PYX_ERR(0, 168, __pyx_L1_error)
+      if (!(likely(PyLong_CheckExact(__pyx_t_6))||((__pyx_t_6) == Py_None) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_t_6))) __PYX_ERR(0, 169, __pyx_L1_error)
       __Pyx_XDECREF_SET(__pyx_v_j, ((PyObject*)__pyx_t_6));
       __pyx_t_6 = 0;
 
-      /* "SRAM/SRAM.pyx":169
+      /* "SRAM/SRAM.pyx":170
  * 			# k
  * 			for j in range(k):
  * 				row_index = burst_start_row + j             # <<<<<<<<<<<<<<
  * 				current_address = burst_start_address + j * self.bytes
  * 
 */
-      __pyx_t_6 = PyNumber_Add(__pyx_v_burst_start_row, __pyx_v_j); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 169, __pyx_L1_error)
+      __pyx_t_6 = PyNumber_Add(__pyx_v_burst_start_row, __pyx_v_j); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 170, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_XDECREF_SET(__pyx_v_row_index, __pyx_t_6);
       __pyx_t_6 = 0;
 
-      /* "SRAM/SRAM.pyx":170
+      /* "SRAM/SRAM.pyx":171
  * 			for j in range(k):
  * 				row_index = burst_start_row + j
  * 				current_address = burst_start_address + j * self.bytes             # <<<<<<<<<<<<<<
  * 
  * 				if row_index < 0 or row_index >= self.height:
 */
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 170, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 171, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_3 = PyNumber_Multiply(__pyx_v_j, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 170, __pyx_L1_error)
+      __pyx_t_3 = PyNumber_Multiply(__pyx_v_j, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 171, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = PyNumber_Add(__pyx_v_burst_start_address, __pyx_t_3); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 170, __pyx_L1_error)
+      __pyx_t_6 = PyNumber_Add(__pyx_v_burst_start_address, __pyx_t_3); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 171, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_XDECREF_SET(__pyx_v_current_address, __pyx_t_6);
       __pyx_t_6 = 0;
 
-      /* "SRAM/SRAM.pyx":172
+      /* "SRAM/SRAM.pyx":173
  * 				current_address = burst_start_address + j * self.bytes
  * 
  * 				if row_index < 0 or row_index >= self.height:             # <<<<<<<<<<<<<<
  * 					raise ValueError(f"Burst write address {current_address} out of range at burst {i}, row {j}")
  * 
 */
-      __pyx_t_6 = PyObject_RichCompare(__pyx_v_row_index, __pyx_mstate_global->__pyx_int_0, Py_LT); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 172, __pyx_L1_error)
-      __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 172, __pyx_L1_error)
+      __pyx_t_6 = PyObject_RichCompare(__pyx_v_row_index, __pyx_mstate_global->__pyx_int_0, Py_LT); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 173, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 173, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       if (!__pyx_t_1) {
       } else {
         __pyx_t_2 = __pyx_t_1;
         goto __pyx_L10_bool_binop_done;
       }
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_height); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 172, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_height); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 173, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_3 = PyObject_RichCompare(__pyx_v_row_index, __pyx_t_6, Py_GE); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 172, __pyx_L1_error)
+      __pyx_t_3 = PyObject_RichCompare(__pyx_v_row_index, __pyx_t_6, Py_GE); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 173, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 172, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 173, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __pyx_t_2 = __pyx_t_1;
       __pyx_L10_bool_binop_done:;
       if (unlikely(__pyx_t_2)) {
 
-        /* "SRAM/SRAM.pyx":173
+        /* "SRAM/SRAM.pyx":174
  * 
  * 				if row_index < 0 or row_index >= self.height:
  * 					raise ValueError(f"Burst write address {current_address} out of range at burst {i}, row {j}")             # <<<<<<<<<<<<<<
@@ -7381,11 +7404,11 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
         __pyx_t_6 = NULL;
         __Pyx_INCREF(__pyx_builtin_ValueError);
         __pyx_t_10 = __pyx_builtin_ValueError; 
-        __pyx_t_5 = __Pyx_PyObject_FormatSimple(__pyx_v_current_address, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 173, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyObject_FormatSimple(__pyx_v_current_address, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 174, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
-        __pyx_t_15 = __Pyx_PyObject_FormatSimple(__pyx_v_i, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 173, __pyx_L1_error)
+        __pyx_t_15 = __Pyx_PyObject_FormatSimple(__pyx_v_i, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 174, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_15);
-        __pyx_t_16 = __Pyx_PyObject_FormatSimple(__pyx_v_j, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 173, __pyx_L1_error)
+        __pyx_t_16 = __Pyx_PyObject_FormatSimple(__pyx_v_j, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 174, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_16);
         __pyx_t_17[0] = __pyx_mstate_global->__pyx_kp_u_Burst_write_address;
         __pyx_t_17[1] = __pyx_t_5;
@@ -7394,7 +7417,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
         __pyx_t_17[4] = __pyx_mstate_global->__pyx_kp_u_row;
         __pyx_t_17[5] = __pyx_t_16;
         __pyx_t_18 = __Pyx_PyUnicode_Join(__pyx_t_17, 6, 20 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_5) + 23 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_15) + 6 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_16), 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_5) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_15) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_16));
-        if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 173, __pyx_L1_error)
+        if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 174, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_18);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
@@ -7406,14 +7429,14 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
           __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
           __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
           __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-          if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 173, __pyx_L1_error)
+          if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 174, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_3);
         }
         __Pyx_Raise(__pyx_t_3, 0, 0, 0);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __PYX_ERR(0, 173, __pyx_L1_error)
+        __PYX_ERR(0, 174, __pyx_L1_error)
 
-        /* "SRAM/SRAM.pyx":172
+        /* "SRAM/SRAM.pyx":173
  * 				current_address = burst_start_address + j * self.bytes
  * 
  * 				if row_index < 0 or row_index >= self.height:             # <<<<<<<<<<<<<<
@@ -7422,29 +7445,29 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
 */
       }
 
-      /* "SRAM/SRAM.pyx":175
+      /* "SRAM/SRAM.pyx":176
  * 					raise ValueError(f"Burst write address {current_address} out of range at burst {i}, row {j}")
  * 
  * 				if len(data_list[data_index]) != self.bytes:             # <<<<<<<<<<<<<<
  * 					raise ValueError(f"Data size at burst {i}, row {j} does not match SRAM width")
  * 
 */
-      __pyx_t_3 = __Pyx_PyObject_GetItem(__pyx_v_data_list, __pyx_v_data_index); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 175, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_GetItem(__pyx_v_data_list, __pyx_v_data_index); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 176, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_19 = PyObject_Length(__pyx_t_3); if (unlikely(__pyx_t_19 == ((Py_ssize_t)-1))) __PYX_ERR(0, 175, __pyx_L1_error)
+      __pyx_t_19 = PyObject_Length(__pyx_t_3); if (unlikely(__pyx_t_19 == ((Py_ssize_t)-1))) __PYX_ERR(0, 176, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_3 = PyLong_FromSsize_t(__pyx_t_19); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 175, __pyx_L1_error)
+      __pyx_t_3 = PyLong_FromSsize_t(__pyx_t_19); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 176, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 175, __pyx_L1_error)
+      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 176, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_18 = PyObject_RichCompare(__pyx_t_3, __pyx_t_10, Py_NE); __Pyx_XGOTREF(__pyx_t_18); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 175, __pyx_L1_error)
+      __pyx_t_18 = PyObject_RichCompare(__pyx_t_3, __pyx_t_10, Py_NE); __Pyx_XGOTREF(__pyx_t_18); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 176, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-      __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_18); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 175, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_18); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 176, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
       if (unlikely(__pyx_t_2)) {
 
-        /* "SRAM/SRAM.pyx":176
+        /* "SRAM/SRAM.pyx":177
  * 
  * 				if len(data_list[data_index]) != self.bytes:
  * 					raise ValueError(f"Data size at burst {i}, row {j} does not match SRAM width")             # <<<<<<<<<<<<<<
@@ -7454,9 +7477,9 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
         __pyx_t_10 = NULL;
         __Pyx_INCREF(__pyx_builtin_ValueError);
         __pyx_t_3 = __pyx_builtin_ValueError; 
-        __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_v_i, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 176, __pyx_L1_error)
+        __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_v_i, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 177, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_6);
-        __pyx_t_16 = __Pyx_PyObject_FormatSimple(__pyx_v_j, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 176, __pyx_L1_error)
+        __pyx_t_16 = __Pyx_PyObject_FormatSimple(__pyx_v_j, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 177, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_16);
         __pyx_t_11[0] = __pyx_mstate_global->__pyx_kp_u_Data_size_at_burst;
         __pyx_t_11[1] = __pyx_t_6;
@@ -7464,7 +7487,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
         __pyx_t_11[3] = __pyx_t_16;
         __pyx_t_11[4] = __pyx_mstate_global->__pyx_kp_u_does_not_match_SRAM_width;
         __pyx_t_15 = __Pyx_PyUnicode_Join(__pyx_t_11, 5, 19 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_6) + 6 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_16) + 26, 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_6) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_16));
-        if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 176, __pyx_L1_error)
+        if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 177, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_15);
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
@@ -7475,14 +7498,14 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
           __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
           __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-          if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 176, __pyx_L1_error)
+          if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 177, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_18);
         }
         __Pyx_Raise(__pyx_t_18, 0, 0, 0);
         __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-        __PYX_ERR(0, 176, __pyx_L1_error)
+        __PYX_ERR(0, 177, __pyx_L1_error)
 
-        /* "SRAM/SRAM.pyx":175
+        /* "SRAM/SRAM.pyx":176
  * 					raise ValueError(f"Burst write address {current_address} out of range at burst {i}, row {j}")
  * 
  * 				if len(data_list[data_index]) != self.bytes:             # <<<<<<<<<<<<<<
@@ -7491,35 +7514,35 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
 */
       }
 
-      /* "SRAM/SRAM.pyx":179
+      /* "SRAM/SRAM.pyx":180
  * 
  * 				#
  * 				cache_data = self.data[row_index][:]             # <<<<<<<<<<<<<<
  * 
  * 				# wstrb
 */
-      __pyx_t_18 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_data); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 179, __pyx_L1_error)
+      __pyx_t_18 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_data); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 180, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_18);
-      __pyx_t_3 = __Pyx_PyObject_GetItem(__pyx_t_18, __pyx_v_row_index); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 179, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_GetItem(__pyx_t_18, __pyx_v_row_index); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 180, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-      __pyx_t_18 = __Pyx_PyObject_GetSlice(__pyx_t_3, 0, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[1], 0, 0, 1); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 179, __pyx_L1_error)
+      __pyx_t_18 = __Pyx_PyObject_GetSlice(__pyx_t_3, 0, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[1], 0, 0, 1); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 180, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_18);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_XDECREF_SET(__pyx_v_cache_data, __pyx_t_18);
       __pyx_t_18 = 0;
 
-      /* "SRAM/SRAM.pyx":182
+      /* "SRAM/SRAM.pyx":183
  * 
  * 				# wstrb
  * 				for byte_idx in range(self.bytes):             # <<<<<<<<<<<<<<
- * 					if (wstrb >> byte_idx) & 0x1:
+ * 					if (wstrb[i] >> byte_idx) & 0x1:
  * 						cache_data[byte_idx] = data_list[data_index][byte_idx]
 */
       __pyx_t_3 = NULL;
       __Pyx_INCREF(__pyx_builtin_range);
       __pyx_t_15 = __pyx_builtin_range; 
-      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 182, __pyx_L1_error)
+      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 183, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
       __pyx_t_7 = 1;
       {
@@ -7528,7 +7551,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
         __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
         __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
-        if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 182, __pyx_L1_error)
+        if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 183, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_18);
       }
       if (likely(PyList_CheckExact(__pyx_t_18)) || PyTuple_CheckExact(__pyx_t_18)) {
@@ -7536,9 +7559,9 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
         __pyx_t_19 = 0;
         __pyx_t_20 = NULL;
       } else {
-        __pyx_t_19 = -1; __pyx_t_15 = PyObject_GetIter(__pyx_t_18); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 182, __pyx_L1_error)
+        __pyx_t_19 = -1; __pyx_t_15 = PyObject_GetIter(__pyx_t_18); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 183, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_15);
-        __pyx_t_20 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_15); if (unlikely(!__pyx_t_20)) __PYX_ERR(0, 182, __pyx_L1_error)
+        __pyx_t_20 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_15); if (unlikely(!__pyx_t_20)) __PYX_ERR(0, 183, __pyx_L1_error)
       }
       __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
       for (;;) {
@@ -7547,7 +7570,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
             {
               Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_15);
               #if !CYTHON_ASSUME_SAFE_SIZE
-              if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 182, __pyx_L1_error)
+              if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 183, __pyx_L1_error)
               #endif
               if (__pyx_t_19 >= __pyx_temp) break;
             }
@@ -7557,7 +7580,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
             {
               Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_15);
               #if !CYTHON_ASSUME_SAFE_SIZE
-              if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 182, __pyx_L1_error)
+              if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 183, __pyx_L1_error)
               #endif
               if (__pyx_t_19 >= __pyx_temp) break;
             }
@@ -7568,13 +7591,13 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
             #endif
             ++__pyx_t_19;
           }
-          if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 182, __pyx_L1_error)
+          if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 183, __pyx_L1_error)
         } else {
           __pyx_t_18 = __pyx_t_20(__pyx_t_15);
           if (unlikely(!__pyx_t_18)) {
             PyObject* exc_type = PyErr_Occurred();
             if (exc_type) {
-              if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 182, __pyx_L1_error)
+              if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 183, __pyx_L1_error)
               PyErr_Clear();
             }
             break;
@@ -7584,151 +7607,154 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
         __Pyx_XDECREF_SET(__pyx_v_byte_idx, __pyx_t_18);
         __pyx_t_18 = 0;
 
-        /* "SRAM/SRAM.pyx":183
+        /* "SRAM/SRAM.pyx":184
  * 				# wstrb
  * 				for byte_idx in range(self.bytes):
- * 					if (wstrb >> byte_idx) & 0x1:             # <<<<<<<<<<<<<<
+ * 					if (wstrb[i] >> byte_idx) & 0x1:             # <<<<<<<<<<<<<<
  * 						cache_data[byte_idx] = data_list[data_index][byte_idx]
  * 
 */
-        __pyx_t_18 = PyNumber_Rshift(__pyx_v_wstrb, __pyx_v_byte_idx); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 183, __pyx_L1_error)
+        __pyx_t_18 = __Pyx_PyObject_GetItem(__pyx_v_wstrb, __pyx_v_i); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 184, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_18);
-        __pyx_t_10 = __Pyx_PyLong_AndObjC(__pyx_t_18, __pyx_mstate_global->__pyx_int_1, 0x1, 0, 0); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 183, __pyx_L1_error)
+        __pyx_t_10 = PyNumber_Rshift(__pyx_t_18, __pyx_v_byte_idx); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 184, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_10);
         __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-        __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_10); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 183, __pyx_L1_error)
+        __pyx_t_18 = __Pyx_PyLong_AndObjC(__pyx_t_10, __pyx_mstate_global->__pyx_int_1, 0x1, 0, 0); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 184, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_18);
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+        __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_18); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 184, __pyx_L1_error)
+        __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
         if (__pyx_t_2) {
 
-          /* "SRAM/SRAM.pyx":184
+          /* "SRAM/SRAM.pyx":185
  * 				for byte_idx in range(self.bytes):
- * 					if (wstrb >> byte_idx) & 0x1:
+ * 					if (wstrb[i] >> byte_idx) & 0x1:
  * 						cache_data[byte_idx] = data_list[data_index][byte_idx]             # <<<<<<<<<<<<<<
  * 
  * 				self.data[row_index] = cache_data
 */
-          __pyx_t_10 = __Pyx_PyObject_GetItem(__pyx_v_data_list, __pyx_v_data_index); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 184, __pyx_L1_error)
-          __Pyx_GOTREF(__pyx_t_10);
-          __pyx_t_18 = __Pyx_PyObject_GetItem(__pyx_t_10, __pyx_v_byte_idx); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 184, __pyx_L1_error)
+          __pyx_t_18 = __Pyx_PyObject_GetItem(__pyx_v_data_list, __pyx_v_data_index); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 185, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_18);
-          __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-          if (unlikely((PyObject_SetItem(__pyx_v_cache_data, __pyx_v_byte_idx, __pyx_t_18) < 0))) __PYX_ERR(0, 184, __pyx_L1_error)
+          __pyx_t_10 = __Pyx_PyObject_GetItem(__pyx_t_18, __pyx_v_byte_idx); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 185, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_10);
           __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
+          if (unlikely((PyObject_SetItem(__pyx_v_cache_data, __pyx_v_byte_idx, __pyx_t_10) < 0))) __PYX_ERR(0, 185, __pyx_L1_error)
+          __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
 
-          /* "SRAM/SRAM.pyx":183
+          /* "SRAM/SRAM.pyx":184
  * 				# wstrb
  * 				for byte_idx in range(self.bytes):
- * 					if (wstrb >> byte_idx) & 0x1:             # <<<<<<<<<<<<<<
+ * 					if (wstrb[i] >> byte_idx) & 0x1:             # <<<<<<<<<<<<<<
  * 						cache_data[byte_idx] = data_list[data_index][byte_idx]
  * 
 */
         }
 
-        /* "SRAM/SRAM.pyx":182
+        /* "SRAM/SRAM.pyx":183
  * 
  * 				# wstrb
  * 				for byte_idx in range(self.bytes):             # <<<<<<<<<<<<<<
- * 					if (wstrb >> byte_idx) & 0x1:
+ * 					if (wstrb[i] >> byte_idx) & 0x1:
  * 						cache_data[byte_idx] = data_list[data_index][byte_idx]
 */
       }
       __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
 
-      /* "SRAM/SRAM.pyx":186
+      /* "SRAM/SRAM.pyx":187
  * 						cache_data[byte_idx] = data_list[data_index][byte_idx]
  * 
  * 				self.data[row_index] = cache_data             # <<<<<<<<<<<<<<
  * 				logger_sram.debug(f"--Burst write {i+1}/{burst_count}, row {j+1}/{k} at address {current_address}")
  * 				data_index += 1
 */
-      __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_data); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 186, __pyx_L1_error)
+      __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_data); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 187, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_15);
-      if (unlikely((PyObject_SetItem(__pyx_t_15, __pyx_v_row_index, __pyx_v_cache_data) < 0))) __PYX_ERR(0, 186, __pyx_L1_error)
+      if (unlikely((PyObject_SetItem(__pyx_t_15, __pyx_v_row_index, __pyx_v_cache_data) < 0))) __PYX_ERR(0, 187, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
 
-      /* "SRAM/SRAM.pyx":187
+      /* "SRAM/SRAM.pyx":188
  * 
  * 				self.data[row_index] = cache_data
  * 				logger_sram.debug(f"--Burst write {i+1}/{burst_count}, row {j+1}/{k} at address {current_address}")             # <<<<<<<<<<<<<<
  * 				data_index += 1
  * 
 */
-      __pyx_t_18 = NULL;
-      __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_logger_sram); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 187, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_debug); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 187, __pyx_L1_error)
+      __pyx_t_10 = NULL;
+      __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_logger_sram); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 188, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_18);
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_debug); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 188, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-      __pyx_t_10 = __Pyx_PyLong_AddObjC(__pyx_v_i, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 187, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_16 = __Pyx_PyObject_FormatSimple(__pyx_t_10, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 187, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
+      __pyx_t_18 = __Pyx_PyLong_AddObjC(__pyx_v_i, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 188, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_18);
+      __pyx_t_16 = __Pyx_PyObject_FormatSimple(__pyx_t_18, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 188, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_16);
-      __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-      __pyx_t_10 = __Pyx_PyObject_FormatSimple(__pyx_v_burst_count, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 187, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_6 = __Pyx_PyLong_AddObjC(__pyx_v_j, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 187, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
+      __pyx_t_18 = __Pyx_PyObject_FormatSimple(__pyx_v_burst_count, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 188, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_18);
+      __pyx_t_6 = __Pyx_PyLong_AddObjC(__pyx_v_j, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 188, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_5 = __Pyx_PyObject_FormatSimple(__pyx_t_6, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 187, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyObject_FormatSimple(__pyx_t_6, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 188, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_v_k, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 187, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_v_k, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 188, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_21 = __Pyx_PyObject_FormatSimple(__pyx_v_current_address, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_21)) __PYX_ERR(0, 187, __pyx_L1_error)
+      __pyx_t_21 = __Pyx_PyObject_FormatSimple(__pyx_v_current_address, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_21)) __PYX_ERR(0, 188, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_21);
       __pyx_t_22[0] = __pyx_mstate_global->__pyx_kp_u_Burst_write;
       __pyx_t_22[1] = __pyx_t_16;
       __pyx_t_22[2] = __pyx_mstate_global->__pyx_kp_u__6;
-      __pyx_t_22[3] = __pyx_t_10;
+      __pyx_t_22[3] = __pyx_t_18;
       __pyx_t_22[4] = __pyx_mstate_global->__pyx_kp_u_row;
       __pyx_t_22[5] = __pyx_t_5;
       __pyx_t_22[6] = __pyx_mstate_global->__pyx_kp_u__6;
       __pyx_t_22[7] = __pyx_t_6;
       __pyx_t_22[8] = __pyx_mstate_global->__pyx_kp_u_at_address;
       __pyx_t_22[9] = __pyx_t_21;
-      __pyx_t_23 = __Pyx_PyUnicode_Join(__pyx_t_22, 10, 15 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_16) + 1 * 2 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_10) + 6 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_5) + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_6) + 12 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_21), 1114111 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_16) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_10) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_5) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_6) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_21));
-      if (unlikely(!__pyx_t_23)) __PYX_ERR(0, 187, __pyx_L1_error)
+      __pyx_t_23 = __Pyx_PyUnicode_Join(__pyx_t_22, 10, 15 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_16) + 1 * 2 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_18) + 6 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_5) + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_6) + 12 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_21), 1114111 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_16) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_18) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_5) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_6) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_21));
+      if (unlikely(!__pyx_t_23)) __PYX_ERR(0, 188, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_23);
       __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
-      __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+      __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __Pyx_DECREF(__pyx_t_21); __pyx_t_21 = 0;
       __pyx_t_7 = 1;
       #if CYTHON_UNPACK_METHODS
       if (unlikely(PyMethod_Check(__pyx_t_3))) {
-        __pyx_t_18 = PyMethod_GET_SELF(__pyx_t_3);
-        assert(__pyx_t_18);
+        __pyx_t_10 = PyMethod_GET_SELF(__pyx_t_3);
+        assert(__pyx_t_10);
         PyObject* __pyx__function = PyMethod_GET_FUNCTION(__pyx_t_3);
-        __Pyx_INCREF(__pyx_t_18);
+        __Pyx_INCREF(__pyx_t_10);
         __Pyx_INCREF(__pyx__function);
         __Pyx_DECREF_SET(__pyx_t_3, __pyx__function);
         __pyx_t_7 = 0;
       }
       #endif
       {
-        PyObject *__pyx_callargs[2] = {__pyx_t_18, __pyx_t_23};
+        PyObject *__pyx_callargs[2] = {__pyx_t_10, __pyx_t_23};
         __pyx_t_15 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+__pyx_t_7, (2-__pyx_t_7) | (__pyx_t_7*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
-        __Pyx_XDECREF(__pyx_t_18); __pyx_t_18 = 0;
+        __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
         __Pyx_DECREF(__pyx_t_23); __pyx_t_23 = 0;
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 187, __pyx_L1_error)
+        if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 188, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_15);
       }
       __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
 
-      /* "SRAM/SRAM.pyx":188
+      /* "SRAM/SRAM.pyx":189
  * 				self.data[row_index] = cache_data
  * 				logger_sram.debug(f"--Burst write {i+1}/{burst_count}, row {j+1}/{k} at address {current_address}")
  * 				data_index += 1             # <<<<<<<<<<<<<<
  * 
- * 	def read_burst(self, en: bool, start_address: int, stride: int, burst_count: int, k: int = 1) -> List[List[int]]:
+ * 	def read_burst(self, en: bool, start_address: int, stride: int, burst_count: int, k: int = 1, burst_bytes: int = 16) -> List[List[int]]:
 */
-      __pyx_t_15 = __Pyx_PyLong_AddObjC(__pyx_v_data_index, __pyx_mstate_global->__pyx_int_1, 1, 1, 0); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 188, __pyx_L1_error)
+      __pyx_t_15 = __Pyx_PyLong_AddObjC(__pyx_v_data_index, __pyx_mstate_global->__pyx_int_1, 1, 1, 0); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 189, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_15);
       __Pyx_DECREF_SET(__pyx_v_data_index, __pyx_t_15);
       __pyx_t_15 = 0;
 
-      /* "SRAM/SRAM.pyx":168
+      /* "SRAM/SRAM.pyx":169
  * 
  * 			# k
  * 			for j in range(k):             # <<<<<<<<<<<<<<
@@ -7738,7 +7764,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
     }
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "SRAM/SRAM.pyx":163
+    /* "SRAM/SRAM.pyx":164
  * 
  * 		data_index = 0
  * 		for i in range(burst_count):             # <<<<<<<<<<<<<<
@@ -7748,10 +7774,10 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
   }
   __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-  /* "SRAM/SRAM.pyx":144
+  /* "SRAM/SRAM.pyx":145
  * 		return int.from_bytes(output, byteorder='big', signed=True)
  * 
- * 	def write_burst(self, en: bool, wstrb: int, start_address: int, stride: int, burst_count: int, data_list: List[List[int]], k: int = 1):             # <<<<<<<<<<<<<<
+ * 	def write_burst(self, en: bool, wstrb: List[int], start_address: int, stride: int, burst_count: int, data_list: List[List[int]], k: int = 1):             # <<<<<<<<<<<<<<
  * 		"""
  * 		Burst write operation with stride addressing
 */
@@ -7788,10 +7814,10 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_12write_burst(CYTHON_UNUSED PyObje
   return __pyx_r;
 }
 
-/* "SRAM/SRAM.pyx":190
+/* "SRAM/SRAM.pyx":191
  * 				data_index += 1
  * 
- * 	def read_burst(self, en: bool, start_address: int, stride: int, burst_count: int, k: int = 1) -> List[List[int]]:             # <<<<<<<<<<<<<<
+ * 	def read_burst(self, en: bool, start_address: int, stride: int, burst_count: int, k: int = 1, burst_bytes: int = 16) -> List[List[int]]:             # <<<<<<<<<<<<<<
  * 		"""
  * 		Burst read operation with stride addressing
 */
@@ -7819,11 +7845,12 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   PyObject *__pyx_v_stride = 0;
   PyObject *__pyx_v_burst_count = 0;
   PyObject *__pyx_v_k = 0;
+  PyObject *__pyx_v_burst_bytes = 0;
   #if !CYTHON_METH_FASTCALL
   CYTHON_UNUSED Py_ssize_t __pyx_nargs;
   #endif
   CYTHON_UNUSED PyObject *const *__pyx_kwvalues;
-  PyObject* values[6] = {0,0,0,0,0,0};
+  PyObject* values[7] = {0,0,0,0,0,0,0};
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
@@ -7839,65 +7866,75 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   #endif
   __pyx_kwvalues = __Pyx_KwValues_FASTCALL(__pyx_args, __pyx_nargs);
   {
-    PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_self,&__pyx_mstate_global->__pyx_n_u_en,&__pyx_mstate_global->__pyx_n_u_start_address,&__pyx_mstate_global->__pyx_n_u_stride,&__pyx_mstate_global->__pyx_n_u_burst_count,&__pyx_mstate_global->__pyx_n_u_k,0};
+    PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_self,&__pyx_mstate_global->__pyx_n_u_en,&__pyx_mstate_global->__pyx_n_u_start_address,&__pyx_mstate_global->__pyx_n_u_stride,&__pyx_mstate_global->__pyx_n_u_burst_count,&__pyx_mstate_global->__pyx_n_u_k,&__pyx_mstate_global->__pyx_n_u_burst_bytes,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 190, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 191, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
+        case  7:
+        values[6] = __Pyx_ArgRef_FASTCALL(__pyx_args, 6);
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 191, __pyx_L3_error)
+        CYTHON_FALLTHROUGH;
         case  6:
         values[5] = __Pyx_ArgRef_FASTCALL(__pyx_args, 5);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 190, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 191, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  5:
         values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 190, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 191, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 190, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 191, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 190, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 191, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 190, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 191, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 190, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 191, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "read_burst", 0) < 0) __PYX_ERR(0, 190, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "read_burst", 0) < 0) __PYX_ERR(0, 191, __pyx_L3_error)
       if (!values[5]) values[5] = __Pyx_NewRef(((PyObject*)((PyObject*)__pyx_mstate_global->__pyx_int_1)));
+      if (!values[6]) values[6] = __Pyx_NewRef(((PyObject*)((PyObject*)__pyx_mstate_global->__pyx_int_16)));
       for (Py_ssize_t i = __pyx_nargs; i < 5; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("read_burst", 0, 5, 6, i); __PYX_ERR(0, 190, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("read_burst", 0, 5, 7, i); __PYX_ERR(0, 191, __pyx_L3_error) }
       }
     } else {
       switch (__pyx_nargs) {
+        case  7:
+        values[6] = __Pyx_ArgRef_FASTCALL(__pyx_args, 6);
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[6])) __PYX_ERR(0, 191, __pyx_L3_error)
+        CYTHON_FALLTHROUGH;
         case  6:
         values[5] = __Pyx_ArgRef_FASTCALL(__pyx_args, 5);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 190, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[5])) __PYX_ERR(0, 191, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  5:
         values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 190, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 191, __pyx_L3_error)
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 190, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 191, __pyx_L3_error)
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 190, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 191, __pyx_L3_error)
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 190, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 191, __pyx_L3_error)
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 190, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 191, __pyx_L3_error)
         break;
         default: goto __pyx_L5_argtuple_error;
       }
       if (!values[5]) values[5] = __Pyx_NewRef(((PyObject*)((PyObject*)__pyx_mstate_global->__pyx_int_1)));
+      if (!values[6]) values[6] = __Pyx_NewRef(((PyObject*)((PyObject*)__pyx_mstate_global->__pyx_int_16)));
     }
     __pyx_v_self = values[0];
     __pyx_v_en = values[1];
@@ -7905,10 +7942,11 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
     __pyx_v_stride = ((PyObject*)values[3]);
     __pyx_v_burst_count = ((PyObject*)values[4]);
     __pyx_v_k = ((PyObject*)values[5]);
+    __pyx_v_burst_bytes = ((PyObject*)values[6]);
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("read_burst", 0, 5, 6, __pyx_nargs); __PYX_ERR(0, 190, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("read_burst", 0, 5, 7, __pyx_nargs); __PYX_ERR(0, 191, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -7919,11 +7957,12 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_start_address), (&PyLong_Type), 0, "start_address", 2))) __PYX_ERR(0, 190, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_stride), (&PyLong_Type), 0, "stride", 2))) __PYX_ERR(0, 190, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_burst_count), (&PyLong_Type), 0, "burst_count", 2))) __PYX_ERR(0, 190, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_k), (&PyLong_Type), 0, "k", 2))) __PYX_ERR(0, 190, __pyx_L1_error)
-  __pyx_r = __pyx_pf_4SRAM_4SRAM_6SramSp_14read_burst(__pyx_self, __pyx_v_self, __pyx_v_en, __pyx_v_start_address, __pyx_v_stride, __pyx_v_burst_count, __pyx_v_k);
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_start_address), (&PyLong_Type), 0, "start_address", 2))) __PYX_ERR(0, 191, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_stride), (&PyLong_Type), 0, "stride", 2))) __PYX_ERR(0, 191, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_burst_count), (&PyLong_Type), 0, "burst_count", 2))) __PYX_ERR(0, 191, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_k), (&PyLong_Type), 0, "k", 2))) __PYX_ERR(0, 191, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_burst_bytes), (&PyLong_Type), 0, "burst_bytes", 2))) __PYX_ERR(0, 191, __pyx_L1_error)
+  __pyx_r = __pyx_pf_4SRAM_4SRAM_6SramSp_14read_burst(__pyx_self, __pyx_v_self, __pyx_v_en, __pyx_v_start_address, __pyx_v_stride, __pyx_v_burst_count, __pyx_v_k, __pyx_v_burst_bytes);
 
   /* function exit code */
   goto __pyx_L0;
@@ -7942,14 +7981,13 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_14read_burst(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_en, PyObject *__pyx_v_start_address, PyObject *__pyx_v_stride, PyObject *__pyx_v_burst_count, PyObject *__pyx_v_k) {
+static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_14read_burst(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_en, PyObject *__pyx_v_start_address, PyObject *__pyx_v_stride, PyObject *__pyx_v_burst_count, PyObject *__pyx_v_k, PyObject *__pyx_v_burst_bytes) {
   PyObject *__pyx_v_output_list = NULL;
   PyObject *__pyx_v_i = NULL;
   PyObject *__pyx_v_burst_start_address = NULL;
-  PyObject *__pyx_v_burst_start_row = NULL;
   PyObject *__pyx_v_j = NULL;
-  PyObject *__pyx_v_row_index = NULL;
   PyObject *__pyx_v_current_address = NULL;
+  PyObject *__pyx_v_row_index = NULL;
   CYTHON_UNUSED PyObject *__pyx_8genexpr4__pyx_v__ = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -7965,12 +8003,12 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_14read_burst(CYTHON_UNUSED PyObjec
   PyObject *(*__pyx_t_10)(PyObject *);
   Py_ssize_t __pyx_t_11;
   PyObject *(*__pyx_t_12)(PyObject *);
-  PyObject *__pyx_t_13 = NULL;
+  int __pyx_t_13;
   PyObject *__pyx_t_14 = NULL;
   PyObject *__pyx_t_15 = NULL;
-  PyObject *__pyx_t_16[6];
-  PyObject *__pyx_t_17 = NULL;
-  int __pyx_t_18;
+  PyObject *__pyx_t_16 = NULL;
+  PyObject *__pyx_t_17[6];
+  PyObject *__pyx_t_18 = NULL;
   PyObject *__pyx_t_19 = NULL;
   PyObject *__pyx_t_20[10];
   PyObject *__pyx_t_21 = NULL;
@@ -7978,31 +8016,32 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_14read_burst(CYTHON_UNUSED PyObjec
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("read_burst", 0);
+  __Pyx_INCREF(__pyx_v_burst_bytes);
 
-  /* "SRAM/SRAM.pyx":200
+  /* "SRAM/SRAM.pyx":201
  * 		:return: List of data arrays read from SRAM
  * 		"""
  * 		output_list = []             # <<<<<<<<<<<<<<
  * 
  * 		if not en:
 */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 200, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 201, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_output_list = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "SRAM/SRAM.pyx":202
+  /* "SRAM/SRAM.pyx":203
  * 		output_list = []
  * 
  * 		if not en:             # <<<<<<<<<<<<<<
  * 			logger_sram.debug("--SRAM burst read is miss, en is 0.")
  * 			return [[0] * self.bytes for _ in range(burst_count * k)]
 */
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_en); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 202, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_en); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 203, __pyx_L1_error)
   __pyx_t_3 = (!__pyx_t_2);
   if (__pyx_t_3) {
 
-    /* "SRAM/SRAM.pyx":203
+    /* "SRAM/SRAM.pyx":204
  * 
  * 		if not en:
  * 			logger_sram.debug("--SRAM burst read is miss, en is 0.")             # <<<<<<<<<<<<<<
@@ -8010,9 +8049,9 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_14read_burst(CYTHON_UNUSED PyObjec
  * 
 */
     __pyx_t_4 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_logger_sram); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 203, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_logger_sram); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 204, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_debug); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 203, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_debug); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 204, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_t_7 = 1;
@@ -8032,26 +8071,26 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_14read_burst(CYTHON_UNUSED PyObjec
       __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+__pyx_t_7, (2-__pyx_t_7) | (__pyx_t_7*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 203, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 204, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
     }
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "SRAM/SRAM.pyx":204
+    /* "SRAM/SRAM.pyx":205
  * 		if not en:
  * 			logger_sram.debug("--SRAM burst read is miss, en is 0.")
  * 			return [[0] * self.bytes for _ in range(burst_count * k)]             # <<<<<<<<<<<<<<
  * 
- * 		for i in range(burst_count):
+ * 		if burst_bytes == None:
 */
     __Pyx_XDECREF(__pyx_r);
     { /* enter inner scope */
-      __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 204, __pyx_L6_error)
+      __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 205, __pyx_L6_error)
       __Pyx_GOTREF(__pyx_t_1);
       __pyx_t_4 = NULL;
       __Pyx_INCREF(__pyx_builtin_range);
       __pyx_t_5 = __pyx_builtin_range; 
-      __pyx_t_8 = PyNumber_Multiply(__pyx_v_burst_count, __pyx_v_k); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 204, __pyx_L6_error)
+      __pyx_t_8 = PyNumber_Multiply(__pyx_v_burst_count, __pyx_v_k); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 205, __pyx_L6_error)
       __Pyx_GOTREF(__pyx_t_8);
       __pyx_t_7 = 1;
       {
@@ -8060,7 +8099,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_14read_burst(CYTHON_UNUSED PyObjec
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
         __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-        if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 204, __pyx_L6_error)
+        if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 205, __pyx_L6_error)
         __Pyx_GOTREF(__pyx_t_6);
       }
       if (likely(PyList_CheckExact(__pyx_t_6)) || PyTuple_CheckExact(__pyx_t_6)) {
@@ -8068,9 +8107,9 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_14read_burst(CYTHON_UNUSED PyObjec
         __pyx_t_9 = 0;
         __pyx_t_10 = NULL;
       } else {
-        __pyx_t_9 = -1; __pyx_t_5 = PyObject_GetIter(__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 204, __pyx_L6_error)
+        __pyx_t_9 = -1; __pyx_t_5 = PyObject_GetIter(__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 205, __pyx_L6_error)
         __Pyx_GOTREF(__pyx_t_5);
-        __pyx_t_10 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_5); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 204, __pyx_L6_error)
+        __pyx_t_10 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_5); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 205, __pyx_L6_error)
       }
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       for (;;) {
@@ -8079,7 +8118,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_14read_burst(CYTHON_UNUSED PyObjec
             {
               Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_5);
               #if !CYTHON_ASSUME_SAFE_SIZE
-              if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 204, __pyx_L6_error)
+              if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 205, __pyx_L6_error)
               #endif
               if (__pyx_t_9 >= __pyx_temp) break;
             }
@@ -8089,7 +8128,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_14read_burst(CYTHON_UNUSED PyObjec
             {
               Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_5);
               #if !CYTHON_ASSUME_SAFE_SIZE
-              if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 204, __pyx_L6_error)
+              if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 205, __pyx_L6_error)
               #endif
               if (__pyx_t_9 >= __pyx_temp) break;
             }
@@ -8100,36 +8139,36 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_14read_burst(CYTHON_UNUSED PyObjec
             #endif
             ++__pyx_t_9;
           }
-          if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 204, __pyx_L6_error)
+          if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 205, __pyx_L6_error)
         } else {
           __pyx_t_6 = __pyx_t_10(__pyx_t_5);
           if (unlikely(!__pyx_t_6)) {
             PyObject* exc_type = PyErr_Occurred();
             if (exc_type) {
-              if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 204, __pyx_L6_error)
+              if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 205, __pyx_L6_error)
               PyErr_Clear();
             }
             break;
           }
         }
         __Pyx_GOTREF(__pyx_t_6);
-        if (!(likely(PyLong_CheckExact(__pyx_t_6))||((__pyx_t_6) == Py_None) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_t_6))) __PYX_ERR(0, 204, __pyx_L6_error)
+        if (!(likely(PyLong_CheckExact(__pyx_t_6))||((__pyx_t_6) == Py_None) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_t_6))) __PYX_ERR(0, 205, __pyx_L6_error)
         __Pyx_XDECREF_SET(__pyx_8genexpr4__pyx_v__, ((PyObject*)__pyx_t_6));
         __pyx_t_6 = 0;
-        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 204, __pyx_L6_error)
+        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 205, __pyx_L6_error)
         __Pyx_GOTREF(__pyx_t_6);
-        __pyx_t_8 = PyList_New(1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 204, __pyx_L6_error)
+        __pyx_t_8 = PyList_New(1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 205, __pyx_L6_error)
         __Pyx_GOTREF(__pyx_t_8);
         __Pyx_INCREF(__pyx_mstate_global->__pyx_int_0);
         __Pyx_GIVEREF(__pyx_mstate_global->__pyx_int_0);
-        if (__Pyx_PyList_SET_ITEM(__pyx_t_8, 0, __pyx_mstate_global->__pyx_int_0) != (0)) __PYX_ERR(0, 204, __pyx_L6_error);
-        { PyObject* __pyx_temp = PyNumber_InPlaceMultiply(__pyx_t_8, __pyx_t_6); if (unlikely(!__pyx_temp)) __PYX_ERR(0, 204, __pyx_L6_error)
+        if (__Pyx_PyList_SET_ITEM(__pyx_t_8, 0, __pyx_mstate_global->__pyx_int_0) != (0)) __PYX_ERR(0, 205, __pyx_L6_error);
+        { PyObject* __pyx_temp = PyNumber_InPlaceMultiply(__pyx_t_8, __pyx_t_6); if (unlikely(!__pyx_temp)) __PYX_ERR(0, 205, __pyx_L6_error)
           __Pyx_GOTREF(__pyx_temp);
           __Pyx_DECREF(__pyx_t_8);
           __pyx_t_8 = __pyx_temp;
         }
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(__Pyx_ListComp_Append(__pyx_t_1, (PyObject*)__pyx_t_8))) __PYX_ERR(0, 204, __pyx_L6_error)
+        if (unlikely(__Pyx_ListComp_Append(__pyx_t_1, (PyObject*)__pyx_t_8))) __PYX_ERR(0, 205, __pyx_L6_error)
         __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
@@ -8144,7 +8183,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_14read_burst(CYTHON_UNUSED PyObjec
     __pyx_t_1 = 0;
     goto __pyx_L0;
 
-    /* "SRAM/SRAM.pyx":202
+    /* "SRAM/SRAM.pyx":203
  * 		output_list = []
  * 
  * 		if not en:             # <<<<<<<<<<<<<<
@@ -8153,12 +8192,46 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_14read_burst(CYTHON_UNUSED PyObjec
 */
   }
 
-  /* "SRAM/SRAM.pyx":206
+  /* "SRAM/SRAM.pyx":207
  * 			return [[0] * self.bytes for _ in range(burst_count * k)]
+ * 
+ * 		if burst_bytes == None:             # <<<<<<<<<<<<<<
+ * 			burst_bytes = self.bytes
+ * 
+*/
+  __pyx_t_1 = PyObject_RichCompare(__pyx_v_burst_bytes, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 207, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_3 < 0))) __PYX_ERR(0, 207, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  if (__pyx_t_3) {
+
+    /* "SRAM/SRAM.pyx":208
+ * 
+ * 		if burst_bytes == None:
+ * 			burst_bytes = self.bytes             # <<<<<<<<<<<<<<
+ * 
+ * 		for i in range(burst_count):
+*/
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 208, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    if (!(likely(PyLong_CheckExact(__pyx_t_1))||((__pyx_t_1) == Py_None) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_t_1))) __PYX_ERR(0, 208, __pyx_L1_error)
+    __Pyx_DECREF_SET(__pyx_v_burst_bytes, ((PyObject*)__pyx_t_1));
+    __pyx_t_1 = 0;
+
+    /* "SRAM/SRAM.pyx":207
+ * 			return [[0] * self.bytes for _ in range(burst_count * k)]
+ * 
+ * 		if burst_bytes == None:             # <<<<<<<<<<<<<<
+ * 			burst_bytes = self.bytes
+ * 
+*/
+  }
+
+  /* "SRAM/SRAM.pyx":210
+ * 			burst_bytes = self.bytes
  * 
  * 		for i in range(burst_count):             # <<<<<<<<<<<<<<
  * 			burst_start_address = start_address + i * stride
- * 			burst_start_row = (burst_start_address - self.base_addr) // self.bytes
+ * 
 */
   __pyx_t_5 = NULL;
   __Pyx_INCREF(__pyx_builtin_range);
@@ -8169,7 +8242,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_14read_burst(CYTHON_UNUSED PyObjec
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_8, __pyx_callargs+__pyx_t_7, (2-__pyx_t_7) | (__pyx_t_7*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 206, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 210, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
   }
   if (likely(PyList_CheckExact(__pyx_t_1)) || PyTuple_CheckExact(__pyx_t_1)) {
@@ -8177,9 +8250,9 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_14read_burst(CYTHON_UNUSED PyObjec
     __pyx_t_9 = 0;
     __pyx_t_10 = NULL;
   } else {
-    __pyx_t_9 = -1; __pyx_t_8 = PyObject_GetIter(__pyx_t_1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 206, __pyx_L1_error)
+    __pyx_t_9 = -1; __pyx_t_8 = PyObject_GetIter(__pyx_t_1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 210, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
-    __pyx_t_10 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_8); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 206, __pyx_L1_error)
+    __pyx_t_10 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_8); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 210, __pyx_L1_error)
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   for (;;) {
@@ -8188,7 +8261,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_14read_burst(CYTHON_UNUSED PyObjec
         {
           Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_8);
           #if !CYTHON_ASSUME_SAFE_SIZE
-          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 206, __pyx_L1_error)
+          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 210, __pyx_L1_error)
           #endif
           if (__pyx_t_9 >= __pyx_temp) break;
         }
@@ -8198,7 +8271,7 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_14read_burst(CYTHON_UNUSED PyObjec
         {
           Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_8);
           #if !CYTHON_ASSUME_SAFE_SIZE
-          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 206, __pyx_L1_error)
+          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 210, __pyx_L1_error)
           #endif
           if (__pyx_t_9 >= __pyx_temp) break;
         }
@@ -8209,338 +8282,323 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_14read_burst(CYTHON_UNUSED PyObjec
         #endif
         ++__pyx_t_9;
       }
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 206, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 210, __pyx_L1_error)
     } else {
       __pyx_t_1 = __pyx_t_10(__pyx_t_8);
       if (unlikely(!__pyx_t_1)) {
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
-          if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 206, __pyx_L1_error)
+          if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 210, __pyx_L1_error)
           PyErr_Clear();
         }
         break;
       }
     }
     __Pyx_GOTREF(__pyx_t_1);
-    if (!(likely(PyLong_CheckExact(__pyx_t_1))||((__pyx_t_1) == Py_None) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_t_1))) __PYX_ERR(0, 206, __pyx_L1_error)
+    if (!(likely(PyLong_CheckExact(__pyx_t_1))||((__pyx_t_1) == Py_None) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_t_1))) __PYX_ERR(0, 210, __pyx_L1_error)
     __Pyx_XDECREF_SET(__pyx_v_i, ((PyObject*)__pyx_t_1));
     __pyx_t_1 = 0;
 
-    /* "SRAM/SRAM.pyx":207
+    /* "SRAM/SRAM.pyx":211
  * 
  * 		for i in range(burst_count):
  * 			burst_start_address = start_address + i * stride             # <<<<<<<<<<<<<<
- * 			burst_start_row = (burst_start_address - self.base_addr) // self.bytes
  * 
+ * 			# k
 */
-    __pyx_t_1 = PyNumber_Multiply(__pyx_v_i, __pyx_v_stride); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 207, __pyx_L1_error)
+    __pyx_t_1 = PyNumber_Multiply(__pyx_v_i, __pyx_v_stride); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 211, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_5 = PyNumber_Add(__pyx_v_start_address, __pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 207, __pyx_L1_error)
+    __pyx_t_5 = PyNumber_Add(__pyx_v_start_address, __pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 211, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_XDECREF_SET(__pyx_v_burst_start_address, ((PyObject*)__pyx_t_5));
     __pyx_t_5 = 0;
 
-    /* "SRAM/SRAM.pyx":208
- * 		for i in range(burst_count):
- * 			burst_start_address = start_address + i * stride
- * 			burst_start_row = (burst_start_address - self.base_addr) // self.bytes             # <<<<<<<<<<<<<<
- * 
- * 			# k
-*/
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_base_addr); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 208, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_1 = PyNumber_Subtract(__pyx_v_burst_start_address, __pyx_t_5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 208, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 208, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_6 = PyNumber_FloorDivide(__pyx_t_1, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 208, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_6);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __Pyx_XDECREF_SET(__pyx_v_burst_start_row, __pyx_t_6);
-    __pyx_t_6 = 0;
-
-    /* "SRAM/SRAM.pyx":211
+    /* "SRAM/SRAM.pyx":214
  * 
  * 			# k
  * 			for j in range(k):             # <<<<<<<<<<<<<<
- * 				row_index = burst_start_row + j
- * 				current_address = burst_start_address + j * self.bytes
+ * 				current_address = burst_start_address + j * burst_bytes
+ * 				row_index = (current_address - self.base_addr) // self.bytes
 */
-    __pyx_t_5 = NULL;
+    __pyx_t_1 = NULL;
     __Pyx_INCREF(__pyx_builtin_range);
-    __pyx_t_1 = __pyx_builtin_range; 
+    __pyx_t_6 = __pyx_builtin_range; 
     __pyx_t_7 = 1;
     {
-      PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_v_k};
-      __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+__pyx_t_7, (2-__pyx_t_7) | (__pyx_t_7*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
-      __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 211, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_6);
+      PyObject *__pyx_callargs[2] = {__pyx_t_1, __pyx_v_k};
+      __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+__pyx_t_7, (2-__pyx_t_7) | (__pyx_t_7*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
+      __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
+      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+      if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 214, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_5);
     }
-    if (likely(PyList_CheckExact(__pyx_t_6)) || PyTuple_CheckExact(__pyx_t_6)) {
-      __pyx_t_1 = __pyx_t_6; __Pyx_INCREF(__pyx_t_1);
+    if (likely(PyList_CheckExact(__pyx_t_5)) || PyTuple_CheckExact(__pyx_t_5)) {
+      __pyx_t_6 = __pyx_t_5; __Pyx_INCREF(__pyx_t_6);
       __pyx_t_11 = 0;
       __pyx_t_12 = NULL;
     } else {
-      __pyx_t_11 = -1; __pyx_t_1 = PyObject_GetIter(__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 211, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_12 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_1); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 211, __pyx_L1_error)
+      __pyx_t_11 = -1; __pyx_t_6 = PyObject_GetIter(__pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 214, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_6);
+      __pyx_t_12 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_6); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 214, __pyx_L1_error)
     }
-    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     for (;;) {
       if (likely(!__pyx_t_12)) {
-        if (likely(PyList_CheckExact(__pyx_t_1))) {
+        if (likely(PyList_CheckExact(__pyx_t_6))) {
           {
-            Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_1);
+            Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_6);
             #if !CYTHON_ASSUME_SAFE_SIZE
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 211, __pyx_L1_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 214, __pyx_L1_error)
             #endif
             if (__pyx_t_11 >= __pyx_temp) break;
           }
-          __pyx_t_6 = __Pyx_PyList_GetItemRef(__pyx_t_1, __pyx_t_11);
+          __pyx_t_5 = __Pyx_PyList_GetItemRef(__pyx_t_6, __pyx_t_11);
           ++__pyx_t_11;
         } else {
           {
-            Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_1);
+            Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_6);
             #if !CYTHON_ASSUME_SAFE_SIZE
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 211, __pyx_L1_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 214, __pyx_L1_error)
             #endif
             if (__pyx_t_11 >= __pyx_temp) break;
           }
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-          __pyx_t_6 = __Pyx_NewRef(PyTuple_GET_ITEM(__pyx_t_1, __pyx_t_11));
+          __pyx_t_5 = __Pyx_NewRef(PyTuple_GET_ITEM(__pyx_t_6, __pyx_t_11));
           #else
-          __pyx_t_6 = __Pyx_PySequence_ITEM(__pyx_t_1, __pyx_t_11);
+          __pyx_t_5 = __Pyx_PySequence_ITEM(__pyx_t_6, __pyx_t_11);
           #endif
           ++__pyx_t_11;
         }
-        if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 211, __pyx_L1_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 214, __pyx_L1_error)
       } else {
-        __pyx_t_6 = __pyx_t_12(__pyx_t_1);
-        if (unlikely(!__pyx_t_6)) {
+        __pyx_t_5 = __pyx_t_12(__pyx_t_6);
+        if (unlikely(!__pyx_t_5)) {
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
-            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 211, __pyx_L1_error)
+            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 214, __pyx_L1_error)
             PyErr_Clear();
           }
           break;
         }
       }
-      __Pyx_GOTREF(__pyx_t_6);
-      if (!(likely(PyLong_CheckExact(__pyx_t_6))||((__pyx_t_6) == Py_None) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_t_6))) __PYX_ERR(0, 211, __pyx_L1_error)
-      __Pyx_XDECREF_SET(__pyx_v_j, ((PyObject*)__pyx_t_6));
-      __pyx_t_6 = 0;
+      __Pyx_GOTREF(__pyx_t_5);
+      if (!(likely(PyLong_CheckExact(__pyx_t_5))||((__pyx_t_5) == Py_None) || __Pyx_RaiseUnexpectedTypeError("int", __pyx_t_5))) __PYX_ERR(0, 214, __pyx_L1_error)
+      __Pyx_XDECREF_SET(__pyx_v_j, ((PyObject*)__pyx_t_5));
+      __pyx_t_5 = 0;
 
-      /* "SRAM/SRAM.pyx":212
+      /* "SRAM/SRAM.pyx":215
  * 			# k
  * 			for j in range(k):
- * 				row_index = burst_start_row + j             # <<<<<<<<<<<<<<
- * 				current_address = burst_start_address + j * self.bytes
+ * 				current_address = burst_start_address + j * burst_bytes             # <<<<<<<<<<<<<<
+ * 				row_index = (current_address - self.base_addr) // self.bytes
  * 
 */
-      __pyx_t_6 = PyNumber_Add(__pyx_v_burst_start_row, __pyx_v_j); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 212, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_6);
-      __Pyx_XDECREF_SET(__pyx_v_row_index, __pyx_t_6);
-      __pyx_t_6 = 0;
+      __pyx_t_5 = PyNumber_Multiply(__pyx_v_j, __pyx_v_burst_bytes); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 215, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_5);
+      __pyx_t_1 = PyNumber_Add(__pyx_v_burst_start_address, __pyx_t_5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 215, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_1);
+      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+      __Pyx_XDECREF_SET(__pyx_v_current_address, ((PyObject*)__pyx_t_1));
+      __pyx_t_1 = 0;
 
-      /* "SRAM/SRAM.pyx":213
+      /* "SRAM/SRAM.pyx":216
  * 			for j in range(k):
- * 				row_index = burst_start_row + j
- * 				current_address = burst_start_address + j * self.bytes             # <<<<<<<<<<<<<<
+ * 				current_address = burst_start_address + j * burst_bytes
+ * 				row_index = (current_address - self.base_addr) // self.bytes             # <<<<<<<<<<<<<<
  * 
  * 				if row_index < 0 or row_index >= self.height:
 */
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 213, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_5 = PyNumber_Multiply(__pyx_v_j, __pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 213, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_base_addr); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 216, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_1);
+      __pyx_t_5 = PyNumber_Subtract(__pyx_v_current_address, __pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 216, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_6 = PyNumber_Add(__pyx_v_burst_start_address, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 213, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_6);
+      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 216, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_1);
+      __pyx_t_4 = PyNumber_FloorDivide(__pyx_t_5, __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 216, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __Pyx_XDECREF_SET(__pyx_v_current_address, __pyx_t_6);
-      __pyx_t_6 = 0;
+      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+      __Pyx_XDECREF_SET(__pyx_v_row_index, __pyx_t_4);
+      __pyx_t_4 = 0;
 
-      /* "SRAM/SRAM.pyx":215
- * 				current_address = burst_start_address + j * self.bytes
+      /* "SRAM/SRAM.pyx":218
+ * 				row_index = (current_address - self.base_addr) // self.bytes
  * 
  * 				if row_index < 0 or row_index >= self.height:             # <<<<<<<<<<<<<<
+ * 					output_list.append([0] * self.bytes)
  * 					logger_sram.info(f"--SRAM burst read error at burst {i+1}, row {j+1}, address {current_address}")
- * 					logger_sram.error(f"--SRAM burst read address {current_address} out of range, row_index: {row_index}, height: {self.height}")
 */
-      __pyx_t_6 = PyObject_RichCompare(__pyx_v_row_index, __pyx_mstate_global->__pyx_int_0, Py_LT); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 215, __pyx_L1_error)
-      __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 215, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+      __pyx_t_4 = PyObject_RichCompare(__pyx_v_row_index, __pyx_mstate_global->__pyx_int_0, Py_LT); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 218, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 218, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       if (!__pyx_t_2) {
       } else {
         __pyx_t_3 = __pyx_t_2;
-        goto __pyx_L16_bool_binop_done;
+        goto __pyx_L17_bool_binop_done;
       }
-      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_height); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 215, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_5 = PyObject_RichCompare(__pyx_v_row_index, __pyx_t_6, Py_GE); __Pyx_XGOTREF(__pyx_t_5); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 215, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_5); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 215, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_height); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 218, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __pyx_t_1 = PyObject_RichCompare(__pyx_v_row_index, __pyx_t_4, Py_GE); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 218, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+      __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_2 < 0))) __PYX_ERR(0, 218, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __pyx_t_3 = __pyx_t_2;
-      __pyx_L16_bool_binop_done:;
+      __pyx_L17_bool_binop_done:;
       if (__pyx_t_3) {
 
-        /* "SRAM/SRAM.pyx":216
+        /* "SRAM/SRAM.pyx":219
  * 
  * 				if row_index < 0 or row_index >= self.height:
+ * 					output_list.append([0] * self.bytes)             # <<<<<<<<<<<<<<
+ * 					logger_sram.info(f"--SRAM burst read error at burst {i+1}, row {j+1}, address {current_address}")
+ * 					logger_sram.error(f"--SRAM burst read address {current_address} out of range, row_index: {row_index}, height: {self.height}")
+*/
+        __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 219, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_1);
+        __pyx_t_4 = PyList_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 219, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_4);
+        __Pyx_INCREF(__pyx_mstate_global->__pyx_int_0);
+        __Pyx_GIVEREF(__pyx_mstate_global->__pyx_int_0);
+        if (__Pyx_PyList_SET_ITEM(__pyx_t_4, 0, __pyx_mstate_global->__pyx_int_0) != (0)) __PYX_ERR(0, 219, __pyx_L1_error);
+        { PyObject* __pyx_temp = PyNumber_InPlaceMultiply(__pyx_t_4, __pyx_t_1); if (unlikely(!__pyx_temp)) __PYX_ERR(0, 219, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_temp);
+          __Pyx_DECREF(__pyx_t_4);
+          __pyx_t_4 = __pyx_temp;
+        }
+        __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+        __pyx_t_13 = __Pyx_PyList_Append(__pyx_v_output_list, __pyx_t_4); if (unlikely(__pyx_t_13 == ((int)-1))) __PYX_ERR(0, 219, __pyx_L1_error)
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+
+        /* "SRAM/SRAM.pyx":220
+ * 				if row_index < 0 or row_index >= self.height:
+ * 					output_list.append([0] * self.bytes)
  * 					logger_sram.info(f"--SRAM burst read error at burst {i+1}, row {j+1}, address {current_address}")             # <<<<<<<<<<<<<<
  * 					logger_sram.error(f"--SRAM burst read address {current_address} out of range, row_index: {row_index}, height: {self.height}")
- * 					output_list.append([0] * self.bytes)
-*/
-        __pyx_t_6 = NULL;
-        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_logger_sram); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 216, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_info); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 216, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_13);
-        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __pyx_t_4 = __Pyx_PyLong_AddObjC(__pyx_v_i, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 216, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_14 = __Pyx_PyObject_FormatSimple(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 216, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_14);
-        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __pyx_t_4 = __Pyx_PyLong_AddObjC(__pyx_v_j, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 216, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_15 = __Pyx_PyObject_FormatSimple(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 216, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_15);
-        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __pyx_t_4 = __Pyx_PyObject_FormatSimple(__pyx_v_current_address, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 216, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_16[0] = __pyx_mstate_global->__pyx_kp_u_SRAM_burst_read_error_at_burst;
-        __pyx_t_16[1] = __pyx_t_14;
-        __pyx_t_16[2] = __pyx_mstate_global->__pyx_kp_u_row;
-        __pyx_t_16[3] = __pyx_t_15;
-        __pyx_t_16[4] = __pyx_mstate_global->__pyx_kp_u_address_2;
-        __pyx_t_16[5] = __pyx_t_4;
-        __pyx_t_17 = __Pyx_PyUnicode_Join(__pyx_t_16, 6, 34 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_14) + 6 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_15) + 10 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_4), 1114111 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_14) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_15) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_4));
-        if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 216, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_17);
-        __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-        __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
-        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __pyx_t_7 = 1;
-        #if CYTHON_UNPACK_METHODS
-        if (unlikely(PyMethod_Check(__pyx_t_13))) {
-          __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_13);
-          assert(__pyx_t_6);
-          PyObject* __pyx__function = PyMethod_GET_FUNCTION(__pyx_t_13);
-          __Pyx_INCREF(__pyx_t_6);
-          __Pyx_INCREF(__pyx__function);
-          __Pyx_DECREF_SET(__pyx_t_13, __pyx__function);
-          __pyx_t_7 = 0;
-        }
-        #endif
-        {
-          PyObject *__pyx_callargs[2] = {__pyx_t_6, __pyx_t_17};
-          __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_13, __pyx_callargs+__pyx_t_7, (2-__pyx_t_7) | (__pyx_t_7*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
-          __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-          __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-          __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-          if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 216, __pyx_L1_error)
-          __Pyx_GOTREF(__pyx_t_5);
-        }
-        __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-
-        /* "SRAM/SRAM.pyx":217
- * 				if row_index < 0 or row_index >= self.height:
- * 					logger_sram.info(f"--SRAM burst read error at burst {i+1}, row {j+1}, address {current_address}")
- * 					logger_sram.error(f"--SRAM burst read address {current_address} out of range, row_index: {row_index}, height: {self.height}")             # <<<<<<<<<<<<<<
- * 					output_list.append([0] * self.bytes)
  * 				else:
 */
-        __pyx_t_13 = NULL;
-        __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_logger_sram); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 217, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_17);
-        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_error); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 217, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_6);
-        __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-        __pyx_t_17 = __Pyx_PyObject_FormatSimple(__pyx_v_current_address, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 217, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_17);
-        __pyx_t_4 = __Pyx_PyObject_FormatSimple(__pyx_v_row_index, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 217, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_height); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 217, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_15);
-        __pyx_t_14 = __Pyx_PyObject_FormatSimple(__pyx_t_15, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 217, __pyx_L1_error)
+        __pyx_t_1 = NULL;
+        __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_logger_sram); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 220, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_5);
+        __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_info); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 220, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_14);
-        __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
-        __pyx_t_16[0] = __pyx_mstate_global->__pyx_kp_u_SRAM_burst_read_address;
-        __pyx_t_16[1] = __pyx_t_17;
-        __pyx_t_16[2] = __pyx_mstate_global->__pyx_kp_u_out_of_range_row_index;
-        __pyx_t_16[3] = __pyx_t_4;
-        __pyx_t_16[4] = __pyx_mstate_global->__pyx_kp_u_height_2;
-        __pyx_t_16[5] = __pyx_t_14;
-        __pyx_t_15 = __Pyx_PyUnicode_Join(__pyx_t_16, 6, 27 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_17) + 26 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_4) + 10 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_14), 1114111 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_17) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_4) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_14));
-        if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 217, __pyx_L1_error)
+        __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+        __pyx_t_5 = __Pyx_PyLong_AddObjC(__pyx_v_i, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 220, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_5);
+        __pyx_t_15 = __Pyx_PyObject_FormatSimple(__pyx_t_5, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 220, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_15);
-        __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+        __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+        __pyx_t_5 = __Pyx_PyLong_AddObjC(__pyx_v_j, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 220, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_5);
+        __pyx_t_16 = __Pyx_PyObject_FormatSimple(__pyx_t_5, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 220, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_16);
+        __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+        __pyx_t_5 = __Pyx_PyObject_FormatSimple(__pyx_v_current_address, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 220, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_5);
+        __pyx_t_17[0] = __pyx_mstate_global->__pyx_kp_u_SRAM_burst_read_error_at_burst;
+        __pyx_t_17[1] = __pyx_t_15;
+        __pyx_t_17[2] = __pyx_mstate_global->__pyx_kp_u_row;
+        __pyx_t_17[3] = __pyx_t_16;
+        __pyx_t_17[4] = __pyx_mstate_global->__pyx_kp_u_address_2;
+        __pyx_t_17[5] = __pyx_t_5;
+        __pyx_t_18 = __Pyx_PyUnicode_Join(__pyx_t_17, 6, 34 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_15) + 6 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_16) + 10 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_5), 1114111 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_15) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_16) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_5));
+        if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 220, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_18);
+        __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
+        __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
+        __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         __pyx_t_7 = 1;
         #if CYTHON_UNPACK_METHODS
-        if (unlikely(PyMethod_Check(__pyx_t_6))) {
-          __pyx_t_13 = PyMethod_GET_SELF(__pyx_t_6);
-          assert(__pyx_t_13);
-          PyObject* __pyx__function = PyMethod_GET_FUNCTION(__pyx_t_6);
-          __Pyx_INCREF(__pyx_t_13);
+        if (unlikely(PyMethod_Check(__pyx_t_14))) {
+          __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_14);
+          assert(__pyx_t_1);
+          PyObject* __pyx__function = PyMethod_GET_FUNCTION(__pyx_t_14);
+          __Pyx_INCREF(__pyx_t_1);
           __Pyx_INCREF(__pyx__function);
-          __Pyx_DECREF_SET(__pyx_t_6, __pyx__function);
+          __Pyx_DECREF_SET(__pyx_t_14, __pyx__function);
           __pyx_t_7 = 0;
         }
         #endif
         {
-          PyObject *__pyx_callargs[2] = {__pyx_t_13, __pyx_t_15};
-          __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_6, __pyx_callargs+__pyx_t_7, (2-__pyx_t_7) | (__pyx_t_7*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
-          __Pyx_XDECREF(__pyx_t_13); __pyx_t_13 = 0;
-          __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
-          __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-          if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 217, __pyx_L1_error)
-          __Pyx_GOTREF(__pyx_t_5);
+          PyObject *__pyx_callargs[2] = {__pyx_t_1, __pyx_t_18};
+          __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_14, __pyx_callargs+__pyx_t_7, (2-__pyx_t_7) | (__pyx_t_7*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
+          __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
+          __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
+          __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 220, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_4);
         }
-        __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* "SRAM/SRAM.pyx":218
+        /* "SRAM/SRAM.pyx":221
+ * 					output_list.append([0] * self.bytes)
  * 					logger_sram.info(f"--SRAM burst read error at burst {i+1}, row {j+1}, address {current_address}")
- * 					logger_sram.error(f"--SRAM burst read address {current_address} out of range, row_index: {row_index}, height: {self.height}")
- * 					output_list.append([0] * self.bytes)             # <<<<<<<<<<<<<<
+ * 					logger_sram.error(f"--SRAM burst read address {current_address} out of range, row_index: {row_index}, height: {self.height}")             # <<<<<<<<<<<<<<
  * 				else:
  * 					#
 */
-        __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 218, __pyx_L1_error)
+        __pyx_t_14 = NULL;
+        __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_logger_sram); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 221, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_18);
+        __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_error); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 221, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_1);
+        __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
+        __pyx_t_18 = __Pyx_PyObject_FormatSimple(__pyx_v_current_address, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 221, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_18);
+        __pyx_t_5 = __Pyx_PyObject_FormatSimple(__pyx_v_row_index, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 221, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
-        __pyx_t_6 = PyList_New(1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 218, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_6);
-        __Pyx_INCREF(__pyx_mstate_global->__pyx_int_0);
-        __Pyx_GIVEREF(__pyx_mstate_global->__pyx_int_0);
-        if (__Pyx_PyList_SET_ITEM(__pyx_t_6, 0, __pyx_mstate_global->__pyx_int_0) != (0)) __PYX_ERR(0, 218, __pyx_L1_error);
-        { PyObject* __pyx_temp = PyNumber_InPlaceMultiply(__pyx_t_6, __pyx_t_5); if (unlikely(!__pyx_temp)) __PYX_ERR(0, 218, __pyx_L1_error)
-          __Pyx_GOTREF(__pyx_temp);
-          __Pyx_DECREF(__pyx_t_6);
-          __pyx_t_6 = __pyx_temp;
-        }
+        __pyx_t_16 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_height); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 221, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_16);
+        __pyx_t_15 = __Pyx_PyObject_FormatSimple(__pyx_t_16, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 221, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_15);
+        __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
+        __pyx_t_17[0] = __pyx_mstate_global->__pyx_kp_u_SRAM_burst_read_address;
+        __pyx_t_17[1] = __pyx_t_18;
+        __pyx_t_17[2] = __pyx_mstate_global->__pyx_kp_u_out_of_range_row_index;
+        __pyx_t_17[3] = __pyx_t_5;
+        __pyx_t_17[4] = __pyx_mstate_global->__pyx_kp_u_height_2;
+        __pyx_t_17[5] = __pyx_t_15;
+        __pyx_t_16 = __Pyx_PyUnicode_Join(__pyx_t_17, 6, 27 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_18) + 26 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_5) + 10 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_15), 1114111 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_18) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_5) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_15));
+        if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 221, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_16);
+        __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-        __pyx_t_18 = __Pyx_PyList_Append(__pyx_v_output_list, __pyx_t_6); if (unlikely(__pyx_t_18 == ((int)-1))) __PYX_ERR(0, 218, __pyx_L1_error)
-        __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+        __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
+        __pyx_t_7 = 1;
+        #if CYTHON_UNPACK_METHODS
+        if (unlikely(PyMethod_Check(__pyx_t_1))) {
+          __pyx_t_14 = PyMethod_GET_SELF(__pyx_t_1);
+          assert(__pyx_t_14);
+          PyObject* __pyx__function = PyMethod_GET_FUNCTION(__pyx_t_1);
+          __Pyx_INCREF(__pyx_t_14);
+          __Pyx_INCREF(__pyx__function);
+          __Pyx_DECREF_SET(__pyx_t_1, __pyx__function);
+          __pyx_t_7 = 0;
+        }
+        #endif
+        {
+          PyObject *__pyx_callargs[2] = {__pyx_t_14, __pyx_t_16};
+          __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+__pyx_t_7, (2-__pyx_t_7) | (__pyx_t_7*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
+          __Pyx_XDECREF(__pyx_t_14); __pyx_t_14 = 0;
+          __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
+          __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 221, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_4);
+        }
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* "SRAM/SRAM.pyx":215
- * 				current_address = burst_start_address + j * self.bytes
+        /* "SRAM/SRAM.pyx":218
+ * 				row_index = (current_address - self.base_addr) // self.bytes
  * 
  * 				if row_index < 0 or row_index >= self.height:             # <<<<<<<<<<<<<<
+ * 					output_list.append([0] * self.bytes)
  * 					logger_sram.info(f"--SRAM burst read error at burst {i+1}, row {j+1}, address {current_address}")
- * 					logger_sram.error(f"--SRAM burst read address {current_address} out of range, row_index: {row_index}, height: {self.height}")
 */
-        goto __pyx_L15;
+        goto __pyx_L16;
       }
 
-      /* "SRAM/SRAM.pyx":221
+      /* "SRAM/SRAM.pyx":224
  * 				else:
  * 					#
  * 					output_list.append(self.data[row_index][:])             # <<<<<<<<<<<<<<
@@ -8548,110 +8606,110 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_14read_burst(CYTHON_UNUSED PyObjec
  * 
 */
       /*else*/ {
-        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_data); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 221, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_6);
-        __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_t_6, __pyx_v_row_index); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 221, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_5);
-        __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-        __pyx_t_6 = __Pyx_PyObject_GetSlice(__pyx_t_5, 0, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[1], 0, 0, 1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 221, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_6);
-        __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-        __pyx_t_18 = __Pyx_PyList_Append(__pyx_v_output_list, __pyx_t_6); if (unlikely(__pyx_t_18 == ((int)-1))) __PYX_ERR(0, 221, __pyx_L1_error)
-        __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_data); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 224, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_4);
+        __pyx_t_1 = __Pyx_PyObject_GetItem(__pyx_t_4, __pyx_v_row_index); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 224, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_1);
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+        __pyx_t_4 = __Pyx_PyObject_GetSlice(__pyx_t_1, 0, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[1], 0, 0, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 224, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_4);
+        __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+        __pyx_t_13 = __Pyx_PyList_Append(__pyx_v_output_list, __pyx_t_4); if (unlikely(__pyx_t_13 == ((int)-1))) __PYX_ERR(0, 224, __pyx_L1_error)
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* "SRAM/SRAM.pyx":222
+        /* "SRAM/SRAM.pyx":225
  * 					#
  * 					output_list.append(self.data[row_index][:])
  * 					logger_sram.debug(f"--Burst read {i+1}/{burst_count}, row {j+1}/{k} at address {current_address}")             # <<<<<<<<<<<<<<
  * 
  * 		return output_list
 */
-        __pyx_t_5 = NULL;
-        __Pyx_GetModuleGlobalName(__pyx_t_15, __pyx_mstate_global->__pyx_n_u_logger_sram); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 222, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_15);
-        __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_15, __pyx_mstate_global->__pyx_n_u_debug); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 222, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_13);
-        __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
-        __pyx_t_15 = __Pyx_PyLong_AddObjC(__pyx_v_i, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 222, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_15);
-        __pyx_t_14 = __Pyx_PyObject_FormatSimple(__pyx_t_15, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 222, __pyx_L1_error)
+        __pyx_t_1 = NULL;
+        __Pyx_GetModuleGlobalName(__pyx_t_16, __pyx_mstate_global->__pyx_n_u_logger_sram); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 225, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_16);
+        __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_16, __pyx_mstate_global->__pyx_n_u_debug); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 225, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_14);
-        __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
-        __pyx_t_15 = __Pyx_PyObject_FormatSimple(__pyx_v_burst_count, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 222, __pyx_L1_error)
+        __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
+        __pyx_t_16 = __Pyx_PyLong_AddObjC(__pyx_v_i, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 225, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_16);
+        __pyx_t_15 = __Pyx_PyObject_FormatSimple(__pyx_t_16, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 225, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_15);
-        __pyx_t_4 = __Pyx_PyLong_AddObjC(__pyx_v_j, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 222, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_17 = __Pyx_PyObject_FormatSimple(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 222, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_17);
-        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __pyx_t_4 = __Pyx_PyObject_FormatSimple(__pyx_v_k, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 222, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_19 = __Pyx_PyObject_FormatSimple(__pyx_v_current_address, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_19)) __PYX_ERR(0, 222, __pyx_L1_error)
+        __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
+        __pyx_t_16 = __Pyx_PyObject_FormatSimple(__pyx_v_burst_count, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 225, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_16);
+        __pyx_t_5 = __Pyx_PyLong_AddObjC(__pyx_v_j, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 225, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_5);
+        __pyx_t_18 = __Pyx_PyObject_FormatSimple(__pyx_t_5, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 225, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_18);
+        __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+        __pyx_t_5 = __Pyx_PyObject_FormatSimple(__pyx_v_k, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 225, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_5);
+        __pyx_t_19 = __Pyx_PyObject_FormatSimple(__pyx_v_current_address, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_19)) __PYX_ERR(0, 225, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_19);
         __pyx_t_20[0] = __pyx_mstate_global->__pyx_kp_u_Burst_read;
-        __pyx_t_20[1] = __pyx_t_14;
+        __pyx_t_20[1] = __pyx_t_15;
         __pyx_t_20[2] = __pyx_mstate_global->__pyx_kp_u__6;
-        __pyx_t_20[3] = __pyx_t_15;
+        __pyx_t_20[3] = __pyx_t_16;
         __pyx_t_20[4] = __pyx_mstate_global->__pyx_kp_u_row;
-        __pyx_t_20[5] = __pyx_t_17;
+        __pyx_t_20[5] = __pyx_t_18;
         __pyx_t_20[6] = __pyx_mstate_global->__pyx_kp_u__6;
-        __pyx_t_20[7] = __pyx_t_4;
+        __pyx_t_20[7] = __pyx_t_5;
         __pyx_t_20[8] = __pyx_mstate_global->__pyx_kp_u_at_address;
         __pyx_t_20[9] = __pyx_t_19;
-        __pyx_t_21 = __Pyx_PyUnicode_Join(__pyx_t_20, 10, 14 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_14) + 1 * 2 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_15) + 6 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_17) + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_4) + 12 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_19), 1114111 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_14) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_15) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_17) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_4) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_19));
-        if (unlikely(!__pyx_t_21)) __PYX_ERR(0, 222, __pyx_L1_error)
+        __pyx_t_21 = __Pyx_PyUnicode_Join(__pyx_t_20, 10, 14 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_15) + 1 * 2 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_16) + 6 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_18) + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_5) + 12 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_19), 1114111 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_15) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_16) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_18) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_5) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_19));
+        if (unlikely(!__pyx_t_21)) __PYX_ERR(0, 225, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_21);
-        __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
         __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
-        __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+        __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
+        __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
+        __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
         __pyx_t_7 = 1;
         #if CYTHON_UNPACK_METHODS
-        if (unlikely(PyMethod_Check(__pyx_t_13))) {
-          __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_13);
-          assert(__pyx_t_5);
-          PyObject* __pyx__function = PyMethod_GET_FUNCTION(__pyx_t_13);
-          __Pyx_INCREF(__pyx_t_5);
+        if (unlikely(PyMethod_Check(__pyx_t_14))) {
+          __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_14);
+          assert(__pyx_t_1);
+          PyObject* __pyx__function = PyMethod_GET_FUNCTION(__pyx_t_14);
+          __Pyx_INCREF(__pyx_t_1);
           __Pyx_INCREF(__pyx__function);
-          __Pyx_DECREF_SET(__pyx_t_13, __pyx__function);
+          __Pyx_DECREF_SET(__pyx_t_14, __pyx__function);
           __pyx_t_7 = 0;
         }
         #endif
         {
-          PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_t_21};
-          __pyx_t_6 = __Pyx_PyObject_FastCall(__pyx_t_13, __pyx_callargs+__pyx_t_7, (2-__pyx_t_7) | (__pyx_t_7*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
-          __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+          PyObject *__pyx_callargs[2] = {__pyx_t_1, __pyx_t_21};
+          __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_14, __pyx_callargs+__pyx_t_7, (2-__pyx_t_7) | (__pyx_t_7*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
+          __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
           __Pyx_DECREF(__pyx_t_21); __pyx_t_21 = 0;
-          __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-          if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 222, __pyx_L1_error)
-          __Pyx_GOTREF(__pyx_t_6);
+          __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 225, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_4);
         }
-        __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       }
-      __pyx_L15:;
+      __pyx_L16:;
 
-      /* "SRAM/SRAM.pyx":211
+      /* "SRAM/SRAM.pyx":214
  * 
  * 			# k
  * 			for j in range(k):             # <<<<<<<<<<<<<<
- * 				row_index = burst_start_row + j
- * 				current_address = burst_start_address + j * self.bytes
+ * 				current_address = burst_start_address + j * burst_bytes
+ * 				row_index = (current_address - self.base_addr) // self.bytes
 */
     }
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "SRAM/SRAM.pyx":206
- * 			return [[0] * self.bytes for _ in range(burst_count * k)]
+    /* "SRAM/SRAM.pyx":210
+ * 			burst_bytes = self.bytes
  * 
  * 		for i in range(burst_count):             # <<<<<<<<<<<<<<
  * 			burst_start_address = start_address + i * stride
- * 			burst_start_row = (burst_start_address - self.base_addr) // self.bytes
+ * 
 */
   }
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-  /* "SRAM/SRAM.pyx":224
+  /* "SRAM/SRAM.pyx":227
  * 					logger_sram.debug(f"--Burst read {i+1}/{burst_count}, row {j+1}/{k} at address {current_address}")
  * 
  * 		return output_list             # <<<<<<<<<<<<<<
@@ -8663,10 +8721,10 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_14read_burst(CYTHON_UNUSED PyObjec
   __pyx_r = __pyx_v_output_list;
   goto __pyx_L0;
 
-  /* "SRAM/SRAM.pyx":190
+  /* "SRAM/SRAM.pyx":191
  * 				data_index += 1
  * 
- * 	def read_burst(self, en: bool, start_address: int, stride: int, burst_count: int, k: int = 1) -> List[List[int]]:             # <<<<<<<<<<<<<<
+ * 	def read_burst(self, en: bool, start_address: int, stride: int, burst_count: int, k: int = 1, burst_bytes: int = 16) -> List[List[int]]:             # <<<<<<<<<<<<<<
  * 		"""
  * 		Burst read operation with stride addressing
 */
@@ -8678,10 +8736,10 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_14read_burst(CYTHON_UNUSED PyObjec
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_8);
-  __Pyx_XDECREF(__pyx_t_13);
   __Pyx_XDECREF(__pyx_t_14);
   __Pyx_XDECREF(__pyx_t_15);
-  __Pyx_XDECREF(__pyx_t_17);
+  __Pyx_XDECREF(__pyx_t_16);
+  __Pyx_XDECREF(__pyx_t_18);
   __Pyx_XDECREF(__pyx_t_19);
   __Pyx_XDECREF(__pyx_t_21);
   __Pyx_AddTraceback("SRAM.SRAM.SramSp.read_burst", __pyx_clineno, __pyx_lineno, __pyx_filename);
@@ -8690,11 +8748,11 @@ static PyObject *__pyx_pf_4SRAM_4SRAM_6SramSp_14read_burst(CYTHON_UNUSED PyObjec
   __Pyx_XDECREF(__pyx_v_output_list);
   __Pyx_XDECREF(__pyx_v_i);
   __Pyx_XDECREF(__pyx_v_burst_start_address);
-  __Pyx_XDECREF(__pyx_v_burst_start_row);
   __Pyx_XDECREF(__pyx_v_j);
-  __Pyx_XDECREF(__pyx_v_row_index);
   __Pyx_XDECREF(__pyx_v_current_address);
+  __Pyx_XDECREF(__pyx_v_row_index);
   __Pyx_XDECREF(__pyx_8genexpr4__pyx_v__);
+  __Pyx_XDECREF(__pyx_v_burst_bytes);
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
@@ -9371,7 +9429,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 
  * 
  * class SramSp:             # <<<<<<<<<<<<<<
- * 	def __init__(self, width, depth, base_addr=0x00000000):
+ * 	def __init__(self, width, depth, base_addr=0x00000000, burst_bytes=16):
  * 		"""
 */
   __pyx_t_4 = __Pyx_Py3MetaclassPrepare((PyObject *) NULL, __pyx_mstate_global->__pyx_empty_tuple, __pyx_mstate_global->__pyx_n_u_SramSp, __pyx_mstate_global->__pyx_n_u_SramSp, (PyObject *) NULL, __pyx_mstate_global->__pyx_n_u_SRAM_SRAM, (PyObject *) NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 18, __pyx_L1_error)
@@ -9380,7 +9438,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
   /* "SRAM/SRAM.pyx":19
  * 
  * class SramSp:
- * 	def __init__(self, width, depth, base_addr=0x00000000):             # <<<<<<<<<<<<<<
+ * 	def __init__(self, width, depth, base_addr=0x00000000, burst_bytes=16):             # <<<<<<<<<<<<<<
  * 		"""
  * 		Byte-aligned SRAM
 */
@@ -9390,142 +9448,143 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
   if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_init, __pyx_t_5) < 0) __PYX_ERR(0, 19, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "SRAM/SRAM.pyx":38
+  /* "SRAM/SRAM.pyx":39
  * 		self.data = [[0 for i in range(self.bytes)]for j in range(self.height)]
  * 
  * 	def read_from_file(self, inputfile):             # <<<<<<<<<<<<<<
  * 		with open(inputfile, 'r') as f:
  * 			#
 */
-  __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_4SRAM_4SRAM_6SramSp_3read_from_file, 0, __pyx_mstate_global->__pyx_n_u_SramSp_read_from_file, NULL, __pyx_mstate_global->__pyx_n_u_SRAM_SRAM, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[1])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 38, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_4SRAM_4SRAM_6SramSp_3read_from_file, 0, __pyx_mstate_global->__pyx_n_u_SramSp_read_from_file, NULL, __pyx_mstate_global->__pyx_n_u_SRAM_SRAM, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[1])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 39, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_read_from_file, __pyx_t_5) < 0) __PYX_ERR(0, 38, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_read_from_file, __pyx_t_5) < 0) __PYX_ERR(0, 39, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "SRAM/SRAM.pyx":62
+  /* "SRAM/SRAM.pyx":63
  * 				self.data[idx // group_size] = bytes_list
  * 
  * 	def write(self, en:bool, wstrb:int, address:int, data:List[int]):             # <<<<<<<<<<<<<<
  * 		#
  * 		row_index = (address - self.base_addr) // self.bytes
 */
-  __pyx_t_5 = __Pyx_PyDict_NewPresized(4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 62, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyDict_NewPresized(4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 63, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_en, __pyx_mstate_global->__pyx_n_u_bool) < 0) __PYX_ERR(0, 62, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_wstrb, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 62, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_address, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 62, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_data, __pyx_mstate_global->__pyx_kp_u_List_int) < 0) __PYX_ERR(0, 62, __pyx_L1_error)
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_4SRAM_4SRAM_6SramSp_5write, 0, __pyx_mstate_global->__pyx_n_u_SramSp_write, NULL, __pyx_mstate_global->__pyx_n_u_SRAM_SRAM, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[2])); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 62, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_en, __pyx_mstate_global->__pyx_n_u_bool) < 0) __PYX_ERR(0, 63, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_wstrb, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 63, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_address, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 63, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_data, __pyx_mstate_global->__pyx_kp_u_List_int) < 0) __PYX_ERR(0, 63, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_4SRAM_4SRAM_6SramSp_5write, 0, __pyx_mstate_global->__pyx_n_u_SramSp_write, NULL, __pyx_mstate_global->__pyx_n_u_SRAM_SRAM, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[2])); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 63, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_CyFunction_SetAnnotationsDict(__pyx_t_7, __pyx_t_5);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_write, __pyx_t_7) < 0) __PYX_ERR(0, 62, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_write, __pyx_t_7) < 0) __PYX_ERR(0, 63, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "SRAM/SRAM.pyx":79
+  /* "SRAM/SRAM.pyx":80
  * 		self.data[row_index] = cache_data
  * 
  * 	def read(self, en:bool, address:int):             # <<<<<<<<<<<<<<
  * 		row_index = (address - self.base_addr) // self.bytes
  * 		output = [0] * self.bytes
 */
-  __pyx_t_7 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 79, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 80, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_en, __pyx_mstate_global->__pyx_n_u_bool) < 0) __PYX_ERR(0, 79, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_address, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 79, __pyx_L1_error)
-  __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_4SRAM_4SRAM_6SramSp_7read, 0, __pyx_mstate_global->__pyx_n_u_SramSp_read, NULL, __pyx_mstate_global->__pyx_n_u_SRAM_SRAM, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[3])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 79, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_en, __pyx_mstate_global->__pyx_n_u_bool) < 0) __PYX_ERR(0, 80, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_address, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 80, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_4SRAM_4SRAM_6SramSp_7read, 0, __pyx_mstate_global->__pyx_n_u_SramSp_read, NULL, __pyx_mstate_global->__pyx_n_u_SRAM_SRAM, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[3])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 80, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_CyFunction_SetAnnotationsDict(__pyx_t_5, __pyx_t_7);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_read, __pyx_t_5) < 0) __PYX_ERR(0, 79, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_read, __pyx_t_5) < 0) __PYX_ERR(0, 80, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "SRAM/SRAM.pyx":94
+  /* "SRAM/SRAM.pyx":95
  * 		return output
  * 
  * 	def write_cpu(self, en, wstrb, address:int, data):             # <<<<<<<<<<<<<<
  * 		"""
  * 		cpu data interface only has 32bit, so we need to convert the data to 4 bytes
 */
-  __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 94, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 95, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_address, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 94, __pyx_L1_error)
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_4SRAM_4SRAM_6SramSp_9write_cpu, 0, __pyx_mstate_global->__pyx_n_u_SramSp_write_cpu, NULL, __pyx_mstate_global->__pyx_n_u_SRAM_SRAM, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[4])); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 94, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_address, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 95, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_4SRAM_4SRAM_6SramSp_9write_cpu, 0, __pyx_mstate_global->__pyx_n_u_SramSp_write_cpu, NULL, __pyx_mstate_global->__pyx_n_u_SRAM_SRAM, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[4])); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 95, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_CyFunction_SetAnnotationsDict(__pyx_t_7, __pyx_t_5);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_write_cpu, __pyx_t_7) < 0) __PYX_ERR(0, 94, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_write_cpu, __pyx_t_7) < 0) __PYX_ERR(0, 95, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "SRAM/SRAM.pyx":125
+  /* "SRAM/SRAM.pyx":126
  * 			logger_sram.debug("--VEU write is miss, en is 0.")
  * 
  * 	def read_cpu(self, en, address: int):             # <<<<<<<<<<<<<<
  * 		# cpu data interface only has 32bit, so we need to convert the data to 4 bytes
  * 		# , 4byte
 */
-  __pyx_t_7 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 125, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 126, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_address, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 125, __pyx_L1_error)
-  __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_4SRAM_4SRAM_6SramSp_11read_cpu, 0, __pyx_mstate_global->__pyx_n_u_SramSp_read_cpu, NULL, __pyx_mstate_global->__pyx_n_u_SRAM_SRAM, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[5])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 125, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_address, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 126, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_4SRAM_4SRAM_6SramSp_11read_cpu, 0, __pyx_mstate_global->__pyx_n_u_SramSp_read_cpu, NULL, __pyx_mstate_global->__pyx_n_u_SRAM_SRAM, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[5])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 126, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_CyFunction_SetAnnotationsDict(__pyx_t_5, __pyx_t_7);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_read_cpu, __pyx_t_5) < 0) __PYX_ERR(0, 125, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_read_cpu, __pyx_t_5) < 0) __PYX_ERR(0, 126, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "SRAM/SRAM.pyx":144
+  /* "SRAM/SRAM.pyx":145
  * 		return int.from_bytes(output, byteorder='big', signed=True)
  * 
- * 	def write_burst(self, en: bool, wstrb: int, start_address: int, stride: int, burst_count: int, data_list: List[List[int]], k: int = 1):             # <<<<<<<<<<<<<<
+ * 	def write_burst(self, en: bool, wstrb: List[int], start_address: int, stride: int, burst_count: int, data_list: List[List[int]], k: int = 1):             # <<<<<<<<<<<<<<
  * 		"""
  * 		Burst write operation with stride addressing
 */
-  __pyx_t_5 = __Pyx_PyDict_NewPresized(7); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 144, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyDict_NewPresized(7); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 145, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_en, __pyx_mstate_global->__pyx_n_u_bool) < 0) __PYX_ERR(0, 144, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_wstrb, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 144, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_start_address, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 144, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_stride, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 144, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_burst_count, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 144, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_data_list, __pyx_mstate_global->__pyx_kp_u_List_List_int) < 0) __PYX_ERR(0, 144, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_k, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 144, __pyx_L1_error)
-  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_4SRAM_4SRAM_6SramSp_13write_burst, 0, __pyx_mstate_global->__pyx_n_u_SramSp_write_burst, NULL, __pyx_mstate_global->__pyx_n_u_SRAM_SRAM, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[6])); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 144, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_en, __pyx_mstate_global->__pyx_n_u_bool) < 0) __PYX_ERR(0, 145, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_wstrb, __pyx_mstate_global->__pyx_kp_u_List_int) < 0) __PYX_ERR(0, 145, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_start_address, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 145, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_stride, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 145, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_burst_count, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 145, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_data_list, __pyx_mstate_global->__pyx_kp_u_List_List_int) < 0) __PYX_ERR(0, 145, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_k, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 145, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_CyFunction_New(&__pyx_mdef_4SRAM_4SRAM_6SramSp_13write_burst, 0, __pyx_mstate_global->__pyx_n_u_SramSp_write_burst, NULL, __pyx_mstate_global->__pyx_n_u_SRAM_SRAM, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[6])); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 145, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_7, __pyx_mstate_global->__pyx_tuple[2]);
   __Pyx_CyFunction_SetAnnotationsDict(__pyx_t_7, __pyx_t_5);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_write_burst, __pyx_t_7) < 0) __PYX_ERR(0, 144, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_write_burst, __pyx_t_7) < 0) __PYX_ERR(0, 145, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "SRAM/SRAM.pyx":190
+  /* "SRAM/SRAM.pyx":191
  * 				data_index += 1
  * 
- * 	def read_burst(self, en: bool, start_address: int, stride: int, burst_count: int, k: int = 1) -> List[List[int]]:             # <<<<<<<<<<<<<<
+ * 	def read_burst(self, en: bool, start_address: int, stride: int, burst_count: int, k: int = 1, burst_bytes: int = 16) -> List[List[int]]:             # <<<<<<<<<<<<<<
  * 		"""
  * 		Burst read operation with stride addressing
 */
-  __pyx_t_7 = __Pyx_PyDict_NewPresized(6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 190, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyDict_NewPresized(7); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 191, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_en, __pyx_mstate_global->__pyx_n_u_bool) < 0) __PYX_ERR(0, 190, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_start_address, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 190, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_stride, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 190, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_burst_count, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 190, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_k, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 190, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_return, __pyx_mstate_global->__pyx_kp_u_List_List_int) < 0) __PYX_ERR(0, 190, __pyx_L1_error)
-  __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_4SRAM_4SRAM_6SramSp_15read_burst, 0, __pyx_mstate_global->__pyx_n_u_SramSp_read_burst, NULL, __pyx_mstate_global->__pyx_n_u_SRAM_SRAM, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[7])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 190, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_en, __pyx_mstate_global->__pyx_n_u_bool) < 0) __PYX_ERR(0, 191, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_start_address, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 191, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_stride, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 191, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_burst_count, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 191, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_k, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 191, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_burst_bytes, __pyx_mstate_global->__pyx_n_u_int) < 0) __PYX_ERR(0, 191, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_return, __pyx_mstate_global->__pyx_kp_u_List_List_int) < 0) __PYX_ERR(0, 191, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_4SRAM_4SRAM_6SramSp_15read_burst, 0, __pyx_mstate_global->__pyx_n_u_SramSp_read_burst, NULL, __pyx_mstate_global->__pyx_n_u_SRAM_SRAM, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[7])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 191, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_5, __pyx_mstate_global->__pyx_tuple[2]);
+  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_5, __pyx_mstate_global->__pyx_tuple[3]);
   __Pyx_CyFunction_SetAnnotationsDict(__pyx_t_5, __pyx_t_7);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_read_burst, __pyx_t_5) < 0) __PYX_ERR(0, 190, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_read_burst, __pyx_t_5) < 0) __PYX_ERR(0, 191, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
   /* "SRAM/SRAM.pyx":18
  * 
  * 
  * class SramSp:             # <<<<<<<<<<<<<<
- * 	def __init__(self, width, depth, base_addr=0x00000000):
+ * 	def __init__(self, width, depth, base_addr=0x00000000, burst_bytes=16):
  * 		"""
 */
   __pyx_t_5 = __Pyx_Py3ClassCreate(((PyObject*)&PyType_Type), __pyx_mstate_global->__pyx_n_u_SramSp, __pyx_mstate_global->__pyx_empty_tuple, __pyx_t_4, NULL, 0, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 18, __pyx_L1_error)
@@ -9534,35 +9593,35 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "SRAM/SRAM.pyx":227
+  /* "SRAM/SRAM.pyx":230
  * 
  * 
  * if __name__ == "__main__":             # <<<<<<<<<<<<<<
  * 	sram = SramSp(128, 8192)
  * 	print(f"SRAM width: {sram.width}")
 */
-  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_name_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 227, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_name_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 230, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_9 = (__Pyx_PyUnicode_Equals(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_main, Py_EQ)); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 227, __pyx_L1_error)
+  __pyx_t_9 = (__Pyx_PyUnicode_Equals(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_main, Py_EQ)); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 230, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   if (__pyx_t_9) {
 
-    /* "SRAM/SRAM.pyx":228
+    /* "SRAM/SRAM.pyx":231
  * 
  * if __name__ == "__main__":
  * 	sram = SramSp(128, 8192)             # <<<<<<<<<<<<<<
  * 	print(f"SRAM width: {sram.width}")
  * 	print(f"SRAM height: {sram.height}")
 */
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_SramSp); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 228, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_SramSp); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 231, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_mstate_global->__pyx_tuple[3], NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 228, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_mstate_global->__pyx_tuple[4], NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 231, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_sram, __pyx_t_5) < 0) __PYX_ERR(0, 228, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_sram, __pyx_t_5) < 0) __PYX_ERR(0, 231, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "SRAM/SRAM.pyx":229
+    /* "SRAM/SRAM.pyx":232
  * if __name__ == "__main__":
  * 	sram = SramSp(128, 8192)
  * 	print(f"SRAM width: {sram.width}")             # <<<<<<<<<<<<<<
@@ -9572,15 +9631,15 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_4 = NULL;
     __Pyx_INCREF(__pyx_builtin_print);
     __pyx_t_7 = __pyx_builtin_print; 
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_sram); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 229, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_sram); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 232, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_width); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 229, __pyx_L1_error)
+    __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_width); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 232, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_FormatSimple(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 229, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_FormatSimple(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 232, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-    __pyx_t_11 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_SRAM_width, __pyx_t_3); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 229, __pyx_L1_error)
+    __pyx_t_11 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_SRAM_width, __pyx_t_3); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 232, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_6 = 1;
@@ -9590,12 +9649,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 229, __pyx_L1_error)
+      if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 232, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
     }
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "SRAM/SRAM.pyx":230
+    /* "SRAM/SRAM.pyx":233
  * 	sram = SramSp(128, 8192)
  * 	print(f"SRAM width: {sram.width}")
  * 	print(f"SRAM height: {sram.height}")             # <<<<<<<<<<<<<<
@@ -9605,15 +9664,15 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_7 = NULL;
     __Pyx_INCREF(__pyx_builtin_print);
     __pyx_t_11 = __pyx_builtin_print; 
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_sram); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 230, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_sram); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 233, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_height); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 230, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_height); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 233, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_4 = __Pyx_PyObject_FormatSimple(__pyx_t_3, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 230, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_FormatSimple(__pyx_t_3, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 233, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_SRAM_height, __pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 230, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_SRAM_height, __pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 233, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __pyx_t_6 = 1;
@@ -9623,12 +9682,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-      if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 230, __pyx_L1_error)
+      if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 233, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
     }
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "SRAM/SRAM.pyx":231
+    /* "SRAM/SRAM.pyx":234
  * 	print(f"SRAM width: {sram.width}")
  * 	print(f"SRAM height: {sram.height}")
  * 	print(f"SRAM bytes per row: {sram.bytes}")             # <<<<<<<<<<<<<<
@@ -9638,15 +9697,15 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_11 = NULL;
     __Pyx_INCREF(__pyx_builtin_print);
     __pyx_t_3 = __pyx_builtin_print; 
-    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_sram); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 231, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_sram); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 234, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 231, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_bytes); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 234, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_7 = __Pyx_PyObject_FormatSimple(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 231, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_FormatSimple(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 234, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_4 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_SRAM_bytes_per_row, __pyx_t_7); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 231, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_SRAM_bytes_per_row, __pyx_t_7); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 234, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __pyx_t_6 = 1;
@@ -9656,12 +9715,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 231, __pyx_L1_error)
+      if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 234, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
     }
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "SRAM/SRAM.pyx":232
+    /* "SRAM/SRAM.pyx":235
  * 	print(f"SRAM height: {sram.height}")
  * 	print(f"SRAM bytes per row: {sram.bytes}")
  * 	print("-" * 50)             # <<<<<<<<<<<<<<
@@ -9677,12 +9736,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 232, __pyx_L1_error)
+      if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 235, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
     }
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "SRAM/SRAM.pyx":235
+    /* "SRAM/SRAM.pyx":238
  * 
  * 	#  burst_write  burst_read
  * 	print("Testing burst_write and burst_read with performance analysis:")             # <<<<<<<<<<<<<<
@@ -9698,24 +9757,24 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_5 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 235, __pyx_L1_error)
+      if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 238, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
     }
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "SRAM/SRAM.pyx":238
+    /* "SRAM/SRAM.pyx":241
  * 
  * 	#  - 16128
  * 	test_data = []             # <<<<<<<<<<<<<<
  * 	for i in range(5):  # 5burst
  * 		data_row = [(i * 16 + j) % 256 for j in range(16)]  # 16
 */
-    __pyx_t_5 = PyList_New(0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 238, __pyx_L1_error)
+    __pyx_t_5 = PyList_New(0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 241, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_test_data, __pyx_t_5) < 0) __PYX_ERR(0, 238, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_test_data, __pyx_t_5) < 0) __PYX_ERR(0, 241, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "SRAM/SRAM.pyx":239
+    /* "SRAM/SRAM.pyx":242
  * 	#  - 16128
  * 	test_data = []
  * 	for i in range(5):  # 5burst             # <<<<<<<<<<<<<<
@@ -9723,12 +9782,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 		test_data.append(data_row)
 */
     for (__pyx_t_12 = 0; __pyx_t_12 < 5; __pyx_t_12+=1) {
-      __pyx_t_5 = PyLong_FromSsize_t(__pyx_t_12); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 239, __pyx_L1_error)
+      __pyx_t_5 = PyLong_FromSsize_t(__pyx_t_12); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 242, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
-      if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_i, __pyx_t_5) < 0) __PYX_ERR(0, 239, __pyx_L1_error)
+      if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_i, __pyx_t_5) < 0) __PYX_ERR(0, 242, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "SRAM/SRAM.pyx":240
+      /* "SRAM/SRAM.pyx":243
  * 	test_data = []
  * 	for i in range(5):  # 5burst
  * 		data_row = [(i * 16 + j) % 256 for j in range(16)]  # 16             # <<<<<<<<<<<<<<
@@ -9736,27 +9795,27 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 
 */
       { /* enter inner scope */
-        __pyx_t_5 = PyList_New(0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 240, __pyx_L8_error)
+        __pyx_t_5 = PyList_New(0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 243, __pyx_L8_error)
         __Pyx_GOTREF(__pyx_t_5);
         for (__pyx_t_13 = 0; __pyx_t_13 < 16; __pyx_t_13+=1) {
-          __pyx_t_3 = PyLong_FromSsize_t(__pyx_t_13); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 240, __pyx_L8_error)
+          __pyx_t_3 = PyLong_FromSsize_t(__pyx_t_13); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 243, __pyx_L8_error)
           __Pyx_GOTREF(__pyx_t_3);
           __Pyx_XGOTREF(__pyx_8genexpr5__pyx_v_4SRAM_4SRAM_j);
           __Pyx_DECREF_SET(__pyx_8genexpr5__pyx_v_4SRAM_4SRAM_j, __pyx_t_3);
           __Pyx_GIVEREF(__pyx_t_3);
           __pyx_t_3 = 0;
-          __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 240, __pyx_L8_error)
+          __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 243, __pyx_L8_error)
           __Pyx_GOTREF(__pyx_t_3);
-          __pyx_t_4 = __Pyx_PyLong_MultiplyObjC(__pyx_t_3, __pyx_mstate_global->__pyx_int_16, 16, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 240, __pyx_L8_error)
+          __pyx_t_4 = __Pyx_PyLong_MultiplyObjC(__pyx_t_3, __pyx_mstate_global->__pyx_int_16, 16, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 243, __pyx_L8_error)
           __Pyx_GOTREF(__pyx_t_4);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-          __pyx_t_3 = PyNumber_Add(__pyx_t_4, __pyx_8genexpr5__pyx_v_4SRAM_4SRAM_j); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 240, __pyx_L8_error)
+          __pyx_t_3 = PyNumber_Add(__pyx_t_4, __pyx_8genexpr5__pyx_v_4SRAM_4SRAM_j); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 243, __pyx_L8_error)
           __Pyx_GOTREF(__pyx_t_3);
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-          __pyx_t_4 = __Pyx_PyLong_RemainderObjC(__pyx_t_3, __pyx_mstate_global->__pyx_int_256, 0x100, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 240, __pyx_L8_error)
+          __pyx_t_4 = __Pyx_PyLong_RemainderObjC(__pyx_t_3, __pyx_mstate_global->__pyx_int_256, 0x100, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 243, __pyx_L8_error)
           __Pyx_GOTREF(__pyx_t_4);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-          if (unlikely(__Pyx_ListComp_Append(__pyx_t_5, (PyObject*)__pyx_t_4))) __PYX_ERR(0, 240, __pyx_L8_error)
+          if (unlikely(__Pyx_ListComp_Append(__pyx_t_5, (PyObject*)__pyx_t_4))) __PYX_ERR(0, 243, __pyx_L8_error)
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         }
         __Pyx_GOTREF(__pyx_8genexpr5__pyx_v_4SRAM_4SRAM_j);
@@ -9768,26 +9827,26 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
         goto __pyx_L1_error;
         __pyx_L11_exit_scope:;
       } /* exit inner scope */
-      if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_data_row, __pyx_t_5) < 0) __PYX_ERR(0, 240, __pyx_L1_error)
+      if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_data_row, __pyx_t_5) < 0) __PYX_ERR(0, 243, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "SRAM/SRAM.pyx":241
+      /* "SRAM/SRAM.pyx":244
  * 	for i in range(5):  # 5burst
  * 		data_row = [(i * 16 + j) % 256 for j in range(16)]  # 16
  * 		test_data.append(data_row)             # <<<<<<<<<<<<<<
  * 
  * 	print(f"Test data prepared: {len(test_data)} rows")
 */
-      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_test_data); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 241, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_test_data); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 244, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_data_row); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 241, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_data_row); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 244, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_14 = __Pyx_PyObject_Append(__pyx_t_5, __pyx_t_4); if (unlikely(__pyx_t_14 == ((int)-1))) __PYX_ERR(0, 241, __pyx_L1_error)
+      __pyx_t_14 = __Pyx_PyObject_Append(__pyx_t_5, __pyx_t_4); if (unlikely(__pyx_t_14 == ((int)-1))) __PYX_ERR(0, 244, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     }
 
-    /* "SRAM/SRAM.pyx":243
+    /* "SRAM/SRAM.pyx":246
  * 		test_data.append(data_row)
  * 
  * 	print(f"Test data prepared: {len(test_data)} rows")             # <<<<<<<<<<<<<<
@@ -9797,17 +9856,17 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_5 = NULL;
     __Pyx_INCREF(__pyx_builtin_print);
     __pyx_t_3 = __pyx_builtin_print; 
-    __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_test_data); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 243, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_test_data); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 246, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
-    __pyx_t_12 = PyObject_Length(__pyx_t_11); if (unlikely(__pyx_t_12 == ((Py_ssize_t)-1))) __PYX_ERR(0, 243, __pyx_L1_error)
+    __pyx_t_12 = PyObject_Length(__pyx_t_11); if (unlikely(__pyx_t_12 == ((Py_ssize_t)-1))) __PYX_ERR(0, 246, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-    __pyx_t_11 = __Pyx_PyUnicode_From_Py_ssize_t(__pyx_t_12, 0, ' ', 'd'); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 243, __pyx_L1_error)
+    __pyx_t_11 = __Pyx_PyUnicode_From_Py_ssize_t(__pyx_t_12, 0, ' ', 'd'); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 246, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
     __pyx_t_15[0] = __pyx_mstate_global->__pyx_kp_u_Test_data_prepared;
     __pyx_t_15[1] = __pyx_t_11;
     __pyx_t_15[2] = __pyx_mstate_global->__pyx_kp_u_rows;
     __pyx_t_7 = __Pyx_PyUnicode_Join(__pyx_t_15, 3, 20 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_11) + 5, 127);
-    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 243, __pyx_L1_error)
+    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 246, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
     __pyx_t_6 = 1;
@@ -9817,12 +9876,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 243, __pyx_L1_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 246, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
     }
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "SRAM/SRAM.pyx":244
+    /* "SRAM/SRAM.pyx":247
  * 
  * 	print(f"Test data prepared: {len(test_data)} rows")
  * 	for i, row in enumerate(test_data):             # <<<<<<<<<<<<<<
@@ -9831,16 +9890,16 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
 */
     __Pyx_INCREF(__pyx_mstate_global->__pyx_int_0);
     __pyx_t_4 = __pyx_mstate_global->__pyx_int_0;
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_test_data); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 244, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_test_data); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 247, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     if (likely(PyList_CheckExact(__pyx_t_3)) || PyTuple_CheckExact(__pyx_t_3)) {
       __pyx_t_7 = __pyx_t_3; __Pyx_INCREF(__pyx_t_7);
       __pyx_t_12 = 0;
       __pyx_t_16 = NULL;
     } else {
-      __pyx_t_12 = -1; __pyx_t_7 = PyObject_GetIter(__pyx_t_3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 244, __pyx_L1_error)
+      __pyx_t_12 = -1; __pyx_t_7 = PyObject_GetIter(__pyx_t_3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 247, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_16 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_7); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 244, __pyx_L1_error)
+      __pyx_t_16 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_7); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 247, __pyx_L1_error)
     }
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     for (;;) {
@@ -9849,7 +9908,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           {
             Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_7);
             #if !CYTHON_ASSUME_SAFE_SIZE
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 244, __pyx_L1_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 247, __pyx_L1_error)
             #endif
             if (__pyx_t_12 >= __pyx_temp) break;
           }
@@ -9859,7 +9918,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           {
             Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_7);
             #if !CYTHON_ASSUME_SAFE_SIZE
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 244, __pyx_L1_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 247, __pyx_L1_error)
             #endif
             if (__pyx_t_12 >= __pyx_temp) break;
           }
@@ -9870,29 +9929,29 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           #endif
           ++__pyx_t_12;
         }
-        if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 244, __pyx_L1_error)
+        if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 247, __pyx_L1_error)
       } else {
         __pyx_t_3 = __pyx_t_16(__pyx_t_7);
         if (unlikely(!__pyx_t_3)) {
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
-            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 244, __pyx_L1_error)
+            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 247, __pyx_L1_error)
             PyErr_Clear();
           }
           break;
         }
       }
       __Pyx_GOTREF(__pyx_t_3);
-      if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_row_2, __pyx_t_3) < 0) __PYX_ERR(0, 244, __pyx_L1_error)
+      if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_row_2, __pyx_t_3) < 0) __PYX_ERR(0, 247, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_i, __pyx_t_4) < 0) __PYX_ERR(0, 244, __pyx_L1_error)
-      __pyx_t_3 = __Pyx_PyLong_AddObjC(__pyx_t_4, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 244, __pyx_L1_error)
+      if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_i, __pyx_t_4) < 0) __PYX_ERR(0, 247, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyLong_AddObjC(__pyx_t_4, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 247, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_4);
       __pyx_t_4 = __pyx_t_3;
       __pyx_t_3 = 0;
 
-      /* "SRAM/SRAM.pyx":245
+      /* "SRAM/SRAM.pyx":248
  * 	print(f"Test data prepared: {len(test_data)} rows")
  * 	for i, row in enumerate(test_data):
  * 		print(f"  Row {i}: {row[:4]}...{row[-4:]}")  # 44             # <<<<<<<<<<<<<<
@@ -9902,25 +9961,25 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_5 = NULL;
       __Pyx_INCREF(__pyx_builtin_print);
       __pyx_t_11 = __pyx_builtin_print; 
-      __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 245, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 248, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_10 = __Pyx_PyObject_FormatSimple(__pyx_t_2, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 245, __pyx_L1_error)
+      __pyx_t_10 = __Pyx_PyObject_FormatSimple(__pyx_t_2, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 248, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_row_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 245, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_row_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 248, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_17 = __Pyx_PyObject_GetSlice(__pyx_t_2, 0, 4, NULL, NULL, &__pyx_mstate_global->__pyx_slice[2], 0, 1, 1); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 245, __pyx_L1_error)
+      __pyx_t_17 = __Pyx_PyObject_GetSlice(__pyx_t_2, 0, 4, NULL, NULL, &__pyx_mstate_global->__pyx_slice[2], 0, 1, 1); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 248, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_2 = __Pyx_PyObject_FormatSimple(__pyx_t_17, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 245, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_FormatSimple(__pyx_t_17, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 248, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-      __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_row_2); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 245, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_row_2); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 248, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
-      __pyx_t_18 = __Pyx_PyObject_GetSlice(__pyx_t_17, -4L, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[3], 1, 0, 1); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 245, __pyx_L1_error)
+      __pyx_t_18 = __Pyx_PyObject_GetSlice(__pyx_t_17, -4L, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[3], 1, 0, 1); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 248, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_18);
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-      __pyx_t_17 = __Pyx_PyObject_FormatSimple(__pyx_t_18, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 245, __pyx_L1_error)
+      __pyx_t_17 = __Pyx_PyObject_FormatSimple(__pyx_t_18, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 248, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
       __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
       __pyx_t_19[0] = __pyx_mstate_global->__pyx_kp_u_Row;
@@ -9930,7 +9989,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_19[4] = __pyx_mstate_global->__pyx_kp_u__9;
       __pyx_t_19[5] = __pyx_t_17;
       __pyx_t_18 = __Pyx_PyUnicode_Join(__pyx_t_19, 6, 6 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_10) + 2 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_2) + 3 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_17), 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_10) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_2) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_17));
-      if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 245, __pyx_L1_error)
+      if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 248, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_18);
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -9942,12 +10001,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
         __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
         __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-        if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 245, __pyx_L1_error)
+        if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 248, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
       }
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-      /* "SRAM/SRAM.pyx":244
+      /* "SRAM/SRAM.pyx":247
  * 
  * 	print(f"Test data prepared: {len(test_data)} rows")
  * 	for i, row in enumerate(test_data):             # <<<<<<<<<<<<<<
@@ -9958,34 +10017,34 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "SRAM/SRAM.pyx":248
+    /* "SRAM/SRAM.pyx":251
  * 
  * 	# burst
  * 	start_addr = 0x40             # <<<<<<<<<<<<<<
  * 	stride = 0x20  # 32
  * 	burst_count = 5
 */
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_start_addr, __pyx_mstate_global->__pyx_int_64) < 0) __PYX_ERR(0, 248, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_start_addr, __pyx_mstate_global->__pyx_int_64) < 0) __PYX_ERR(0, 251, __pyx_L1_error)
 
-    /* "SRAM/SRAM.pyx":249
+    /* "SRAM/SRAM.pyx":252
  * 	# burst
  * 	start_addr = 0x40
  * 	stride = 0x20  # 32             # <<<<<<<<<<<<<<
  * 	burst_count = 5
  * 
 */
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_stride, __pyx_mstate_global->__pyx_int_32) < 0) __PYX_ERR(0, 249, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_stride, __pyx_mstate_global->__pyx_int_32) < 0) __PYX_ERR(0, 252, __pyx_L1_error)
 
-    /* "SRAM/SRAM.pyx":250
+    /* "SRAM/SRAM.pyx":253
  * 	start_addr = 0x40
  * 	stride = 0x20  # 32
  * 	burst_count = 5             # <<<<<<<<<<<<<<
  * 
  * 	print(f"\nExecuting burst_write with timing:")
 */
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_burst_count, __pyx_mstate_global->__pyx_int_5) < 0) __PYX_ERR(0, 250, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_burst_count, __pyx_mstate_global->__pyx_int_5) < 0) __PYX_ERR(0, 253, __pyx_L1_error)
 
-    /* "SRAM/SRAM.pyx":252
+    /* "SRAM/SRAM.pyx":255
  * 	burst_count = 5
  * 
  * 	print(f"\nExecuting burst_write with timing:")             # <<<<<<<<<<<<<<
@@ -10001,12 +10060,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 252, __pyx_L1_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 255, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
     }
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "SRAM/SRAM.pyx":253
+    /* "SRAM/SRAM.pyx":256
  * 
  * 	print(f"\nExecuting burst_write with timing:")
  * 	print(f"  Start address: 0x{start_addr:X}")             # <<<<<<<<<<<<<<
@@ -10016,12 +10075,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_3 = NULL;
     __Pyx_INCREF(__pyx_builtin_print);
     __pyx_t_7 = __pyx_builtin_print; 
-    __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_start_addr); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 253, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_start_addr); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 256, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
-    __pyx_t_18 = __Pyx_PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_X); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 253, __pyx_L1_error)
+    __pyx_t_18 = __Pyx_PyObject_Format(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_X); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 256, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-    __pyx_t_11 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Start_address_0x, __pyx_t_18); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 253, __pyx_L1_error)
+    __pyx_t_11 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Start_address_0x, __pyx_t_18); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 256, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
     __pyx_t_6 = 1;
@@ -10031,12 +10090,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 253, __pyx_L1_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 256, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
     }
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "SRAM/SRAM.pyx":254
+    /* "SRAM/SRAM.pyx":257
  * 	print(f"\nExecuting burst_write with timing:")
  * 	print(f"  Start address: 0x{start_addr:X}")
  * 	print(f"  Stride: 0x{stride:X}")             # <<<<<<<<<<<<<<
@@ -10046,12 +10105,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_7 = NULL;
     __Pyx_INCREF(__pyx_builtin_print);
     __pyx_t_11 = __pyx_builtin_print; 
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_stride); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 254, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_stride); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 257, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_18 = __Pyx_PyObject_Format(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_X); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 254, __pyx_L1_error)
+    __pyx_t_18 = __Pyx_PyObject_Format(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_X); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 257, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Stride_0x, __pyx_t_18); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 254, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Stride_0x, __pyx_t_18); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 257, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
     __pyx_t_6 = 1;
@@ -10061,12 +10120,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 254, __pyx_L1_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 257, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
     }
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "SRAM/SRAM.pyx":255
+    /* "SRAM/SRAM.pyx":258
  * 	print(f"  Start address: 0x{start_addr:X}")
  * 	print(f"  Stride: 0x{stride:X}")
  * 	print(f"  Burst count: {burst_count}")             # <<<<<<<<<<<<<<
@@ -10076,12 +10135,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_11 = NULL;
     __Pyx_INCREF(__pyx_builtin_print);
     __pyx_t_3 = __pyx_builtin_print; 
-    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_burst_count); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 255, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_burst_count); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 258, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_18 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 255, __pyx_L1_error)
+    __pyx_t_18 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 258, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_7 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Burst_count, __pyx_t_18); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 255, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Burst_count, __pyx_t_18); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 258, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
     __pyx_t_6 = 1;
@@ -10091,12 +10150,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 255, __pyx_L1_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 258, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
     }
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "SRAM/SRAM.pyx":258
+    /* "SRAM/SRAM.pyx":261
  * 
  * 	#
  * 	write_start_time = time.time()             # <<<<<<<<<<<<<<
@@ -10104,9 +10163,9 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 	write_end_time = time.time()
 */
     __pyx_t_3 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 258, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 261, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 258, __pyx_L1_error)
+    __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 261, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __pyx_t_6 = 1;
@@ -10115,13 +10174,13 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_11, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 258, __pyx_L1_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 261, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
     }
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_write_start_time, __pyx_t_4) < 0) __PYX_ERR(0, 258, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_write_start_time, __pyx_t_4) < 0) __PYX_ERR(0, 261, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "SRAM/SRAM.pyx":259
+    /* "SRAM/SRAM.pyx":262
  * 	#
  * 	write_start_time = time.time()
  * 	sram.write_burst(True, 0xFFFF, start_addr, stride, burst_count, test_data, k=1)             # <<<<<<<<<<<<<<
@@ -10129,25 +10188,25 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 	write_duration = write_end_time - write_start_time
 */
     __pyx_t_11 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_sram); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 259, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_sram); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 262, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_write_burst); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 259, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_write_burst); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 262, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_start_addr); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 259, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_start_addr); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 262, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_stride); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 259, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_stride); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 262, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_burst_count); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 259, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_burst_count); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 262, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_test_data); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 259, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_test_data); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 262, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
     __pyx_t_6 = 1;
     {
       PyObject *__pyx_callargs[7 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_11, Py_True, __pyx_mstate_global->__pyx_int_65535, __pyx_t_3, __pyx_t_18, __pyx_t_5, __pyx_t_17};
-      __pyx_t_2 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 259, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 262, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_k, __pyx_mstate_global->__pyx_int_1, __pyx_t_2, __pyx_callargs+7, 0) < 0) __PYX_ERR(0, 259, __pyx_L1_error)
+      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_k, __pyx_mstate_global->__pyx_int_1, __pyx_t_2, __pyx_callargs+7, 0) < 0) __PYX_ERR(0, 262, __pyx_L1_error)
       __pyx_t_4 = __Pyx_Object_Vectorcall_CallFromBuilder(__pyx_t_7, __pyx_callargs+__pyx_t_6, (7-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_2);
       __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -10156,12 +10215,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 259, __pyx_L1_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 262, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
     }
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "SRAM/SRAM.pyx":260
+    /* "SRAM/SRAM.pyx":263
  * 	write_start_time = time.time()
  * 	sram.write_burst(True, 0xFFFF, start_addr, stride, burst_count, test_data, k=1)
  * 	write_end_time = time.time()             # <<<<<<<<<<<<<<
@@ -10169,9 +10228,9 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 
 */
     __pyx_t_7 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 260, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 263, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_17 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 260, __pyx_L1_error)
+    __pyx_t_17 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 263, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_t_6 = 1;
@@ -10180,31 +10239,31 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_17, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 260, __pyx_L1_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 263, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
     }
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_write_end_time, __pyx_t_4) < 0) __PYX_ERR(0, 260, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_write_end_time, __pyx_t_4) < 0) __PYX_ERR(0, 263, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "SRAM/SRAM.pyx":261
+    /* "SRAM/SRAM.pyx":264
  * 	sram.write_burst(True, 0xFFFF, start_addr, stride, burst_count, test_data, k=1)
  * 	write_end_time = time.time()
  * 	write_duration = write_end_time - write_start_time             # <<<<<<<<<<<<<<
  * 
  * 	print(" Burst write completed")
 */
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_write_end_time); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 261, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_write_end_time); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 264, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_write_start_time); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 261, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_write_start_time); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 264, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
-    __pyx_t_7 = PyNumber_Subtract(__pyx_t_4, __pyx_t_17); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 261, __pyx_L1_error)
+    __pyx_t_7 = PyNumber_Subtract(__pyx_t_4, __pyx_t_17); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 264, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_write_duration, __pyx_t_7) < 0) __PYX_ERR(0, 261, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_write_duration, __pyx_t_7) < 0) __PYX_ERR(0, 264, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "SRAM/SRAM.pyx":263
+    /* "SRAM/SRAM.pyx":266
  * 	write_duration = write_end_time - write_start_time
  * 
  * 	print(" Burst write completed")             # <<<<<<<<<<<<<<
@@ -10220,12 +10279,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 263, __pyx_L1_error)
+      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 266, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
     }
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "SRAM/SRAM.pyx":264
+    /* "SRAM/SRAM.pyx":267
  * 
  * 	print(" Burst write completed")
  * 	print(f"  Write time: {write_duration:.6f} seconds")             # <<<<<<<<<<<<<<
@@ -10235,16 +10294,16 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_4 = NULL;
     __Pyx_INCREF(__pyx_builtin_print);
     __pyx_t_17 = __pyx_builtin_print; 
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_write_duration); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 264, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_write_duration); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 267, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_5 = __Pyx_PyObject_Format(__pyx_t_2, __pyx_mstate_global->__pyx_kp_u_6f); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 264, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_Format(__pyx_t_2, __pyx_mstate_global->__pyx_kp_u_6f); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 267, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_t_15[0] = __pyx_mstate_global->__pyx_kp_u_Write_time;
     __pyx_t_15[1] = __pyx_t_5;
     __pyx_t_15[2] = __pyx_mstate_global->__pyx_kp_u_seconds;
     __pyx_t_2 = __Pyx_PyUnicode_Join(__pyx_t_15, 3, 14 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_5) + 8, 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_5));
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 264, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 267, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_t_6 = 1;
@@ -10254,12 +10313,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 264, __pyx_L1_error)
+      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 267, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
     }
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "SRAM/SRAM.pyx":267
+    /* "SRAM/SRAM.pyx":270
  * 
  * 	# burst
  * 	print(f"\nExecuting burst_read with timing:")             # <<<<<<<<<<<<<<
@@ -10275,12 +10334,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 267, __pyx_L1_error)
+      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 270, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
     }
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "SRAM/SRAM.pyx":268
+    /* "SRAM/SRAM.pyx":271
  * 	# burst
  * 	print(f"\nExecuting burst_read with timing:")
  * 	read_start_time = time.time()             # <<<<<<<<<<<<<<
@@ -10288,9 +10347,9 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 	read_end_time = time.time()
 */
     __pyx_t_2 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 268, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 271, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 268, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 271, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
     __pyx_t_6 = 1;
@@ -10299,13 +10358,13 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 268, __pyx_L1_error)
+      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 271, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
     }
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_read_start_time, __pyx_t_7) < 0) __PYX_ERR(0, 268, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_read_start_time, __pyx_t_7) < 0) __PYX_ERR(0, 271, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "SRAM/SRAM.pyx":269
+    /* "SRAM/SRAM.pyx":272
  * 	print(f"\nExecuting burst_read with timing:")
  * 	read_start_time = time.time()
  * 	read_data = sram.read_burst(True, start_addr, stride, burst_count, k=1)             # <<<<<<<<<<<<<<
@@ -10313,23 +10372,23 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 	read_duration = read_end_time - read_start_time
 */
     __pyx_t_4 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_sram); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 269, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_sram); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 272, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_17 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_read_burst); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 269, __pyx_L1_error)
+    __pyx_t_17 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_read_burst); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 272, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_start_addr); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 269, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_start_addr); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 272, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_stride); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 269, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_stride); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 272, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_burst_count); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 269, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_burst_count); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 272, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
     __pyx_t_6 = 1;
     {
       PyObject *__pyx_callargs[5 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_4, Py_True, __pyx_t_2, __pyx_t_5, __pyx_t_18};
-      __pyx_t_3 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 269, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 272, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_k, __pyx_mstate_global->__pyx_int_1, __pyx_t_3, __pyx_callargs+5, 0) < 0) __PYX_ERR(0, 269, __pyx_L1_error)
+      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_k, __pyx_mstate_global->__pyx_int_1, __pyx_t_3, __pyx_callargs+5, 0) < 0) __PYX_ERR(0, 272, __pyx_L1_error)
       __pyx_t_7 = __Pyx_Object_Vectorcall_CallFromBuilder(__pyx_t_17, __pyx_callargs+__pyx_t_6, (5-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_3);
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -10337,13 +10396,13 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 269, __pyx_L1_error)
+      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 272, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
     }
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_read_data, __pyx_t_7) < 0) __PYX_ERR(0, 269, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_read_data, __pyx_t_7) < 0) __PYX_ERR(0, 272, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "SRAM/SRAM.pyx":270
+    /* "SRAM/SRAM.pyx":273
  * 	read_start_time = time.time()
  * 	read_data = sram.read_burst(True, start_addr, stride, burst_count, k=1)
  * 	read_end_time = time.time()             # <<<<<<<<<<<<<<
@@ -10351,9 +10410,9 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 
 */
     __pyx_t_17 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 270, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 273, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_18 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 270, __pyx_L1_error)
+    __pyx_t_18 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 273, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_6 = 1;
@@ -10362,31 +10421,31 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_18, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
       __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 270, __pyx_L1_error)
+      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 273, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
     }
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_read_end_time, __pyx_t_7) < 0) __PYX_ERR(0, 270, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_read_end_time, __pyx_t_7) < 0) __PYX_ERR(0, 273, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "SRAM/SRAM.pyx":271
+    /* "SRAM/SRAM.pyx":274
  * 	read_data = sram.read_burst(True, start_addr, stride, burst_count, k=1)
  * 	read_end_time = time.time()
  * 	read_duration = read_end_time - read_start_time             # <<<<<<<<<<<<<<
  * 
  * 	print(f" Burst read completed, got {len(read_data)} rows")
 */
-    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_read_end_time); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 271, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_read_end_time); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 274, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_read_start_time); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 271, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_read_start_time); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 274, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
-    __pyx_t_17 = PyNumber_Subtract(__pyx_t_7, __pyx_t_18); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 271, __pyx_L1_error)
+    __pyx_t_17 = PyNumber_Subtract(__pyx_t_7, __pyx_t_18); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 274, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_read_duration, __pyx_t_17) < 0) __PYX_ERR(0, 271, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_read_duration, __pyx_t_17) < 0) __PYX_ERR(0, 274, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
 
-    /* "SRAM/SRAM.pyx":273
+    /* "SRAM/SRAM.pyx":276
  * 	read_duration = read_end_time - read_start_time
  * 
  * 	print(f" Burst read completed, got {len(read_data)} rows")             # <<<<<<<<<<<<<<
@@ -10396,17 +10455,17 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_18 = NULL;
     __Pyx_INCREF(__pyx_builtin_print);
     __pyx_t_7 = __pyx_builtin_print; 
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_read_data); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 273, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_read_data); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 276, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_12 = PyObject_Length(__pyx_t_3); if (unlikely(__pyx_t_12 == ((Py_ssize_t)-1))) __PYX_ERR(0, 273, __pyx_L1_error)
+    __pyx_t_12 = PyObject_Length(__pyx_t_3); if (unlikely(__pyx_t_12 == ((Py_ssize_t)-1))) __PYX_ERR(0, 276, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyUnicode_From_Py_ssize_t(__pyx_t_12, 0, ' ', 'd'); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 273, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyUnicode_From_Py_ssize_t(__pyx_t_12, 0, ' ', 'd'); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 276, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_15[0] = __pyx_mstate_global->__pyx_kp_u_Burst_read_completed_got;
     __pyx_t_15[1] = __pyx_t_3;
     __pyx_t_15[2] = __pyx_mstate_global->__pyx_kp_u_rows;
     __pyx_t_5 = __Pyx_PyUnicode_Join(__pyx_t_15, 3, 28 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_3) + 5, 65535);
-    if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 273, __pyx_L1_error)
+    if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 276, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_6 = 1;
@@ -10416,12 +10475,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_18); __pyx_t_18 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 273, __pyx_L1_error)
+      if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 276, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
     }
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
 
-    /* "SRAM/SRAM.pyx":274
+    /* "SRAM/SRAM.pyx":277
  * 
  * 	print(f" Burst read completed, got {len(read_data)} rows")
  * 	print(f"  Read time: {read_duration:.6f} seconds")             # <<<<<<<<<<<<<<
@@ -10431,16 +10490,16 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_7 = NULL;
     __Pyx_INCREF(__pyx_builtin_print);
     __pyx_t_5 = __pyx_builtin_print; 
-    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_read_duration); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 274, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_read_duration); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 277, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
-    __pyx_t_3 = __Pyx_PyObject_Format(__pyx_t_18, __pyx_mstate_global->__pyx_kp_u_6f); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 274, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Format(__pyx_t_18, __pyx_mstate_global->__pyx_kp_u_6f); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 277, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
     __pyx_t_15[0] = __pyx_mstate_global->__pyx_kp_u_Read_time;
     __pyx_t_15[1] = __pyx_t_3;
     __pyx_t_15[2] = __pyx_mstate_global->__pyx_kp_u_seconds;
     __pyx_t_18 = __Pyx_PyUnicode_Join(__pyx_t_15, 3, 13 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_3) + 8, 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_3));
-    if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 274, __pyx_L1_error)
+    if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 277, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_6 = 1;
@@ -10450,12 +10509,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 274, __pyx_L1_error)
+      if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 277, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
     }
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
 
-    /* "SRAM/SRAM.pyx":277
+    /* "SRAM/SRAM.pyx":280
  * 
  * 	#
  * 	print(f"\nVerifying data:")             # <<<<<<<<<<<<<<
@@ -10471,12 +10530,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_17 = __Pyx_PyObject_FastCall(__pyx_t_18, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-      if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 277, __pyx_L1_error)
+      if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 280, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
     }
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
 
-    /* "SRAM/SRAM.pyx":278
+    /* "SRAM/SRAM.pyx":281
  * 	#
  * 	print(f"\nVerifying data:")
  * 	verify_start_time = time.time()             # <<<<<<<<<<<<<<
@@ -10484,9 +10543,9 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 	for i in range(burst_count):
 */
     __pyx_t_18 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 278, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 281, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 278, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 281, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_t_6 = 1;
@@ -10495,22 +10554,22 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_17 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_18); __pyx_t_18 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 278, __pyx_L1_error)
+      if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 281, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
     }
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_verify_start_time, __pyx_t_17) < 0) __PYX_ERR(0, 278, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_verify_start_time, __pyx_t_17) < 0) __PYX_ERR(0, 281, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
 
-    /* "SRAM/SRAM.pyx":279
+    /* "SRAM/SRAM.pyx":282
  * 	print(f"\nVerifying data:")
  * 	verify_start_time = time.time()
  * 	all_match = True             # <<<<<<<<<<<<<<
  * 	for i in range(burst_count):
  * 		if read_data[i] == test_data[i]:
 */
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_all_match, Py_True) < 0) __PYX_ERR(0, 279, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_all_match, Py_True) < 0) __PYX_ERR(0, 282, __pyx_L1_error)
 
-    /* "SRAM/SRAM.pyx":280
+    /* "SRAM/SRAM.pyx":283
  * 	verify_start_time = time.time()
  * 	all_match = True
  * 	for i in range(burst_count):             # <<<<<<<<<<<<<<
@@ -10520,7 +10579,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_7 = NULL;
     __Pyx_INCREF(__pyx_builtin_range);
     __pyx_t_18 = __pyx_builtin_range; 
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_burst_count); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 280, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_burst_count); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 283, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __pyx_t_6 = 1;
     {
@@ -10529,7 +10588,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-      if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 280, __pyx_L1_error)
+      if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 283, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
     }
     if (likely(PyList_CheckExact(__pyx_t_17)) || PyTuple_CheckExact(__pyx_t_17)) {
@@ -10537,9 +10596,9 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_12 = 0;
       __pyx_t_16 = NULL;
     } else {
-      __pyx_t_12 = -1; __pyx_t_18 = PyObject_GetIter(__pyx_t_17); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 280, __pyx_L1_error)
+      __pyx_t_12 = -1; __pyx_t_18 = PyObject_GetIter(__pyx_t_17); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 283, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_18);
-      __pyx_t_16 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_18); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 280, __pyx_L1_error)
+      __pyx_t_16 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_18); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 283, __pyx_L1_error)
     }
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
     for (;;) {
@@ -10548,7 +10607,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           {
             Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_18);
             #if !CYTHON_ASSUME_SAFE_SIZE
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 280, __pyx_L1_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 283, __pyx_L1_error)
             #endif
             if (__pyx_t_12 >= __pyx_temp) break;
           }
@@ -10558,7 +10617,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           {
             Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_18);
             #if !CYTHON_ASSUME_SAFE_SIZE
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 280, __pyx_L1_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 283, __pyx_L1_error)
             #endif
             if (__pyx_t_12 >= __pyx_temp) break;
           }
@@ -10569,53 +10628,53 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           #endif
           ++__pyx_t_12;
         }
-        if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 280, __pyx_L1_error)
+        if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 283, __pyx_L1_error)
       } else {
         __pyx_t_17 = __pyx_t_16(__pyx_t_18);
         if (unlikely(!__pyx_t_17)) {
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
-            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 280, __pyx_L1_error)
+            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 283, __pyx_L1_error)
             PyErr_Clear();
           }
           break;
         }
       }
       __Pyx_GOTREF(__pyx_t_17);
-      if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_i, __pyx_t_17) < 0) __PYX_ERR(0, 280, __pyx_L1_error)
+      if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_i, __pyx_t_17) < 0) __PYX_ERR(0, 283, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
 
-      /* "SRAM/SRAM.pyx":281
+      /* "SRAM/SRAM.pyx":284
  * 	all_match = True
  * 	for i in range(burst_count):
  * 		if read_data[i] == test_data[i]:             # <<<<<<<<<<<<<<
  * 			print(f"  Row {i}:  Match")
  * 		else:
 */
-      __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_read_data); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 281, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_read_data); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 284, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
-      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 281, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 284, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_7 = __Pyx_PyObject_GetItem(__pyx_t_17, __pyx_t_5); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 281, __pyx_L1_error)
+      __pyx_t_7 = __Pyx_PyObject_GetItem(__pyx_t_17, __pyx_t_5); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 284, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_test_data); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 281, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_test_data); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 284, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 281, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 284, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
-      __pyx_t_3 = __Pyx_PyObject_GetItem(__pyx_t_5, __pyx_t_17); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 281, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_GetItem(__pyx_t_5, __pyx_t_17); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 284, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-      __pyx_t_17 = PyObject_RichCompare(__pyx_t_7, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_17); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 281, __pyx_L1_error)
+      __pyx_t_17 = PyObject_RichCompare(__pyx_t_7, __pyx_t_3, Py_EQ); __Pyx_XGOTREF(__pyx_t_17); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 284, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_17); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 281, __pyx_L1_error)
+      __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_17); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 284, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
       if (__pyx_t_9) {
 
-        /* "SRAM/SRAM.pyx":282
+        /* "SRAM/SRAM.pyx":285
  * 	for i in range(burst_count):
  * 		if read_data[i] == test_data[i]:
  * 			print(f"  Row {i}:  Match")             # <<<<<<<<<<<<<<
@@ -10625,16 +10684,16 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
         __pyx_t_3 = NULL;
         __Pyx_INCREF(__pyx_builtin_print);
         __pyx_t_7 = __pyx_builtin_print; 
-        __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 282, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 285, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
-        __pyx_t_2 = __Pyx_PyObject_FormatSimple(__pyx_t_5, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 282, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyObject_FormatSimple(__pyx_t_5, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 285, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         __pyx_t_15[0] = __pyx_mstate_global->__pyx_kp_u_Row;
         __pyx_t_15[1] = __pyx_t_2;
         __pyx_t_15[2] = __pyx_mstate_global->__pyx_kp_u_Match;
         __pyx_t_5 = __Pyx_PyUnicode_Join(__pyx_t_15, 3, 6 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_2) + 9, 65535 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_2));
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 282, __pyx_L1_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 285, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_t_6 = 1;
@@ -10644,12 +10703,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-          if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 282, __pyx_L1_error)
+          if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 285, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_17);
         }
         __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
 
-        /* "SRAM/SRAM.pyx":281
+        /* "SRAM/SRAM.pyx":284
  * 	all_match = True
  * 	for i in range(burst_count):
  * 		if read_data[i] == test_data[i]:             # <<<<<<<<<<<<<<
@@ -10659,7 +10718,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
         goto __pyx_L17;
       }
 
-      /* "SRAM/SRAM.pyx":284
+      /* "SRAM/SRAM.pyx":287
  * 			print(f"  Row {i}:  Match")
  * 		else:
  * 			print(f"  Row {i}:  Mismatch")             # <<<<<<<<<<<<<<
@@ -10670,16 +10729,16 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
         __pyx_t_7 = NULL;
         __Pyx_INCREF(__pyx_builtin_print);
         __pyx_t_5 = __pyx_builtin_print; 
-        __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 284, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 287, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
-        __pyx_t_2 = __Pyx_PyObject_FormatSimple(__pyx_t_3, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 284, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyObject_FormatSimple(__pyx_t_3, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 287, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         __pyx_t_15[0] = __pyx_mstate_global->__pyx_kp_u_Row;
         __pyx_t_15[1] = __pyx_t_2;
         __pyx_t_15[2] = __pyx_mstate_global->__pyx_kp_u_Mismatch;
         __pyx_t_3 = __Pyx_PyUnicode_Join(__pyx_t_15, 3, 6 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_2) + 12, 65535 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_2));
-        if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 284, __pyx_L1_error)
+        if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 287, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_t_6 = 1;
@@ -10689,12 +10748,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-          if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 284, __pyx_L1_error)
+          if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 287, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_17);
         }
         __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
 
-        /* "SRAM/SRAM.pyx":285
+        /* "SRAM/SRAM.pyx":288
  * 		else:
  * 			print(f"  Row {i}:  Mismatch")
  * 			print(f"    Expected: {test_data[i][:4]}...{test_data[i][-4:]}")             # <<<<<<<<<<<<<<
@@ -10704,32 +10763,32 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
         __pyx_t_5 = NULL;
         __Pyx_INCREF(__pyx_builtin_print);
         __pyx_t_3 = __pyx_builtin_print; 
-        __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_test_data); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 285, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_test_data); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 288, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_7);
-        __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 285, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 288, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
-        __pyx_t_4 = __Pyx_PyObject_GetItem(__pyx_t_7, __pyx_t_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 285, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_PyObject_GetItem(__pyx_t_7, __pyx_t_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 288, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-        __pyx_t_2 = __Pyx_PyObject_GetSlice(__pyx_t_4, 0, 4, NULL, NULL, &__pyx_mstate_global->__pyx_slice[2], 0, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 285, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyObject_GetSlice(__pyx_t_4, 0, 4, NULL, NULL, &__pyx_mstate_global->__pyx_slice[2], 0, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 288, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __pyx_t_4 = __Pyx_PyObject_FormatSimple(__pyx_t_2, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 285, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_PyObject_FormatSimple(__pyx_t_2, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 288, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-        __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_test_data); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 285, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_test_data); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 288, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
-        __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 285, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 288, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_7);
-        __pyx_t_11 = __Pyx_PyObject_GetItem(__pyx_t_2, __pyx_t_7); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 285, __pyx_L1_error)
+        __pyx_t_11 = __Pyx_PyObject_GetItem(__pyx_t_2, __pyx_t_7); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 288, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_11);
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-        __pyx_t_7 = __Pyx_PyObject_GetSlice(__pyx_t_11, -4L, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[3], 1, 0, 1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 285, __pyx_L1_error)
+        __pyx_t_7 = __Pyx_PyObject_GetSlice(__pyx_t_11, -4L, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[3], 1, 0, 1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 288, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_7);
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-        __pyx_t_11 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 285, __pyx_L1_error)
+        __pyx_t_11 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 288, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_11);
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         __pyx_t_20[0] = __pyx_mstate_global->__pyx_kp_u_Expected;
@@ -10737,7 +10796,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
         __pyx_t_20[2] = __pyx_mstate_global->__pyx_kp_u__9;
         __pyx_t_20[3] = __pyx_t_11;
         __pyx_t_7 = __Pyx_PyUnicode_Join(__pyx_t_20, 4, 14 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_4) + 3 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_11), 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_4) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_11));
-        if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 285, __pyx_L1_error)
+        if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 288, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_7);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
@@ -10748,12 +10807,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-          if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 285, __pyx_L1_error)
+          if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 288, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_17);
         }
         __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
 
-        /* "SRAM/SRAM.pyx":286
+        /* "SRAM/SRAM.pyx":289
  * 			print(f"  Row {i}:  Mismatch")
  * 			print(f"    Expected: {test_data[i][:4]}...{test_data[i][-4:]}")
  * 			print(f"    Got:      {read_data[i][:4]}...{read_data[i][-4:]}")             # <<<<<<<<<<<<<<
@@ -10763,32 +10822,32 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
         __pyx_t_3 = NULL;
         __Pyx_INCREF(__pyx_builtin_print);
         __pyx_t_7 = __pyx_builtin_print; 
-        __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_read_data); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 286, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_read_data); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 289, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
-        __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 286, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 289, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_11);
-        __pyx_t_4 = __Pyx_PyObject_GetItem(__pyx_t_5, __pyx_t_11); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 286, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_PyObject_GetItem(__pyx_t_5, __pyx_t_11); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 289, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-        __pyx_t_11 = __Pyx_PyObject_GetSlice(__pyx_t_4, 0, 4, NULL, NULL, &__pyx_mstate_global->__pyx_slice[2], 0, 1, 1); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 286, __pyx_L1_error)
+        __pyx_t_11 = __Pyx_PyObject_GetSlice(__pyx_t_4, 0, 4, NULL, NULL, &__pyx_mstate_global->__pyx_slice[2], 0, 1, 1); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 289, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_11);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __pyx_t_4 = __Pyx_PyObject_FormatSimple(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 286, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_PyObject_FormatSimple(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 289, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-        __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_read_data); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 286, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_read_data); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 289, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_11);
-        __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 286, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 289, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
-        __pyx_t_2 = __Pyx_PyObject_GetItem(__pyx_t_11, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 286, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyObject_GetItem(__pyx_t_11, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 289, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-        __pyx_t_5 = __Pyx_PyObject_GetSlice(__pyx_t_2, -4L, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[3], 1, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 286, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyObject_GetSlice(__pyx_t_2, -4L, 0, NULL, NULL, &__pyx_mstate_global->__pyx_slice[3], 1, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 289, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-        __pyx_t_2 = __Pyx_PyObject_FormatSimple(__pyx_t_5, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 286, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyObject_FormatSimple(__pyx_t_5, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 289, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         __pyx_t_20[0] = __pyx_mstate_global->__pyx_kp_u_Got;
@@ -10796,7 +10855,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
         __pyx_t_20[2] = __pyx_mstate_global->__pyx_kp_u__9;
         __pyx_t_20[3] = __pyx_t_2;
         __pyx_t_5 = __Pyx_PyUnicode_Join(__pyx_t_20, 4, 14 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_4) + 3 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_2), 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_4) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_2));
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 286, __pyx_L1_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 289, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -10807,23 +10866,23 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-          if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 286, __pyx_L1_error)
+          if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 289, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_17);
         }
         __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
 
-        /* "SRAM/SRAM.pyx":287
+        /* "SRAM/SRAM.pyx":290
  * 			print(f"    Expected: {test_data[i][:4]}...{test_data[i][-4:]}")
  * 			print(f"    Got:      {read_data[i][:4]}...{read_data[i][-4:]}")
  * 			all_match = False             # <<<<<<<<<<<<<<
  * 	verify_end_time = time.time()
  * 	verify_duration = verify_end_time - verify_start_time
 */
-        if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_all_match, Py_False) < 0) __PYX_ERR(0, 287, __pyx_L1_error)
+        if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_all_match, Py_False) < 0) __PYX_ERR(0, 290, __pyx_L1_error)
       }
       __pyx_L17:;
 
-      /* "SRAM/SRAM.pyx":280
+      /* "SRAM/SRAM.pyx":283
  * 	verify_start_time = time.time()
  * 	all_match = True
  * 	for i in range(burst_count):             # <<<<<<<<<<<<<<
@@ -10833,7 +10892,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     }
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
 
-    /* "SRAM/SRAM.pyx":288
+    /* "SRAM/SRAM.pyx":291
  * 			print(f"    Got:      {read_data[i][:4]}...{read_data[i][-4:]}")
  * 			all_match = False
  * 	verify_end_time = time.time()             # <<<<<<<<<<<<<<
@@ -10841,9 +10900,9 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 
 */
     __pyx_t_17 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 288, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 291, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 288, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 291, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __pyx_t_6 = 1;
@@ -10852,44 +10911,44 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_18 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 288, __pyx_L1_error)
+      if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 291, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_18);
     }
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_verify_end_time, __pyx_t_18) < 0) __PYX_ERR(0, 288, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_verify_end_time, __pyx_t_18) < 0) __PYX_ERR(0, 291, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
 
-    /* "SRAM/SRAM.pyx":289
+    /* "SRAM/SRAM.pyx":292
  * 			all_match = False
  * 	verify_end_time = time.time()
  * 	verify_duration = verify_end_time - verify_start_time             # <<<<<<<<<<<<<<
  * 
  * 	if all_match:
 */
-    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_verify_end_time); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 289, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_verify_end_time); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 292, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_verify_start_time); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 289, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_verify_start_time); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 292, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_17 = PyNumber_Subtract(__pyx_t_18, __pyx_t_5); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 289, __pyx_L1_error)
+    __pyx_t_17 = PyNumber_Subtract(__pyx_t_18, __pyx_t_5); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 292, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_verify_duration, __pyx_t_17) < 0) __PYX_ERR(0, 289, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_verify_duration, __pyx_t_17) < 0) __PYX_ERR(0, 292, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
 
-    /* "SRAM/SRAM.pyx":291
+    /* "SRAM/SRAM.pyx":294
  * 	verify_duration = verify_end_time - verify_start_time
  * 
  * 	if all_match:             # <<<<<<<<<<<<<<
  * 		print(" All burst read/write tests passed!")
  * 	else:
 */
-    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_all_match); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 291, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_all_match); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 294, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
-    __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_17); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 291, __pyx_L1_error)
+    __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_17); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 294, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
     if (__pyx_t_9) {
 
-      /* "SRAM/SRAM.pyx":292
+      /* "SRAM/SRAM.pyx":295
  * 
  * 	if all_match:
  * 		print(" All burst read/write tests passed!")             # <<<<<<<<<<<<<<
@@ -10905,12 +10964,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
         __pyx_t_17 = __Pyx_PyObject_FastCall(__pyx_t_18, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
         __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-        if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 292, __pyx_L1_error)
+        if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 295, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_17);
       }
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
 
-      /* "SRAM/SRAM.pyx":291
+      /* "SRAM/SRAM.pyx":294
  * 	verify_duration = verify_end_time - verify_start_time
  * 
  * 	if all_match:             # <<<<<<<<<<<<<<
@@ -10920,7 +10979,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       goto __pyx_L19;
     }
 
-    /* "SRAM/SRAM.pyx":294
+    /* "SRAM/SRAM.pyx":297
  * 		print(" All burst read/write tests passed!")
  * 	else:
  * 		print(" Some burst tests failed!")             # <<<<<<<<<<<<<<
@@ -10937,14 +10996,14 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
         __pyx_t_17 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_18); __pyx_t_18 = 0;
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-        if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 294, __pyx_L1_error)
+        if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 297, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_17);
       }
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
     }
     __pyx_L19:;
 
-    /* "SRAM/SRAM.pyx":296
+    /* "SRAM/SRAM.pyx":299
  * 		print(" Some burst tests failed!")
  * 
  * 	print(f"  Verification time: {verify_duration:.6f} seconds")             # <<<<<<<<<<<<<<
@@ -10954,16 +11013,16 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_5 = NULL;
     __Pyx_INCREF(__pyx_builtin_print);
     __pyx_t_18 = __pyx_builtin_print; 
-    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_verify_duration); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 296, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_verify_duration); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 299, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_3 = __Pyx_PyObject_Format(__pyx_t_7, __pyx_mstate_global->__pyx_kp_u_6f); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 296, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Format(__pyx_t_7, __pyx_mstate_global->__pyx_kp_u_6f); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 299, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __pyx_t_15[0] = __pyx_mstate_global->__pyx_kp_u_Verification_time;
     __pyx_t_15[1] = __pyx_t_3;
     __pyx_t_15[2] = __pyx_mstate_global->__pyx_kp_u_seconds;
     __pyx_t_7 = __Pyx_PyUnicode_Join(__pyx_t_15, 3, 21 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_3) + 8, 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_3));
-    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 296, __pyx_L1_error)
+    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 299, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_6 = 1;
@@ -10973,27 +11032,27 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-      if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 296, __pyx_L1_error)
+      if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 299, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
     }
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
 
-    /* "SRAM/SRAM.pyx":299
+    /* "SRAM/SRAM.pyx":302
  * 
  * 	#
  * 	total_bytes = burst_count * 16  # 16             # <<<<<<<<<<<<<<
  * 	print(f"\n Performance Statistics:")
  * 	print(f"  Total data processed: {total_bytes} bytes")
 */
-    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_burst_count); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 299, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_burst_count); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 302, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
-    __pyx_t_18 = __Pyx_PyLong_MultiplyObjC(__pyx_t_17, __pyx_mstate_global->__pyx_int_16, 16, 0, 0); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 299, __pyx_L1_error)
+    __pyx_t_18 = __Pyx_PyLong_MultiplyObjC(__pyx_t_17, __pyx_mstate_global->__pyx_int_16, 16, 0, 0); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 302, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_total_bytes, __pyx_t_18) < 0) __PYX_ERR(0, 299, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_total_bytes, __pyx_t_18) < 0) __PYX_ERR(0, 302, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
 
-    /* "SRAM/SRAM.pyx":300
+    /* "SRAM/SRAM.pyx":303
  * 	#
  * 	total_bytes = burst_count * 16  # 16
  * 	print(f"\n Performance Statistics:")             # <<<<<<<<<<<<<<
@@ -11009,12 +11068,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_18 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 300, __pyx_L1_error)
+      if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 303, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_18);
     }
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
 
-    /* "SRAM/SRAM.pyx":301
+    /* "SRAM/SRAM.pyx":304
  * 	total_bytes = burst_count * 16  # 16
  * 	print(f"\n Performance Statistics:")
  * 	print(f"  Total data processed: {total_bytes} bytes")             # <<<<<<<<<<<<<<
@@ -11024,16 +11083,16 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_7 = NULL;
     __Pyx_INCREF(__pyx_builtin_print);
     __pyx_t_17 = __pyx_builtin_print; 
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_total_bytes); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 301, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_total_bytes); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 304, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_3 = __Pyx_PyObject_FormatSimple(__pyx_t_5, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 301, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_FormatSimple(__pyx_t_5, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 304, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_t_15[0] = __pyx_mstate_global->__pyx_kp_u_Total_data_processed;
     __pyx_t_15[1] = __pyx_t_3;
     __pyx_t_15[2] = __pyx_mstate_global->__pyx_kp_u_bytes_2;
     __pyx_t_5 = __Pyx_PyUnicode_Join(__pyx_t_15, 3, 24 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_3) + 6, 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_3));
-    if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 301, __pyx_L1_error)
+    if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 304, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_6 = 1;
@@ -11043,12 +11102,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-      if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 301, __pyx_L1_error)
+      if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 304, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_18);
     }
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
 
-    /* "SRAM/SRAM.pyx":302
+    /* "SRAM/SRAM.pyx":305
  * 	print(f"\n Performance Statistics:")
  * 	print(f"  Total data processed: {total_bytes} bytes")
  * 	print(f"  Write throughput: {total_bytes / write_duration:.2f} bytes/second")             # <<<<<<<<<<<<<<
@@ -11058,22 +11117,22 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_17 = NULL;
     __Pyx_INCREF(__pyx_builtin_print);
     __pyx_t_5 = __pyx_builtin_print; 
-    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_total_bytes); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 302, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_total_bytes); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 305, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_write_duration); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 302, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_write_duration); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 305, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_2 = __Pyx_PyNumber_Divide(__pyx_t_7, __pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 302, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyNumber_Divide(__pyx_t_7, __pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 305, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_Format(__pyx_t_2, __pyx_mstate_global->__pyx_kp_u_2f); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 302, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Format(__pyx_t_2, __pyx_mstate_global->__pyx_kp_u_2f); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 305, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_t_15[0] = __pyx_mstate_global->__pyx_kp_u_Write_throughput;
     __pyx_t_15[1] = __pyx_t_3;
     __pyx_t_15[2] = __pyx_mstate_global->__pyx_kp_u_bytes_second;
     __pyx_t_2 = __Pyx_PyUnicode_Join(__pyx_t_15, 3, 20 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_3) + 13, 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_3));
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 302, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 305, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_6 = 1;
@@ -11083,12 +11142,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 302, __pyx_L1_error)
+      if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 305, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_18);
     }
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
 
-    /* "SRAM/SRAM.pyx":303
+    /* "SRAM/SRAM.pyx":306
  * 	print(f"  Total data processed: {total_bytes} bytes")
  * 	print(f"  Write throughput: {total_bytes / write_duration:.2f} bytes/second")
  * 	print(f"  Read throughput: {total_bytes / read_duration:.2f} bytes/second")             # <<<<<<<<<<<<<<
@@ -11098,22 +11157,22 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_5 = NULL;
     __Pyx_INCREF(__pyx_builtin_print);
     __pyx_t_2 = __pyx_builtin_print; 
-    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_total_bytes); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 303, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_total_bytes); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 306, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_read_duration); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 303, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_read_duration); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 306, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_7 = __Pyx_PyNumber_Divide(__pyx_t_17, __pyx_t_3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 303, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyNumber_Divide(__pyx_t_17, __pyx_t_3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 306, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_Format(__pyx_t_7, __pyx_mstate_global->__pyx_kp_u_2f); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 303, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Format(__pyx_t_7, __pyx_mstate_global->__pyx_kp_u_2f); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 306, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __pyx_t_15[0] = __pyx_mstate_global->__pyx_kp_u_Read_throughput;
     __pyx_t_15[1] = __pyx_t_3;
     __pyx_t_15[2] = __pyx_mstate_global->__pyx_kp_u_bytes_second;
     __pyx_t_7 = __Pyx_PyUnicode_Join(__pyx_t_15, 3, 19 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_3) + 13, 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_3));
-    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 303, __pyx_L1_error)
+    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 306, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_6 = 1;
@@ -11123,12 +11182,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 303, __pyx_L1_error)
+      if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 306, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_18);
     }
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
 
-    /* "SRAM/SRAM.pyx":304
+    /* "SRAM/SRAM.pyx":307
  * 	print(f"  Write throughput: {total_bytes / write_duration:.2f} bytes/second")
  * 	print(f"  Read throughput: {total_bytes / read_duration:.2f} bytes/second")
  * 	print(f"  Total operation time: {write_duration + read_duration:.6f} seconds")             # <<<<<<<<<<<<<<
@@ -11138,22 +11197,22 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_2 = NULL;
     __Pyx_INCREF(__pyx_builtin_print);
     __pyx_t_7 = __pyx_builtin_print; 
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_write_duration); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 304, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_write_duration); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 307, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_read_duration); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 304, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_read_duration); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 307, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_17 = PyNumber_Add(__pyx_t_5, __pyx_t_3); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 304, __pyx_L1_error)
+    __pyx_t_17 = PyNumber_Add(__pyx_t_5, __pyx_t_3); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 307, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_Format(__pyx_t_17, __pyx_mstate_global->__pyx_kp_u_6f); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 304, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Format(__pyx_t_17, __pyx_mstate_global->__pyx_kp_u_6f); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 307, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
     __pyx_t_15[0] = __pyx_mstate_global->__pyx_kp_u_Total_operation_time;
     __pyx_t_15[1] = __pyx_t_3;
     __pyx_t_15[2] = __pyx_mstate_global->__pyx_kp_u_seconds;
     __pyx_t_17 = __Pyx_PyUnicode_Join(__pyx_t_15, 3, 24 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_3) + 8, 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_3));
-    if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 304, __pyx_L1_error)
+    if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 307, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_6 = 1;
@@ -11163,12 +11222,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 304, __pyx_L1_error)
+      if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 307, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_18);
     }
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
 
-    /* "SRAM/SRAM.pyx":306
+    /* "SRAM/SRAM.pyx":309
  * 	print(f"  Total operation time: {write_duration + read_duration:.6f} seconds")
  * 
  * 	print("-" * 50)             # <<<<<<<<<<<<<<
@@ -11184,12 +11243,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_18 = __Pyx_PyObject_FastCall(__pyx_t_17, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-      if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 306, __pyx_L1_error)
+      if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 309, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_18);
     }
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
 
-    /* "SRAM/SRAM.pyx":309
+    /* "SRAM/SRAM.pyx":312
  * 
  * 	#
  * 	print("Large-scale performance test:")             # <<<<<<<<<<<<<<
@@ -11205,33 +11264,33 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_18 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 309, __pyx_L1_error)
+      if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 312, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_18);
     }
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
 
-    /* "SRAM/SRAM.pyx":310
+    /* "SRAM/SRAM.pyx":313
  * 	#
  * 	print("Large-scale performance test:")
  * 	large_test_count = 1000             # <<<<<<<<<<<<<<
  * 	large_test_data = []
  * 
 */
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_large_test_count, __pyx_mstate_global->__pyx_int_1000) < 0) __PYX_ERR(0, 310, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_large_test_count, __pyx_mstate_global->__pyx_int_1000) < 0) __PYX_ERR(0, 313, __pyx_L1_error)
 
-    /* "SRAM/SRAM.pyx":311
+    /* "SRAM/SRAM.pyx":314
  * 	print("Large-scale performance test:")
  * 	large_test_count = 1000
  * 	large_test_data = []             # <<<<<<<<<<<<<<
  * 
  * 	#
 */
-    __pyx_t_18 = PyList_New(0); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 311, __pyx_L1_error)
+    __pyx_t_18 = PyList_New(0); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 314, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_large_test_data, __pyx_t_18) < 0) __PYX_ERR(0, 311, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_large_test_data, __pyx_t_18) < 0) __PYX_ERR(0, 314, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
 
-    /* "SRAM/SRAM.pyx":314
+    /* "SRAM/SRAM.pyx":317
  * 
  * 	#
  * 	prep_start_time = time.time()             # <<<<<<<<<<<<<<
@@ -11239,9 +11298,9 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 		data_row = [(i + j) % 256 for j in range(16)]
 */
     __pyx_t_7 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 314, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 317, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 314, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 317, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
     __pyx_t_6 = 1;
@@ -11250,13 +11309,13 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_18 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 314, __pyx_L1_error)
+      if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 317, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_18);
     }
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_prep_start_time, __pyx_t_18) < 0) __PYX_ERR(0, 314, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_prep_start_time, __pyx_t_18) < 0) __PYX_ERR(0, 317, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
 
-    /* "SRAM/SRAM.pyx":315
+    /* "SRAM/SRAM.pyx":318
  * 	#
  * 	prep_start_time = time.time()
  * 	for i in range(large_test_count):             # <<<<<<<<<<<<<<
@@ -11266,7 +11325,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_2 = NULL;
     __Pyx_INCREF(__pyx_builtin_range);
     __pyx_t_7 = __pyx_builtin_range; 
-    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_large_test_count); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 315, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_large_test_count); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 318, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
     __pyx_t_6 = 1;
     {
@@ -11275,7 +11334,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 315, __pyx_L1_error)
+      if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 318, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_18);
     }
     if (likely(PyList_CheckExact(__pyx_t_18)) || PyTuple_CheckExact(__pyx_t_18)) {
@@ -11283,9 +11342,9 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_12 = 0;
       __pyx_t_16 = NULL;
     } else {
-      __pyx_t_12 = -1; __pyx_t_7 = PyObject_GetIter(__pyx_t_18); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 315, __pyx_L1_error)
+      __pyx_t_12 = -1; __pyx_t_7 = PyObject_GetIter(__pyx_t_18); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 318, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_16 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_7); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 315, __pyx_L1_error)
+      __pyx_t_16 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_7); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 318, __pyx_L1_error)
     }
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
     for (;;) {
@@ -11294,7 +11353,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           {
             Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_7);
             #if !CYTHON_ASSUME_SAFE_SIZE
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 315, __pyx_L1_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 318, __pyx_L1_error)
             #endif
             if (__pyx_t_12 >= __pyx_temp) break;
           }
@@ -11304,7 +11363,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           {
             Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_7);
             #if !CYTHON_ASSUME_SAFE_SIZE
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 315, __pyx_L1_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 318, __pyx_L1_error)
             #endif
             if (__pyx_t_12 >= __pyx_temp) break;
           }
@@ -11315,23 +11374,23 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           #endif
           ++__pyx_t_12;
         }
-        if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 315, __pyx_L1_error)
+        if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 318, __pyx_L1_error)
       } else {
         __pyx_t_18 = __pyx_t_16(__pyx_t_7);
         if (unlikely(!__pyx_t_18)) {
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
-            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 315, __pyx_L1_error)
+            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 318, __pyx_L1_error)
             PyErr_Clear();
           }
           break;
         }
       }
       __Pyx_GOTREF(__pyx_t_18);
-      if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_i, __pyx_t_18) < 0) __PYX_ERR(0, 315, __pyx_L1_error)
+      if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_i, __pyx_t_18) < 0) __PYX_ERR(0, 318, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
 
-      /* "SRAM/SRAM.pyx":316
+      /* "SRAM/SRAM.pyx":319
  * 	prep_start_time = time.time()
  * 	for i in range(large_test_count):
  * 		data_row = [(i + j) % 256 for j in range(16)]             # <<<<<<<<<<<<<<
@@ -11339,24 +11398,24 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 	prep_end_time = time.time()
 */
       { /* enter inner scope */
-        __pyx_t_18 = PyList_New(0); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 316, __pyx_L24_error)
+        __pyx_t_18 = PyList_New(0); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 319, __pyx_L24_error)
         __Pyx_GOTREF(__pyx_t_18);
         for (__pyx_t_13 = 0; __pyx_t_13 < 16; __pyx_t_13+=1) {
-          __pyx_t_17 = PyLong_FromSsize_t(__pyx_t_13); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 316, __pyx_L24_error)
+          __pyx_t_17 = PyLong_FromSsize_t(__pyx_t_13); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 319, __pyx_L24_error)
           __Pyx_GOTREF(__pyx_t_17);
           __Pyx_XGOTREF(__pyx_8genexpr6__pyx_v_4SRAM_4SRAM_j);
           __Pyx_DECREF_SET(__pyx_8genexpr6__pyx_v_4SRAM_4SRAM_j, __pyx_t_17);
           __Pyx_GIVEREF(__pyx_t_17);
           __pyx_t_17 = 0;
-          __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 316, __pyx_L24_error)
+          __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 319, __pyx_L24_error)
           __Pyx_GOTREF(__pyx_t_17);
-          __pyx_t_2 = PyNumber_Add(__pyx_t_17, __pyx_8genexpr6__pyx_v_4SRAM_4SRAM_j); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 316, __pyx_L24_error)
+          __pyx_t_2 = PyNumber_Add(__pyx_t_17, __pyx_8genexpr6__pyx_v_4SRAM_4SRAM_j); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 319, __pyx_L24_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-          __pyx_t_17 = __Pyx_PyLong_RemainderObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_256, 0x100, 0, 0); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 316, __pyx_L24_error)
+          __pyx_t_17 = __Pyx_PyLong_RemainderObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_256, 0x100, 0, 0); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 319, __pyx_L24_error)
           __Pyx_GOTREF(__pyx_t_17);
           __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-          if (unlikely(__Pyx_ListComp_Append(__pyx_t_18, (PyObject*)__pyx_t_17))) __PYX_ERR(0, 316, __pyx_L24_error)
+          if (unlikely(__Pyx_ListComp_Append(__pyx_t_18, (PyObject*)__pyx_t_17))) __PYX_ERR(0, 319, __pyx_L24_error)
           __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
         }
         __Pyx_GOTREF(__pyx_8genexpr6__pyx_v_4SRAM_4SRAM_j);
@@ -11368,25 +11427,25 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
         goto __pyx_L1_error;
         __pyx_L27_exit_scope:;
       } /* exit inner scope */
-      if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_data_row, __pyx_t_18) < 0) __PYX_ERR(0, 316, __pyx_L1_error)
+      if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_data_row, __pyx_t_18) < 0) __PYX_ERR(0, 319, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
 
-      /* "SRAM/SRAM.pyx":317
+      /* "SRAM/SRAM.pyx":320
  * 	for i in range(large_test_count):
  * 		data_row = [(i + j) % 256 for j in range(16)]
  * 		large_test_data.append(data_row)             # <<<<<<<<<<<<<<
  * 	prep_end_time = time.time()
  * 	prep_duration = prep_end_time - prep_start_time
 */
-      __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_large_test_data); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 317, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_large_test_data); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 320, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_18);
-      __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_data_row); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 317, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_data_row); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 320, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
-      __pyx_t_14 = __Pyx_PyObject_Append(__pyx_t_18, __pyx_t_17); if (unlikely(__pyx_t_14 == ((int)-1))) __PYX_ERR(0, 317, __pyx_L1_error)
+      __pyx_t_14 = __Pyx_PyObject_Append(__pyx_t_18, __pyx_t_17); if (unlikely(__pyx_t_14 == ((int)-1))) __PYX_ERR(0, 320, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
 
-      /* "SRAM/SRAM.pyx":315
+      /* "SRAM/SRAM.pyx":318
  * 	#
  * 	prep_start_time = time.time()
  * 	for i in range(large_test_count):             # <<<<<<<<<<<<<<
@@ -11396,7 +11455,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     }
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "SRAM/SRAM.pyx":318
+    /* "SRAM/SRAM.pyx":321
  * 		data_row = [(i + j) % 256 for j in range(16)]
  * 		large_test_data.append(data_row)
  * 	prep_end_time = time.time()             # <<<<<<<<<<<<<<
@@ -11404,9 +11463,9 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 
 */
     __pyx_t_17 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 318, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 321, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 318, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 321, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
     __pyx_t_6 = 1;
@@ -11415,31 +11474,31 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 318, __pyx_L1_error)
+      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 321, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
     }
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_prep_end_time, __pyx_t_7) < 0) __PYX_ERR(0, 318, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_prep_end_time, __pyx_t_7) < 0) __PYX_ERR(0, 321, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "SRAM/SRAM.pyx":319
+    /* "SRAM/SRAM.pyx":322
  * 		large_test_data.append(data_row)
  * 	prep_end_time = time.time()
  * 	prep_duration = prep_end_time - prep_start_time             # <<<<<<<<<<<<<<
  * 
  * 	print(f"  Prepared {large_test_count} rows of test data")
 */
-    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_prep_end_time); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 319, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_prep_end_time); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 322, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_prep_start_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 319, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_prep_start_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 322, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_17 = PyNumber_Subtract(__pyx_t_7, __pyx_t_2); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 319, __pyx_L1_error)
+    __pyx_t_17 = PyNumber_Subtract(__pyx_t_7, __pyx_t_2); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 322, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_prep_duration, __pyx_t_17) < 0) __PYX_ERR(0, 319, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_prep_duration, __pyx_t_17) < 0) __PYX_ERR(0, 322, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
 
-    /* "SRAM/SRAM.pyx":321
+    /* "SRAM/SRAM.pyx":324
  * 	prep_duration = prep_end_time - prep_start_time
  * 
  * 	print(f"  Prepared {large_test_count} rows of test data")             # <<<<<<<<<<<<<<
@@ -11449,16 +11508,16 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_2 = NULL;
     __Pyx_INCREF(__pyx_builtin_print);
     __pyx_t_7 = __pyx_builtin_print; 
-    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_large_test_count); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 321, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_large_test_count); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 324, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
-    __pyx_t_3 = __Pyx_PyObject_FormatSimple(__pyx_t_18, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 321, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_FormatSimple(__pyx_t_18, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 324, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
     __pyx_t_15[0] = __pyx_mstate_global->__pyx_kp_u_Prepared;
     __pyx_t_15[1] = __pyx_t_3;
     __pyx_t_15[2] = __pyx_mstate_global->__pyx_kp_u_rows_of_test_data;
     __pyx_t_18 = __Pyx_PyUnicode_Join(__pyx_t_15, 3, 11 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_3) + 18, 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_3));
-    if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 321, __pyx_L1_error)
+    if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 324, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_6 = 1;
@@ -11468,12 +11527,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 321, __pyx_L1_error)
+      if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 324, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
     }
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
 
-    /* "SRAM/SRAM.pyx":322
+    /* "SRAM/SRAM.pyx":325
  * 
  * 	print(f"  Prepared {large_test_count} rows of test data")
  * 	print(f"  Data preparation time: {prep_duration:.6f} seconds")             # <<<<<<<<<<<<<<
@@ -11483,16 +11542,16 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_7 = NULL;
     __Pyx_INCREF(__pyx_builtin_print);
     __pyx_t_18 = __pyx_builtin_print; 
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_prep_duration); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 322, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_prep_duration); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 325, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_3 = __Pyx_PyObject_Format(__pyx_t_2, __pyx_mstate_global->__pyx_kp_u_6f); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 322, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Format(__pyx_t_2, __pyx_mstate_global->__pyx_kp_u_6f); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 325, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_t_15[0] = __pyx_mstate_global->__pyx_kp_u_Data_preparation_time;
     __pyx_t_15[1] = __pyx_t_3;
     __pyx_t_15[2] = __pyx_mstate_global->__pyx_kp_u_seconds;
     __pyx_t_2 = __Pyx_PyUnicode_Join(__pyx_t_15, 3, 25 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_3) + 8, 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_3));
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 322, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 325, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_6 = 1;
@@ -11502,30 +11561,30 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-      if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 322, __pyx_L1_error)
+      if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 325, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
     }
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
 
-    /* "SRAM/SRAM.pyx":325
+    /* "SRAM/SRAM.pyx":328
  * 
  * 	#
  * 	large_start_addr = 0x1000             # <<<<<<<<<<<<<<
  * 	large_stride = 0x10
  * 
 */
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_large_start_addr, __pyx_mstate_global->__pyx_int_4096) < 0) __PYX_ERR(0, 325, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_large_start_addr, __pyx_mstate_global->__pyx_int_4096) < 0) __PYX_ERR(0, 328, __pyx_L1_error)
 
-    /* "SRAM/SRAM.pyx":326
+    /* "SRAM/SRAM.pyx":329
  * 	#
  * 	large_start_addr = 0x1000
  * 	large_stride = 0x10             # <<<<<<<<<<<<<<
  * 
  * 	large_write_start_time = time.time()
 */
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_large_stride, __pyx_mstate_global->__pyx_int_16) < 0) __PYX_ERR(0, 326, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_large_stride, __pyx_mstate_global->__pyx_int_16) < 0) __PYX_ERR(0, 329, __pyx_L1_error)
 
-    /* "SRAM/SRAM.pyx":328
+    /* "SRAM/SRAM.pyx":331
  * 	large_stride = 0x10
  * 
  * 	large_write_start_time = time.time()             # <<<<<<<<<<<<<<
@@ -11533,9 +11592,9 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 	large_write_end_time = time.time()
 */
     __pyx_t_18 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 328, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 331, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 328, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 331, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_t_6 = 1;
@@ -11544,13 +11603,13 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_17 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_18); __pyx_t_18 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 328, __pyx_L1_error)
+      if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 331, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
     }
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_large_write_start_time, __pyx_t_17) < 0) __PYX_ERR(0, 328, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_large_write_start_time, __pyx_t_17) < 0) __PYX_ERR(0, 331, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
 
-    /* "SRAM/SRAM.pyx":329
+    /* "SRAM/SRAM.pyx":332
  * 
  * 	large_write_start_time = time.time()
  * 	sram.write_burst(True, 0xFFFF, large_start_addr, large_stride, large_test_count, large_test_data)             # <<<<<<<<<<<<<<
@@ -11558,18 +11617,18 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 	large_write_duration = large_write_end_time - large_write_start_time
 */
     __pyx_t_7 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_sram); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 329, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_sram); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 332, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_write_burst); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 329, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_write_burst); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 332, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_large_start_addr); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 329, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_large_start_addr); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 332, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_large_stride); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 329, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_large_stride); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 332, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_large_test_count); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 329, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_large_test_count); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 332, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_large_test_data); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 329, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_large_test_data); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 332, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_t_6 = 1;
     {
@@ -11581,12 +11640,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 329, __pyx_L1_error)
+      if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 332, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
     }
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
 
-    /* "SRAM/SRAM.pyx":330
+    /* "SRAM/SRAM.pyx":333
  * 	large_write_start_time = time.time()
  * 	sram.write_burst(True, 0xFFFF, large_start_addr, large_stride, large_test_count, large_test_data)
  * 	large_write_end_time = time.time()             # <<<<<<<<<<<<<<
@@ -11594,9 +11653,9 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 
 */
     __pyx_t_2 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 330, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 333, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 330, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 333, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __pyx_t_6 = 1;
@@ -11605,31 +11664,31 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_17 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 330, __pyx_L1_error)
+      if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 333, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
     }
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_large_write_end_time, __pyx_t_17) < 0) __PYX_ERR(0, 330, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_large_write_end_time, __pyx_t_17) < 0) __PYX_ERR(0, 333, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
 
-    /* "SRAM/SRAM.pyx":331
+    /* "SRAM/SRAM.pyx":334
  * 	sram.write_burst(True, 0xFFFF, large_start_addr, large_stride, large_test_count, large_test_data)
  * 	large_write_end_time = time.time()
  * 	large_write_duration = large_write_end_time - large_write_start_time             # <<<<<<<<<<<<<<
  * 
  * 	print(f"  Large-scale write completed")
 */
-    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_large_write_end_time); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 331, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_large_write_end_time); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 334, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_large_write_start_time); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 331, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_large_write_start_time); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 334, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_2 = PyNumber_Subtract(__pyx_t_17, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 331, __pyx_L1_error)
+    __pyx_t_2 = PyNumber_Subtract(__pyx_t_17, __pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 334, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_large_write_duration, __pyx_t_2) < 0) __PYX_ERR(0, 331, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_large_write_duration, __pyx_t_2) < 0) __PYX_ERR(0, 334, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "SRAM/SRAM.pyx":333
+    /* "SRAM/SRAM.pyx":336
  * 	large_write_duration = large_write_end_time - large_write_start_time
  * 
  * 	print(f"  Large-scale write completed")             # <<<<<<<<<<<<<<
@@ -11645,12 +11704,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_17, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 333, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 336, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "SRAM/SRAM.pyx":334
+    /* "SRAM/SRAM.pyx":337
  * 
  * 	print(f"  Large-scale write completed")
  * 	print(f"  Write time: {large_write_duration:.6f} seconds")             # <<<<<<<<<<<<<<
@@ -11660,16 +11719,16 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_17 = NULL;
     __Pyx_INCREF(__pyx_builtin_print);
     __pyx_t_5 = __pyx_builtin_print; 
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_large_write_duration); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 334, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_large_write_duration); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 337, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_3 = __Pyx_PyObject_Format(__pyx_t_4, __pyx_mstate_global->__pyx_kp_u_6f); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 334, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Format(__pyx_t_4, __pyx_mstate_global->__pyx_kp_u_6f); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 337, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __pyx_t_15[0] = __pyx_mstate_global->__pyx_kp_u_Write_time;
     __pyx_t_15[1] = __pyx_t_3;
     __pyx_t_15[2] = __pyx_mstate_global->__pyx_kp_u_seconds;
     __pyx_t_4 = __Pyx_PyUnicode_Join(__pyx_t_15, 3, 14 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_3) + 8, 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_3));
-    if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 334, __pyx_L1_error)
+    if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 337, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_6 = 1;
@@ -11679,12 +11738,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 334, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 337, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "SRAM/SRAM.pyx":337
+    /* "SRAM/SRAM.pyx":340
  * 
  * 	#
  * 	large_read_start_time = time.time()             # <<<<<<<<<<<<<<
@@ -11692,9 +11751,9 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 	large_read_end_time = time.time()
 */
     __pyx_t_5 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 337, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 340, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_17 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 337, __pyx_L1_error)
+    __pyx_t_17 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 340, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __pyx_t_6 = 1;
@@ -11703,13 +11762,13 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_17, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 337, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 340, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_large_read_start_time, __pyx_t_2) < 0) __PYX_ERR(0, 337, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_large_read_start_time, __pyx_t_2) < 0) __PYX_ERR(0, 340, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "SRAM/SRAM.pyx":338
+    /* "SRAM/SRAM.pyx":341
  * 	#
  * 	large_read_start_time = time.time()
  * 	large_read_data = sram.read_burst(True, large_start_addr, large_stride, large_test_count)             # <<<<<<<<<<<<<<
@@ -11717,16 +11776,16 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 	large_read_duration = large_read_end_time - large_read_start_time
 */
     __pyx_t_17 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_sram); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 338, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_sram); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 341, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_read_burst); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 338, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_read_burst); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 341, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_large_start_addr); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 338, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_large_start_addr); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 341, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_large_stride); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 338, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_large_stride); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 341, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_large_test_count); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 338, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_large_test_count); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 341, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
     __pyx_t_6 = 1;
     {
@@ -11737,13 +11796,13 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 338, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 341, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_large_read_data, __pyx_t_2) < 0) __PYX_ERR(0, 338, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_large_read_data, __pyx_t_2) < 0) __PYX_ERR(0, 341, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "SRAM/SRAM.pyx":339
+    /* "SRAM/SRAM.pyx":342
  * 	large_read_start_time = time.time()
  * 	large_read_data = sram.read_burst(True, large_start_addr, large_stride, large_test_count)
  * 	large_read_end_time = time.time()             # <<<<<<<<<<<<<<
@@ -11751,9 +11810,9 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 
 */
     __pyx_t_4 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 339, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 342, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 339, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 342, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
     __pyx_t_6 = 1;
@@ -11762,31 +11821,31 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_2 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 339, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 342, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_large_read_end_time, __pyx_t_2) < 0) __PYX_ERR(0, 339, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_large_read_end_time, __pyx_t_2) < 0) __PYX_ERR(0, 342, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "SRAM/SRAM.pyx":340
+    /* "SRAM/SRAM.pyx":343
  * 	large_read_data = sram.read_burst(True, large_start_addr, large_stride, large_test_count)
  * 	large_read_end_time = time.time()
  * 	large_read_duration = large_read_end_time - large_read_start_time             # <<<<<<<<<<<<<<
  * 
  * 	print(f"  Large-scale read completed")
 */
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_large_read_end_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 340, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_large_read_end_time); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 343, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_large_read_start_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 340, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_large_read_start_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 343, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = PyNumber_Subtract(__pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 340, __pyx_L1_error)
+    __pyx_t_4 = PyNumber_Subtract(__pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 343, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_large_read_duration, __pyx_t_4) < 0) __PYX_ERR(0, 340, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_large_read_duration, __pyx_t_4) < 0) __PYX_ERR(0, 343, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "SRAM/SRAM.pyx":342
+    /* "SRAM/SRAM.pyx":345
  * 	large_read_duration = large_read_end_time - large_read_start_time
  * 
  * 	print(f"  Large-scale read completed")             # <<<<<<<<<<<<<<
@@ -11802,12 +11861,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 342, __pyx_L1_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 345, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
     }
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "SRAM/SRAM.pyx":343
+    /* "SRAM/SRAM.pyx":346
  * 
  * 	print(f"  Large-scale read completed")
  * 	print(f"  Read time: {large_read_duration:.6f} seconds")             # <<<<<<<<<<<<<<
@@ -11817,16 +11876,16 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_2 = NULL;
     __Pyx_INCREF(__pyx_builtin_print);
     __pyx_t_3 = __pyx_builtin_print; 
-    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_large_read_duration); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 343, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_large_read_duration); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 346, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
-    __pyx_t_5 = __Pyx_PyObject_Format(__pyx_t_18, __pyx_mstate_global->__pyx_kp_u_6f); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 343, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_Format(__pyx_t_18, __pyx_mstate_global->__pyx_kp_u_6f); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 346, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
     __pyx_t_15[0] = __pyx_mstate_global->__pyx_kp_u_Read_time;
     __pyx_t_15[1] = __pyx_t_5;
     __pyx_t_15[2] = __pyx_mstate_global->__pyx_kp_u_seconds;
     __pyx_t_18 = __Pyx_PyUnicode_Join(__pyx_t_15, 3, 13 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_5) + 8, 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_5));
-    if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 343, __pyx_L1_error)
+    if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 346, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_t_6 = 1;
@@ -11836,27 +11895,27 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 343, __pyx_L1_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 346, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
     }
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "SRAM/SRAM.pyx":346
+    /* "SRAM/SRAM.pyx":349
  * 
  * 	#
  * 	large_total_bytes = large_test_count * 16             # <<<<<<<<<<<<<<
  * 	print(f"\n Large-scale Performance Statistics:")
  * 	print(f"  Total data processed: {large_total_bytes} bytes ({large_total_bytes / 1024:.2f} KB)")
 */
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_large_test_count); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 346, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_large_test_count); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 349, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_3 = __Pyx_PyLong_MultiplyObjC(__pyx_t_4, __pyx_mstate_global->__pyx_int_16, 16, 0, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 346, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyLong_MultiplyObjC(__pyx_t_4, __pyx_mstate_global->__pyx_int_16, 16, 0, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 349, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_large_total_bytes, __pyx_t_3) < 0) __PYX_ERR(0, 346, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_large_total_bytes, __pyx_t_3) < 0) __PYX_ERR(0, 349, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "SRAM/SRAM.pyx":347
+    /* "SRAM/SRAM.pyx":350
  * 	#
  * 	large_total_bytes = large_test_count * 16
  * 	print(f"\n Large-scale Performance Statistics:")             # <<<<<<<<<<<<<<
@@ -11872,12 +11931,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_18, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 347, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 350, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
     }
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "SRAM/SRAM.pyx":348
+    /* "SRAM/SRAM.pyx":351
  * 	large_total_bytes = large_test_count * 16
  * 	print(f"\n Large-scale Performance Statistics:")
  * 	print(f"  Total data processed: {large_total_bytes} bytes ({large_total_bytes / 1024:.2f} KB)")             # <<<<<<<<<<<<<<
@@ -11887,17 +11946,17 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_18 = NULL;
     __Pyx_INCREF(__pyx_builtin_print);
     __pyx_t_4 = __pyx_builtin_print; 
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_large_total_bytes); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 348, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_large_total_bytes); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 351, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_5 = __Pyx_PyObject_FormatSimple(__pyx_t_2, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 348, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_FormatSimple(__pyx_t_2, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 351, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_large_total_bytes); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 348, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_large_total_bytes); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 351, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_17 = __Pyx_PyLong_TrueDivideObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_1024, 0x400, 0, 0); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 348, __pyx_L1_error)
+    __pyx_t_17 = __Pyx_PyLong_TrueDivideObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_1024, 0x400, 0, 0); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 351, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyObject_Format(__pyx_t_17, __pyx_mstate_global->__pyx_kp_u_2f); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 348, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Format(__pyx_t_17, __pyx_mstate_global->__pyx_kp_u_2f); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 351, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
     __pyx_t_21[0] = __pyx_mstate_global->__pyx_kp_u_Total_data_processed;
@@ -11906,7 +11965,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_21[3] = __pyx_t_2;
     __pyx_t_21[4] = __pyx_mstate_global->__pyx_kp_u_KB;
     __pyx_t_17 = __Pyx_PyUnicode_Join(__pyx_t_21, 5, 24 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_5) + 8 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_2) + 4, 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_5) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_2));
-    if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 348, __pyx_L1_error)
+    if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 351, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -11917,12 +11976,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_18); __pyx_t_18 = 0;
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 348, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 351, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
     }
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "SRAM/SRAM.pyx":349
+    /* "SRAM/SRAM.pyx":352
  * 	print(f"\n Large-scale Performance Statistics:")
  * 	print(f"  Total data processed: {large_total_bytes} bytes ({large_total_bytes / 1024:.2f} KB)")
  * 	print(f"  Write throughput: {large_total_bytes / large_write_duration:.2f} bytes/second ({large_total_bytes / large_write_duration / 1024:.2f} KB/s)")             # <<<<<<<<<<<<<<
@@ -11932,29 +11991,29 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_4 = NULL;
     __Pyx_INCREF(__pyx_builtin_print);
     __pyx_t_17 = __pyx_builtin_print; 
-    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_large_total_bytes); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 349, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_large_total_bytes); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 352, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_large_write_duration); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 349, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_large_write_duration); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 352, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_5 = __Pyx_PyNumber_Divide(__pyx_t_18, __pyx_t_2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 349, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyNumber_Divide(__pyx_t_18, __pyx_t_2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 352, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyObject_Format(__pyx_t_5, __pyx_mstate_global->__pyx_kp_u_2f); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 349, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Format(__pyx_t_5, __pyx_mstate_global->__pyx_kp_u_2f); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 352, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_large_total_bytes); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 349, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_large_total_bytes); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 352, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_large_write_duration); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 349, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_large_write_duration); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 352, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
-    __pyx_t_7 = __Pyx_PyNumber_Divide(__pyx_t_5, __pyx_t_18); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 349, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyNumber_Divide(__pyx_t_5, __pyx_t_18); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 352, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-    __pyx_t_18 = __Pyx_PyLong_TrueDivideObjC(__pyx_t_7, __pyx_mstate_global->__pyx_int_1024, 0x400, 0, 0); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 349, __pyx_L1_error)
+    __pyx_t_18 = __Pyx_PyLong_TrueDivideObjC(__pyx_t_7, __pyx_mstate_global->__pyx_int_1024, 0x400, 0, 0); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 352, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_7 = __Pyx_PyObject_Format(__pyx_t_18, __pyx_mstate_global->__pyx_kp_u_2f); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 349, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Format(__pyx_t_18, __pyx_mstate_global->__pyx_kp_u_2f); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 352, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
     __pyx_t_21[0] = __pyx_mstate_global->__pyx_kp_u_Write_throughput;
@@ -11963,7 +12022,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_21[3] = __pyx_t_7;
     __pyx_t_21[4] = __pyx_mstate_global->__pyx_kp_u_KB_s;
     __pyx_t_18 = __Pyx_PyUnicode_Join(__pyx_t_21, 5, 20 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_2) + 15 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_7) + 6, 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_2) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_7));
-    if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 349, __pyx_L1_error)
+    if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 352, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
@@ -11974,12 +12033,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 349, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 352, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
     }
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "SRAM/SRAM.pyx":350
+    /* "SRAM/SRAM.pyx":353
  * 	print(f"  Total data processed: {large_total_bytes} bytes ({large_total_bytes / 1024:.2f} KB)")
  * 	print(f"  Write throughput: {large_total_bytes / large_write_duration:.2f} bytes/second ({large_total_bytes / large_write_duration / 1024:.2f} KB/s)")
  * 	print(f"  Read throughput: {large_total_bytes / large_read_duration:.2f} bytes/second ({large_total_bytes / large_read_duration / 1024:.2f} KB/s)")             # <<<<<<<<<<<<<<
@@ -11989,29 +12048,29 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_17 = NULL;
     __Pyx_INCREF(__pyx_builtin_print);
     __pyx_t_18 = __pyx_builtin_print; 
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_large_total_bytes); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 350, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_large_total_bytes); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 353, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_large_read_duration); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 350, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_large_read_duration); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 353, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_2 = __Pyx_PyNumber_Divide(__pyx_t_4, __pyx_t_7); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 350, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyNumber_Divide(__pyx_t_4, __pyx_t_7); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 353, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_7 = __Pyx_PyObject_Format(__pyx_t_2, __pyx_mstate_global->__pyx_kp_u_2f); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 350, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Format(__pyx_t_2, __pyx_mstate_global->__pyx_kp_u_2f); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 353, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_large_total_bytes); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 350, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_large_total_bytes); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 353, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_large_read_duration); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 350, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_large_read_duration); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 353, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_5 = __Pyx_PyNumber_Divide(__pyx_t_2, __pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 350, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyNumber_Divide(__pyx_t_2, __pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 353, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_4 = __Pyx_PyLong_TrueDivideObjC(__pyx_t_5, __pyx_mstate_global->__pyx_int_1024, 0x400, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 350, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyLong_TrueDivideObjC(__pyx_t_5, __pyx_mstate_global->__pyx_int_1024, 0x400, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 353, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __pyx_t_5 = __Pyx_PyObject_Format(__pyx_t_4, __pyx_mstate_global->__pyx_kp_u_2f); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 350, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_Format(__pyx_t_4, __pyx_mstate_global->__pyx_kp_u_2f); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 353, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __pyx_t_21[0] = __pyx_mstate_global->__pyx_kp_u_Read_throughput;
@@ -12020,7 +12079,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_21[3] = __pyx_t_5;
     __pyx_t_21[4] = __pyx_mstate_global->__pyx_kp_u_KB_s;
     __pyx_t_4 = __Pyx_PyUnicode_Join(__pyx_t_21, 5, 19 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_7) + 15 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_5) + 6, 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_7) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_5));
-    if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 350, __pyx_L1_error)
+    if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 353, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
@@ -12031,12 +12090,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 350, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 353, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
     }
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "SRAM/SRAM.pyx":351
+    /* "SRAM/SRAM.pyx":354
  * 	print(f"  Write throughput: {large_total_bytes / large_write_duration:.2f} bytes/second ({large_total_bytes / large_write_duration / 1024:.2f} KB/s)")
  * 	print(f"  Read throughput: {large_total_bytes / large_read_duration:.2f} bytes/second ({large_total_bytes / large_read_duration / 1024:.2f} KB/s)")
  * 	print(f"  Average write time per operation: {large_write_duration / large_test_count * 1000:.3f} ms")             # <<<<<<<<<<<<<<
@@ -12046,25 +12105,25 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_18 = NULL;
     __Pyx_INCREF(__pyx_builtin_print);
     __pyx_t_4 = __pyx_builtin_print; 
-    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_large_write_duration); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 351, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_large_write_duration); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 354, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_large_test_count); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 351, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_large_test_count); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 354, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_7 = __Pyx_PyNumber_Divide(__pyx_t_17, __pyx_t_5); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 351, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyNumber_Divide(__pyx_t_17, __pyx_t_5); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 354, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __pyx_t_5 = __Pyx_PyLong_MultiplyObjC(__pyx_t_7, __pyx_mstate_global->__pyx_int_1000, 0x3E8, 0, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 351, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyLong_MultiplyObjC(__pyx_t_7, __pyx_mstate_global->__pyx_int_1000, 0x3E8, 0, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 354, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_7 = __Pyx_PyObject_Format(__pyx_t_5, __pyx_mstate_global->__pyx_kp_u_3f); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 351, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Format(__pyx_t_5, __pyx_mstate_global->__pyx_kp_u_3f); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 354, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_t_15[0] = __pyx_mstate_global->__pyx_kp_u_Average_write_time_per_operatio;
     __pyx_t_15[1] = __pyx_t_7;
     __pyx_t_15[2] = __pyx_mstate_global->__pyx_kp_u_ms;
     __pyx_t_5 = __Pyx_PyUnicode_Join(__pyx_t_15, 3, 36 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_7) + 3, 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_7));
-    if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 351, __pyx_L1_error)
+    if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 354, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __pyx_t_6 = 1;
@@ -12074,12 +12133,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_18); __pyx_t_18 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 351, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 354, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
     }
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "SRAM/SRAM.pyx":352
+    /* "SRAM/SRAM.pyx":355
  * 	print(f"  Read throughput: {large_total_bytes / large_read_duration:.2f} bytes/second ({large_total_bytes / large_read_duration / 1024:.2f} KB/s)")
  * 	print(f"  Average write time per operation: {large_write_duration / large_test_count * 1000:.3f} ms")
  * 	print(f"  Average read time per operation: {large_read_duration / large_test_count * 1000:.3f} ms")             # <<<<<<<<<<<<<<
@@ -12089,25 +12148,25 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_4 = NULL;
     __Pyx_INCREF(__pyx_builtin_print);
     __pyx_t_5 = __pyx_builtin_print; 
-    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_large_read_duration); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 352, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_large_read_duration); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 355, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
-    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_large_test_count); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 352, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_large_test_count); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 355, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_17 = __Pyx_PyNumber_Divide(__pyx_t_18, __pyx_t_7); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 352, __pyx_L1_error)
+    __pyx_t_17 = __Pyx_PyNumber_Divide(__pyx_t_18, __pyx_t_7); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 355, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_7 = __Pyx_PyLong_MultiplyObjC(__pyx_t_17, __pyx_mstate_global->__pyx_int_1000, 0x3E8, 0, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 352, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyLong_MultiplyObjC(__pyx_t_17, __pyx_mstate_global->__pyx_int_1000, 0x3E8, 0, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 355, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-    __pyx_t_17 = __Pyx_PyObject_Format(__pyx_t_7, __pyx_mstate_global->__pyx_kp_u_3f); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 352, __pyx_L1_error)
+    __pyx_t_17 = __Pyx_PyObject_Format(__pyx_t_7, __pyx_mstate_global->__pyx_kp_u_3f); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 355, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __pyx_t_15[0] = __pyx_mstate_global->__pyx_kp_u_Average_read_time_per_operation;
     __pyx_t_15[1] = __pyx_t_17;
     __pyx_t_15[2] = __pyx_mstate_global->__pyx_kp_u_ms;
     __pyx_t_7 = __Pyx_PyUnicode_Join(__pyx_t_15, 3, 35 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_17) + 3, 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_17));
-    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 352, __pyx_L1_error)
+    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 355, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
     __pyx_t_6 = 1;
@@ -12117,12 +12176,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 352, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 355, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
     }
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "SRAM/SRAM.pyx":354
+    /* "SRAM/SRAM.pyx":357
  * 	print(f"  Average read time per operation: {large_read_duration / large_test_count * 1000:.3f} ms")
  * 
  * 	print("-" * 50)             # <<<<<<<<<<<<<<
@@ -12138,12 +12197,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 354, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 357, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
     }
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "SRAM/SRAM.pyx":357
+    /* "SRAM/SRAM.pyx":360
  * 
  * 	#
  * 	print("Testing error conditions:")             # <<<<<<<<<<<<<<
@@ -12159,12 +12218,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_5, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 357, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 360, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
     }
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "SRAM/SRAM.pyx":359
+    /* "SRAM/SRAM.pyx":362
  * 	print("Testing error conditions:")
  * 
  * 	try:             # <<<<<<<<<<<<<<
@@ -12180,24 +12239,24 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XGOTREF(__pyx_t_23);
       /*try:*/ {
 
-        /* "SRAM/SRAM.pyx":361
+        /* "SRAM/SRAM.pyx":364
  * 	try:
  * 		#
  * 		sram.read_burst(True, 0x1000000, 0x10, 3)             # <<<<<<<<<<<<<<
  * 		print(" Should have raised error for out of range address")
  * 	except Exception as e:
 */
-        __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_sram); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 361, __pyx_L29_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_sram); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 364, __pyx_L29_error)
         __Pyx_GOTREF(__pyx_t_3);
-        __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_read_burst); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 361, __pyx_L29_error)
+        __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_read_burst); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 364, __pyx_L29_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_mstate_global->__pyx_tuple[4], NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 361, __pyx_L29_error)
+        __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_mstate_global->__pyx_tuple[5], NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 364, __pyx_L29_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-        /* "SRAM/SRAM.pyx":362
+        /* "SRAM/SRAM.pyx":365
  * 		#
  * 		sram.read_burst(True, 0x1000000, 0x10, 3)
  * 		print(" Should have raised error for out of range address")             # <<<<<<<<<<<<<<
@@ -12213,12 +12272,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-          if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 362, __pyx_L29_error)
+          if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 365, __pyx_L29_error)
           __Pyx_GOTREF(__pyx_t_3);
         }
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-        /* "SRAM/SRAM.pyx":359
+        /* "SRAM/SRAM.pyx":362
  * 	print("Testing error conditions:")
  * 
  * 	try:             # <<<<<<<<<<<<<<
@@ -12241,7 +12300,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-      /* "SRAM/SRAM.pyx":363
+      /* "SRAM/SRAM.pyx":366
  * 		sram.read_burst(True, 0x1000000, 0x10, 3)
  * 		print(" Should have raised error for out of range address")
  * 	except Exception as e:             # <<<<<<<<<<<<<<
@@ -12251,14 +12310,14 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_24 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(((PyTypeObject*)PyExc_Exception))));
       if (__pyx_t_24) {
         __Pyx_AddTraceback("SRAM.SRAM", __pyx_clineno, __pyx_lineno, __pyx_filename);
-        if (__Pyx_GetException(&__pyx_t_3, &__pyx_t_7, &__pyx_t_5) < 0) __PYX_ERR(0, 363, __pyx_L31_except_error)
+        if (__Pyx_GetException(&__pyx_t_3, &__pyx_t_7, &__pyx_t_5) < 0) __PYX_ERR(0, 366, __pyx_L31_except_error)
         __Pyx_XGOTREF(__pyx_t_3);
         __Pyx_XGOTREF(__pyx_t_7);
         __Pyx_XGOTREF(__pyx_t_5);
-        if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_e, __pyx_t_7) < 0) __PYX_ERR(0, 363, __pyx_L31_except_error)
+        if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_e, __pyx_t_7) < 0) __PYX_ERR(0, 366, __pyx_L31_except_error)
         /*try:*/ {
 
-          /* "SRAM/SRAM.pyx":364
+          /* "SRAM/SRAM.pyx":367
  * 		print(" Should have raised error for out of range address")
  * 	except Exception as e:
  * 		print(f" Correctly caught out of range error: {type(e).__name__}")             # <<<<<<<<<<<<<<
@@ -12268,15 +12327,15 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           __pyx_t_17 = NULL;
           __Pyx_INCREF(__pyx_builtin_print);
           __pyx_t_18 = __pyx_builtin_print; 
-          __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_e); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 364, __pyx_L40_error)
+          __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_e); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 367, __pyx_L40_error)
           __Pyx_GOTREF(__pyx_t_2);
-          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(((PyObject *)Py_TYPE(__pyx_t_2)), __pyx_mstate_global->__pyx_n_u_name_2); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 364, __pyx_L40_error)
+          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(((PyObject *)Py_TYPE(__pyx_t_2)), __pyx_mstate_global->__pyx_n_u_name_2); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 367, __pyx_L40_error)
           __Pyx_GOTREF(__pyx_t_11);
           __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-          __pyx_t_2 = __Pyx_PyObject_FormatSimple(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 364, __pyx_L40_error)
+          __pyx_t_2 = __Pyx_PyObject_FormatSimple(__pyx_t_11, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 367, __pyx_L40_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-          __pyx_t_11 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Correctly_caught_out_of_range_e, __pyx_t_2); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 364, __pyx_L40_error)
+          __pyx_t_11 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Correctly_caught_out_of_range_e, __pyx_t_2); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 367, __pyx_L40_error)
           __Pyx_GOTREF(__pyx_t_11);
           __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
           __pyx_t_6 = 1;
@@ -12286,13 +12345,13 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
             __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
             __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
             __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-            if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 364, __pyx_L40_error)
+            if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 367, __pyx_L40_error)
             __Pyx_GOTREF(__pyx_t_4);
           }
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         }
 
-        /* "SRAM/SRAM.pyx":363
+        /* "SRAM/SRAM.pyx":366
  * 		sram.read_burst(True, 0x1000000, 0x10, 3)
  * 		print(" Should have raised error for out of range address")
  * 	except Exception as e:             # <<<<<<<<<<<<<<
@@ -12301,7 +12360,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
 */
         /*finally:*/ {
           /*normal exit:*/{
-            if (unlikely(__Pyx_PyObject_DelAttrStr(__pyx_m, __pyx_mstate_global->__pyx_n_u_e) < 0)) { if (likely(PyErr_ExceptionMatches(PyExc_AttributeError))) PyErr_Clear(); else __PYX_ERR(0, 363, __pyx_L31_except_error) }
+            if (unlikely(__Pyx_PyObject_DelAttrStr(__pyx_m, __pyx_mstate_global->__pyx_n_u_e) < 0)) { if (likely(PyErr_ExceptionMatches(PyExc_AttributeError))) PyErr_Clear(); else __PYX_ERR(0, 366, __pyx_L31_except_error) }
             goto __pyx_L41;
           }
           __pyx_L40_error:;
@@ -12325,7 +12384,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
             __Pyx_XGOTREF(__pyx_t_32);
             __pyx_t_24 = __pyx_lineno; __pyx_t_25 = __pyx_clineno; __pyx_t_26 = __pyx_filename;
             {
-              if (unlikely(__Pyx_PyObject_DelAttrStr(__pyx_m, __pyx_mstate_global->__pyx_n_u_e) < 0)) { if (likely(PyErr_ExceptionMatches(PyExc_AttributeError))) PyErr_Clear(); else __PYX_ERR(0, 363, __pyx_L45_error) }
+              if (unlikely(__Pyx_PyObject_DelAttrStr(__pyx_m, __pyx_mstate_global->__pyx_n_u_e) < 0)) { if (likely(PyErr_ExceptionMatches(PyExc_AttributeError))) PyErr_Clear(); else __PYX_ERR(0, 366, __pyx_L45_error) }
             }
             __Pyx_XGIVEREF(__pyx_t_30);
             __Pyx_XGIVEREF(__pyx_t_31);
@@ -12358,7 +12417,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       }
       goto __pyx_L31_except_error;
 
-      /* "SRAM/SRAM.pyx":359
+      /* "SRAM/SRAM.pyx":362
  * 	print("Testing error conditions:")
  * 
  * 	try:             # <<<<<<<<<<<<<<
@@ -12379,7 +12438,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_L34_try_end:;
     }
 
-    /* "SRAM/SRAM.pyx":366
+    /* "SRAM/SRAM.pyx":369
  * 		print(f" Correctly caught out of range error: {type(e).__name__}")
  * 
  * 	try:             # <<<<<<<<<<<<<<
@@ -12395,22 +12454,22 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XGOTREF(__pyx_t_1);
       /*try:*/ {
 
-        /* "SRAM/SRAM.pyx":368
+        /* "SRAM/SRAM.pyx":371
  * 	try:
  * 		#
  * 		wrong_data = [[1, 2, 3]]  #             # <<<<<<<<<<<<<<
  * 		sram.write_burst(True, 0xF, 0x3000, 0x10, 2, wrong_data)
  * 		print(" Should have raised error for data length mismatch")
 */
-        __pyx_t_5 = __Pyx_PyList_Pack(3, __pyx_mstate_global->__pyx_int_1, __pyx_mstate_global->__pyx_int_2, __pyx_mstate_global->__pyx_int_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 368, __pyx_L46_error)
+        __pyx_t_5 = __Pyx_PyList_Pack(3, __pyx_mstate_global->__pyx_int_1, __pyx_mstate_global->__pyx_int_2, __pyx_mstate_global->__pyx_int_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 371, __pyx_L46_error)
         __Pyx_GOTREF(__pyx_t_5);
-        __pyx_t_7 = __Pyx_PyList_Pack(1, __pyx_t_5); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 368, __pyx_L46_error)
+        __pyx_t_7 = __Pyx_PyList_Pack(1, __pyx_t_5); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 371, __pyx_L46_error)
         __Pyx_GOTREF(__pyx_t_7);
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-        if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_wrong_data, __pyx_t_7) < 0) __PYX_ERR(0, 368, __pyx_L46_error)
+        if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_wrong_data, __pyx_t_7) < 0) __PYX_ERR(0, 371, __pyx_L46_error)
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-        /* "SRAM/SRAM.pyx":369
+        /* "SRAM/SRAM.pyx":372
  * 		#
  * 		wrong_data = [[1, 2, 3]]  #
  * 		sram.write_burst(True, 0xF, 0x3000, 0x10, 2, wrong_data)             # <<<<<<<<<<<<<<
@@ -12418,12 +12477,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 	except Exception as e:
 */
         __pyx_t_5 = NULL;
-        __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_sram); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 369, __pyx_L46_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_sram); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 372, __pyx_L46_error)
         __Pyx_GOTREF(__pyx_t_3);
-        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_write_burst); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 369, __pyx_L46_error)
+        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_write_burst); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 372, __pyx_L46_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_wrong_data); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 369, __pyx_L46_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_wrong_data); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 372, __pyx_L46_error)
         __Pyx_GOTREF(__pyx_t_3);
         __pyx_t_6 = 1;
         {
@@ -12432,12 +12491,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-          if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 369, __pyx_L46_error)
+          if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 372, __pyx_L46_error)
           __Pyx_GOTREF(__pyx_t_7);
         }
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-        /* "SRAM/SRAM.pyx":370
+        /* "SRAM/SRAM.pyx":373
  * 		wrong_data = [[1, 2, 3]]  #
  * 		sram.write_burst(True, 0xF, 0x3000, 0x10, 2, wrong_data)
  * 		print(" Should have raised error for data length mismatch")             # <<<<<<<<<<<<<<
@@ -12453,12 +12512,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           __pyx_t_7 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
           __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-          if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 370, __pyx_L46_error)
+          if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 373, __pyx_L46_error)
           __Pyx_GOTREF(__pyx_t_7);
         }
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-        /* "SRAM/SRAM.pyx":366
+        /* "SRAM/SRAM.pyx":369
  * 		print(f" Correctly caught out of range error: {type(e).__name__}")
  * 
  * 	try:             # <<<<<<<<<<<<<<
@@ -12481,7 +12540,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-      /* "SRAM/SRAM.pyx":371
+      /* "SRAM/SRAM.pyx":374
  * 		sram.write_burst(True, 0xF, 0x3000, 0x10, 2, wrong_data)
  * 		print(" Should have raised error for data length mismatch")
  * 	except Exception as e:             # <<<<<<<<<<<<<<
@@ -12491,14 +12550,14 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_25 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(((PyTypeObject*)PyExc_Exception))));
       if (__pyx_t_25) {
         __Pyx_AddTraceback("SRAM.SRAM", __pyx_clineno, __pyx_lineno, __pyx_filename);
-        if (__Pyx_GetException(&__pyx_t_7, &__pyx_t_3, &__pyx_t_4) < 0) __PYX_ERR(0, 371, __pyx_L48_except_error)
+        if (__Pyx_GetException(&__pyx_t_7, &__pyx_t_3, &__pyx_t_4) < 0) __PYX_ERR(0, 374, __pyx_L48_except_error)
         __Pyx_XGOTREF(__pyx_t_7);
         __Pyx_XGOTREF(__pyx_t_3);
         __Pyx_XGOTREF(__pyx_t_4);
-        if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_e, __pyx_t_3) < 0) __PYX_ERR(0, 371, __pyx_L48_except_error)
+        if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_e, __pyx_t_3) < 0) __PYX_ERR(0, 374, __pyx_L48_except_error)
         /*try:*/ {
 
-          /* "SRAM/SRAM.pyx":372
+          /* "SRAM/SRAM.pyx":375
  * 		print(" Should have raised error for data length mismatch")
  * 	except Exception as e:
  * 		print(f" Correctly caught data length error: {type(e).__name__}")             # <<<<<<<<<<<<<<
@@ -12508,15 +12567,15 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           __pyx_t_18 = NULL;
           __Pyx_INCREF(__pyx_builtin_print);
           __pyx_t_11 = __pyx_builtin_print; 
-          __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_e); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 372, __pyx_L57_error)
+          __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_e); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 375, __pyx_L57_error)
           __Pyx_GOTREF(__pyx_t_17);
-          __pyx_t_2 = __Pyx_PyObject_GetAttrStr(((PyObject *)Py_TYPE(__pyx_t_17)), __pyx_mstate_global->__pyx_n_u_name_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 372, __pyx_L57_error)
+          __pyx_t_2 = __Pyx_PyObject_GetAttrStr(((PyObject *)Py_TYPE(__pyx_t_17)), __pyx_mstate_global->__pyx_n_u_name_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 375, __pyx_L57_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-          __pyx_t_17 = __Pyx_PyObject_FormatSimple(__pyx_t_2, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 372, __pyx_L57_error)
+          __pyx_t_17 = __Pyx_PyObject_FormatSimple(__pyx_t_2, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 375, __pyx_L57_error)
           __Pyx_GOTREF(__pyx_t_17);
           __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-          __pyx_t_2 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Correctly_caught_data_length_er, __pyx_t_17); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 372, __pyx_L57_error)
+          __pyx_t_2 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Correctly_caught_data_length_er, __pyx_t_17); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 375, __pyx_L57_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
           __pyx_t_6 = 1;
@@ -12526,13 +12585,13 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
             __Pyx_XDECREF(__pyx_t_18); __pyx_t_18 = 0;
             __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
             __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-            if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 372, __pyx_L57_error)
+            if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 375, __pyx_L57_error)
             __Pyx_GOTREF(__pyx_t_5);
           }
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         }
 
-        /* "SRAM/SRAM.pyx":371
+        /* "SRAM/SRAM.pyx":374
  * 		sram.write_burst(True, 0xF, 0x3000, 0x10, 2, wrong_data)
  * 		print(" Should have raised error for data length mismatch")
  * 	except Exception as e:             # <<<<<<<<<<<<<<
@@ -12541,7 +12600,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
 */
         /*finally:*/ {
           /*normal exit:*/{
-            if (unlikely(__Pyx_PyObject_DelAttrStr(__pyx_m, __pyx_mstate_global->__pyx_n_u_e) < 0)) { if (likely(PyErr_ExceptionMatches(PyExc_AttributeError))) PyErr_Clear(); else __PYX_ERR(0, 371, __pyx_L48_except_error) }
+            if (unlikely(__Pyx_PyObject_DelAttrStr(__pyx_m, __pyx_mstate_global->__pyx_n_u_e) < 0)) { if (likely(PyErr_ExceptionMatches(PyExc_AttributeError))) PyErr_Clear(); else __PYX_ERR(0, 374, __pyx_L48_except_error) }
             goto __pyx_L58;
           }
           __pyx_L57_error:;
@@ -12565,7 +12624,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
             __Pyx_XGOTREF(__pyx_t_27);
             __pyx_t_25 = __pyx_lineno; __pyx_t_24 = __pyx_clineno; __pyx_t_33 = __pyx_filename;
             {
-              if (unlikely(__Pyx_PyObject_DelAttrStr(__pyx_m, __pyx_mstate_global->__pyx_n_u_e) < 0)) { if (likely(PyErr_ExceptionMatches(PyExc_AttributeError))) PyErr_Clear(); else __PYX_ERR(0, 371, __pyx_L62_error) }
+              if (unlikely(__Pyx_PyObject_DelAttrStr(__pyx_m, __pyx_mstate_global->__pyx_n_u_e) < 0)) { if (likely(PyErr_ExceptionMatches(PyExc_AttributeError))) PyErr_Clear(); else __PYX_ERR(0, 374, __pyx_L62_error) }
             }
             __Pyx_XGIVEREF(__pyx_t_29);
             __Pyx_XGIVEREF(__pyx_t_28);
@@ -12598,7 +12657,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       }
       goto __pyx_L48_except_error;
 
-      /* "SRAM/SRAM.pyx":366
+      /* "SRAM/SRAM.pyx":369
  * 		print(f" Correctly caught out of range error: {type(e).__name__}")
  * 
  * 	try:             # <<<<<<<<<<<<<<
@@ -12619,7 +12678,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_L51_try_end:;
     }
 
-    /* "SRAM/SRAM.pyx":374
+    /* "SRAM/SRAM.pyx":377
  * 		print(f" Correctly caught data length error: {type(e).__name__}")
  * 
  * 	print(" All error condition tests passed!")             # <<<<<<<<<<<<<<
@@ -12635,12 +12694,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 374, __pyx_L1_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 377, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
     }
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "SRAM/SRAM.pyx":376
+    /* "SRAM/SRAM.pyx":379
  * 	print(" All error condition tests passed!")
  * 
  * 	print("-" * 50)             # <<<<<<<<<<<<<<
@@ -12656,12 +12715,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 376, __pyx_L1_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 379, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
     }
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "SRAM/SRAM.pyx":379
+    /* "SRAM/SRAM.pyx":382
  * 
  * 	# k
  * 	print("Testing k parameter functionality:")             # <<<<<<<<<<<<<<
@@ -12677,12 +12736,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 379, __pyx_L1_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 382, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
     }
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "SRAM/SRAM.pyx":382
+    /* "SRAM/SRAM.pyx":385
  * 
  * 	# k=2
  * 	print("\nTesting k=2 (read/write 2 consecutive rows per burst):")             # <<<<<<<<<<<<<<
@@ -12698,24 +12757,24 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_4 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 382, __pyx_L1_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 385, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
     }
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "SRAM/SRAM.pyx":383
+    /* "SRAM/SRAM.pyx":386
  * 	# k=2
  * 	print("\nTesting k=2 (read/write 2 consecutive rows per burst):")
  * 	k_test_data = []             # <<<<<<<<<<<<<<
  * 	for i in range(6):  # 3burst26
  * 		data_row = [(i * 10 + j) % 256 for j in range(16)]
 */
-    __pyx_t_4 = PyList_New(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 383, __pyx_L1_error)
+    __pyx_t_4 = PyList_New(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 386, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_k_test_data, __pyx_t_4) < 0) __PYX_ERR(0, 383, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_k_test_data, __pyx_t_4) < 0) __PYX_ERR(0, 386, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "SRAM/SRAM.pyx":384
+    /* "SRAM/SRAM.pyx":387
  * 	print("\nTesting k=2 (read/write 2 consecutive rows per burst):")
  * 	k_test_data = []
  * 	for i in range(6):  # 3burst26             # <<<<<<<<<<<<<<
@@ -12723,12 +12782,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 		k_test_data.append(data_row)
 */
     for (__pyx_t_12 = 0; __pyx_t_12 < 6; __pyx_t_12+=1) {
-      __pyx_t_4 = PyLong_FromSsize_t(__pyx_t_12); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 384, __pyx_L1_error)
+      __pyx_t_4 = PyLong_FromSsize_t(__pyx_t_12); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 387, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_i, __pyx_t_4) < 0) __PYX_ERR(0, 384, __pyx_L1_error)
+      if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_i, __pyx_t_4) < 0) __PYX_ERR(0, 387, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "SRAM/SRAM.pyx":385
+      /* "SRAM/SRAM.pyx":388
  * 	k_test_data = []
  * 	for i in range(6):  # 3burst26
  * 		data_row = [(i * 10 + j) % 256 for j in range(16)]             # <<<<<<<<<<<<<<
@@ -12736,27 +12795,27 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 
 */
       { /* enter inner scope */
-        __pyx_t_4 = PyList_New(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 385, __pyx_L67_error)
+        __pyx_t_4 = PyList_New(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 388, __pyx_L67_error)
         __Pyx_GOTREF(__pyx_t_4);
         for (__pyx_t_13 = 0; __pyx_t_13 < 16; __pyx_t_13+=1) {
-          __pyx_t_3 = PyLong_FromSsize_t(__pyx_t_13); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 385, __pyx_L67_error)
+          __pyx_t_3 = PyLong_FromSsize_t(__pyx_t_13); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 388, __pyx_L67_error)
           __Pyx_GOTREF(__pyx_t_3);
           __Pyx_XGOTREF(__pyx_8genexpr7__pyx_v_4SRAM_4SRAM_j);
           __Pyx_DECREF_SET(__pyx_8genexpr7__pyx_v_4SRAM_4SRAM_j, __pyx_t_3);
           __Pyx_GIVEREF(__pyx_t_3);
           __pyx_t_3 = 0;
-          __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 385, __pyx_L67_error)
+          __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 388, __pyx_L67_error)
           __Pyx_GOTREF(__pyx_t_3);
-          __pyx_t_7 = __Pyx_PyLong_MultiplyObjC(__pyx_t_3, __pyx_mstate_global->__pyx_int_10, 10, 0, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 385, __pyx_L67_error)
+          __pyx_t_7 = __Pyx_PyLong_MultiplyObjC(__pyx_t_3, __pyx_mstate_global->__pyx_int_10, 10, 0, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 388, __pyx_L67_error)
           __Pyx_GOTREF(__pyx_t_7);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-          __pyx_t_3 = PyNumber_Add(__pyx_t_7, __pyx_8genexpr7__pyx_v_4SRAM_4SRAM_j); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 385, __pyx_L67_error)
+          __pyx_t_3 = PyNumber_Add(__pyx_t_7, __pyx_8genexpr7__pyx_v_4SRAM_4SRAM_j); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 388, __pyx_L67_error)
           __Pyx_GOTREF(__pyx_t_3);
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-          __pyx_t_7 = __Pyx_PyLong_RemainderObjC(__pyx_t_3, __pyx_mstate_global->__pyx_int_256, 0x100, 0, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 385, __pyx_L67_error)
+          __pyx_t_7 = __Pyx_PyLong_RemainderObjC(__pyx_t_3, __pyx_mstate_global->__pyx_int_256, 0x100, 0, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 388, __pyx_L67_error)
           __Pyx_GOTREF(__pyx_t_7);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-          if (unlikely(__Pyx_ListComp_Append(__pyx_t_4, (PyObject*)__pyx_t_7))) __PYX_ERR(0, 385, __pyx_L67_error)
+          if (unlikely(__Pyx_ListComp_Append(__pyx_t_4, (PyObject*)__pyx_t_7))) __PYX_ERR(0, 388, __pyx_L67_error)
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         }
         __Pyx_GOTREF(__pyx_8genexpr7__pyx_v_4SRAM_4SRAM_j);
@@ -12768,62 +12827,62 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
         goto __pyx_L1_error;
         __pyx_L70_exit_scope:;
       } /* exit inner scope */
-      if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_data_row, __pyx_t_4) < 0) __PYX_ERR(0, 385, __pyx_L1_error)
+      if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_data_row, __pyx_t_4) < 0) __PYX_ERR(0, 388, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "SRAM/SRAM.pyx":386
+      /* "SRAM/SRAM.pyx":389
  * 	for i in range(6):  # 3burst26
  * 		data_row = [(i * 10 + j) % 256 for j in range(16)]
  * 		k_test_data.append(data_row)             # <<<<<<<<<<<<<<
  * 
  * 	#
 */
-      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_k_test_data); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 386, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_k_test_data); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 389, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_data_row); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 386, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_data_row); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 389, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_14 = __Pyx_PyObject_Append(__pyx_t_4, __pyx_t_7); if (unlikely(__pyx_t_14 == ((int)-1))) __PYX_ERR(0, 386, __pyx_L1_error)
+      __pyx_t_14 = __Pyx_PyObject_Append(__pyx_t_4, __pyx_t_7); if (unlikely(__pyx_t_14 == ((int)-1))) __PYX_ERR(0, 389, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     }
 
-    /* "SRAM/SRAM.pyx":389
+    /* "SRAM/SRAM.pyx":392
  * 
  * 	#
  * 	k_start_addr = 0x100             # <<<<<<<<<<<<<<
  * 	k_stride = 0x40  # 64
  * 	k_burst_count = 3
 */
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_k_start_addr, __pyx_mstate_global->__pyx_int_256) < 0) __PYX_ERR(0, 389, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_k_start_addr, __pyx_mstate_global->__pyx_int_256) < 0) __PYX_ERR(0, 392, __pyx_L1_error)
 
-    /* "SRAM/SRAM.pyx":390
+    /* "SRAM/SRAM.pyx":393
  * 	#
  * 	k_start_addr = 0x100
  * 	k_stride = 0x40  # 64             # <<<<<<<<<<<<<<
  * 	k_burst_count = 3
  * 	k_value = 2
 */
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_k_stride, __pyx_mstate_global->__pyx_int_64) < 0) __PYX_ERR(0, 390, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_k_stride, __pyx_mstate_global->__pyx_int_64) < 0) __PYX_ERR(0, 393, __pyx_L1_error)
 
-    /* "SRAM/SRAM.pyx":391
+    /* "SRAM/SRAM.pyx":394
  * 	k_start_addr = 0x100
  * 	k_stride = 0x40  # 64
  * 	k_burst_count = 3             # <<<<<<<<<<<<<<
  * 	k_value = 2
  * 
 */
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_k_burst_count, __pyx_mstate_global->__pyx_int_3) < 0) __PYX_ERR(0, 391, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_k_burst_count, __pyx_mstate_global->__pyx_int_3) < 0) __PYX_ERR(0, 394, __pyx_L1_error)
 
-    /* "SRAM/SRAM.pyx":392
+    /* "SRAM/SRAM.pyx":395
  * 	k_stride = 0x40  # 64
  * 	k_burst_count = 3
  * 	k_value = 2             # <<<<<<<<<<<<<<
  * 
  * 	print(f"  Writing {k_burst_count} bursts, each with {k_value} consecutive rows")
 */
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_k_value, __pyx_mstate_global->__pyx_int_2) < 0) __PYX_ERR(0, 392, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_k_value, __pyx_mstate_global->__pyx_int_2) < 0) __PYX_ERR(0, 395, __pyx_L1_error)
 
-    /* "SRAM/SRAM.pyx":394
+    /* "SRAM/SRAM.pyx":397
  * 	k_value = 2
  * 
  * 	print(f"  Writing {k_burst_count} bursts, each with {k_value} consecutive rows")             # <<<<<<<<<<<<<<
@@ -12833,14 +12892,14 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_4 = NULL;
     __Pyx_INCREF(__pyx_builtin_print);
     __pyx_t_3 = __pyx_builtin_print; 
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_k_burst_count); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 394, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_k_burst_count); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 397, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_11 = __Pyx_PyObject_FormatSimple(__pyx_t_5, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 394, __pyx_L1_error)
+    __pyx_t_11 = __Pyx_PyObject_FormatSimple(__pyx_t_5, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 397, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_k_value); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 394, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_k_value); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 397, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_2 = __Pyx_PyObject_FormatSimple(__pyx_t_5, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 394, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_FormatSimple(__pyx_t_5, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 397, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_t_21[0] = __pyx_mstate_global->__pyx_kp_u_Writing;
@@ -12849,7 +12908,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_21[3] = __pyx_t_2;
     __pyx_t_21[4] = __pyx_mstate_global->__pyx_kp_u_consecutive_rows;
     __pyx_t_5 = __Pyx_PyUnicode_Join(__pyx_t_21, 5, 10 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_11) + 19 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_2) + 17, 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_11) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_2));
-    if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 394, __pyx_L1_error)
+    if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 397, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -12860,12 +12919,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 394, __pyx_L1_error)
+      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 397, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
     }
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "SRAM/SRAM.pyx":395
+    /* "SRAM/SRAM.pyx":398
  * 
  * 	print(f"  Writing {k_burst_count} bursts, each with {k_value} consecutive rows")
  * 	print(f"  Total data rows: {len(k_test_data)}")             # <<<<<<<<<<<<<<
@@ -12875,13 +12934,13 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_3 = NULL;
     __Pyx_INCREF(__pyx_builtin_print);
     __pyx_t_5 = __pyx_builtin_print; 
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_k_test_data); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 395, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_k_test_data); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 398, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_12 = PyObject_Length(__pyx_t_4); if (unlikely(__pyx_t_12 == ((Py_ssize_t)-1))) __PYX_ERR(0, 395, __pyx_L1_error)
+    __pyx_t_12 = PyObject_Length(__pyx_t_4); if (unlikely(__pyx_t_12 == ((Py_ssize_t)-1))) __PYX_ERR(0, 398, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_4 = __Pyx_PyUnicode_From_Py_ssize_t(__pyx_t_12, 0, ' ', 'd'); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 395, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyUnicode_From_Py_ssize_t(__pyx_t_12, 0, ' ', 'd'); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 398, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_2 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Total_data_rows, __pyx_t_4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 395, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Total_data_rows, __pyx_t_4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 398, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __pyx_t_6 = 1;
@@ -12891,12 +12950,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 395, __pyx_L1_error)
+      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 398, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
     }
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "SRAM/SRAM.pyx":397
+    /* "SRAM/SRAM.pyx":400
  * 	print(f"  Total data rows: {len(k_test_data)}")
  * 
  * 	sram.write_burst(True, 0xFFFF, k_start_addr, k_stride, k_burst_count, k_test_data, k=k_value)             # <<<<<<<<<<<<<<
@@ -12904,27 +12963,27 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 	#
 */
     __pyx_t_5 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_sram); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 397, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_sram); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 400, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_write_burst); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 397, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_write_burst); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 400, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_k_start_addr); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 397, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_k_start_addr); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 400, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_k_stride); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 397, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_k_stride); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 400, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_k_burst_count); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 397, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_k_burst_count); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 400, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
-    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_k_test_data); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 397, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_k_test_data); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 400, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
-    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_k_value); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 397, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_k_value); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 400, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
     __pyx_t_6 = 1;
     {
       PyObject *__pyx_callargs[7 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_5, Py_True, __pyx_mstate_global->__pyx_int_65535, __pyx_t_2, __pyx_t_4, __pyx_t_11, __pyx_t_18};
-      __pyx_t_10 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 397, __pyx_L1_error)
+      __pyx_t_10 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 400, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
-      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_k, __pyx_t_17, __pyx_t_10, __pyx_callargs+7, 0) < 0) __PYX_ERR(0, 397, __pyx_L1_error)
+      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_k, __pyx_t_17, __pyx_t_10, __pyx_callargs+7, 0) < 0) __PYX_ERR(0, 400, __pyx_L1_error)
       __pyx_t_7 = __Pyx_Object_Vectorcall_CallFromBuilder(__pyx_t_3, __pyx_callargs+__pyx_t_6, (7-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_10);
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -12934,12 +12993,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 397, __pyx_L1_error)
+      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 400, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
     }
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "SRAM/SRAM.pyx":400
+    /* "SRAM/SRAM.pyx":403
  * 
  * 	#
  * 	k_read_data = sram.read_burst(True, k_start_addr, k_stride, k_burst_count, k=k_value)             # <<<<<<<<<<<<<<
@@ -12947,25 +13006,25 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 	print(f"  Read {len(k_read_data)} rows")
 */
     __pyx_t_3 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_sram); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 400, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_sram); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 403, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
-    __pyx_t_17 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_read_burst); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 400, __pyx_L1_error)
+    __pyx_t_17 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_read_burst); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 403, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-    __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_k_start_addr); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 400, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_k_start_addr); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 403, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
-    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_k_stride); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 400, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_k_stride); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 403, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
-    __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_k_burst_count); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 400, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_k_burst_count); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 403, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_k_value); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 400, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_k_value); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 403, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_t_6 = 1;
     {
       PyObject *__pyx_callargs[5 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_3, Py_True, __pyx_t_10, __pyx_t_18, __pyx_t_11};
-      __pyx_t_2 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 400, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 403, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_k, __pyx_t_4, __pyx_t_2, __pyx_callargs+5, 0) < 0) __PYX_ERR(0, 400, __pyx_L1_error)
+      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_k, __pyx_t_4, __pyx_t_2, __pyx_callargs+5, 0) < 0) __PYX_ERR(0, 403, __pyx_L1_error)
       __pyx_t_7 = __Pyx_Object_Vectorcall_CallFromBuilder(__pyx_t_17, __pyx_callargs+__pyx_t_6, (5-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_2);
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
@@ -12974,13 +13033,13 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 400, __pyx_L1_error)
+      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 403, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
     }
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_k_read_data, __pyx_t_7) < 0) __PYX_ERR(0, 400, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_k_read_data, __pyx_t_7) < 0) __PYX_ERR(0, 403, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "SRAM/SRAM.pyx":402
+    /* "SRAM/SRAM.pyx":405
  * 	k_read_data = sram.read_burst(True, k_start_addr, k_stride, k_burst_count, k=k_value)
  * 
  * 	print(f"  Read {len(k_read_data)} rows")             # <<<<<<<<<<<<<<
@@ -12990,17 +13049,17 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_17 = NULL;
     __Pyx_INCREF(__pyx_builtin_print);
     __pyx_t_2 = __pyx_builtin_print; 
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_k_read_data); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 402, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_k_read_data); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 405, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_12 = PyObject_Length(__pyx_t_4); if (unlikely(__pyx_t_12 == ((Py_ssize_t)-1))) __PYX_ERR(0, 402, __pyx_L1_error)
+    __pyx_t_12 = PyObject_Length(__pyx_t_4); if (unlikely(__pyx_t_12 == ((Py_ssize_t)-1))) __PYX_ERR(0, 405, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_4 = __Pyx_PyUnicode_From_Py_ssize_t(__pyx_t_12, 0, ' ', 'd'); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 402, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyUnicode_From_Py_ssize_t(__pyx_t_12, 0, ' ', 'd'); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 405, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_t_15[0] = __pyx_mstate_global->__pyx_kp_u_Read;
     __pyx_t_15[1] = __pyx_t_4;
     __pyx_t_15[2] = __pyx_mstate_global->__pyx_kp_u_rows;
     __pyx_t_11 = __Pyx_PyUnicode_Join(__pyx_t_15, 3, 7 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_4) + 5, 127);
-    if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 402, __pyx_L1_error)
+    if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 405, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __pyx_t_6 = 1;
@@ -13010,21 +13069,21 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 402, __pyx_L1_error)
+      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 405, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
     }
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "SRAM/SRAM.pyx":405
+    /* "SRAM/SRAM.pyx":408
  * 
  * 	#
  * 	k_all_match = True             # <<<<<<<<<<<<<<
  * 	for i in range(len(k_test_data)):
  * 		if k_read_data[i] == k_test_data[i]:
 */
-    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_k_all_match, Py_True) < 0) __PYX_ERR(0, 405, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_k_all_match, Py_True) < 0) __PYX_ERR(0, 408, __pyx_L1_error)
 
-    /* "SRAM/SRAM.pyx":406
+    /* "SRAM/SRAM.pyx":409
  * 	#
  * 	k_all_match = True
  * 	for i in range(len(k_test_data)):             # <<<<<<<<<<<<<<
@@ -13034,11 +13093,11 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     __pyx_t_2 = NULL;
     __Pyx_INCREF(__pyx_builtin_range);
     __pyx_t_11 = __pyx_builtin_range; 
-    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_k_test_data); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 406, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_k_test_data); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 409, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
-    __pyx_t_12 = PyObject_Length(__pyx_t_17); if (unlikely(__pyx_t_12 == ((Py_ssize_t)-1))) __PYX_ERR(0, 406, __pyx_L1_error)
+    __pyx_t_12 = PyObject_Length(__pyx_t_17); if (unlikely(__pyx_t_12 == ((Py_ssize_t)-1))) __PYX_ERR(0, 409, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-    __pyx_t_17 = PyLong_FromSsize_t(__pyx_t_12); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 406, __pyx_L1_error)
+    __pyx_t_17 = PyLong_FromSsize_t(__pyx_t_12); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 409, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
     __pyx_t_6 = 1;
     {
@@ -13047,7 +13106,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 406, __pyx_L1_error)
+      if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 409, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
     }
     if (likely(PyList_CheckExact(__pyx_t_7)) || PyTuple_CheckExact(__pyx_t_7)) {
@@ -13055,9 +13114,9 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_12 = 0;
       __pyx_t_16 = NULL;
     } else {
-      __pyx_t_12 = -1; __pyx_t_11 = PyObject_GetIter(__pyx_t_7); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 406, __pyx_L1_error)
+      __pyx_t_12 = -1; __pyx_t_11 = PyObject_GetIter(__pyx_t_7); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 409, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
-      __pyx_t_16 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_11); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 406, __pyx_L1_error)
+      __pyx_t_16 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_11); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 409, __pyx_L1_error)
     }
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     for (;;) {
@@ -13066,7 +13125,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           {
             Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_11);
             #if !CYTHON_ASSUME_SAFE_SIZE
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 406, __pyx_L1_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 409, __pyx_L1_error)
             #endif
             if (__pyx_t_12 >= __pyx_temp) break;
           }
@@ -13076,7 +13135,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           {
             Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_11);
             #if !CYTHON_ASSUME_SAFE_SIZE
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 406, __pyx_L1_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 409, __pyx_L1_error)
             #endif
             if (__pyx_t_12 >= __pyx_temp) break;
           }
@@ -13087,53 +13146,53 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           #endif
           ++__pyx_t_12;
         }
-        if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 406, __pyx_L1_error)
+        if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 409, __pyx_L1_error)
       } else {
         __pyx_t_7 = __pyx_t_16(__pyx_t_11);
         if (unlikely(!__pyx_t_7)) {
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
-            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 406, __pyx_L1_error)
+            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 409, __pyx_L1_error)
             PyErr_Clear();
           }
           break;
         }
       }
       __Pyx_GOTREF(__pyx_t_7);
-      if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_i, __pyx_t_7) < 0) __PYX_ERR(0, 406, __pyx_L1_error)
+      if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_i, __pyx_t_7) < 0) __PYX_ERR(0, 409, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-      /* "SRAM/SRAM.pyx":407
+      /* "SRAM/SRAM.pyx":410
  * 	k_all_match = True
  * 	for i in range(len(k_test_data)):
  * 		if k_read_data[i] == k_test_data[i]:             # <<<<<<<<<<<<<<
  * 			print(f"  Row {i}:  Match")
  * 		else:
 */
-      __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_k_read_data); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 407, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_k_read_data); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 410, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 407, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 410, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
-      __pyx_t_2 = __Pyx_PyObject_GetItem(__pyx_t_7, __pyx_t_17); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 407, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_GetItem(__pyx_t_7, __pyx_t_17); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 410, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-      __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_k_test_data); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 407, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_k_test_data); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 410, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
-      __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 407, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 410, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      __pyx_t_4 = __Pyx_PyObject_GetItem(__pyx_t_17, __pyx_t_7); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 407, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_GetItem(__pyx_t_17, __pyx_t_7); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 410, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __pyx_t_7 = PyObject_RichCompare(__pyx_t_2, __pyx_t_4, Py_EQ); __Pyx_XGOTREF(__pyx_t_7); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 407, __pyx_L1_error)
+      __pyx_t_7 = PyObject_RichCompare(__pyx_t_2, __pyx_t_4, Py_EQ); __Pyx_XGOTREF(__pyx_t_7); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 410, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_7); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 407, __pyx_L1_error)
+      __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_7); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 410, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       if (__pyx_t_9) {
 
-        /* "SRAM/SRAM.pyx":408
+        /* "SRAM/SRAM.pyx":411
  * 	for i in range(len(k_test_data)):
  * 		if k_read_data[i] == k_test_data[i]:
  * 			print(f"  Row {i}:  Match")             # <<<<<<<<<<<<<<
@@ -13143,16 +13202,16 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
         __pyx_t_4 = NULL;
         __Pyx_INCREF(__pyx_builtin_print);
         __pyx_t_2 = __pyx_builtin_print; 
-        __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 408, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 411, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_17);
-        __pyx_t_18 = __Pyx_PyObject_FormatSimple(__pyx_t_17, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 408, __pyx_L1_error)
+        __pyx_t_18 = __Pyx_PyObject_FormatSimple(__pyx_t_17, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 411, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_18);
         __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
         __pyx_t_15[0] = __pyx_mstate_global->__pyx_kp_u_Row;
         __pyx_t_15[1] = __pyx_t_18;
         __pyx_t_15[2] = __pyx_mstate_global->__pyx_kp_u_Match;
         __pyx_t_17 = __Pyx_PyUnicode_Join(__pyx_t_15, 3, 6 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_18) + 9, 65535 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_18));
-        if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 408, __pyx_L1_error)
+        if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 411, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_17);
         __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
         __pyx_t_6 = 1;
@@ -13162,12 +13221,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
           __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
           __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-          if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 408, __pyx_L1_error)
+          if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 411, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
         }
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-        /* "SRAM/SRAM.pyx":407
+        /* "SRAM/SRAM.pyx":410
  * 	k_all_match = True
  * 	for i in range(len(k_test_data)):
  * 		if k_read_data[i] == k_test_data[i]:             # <<<<<<<<<<<<<<
@@ -13177,7 +13236,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
         goto __pyx_L73;
       }
 
-      /* "SRAM/SRAM.pyx":410
+      /* "SRAM/SRAM.pyx":413
  * 			print(f"  Row {i}:  Match")
  * 		else:
  * 			print(f"  Row {i}:  Mismatch")             # <<<<<<<<<<<<<<
@@ -13188,16 +13247,16 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
         __pyx_t_2 = NULL;
         __Pyx_INCREF(__pyx_builtin_print);
         __pyx_t_17 = __pyx_builtin_print; 
-        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 410, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_i); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 413, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_18 = __Pyx_PyObject_FormatSimple(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 410, __pyx_L1_error)
+        __pyx_t_18 = __Pyx_PyObject_FormatSimple(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 413, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_18);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         __pyx_t_15[0] = __pyx_mstate_global->__pyx_kp_u_Row;
         __pyx_t_15[1] = __pyx_t_18;
         __pyx_t_15[2] = __pyx_mstate_global->__pyx_kp_u_Mismatch;
         __pyx_t_4 = __Pyx_PyUnicode_Join(__pyx_t_15, 3, 6 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_18) + 12, 65535 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_18));
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 410, __pyx_L1_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 413, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
         __pyx_t_6 = 1;
@@ -13207,23 +13266,23 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
           __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-          if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 410, __pyx_L1_error)
+          if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 413, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
         }
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-        /* "SRAM/SRAM.pyx":411
+        /* "SRAM/SRAM.pyx":414
  * 		else:
  * 			print(f"  Row {i}:  Mismatch")
  * 			k_all_match = False             # <<<<<<<<<<<<<<
  * 
  * 	if k_all_match:
 */
-        if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_k_all_match, Py_False) < 0) __PYX_ERR(0, 411, __pyx_L1_error)
+        if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_k_all_match, Py_False) < 0) __PYX_ERR(0, 414, __pyx_L1_error)
       }
       __pyx_L73:;
 
-      /* "SRAM/SRAM.pyx":406
+      /* "SRAM/SRAM.pyx":409
  * 	#
  * 	k_all_match = True
  * 	for i in range(len(k_test_data)):             # <<<<<<<<<<<<<<
@@ -13233,20 +13292,20 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
     }
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
 
-    /* "SRAM/SRAM.pyx":413
+    /* "SRAM/SRAM.pyx":416
  * 			k_all_match = False
  * 
  * 	if k_all_match:             # <<<<<<<<<<<<<<
  * 		print(" All k parameter tests passed!")
  * 	else:
 */
-    __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_k_all_match); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 413, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_k_all_match); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 416, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
-    __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_11); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 413, __pyx_L1_error)
+    __pyx_t_9 = __Pyx_PyObject_IsTrue(__pyx_t_11); if (unlikely((__pyx_t_9 < 0))) __PYX_ERR(0, 416, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
     if (__pyx_t_9) {
 
-      /* "SRAM/SRAM.pyx":414
+      /* "SRAM/SRAM.pyx":417
  * 
  * 	if k_all_match:
  * 		print(" All k parameter tests passed!")             # <<<<<<<<<<<<<<
@@ -13262,12 +13321,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
         __pyx_t_11 = __Pyx_PyObject_FastCall(__pyx_t_17, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
         __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-        if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 414, __pyx_L1_error)
+        if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 417, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_11);
       }
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
 
-      /* "SRAM/SRAM.pyx":413
+      /* "SRAM/SRAM.pyx":416
  * 			k_all_match = False
  * 
  * 	if k_all_match:             # <<<<<<<<<<<<<<
@@ -13277,7 +13336,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       goto __pyx_L75;
     }
 
-    /* "SRAM/SRAM.pyx":416
+    /* "SRAM/SRAM.pyx":419
  * 		print(" All k parameter tests passed!")
  * 	else:
  * 		print(" Some k parameter tests failed!")             # <<<<<<<<<<<<<<
@@ -13294,14 +13353,14 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
         __pyx_t_11 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-        if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 416, __pyx_L1_error)
+        if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 419, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_11);
       }
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
     }
     __pyx_L75:;
 
-    /* "SRAM/SRAM.pyx":418
+    /* "SRAM/SRAM.pyx":421
  * 		print(" Some k parameter tests failed!")
  * 
  * 	print("-" * 50)             # <<<<<<<<<<<<<<
@@ -13317,12 +13376,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_11 = __Pyx_PyObject_FastCall(__pyx_t_17, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-      if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 418, __pyx_L1_error)
+      if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 421, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
     }
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
 
-    /* "SRAM/SRAM.pyx":419
+    /* "SRAM/SRAM.pyx":422
  * 
  * 	print("-" * 50)
  * 	print("All burst function tests completed!")             # <<<<<<<<<<<<<<
@@ -13338,12 +13397,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_11 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 419, __pyx_L1_error)
+      if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 422, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
     }
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
 
-    /* "SRAM/SRAM.pyx":422
+    /* "SRAM/SRAM.pyx":425
  * 
  * 	#
  * 	try:             # <<<<<<<<<<<<<<
@@ -13359,7 +13418,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XGOTREF(__pyx_t_23);
       /*try:*/ {
 
-        /* "SRAM/SRAM.pyx":423
+        /* "SRAM/SRAM.pyx":426
  * 	#
  * 	try:
  * 		print("\nTesting original file reading:")             # <<<<<<<<<<<<<<
@@ -13375,12 +13434,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           __pyx_t_11 = __Pyx_PyObject_FastCall(__pyx_t_17, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
           __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
           __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-          if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 423, __pyx_L76_error)
+          if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 426, __pyx_L76_error)
           __Pyx_GOTREF(__pyx_t_11);
         }
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
 
-        /* "SRAM/SRAM.pyx":424
+        /* "SRAM/SRAM.pyx":427
  * 	try:
  * 		print("\nTesting original file reading:")
  * 		file_read_start_time = time.time()             # <<<<<<<<<<<<<<
@@ -13388,9 +13447,9 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 		file_read_end_time = time.time()
 */
         __pyx_t_17 = NULL;
-        __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 424, __pyx_L76_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 427, __pyx_L76_error)
         __Pyx_GOTREF(__pyx_t_7);
-        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 424, __pyx_L76_error)
+        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 427, __pyx_L76_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         __pyx_t_6 = 1;
@@ -13399,13 +13458,13 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           __pyx_t_11 = __Pyx_PyObject_FastCall(__pyx_t_4, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
           __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-          if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 424, __pyx_L76_error)
+          if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 427, __pyx_L76_error)
           __Pyx_GOTREF(__pyx_t_11);
         }
-        if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_file_read_start_time, __pyx_t_11) < 0) __PYX_ERR(0, 424, __pyx_L76_error)
+        if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_file_read_start_time, __pyx_t_11) < 0) __PYX_ERR(0, 427, __pyx_L76_error)
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
 
-        /* "SRAM/SRAM.pyx":425
+        /* "SRAM/SRAM.pyx":428
  * 		print("\nTesting original file reading:")
  * 		file_read_start_time = time.time()
  * 		sram.read_from_file("./tmp/matrixA.hex")             # <<<<<<<<<<<<<<
@@ -13413,9 +13472,9 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 		file_read_duration = file_read_end_time - file_read_start_time
 */
         __pyx_t_4 = NULL;
-        __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_sram); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 425, __pyx_L76_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_sram); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 428, __pyx_L76_error)
         __Pyx_GOTREF(__pyx_t_17);
-        __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_read_from_file); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 425, __pyx_L76_error)
+        __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_read_from_file); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 428, __pyx_L76_error)
         __Pyx_GOTREF(__pyx_t_7);
         __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
         __pyx_t_6 = 1;
@@ -13424,12 +13483,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           __pyx_t_11 = __Pyx_PyObject_FastCall(__pyx_t_7, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
           __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-          if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 425, __pyx_L76_error)
+          if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 428, __pyx_L76_error)
           __Pyx_GOTREF(__pyx_t_11);
         }
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
 
-        /* "SRAM/SRAM.pyx":426
+        /* "SRAM/SRAM.pyx":429
  * 		file_read_start_time = time.time()
  * 		sram.read_from_file("./tmp/matrixA.hex")
  * 		file_read_end_time = time.time()             # <<<<<<<<<<<<<<
@@ -13437,9 +13496,9 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
  * 
 */
         __pyx_t_7 = NULL;
-        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 426, __pyx_L76_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 429, __pyx_L76_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_17 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 426, __pyx_L76_error)
+        __pyx_t_17 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 429, __pyx_L76_error)
         __Pyx_GOTREF(__pyx_t_17);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         __pyx_t_6 = 1;
@@ -13448,31 +13507,31 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           __pyx_t_11 = __Pyx_PyObject_FastCall(__pyx_t_17, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
           __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
           __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-          if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 426, __pyx_L76_error)
+          if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 429, __pyx_L76_error)
           __Pyx_GOTREF(__pyx_t_11);
         }
-        if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_file_read_end_time, __pyx_t_11) < 0) __PYX_ERR(0, 426, __pyx_L76_error)
+        if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_file_read_end_time, __pyx_t_11) < 0) __PYX_ERR(0, 429, __pyx_L76_error)
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
 
-        /* "SRAM/SRAM.pyx":427
+        /* "SRAM/SRAM.pyx":430
  * 		sram.read_from_file("./tmp/matrixA.hex")
  * 		file_read_end_time = time.time()
  * 		file_read_duration = file_read_end_time - file_read_start_time             # <<<<<<<<<<<<<<
  * 
  * 		print(f"First row from file: {sram.data[0]}")
 */
-        __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_file_read_end_time); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 427, __pyx_L76_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_file_read_end_time); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 430, __pyx_L76_error)
         __Pyx_GOTREF(__pyx_t_11);
-        __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_file_read_start_time); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 427, __pyx_L76_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_file_read_start_time); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 430, __pyx_L76_error)
         __Pyx_GOTREF(__pyx_t_17);
-        __pyx_t_7 = PyNumber_Subtract(__pyx_t_11, __pyx_t_17); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 427, __pyx_L76_error)
+        __pyx_t_7 = PyNumber_Subtract(__pyx_t_11, __pyx_t_17); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 430, __pyx_L76_error)
         __Pyx_GOTREF(__pyx_t_7);
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
         __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-        if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_file_read_duration, __pyx_t_7) < 0) __PYX_ERR(0, 427, __pyx_L76_error)
+        if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_file_read_duration, __pyx_t_7) < 0) __PYX_ERR(0, 430, __pyx_L76_error)
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-        /* "SRAM/SRAM.pyx":429
+        /* "SRAM/SRAM.pyx":432
  * 		file_read_duration = file_read_end_time - file_read_start_time
  * 
  * 		print(f"First row from file: {sram.data[0]}")             # <<<<<<<<<<<<<<
@@ -13482,18 +13541,18 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
         __pyx_t_17 = NULL;
         __Pyx_INCREF(__pyx_builtin_print);
         __pyx_t_11 = __pyx_builtin_print; 
-        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_sram); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 429, __pyx_L76_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_sram); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 432, __pyx_L76_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_data); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 429, __pyx_L76_error)
+        __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_data); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 432, __pyx_L76_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __pyx_t_4 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 429, __pyx_L76_error)
+        __pyx_t_4 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 1, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 432, __pyx_L76_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-        __pyx_t_2 = __Pyx_PyObject_FormatSimple(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 429, __pyx_L76_error)
+        __pyx_t_2 = __Pyx_PyObject_FormatSimple(__pyx_t_4, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 432, __pyx_L76_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __pyx_t_4 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_First_row_from_file, __pyx_t_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 429, __pyx_L76_error)
+        __pyx_t_4 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_First_row_from_file, __pyx_t_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 432, __pyx_L76_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_t_6 = 1;
@@ -13503,12 +13562,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
           __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-          if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 429, __pyx_L76_error)
+          if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 432, __pyx_L76_error)
           __Pyx_GOTREF(__pyx_t_7);
         }
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-        /* "SRAM/SRAM.pyx":430
+        /* "SRAM/SRAM.pyx":433
  * 
  * 		print(f"First row from file: {sram.data[0]}")
  * 		print(f"File read time: {file_read_duration:.6f} seconds")             # <<<<<<<<<<<<<<
@@ -13518,16 +13577,16 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
         __pyx_t_11 = NULL;
         __Pyx_INCREF(__pyx_builtin_print);
         __pyx_t_4 = __pyx_builtin_print; 
-        __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_file_read_duration); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 430, __pyx_L76_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_file_read_duration); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 433, __pyx_L76_error)
         __Pyx_GOTREF(__pyx_t_17);
-        __pyx_t_2 = __Pyx_PyObject_Format(__pyx_t_17, __pyx_mstate_global->__pyx_kp_u_6f); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 430, __pyx_L76_error)
+        __pyx_t_2 = __Pyx_PyObject_Format(__pyx_t_17, __pyx_mstate_global->__pyx_kp_u_6f); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 433, __pyx_L76_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
         __pyx_t_15[0] = __pyx_mstate_global->__pyx_kp_u_File_read_time;
         __pyx_t_15[1] = __pyx_t_2;
         __pyx_t_15[2] = __pyx_mstate_global->__pyx_kp_u_seconds;
         __pyx_t_17 = __Pyx_PyUnicode_Join(__pyx_t_15, 3, 16 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_2) + 8, 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_2));
-        if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 430, __pyx_L76_error)
+        if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 433, __pyx_L76_error)
         __Pyx_GOTREF(__pyx_t_17);
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_t_6 = 1;
@@ -13537,12 +13596,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
           __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-          if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 430, __pyx_L76_error)
+          if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 433, __pyx_L76_error)
           __Pyx_GOTREF(__pyx_t_7);
         }
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-        /* "SRAM/SRAM.pyx":422
+        /* "SRAM/SRAM.pyx":425
  * 
  * 	#
  * 	try:             # <<<<<<<<<<<<<<
@@ -13565,7 +13624,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-      /* "SRAM/SRAM.pyx":431
+      /* "SRAM/SRAM.pyx":434
  * 		print(f"First row from file: {sram.data[0]}")
  * 		print(f"File read time: {file_read_duration:.6f} seconds")
  * 	except FileNotFoundError:             # <<<<<<<<<<<<<<
@@ -13574,12 +13633,12 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_t_24 = __Pyx_PyErr_ExceptionMatches(__pyx_builtin_FileNotFoundError);
       if (__pyx_t_24) {
         __Pyx_AddTraceback("SRAM.SRAM", __pyx_clineno, __pyx_lineno, __pyx_filename);
-        if (__Pyx_GetException(&__pyx_t_7, &__pyx_t_4, &__pyx_t_17) < 0) __PYX_ERR(0, 431, __pyx_L78_except_error)
+        if (__Pyx_GetException(&__pyx_t_7, &__pyx_t_4, &__pyx_t_17) < 0) __PYX_ERR(0, 434, __pyx_L78_except_error)
         __Pyx_XGOTREF(__pyx_t_7);
         __Pyx_XGOTREF(__pyx_t_4);
         __Pyx_XGOTREF(__pyx_t_17);
 
-        /* "SRAM/SRAM.pyx":432
+        /* "SRAM/SRAM.pyx":435
  * 		print(f"File read time: {file_read_duration:.6f} seconds")
  * 	except FileNotFoundError:
  * 		print("  File './tmp/matrixA.hex' not found, skipping file read test")             # <<<<<<<<<<<<<<
@@ -13593,7 +13652,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
           __pyx_t_11 = __Pyx_PyObject_FastCall(__pyx_t_18, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
           __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
           __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-          if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 432, __pyx_L78_except_error)
+          if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 435, __pyx_L78_except_error)
           __Pyx_GOTREF(__pyx_t_11);
         }
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
@@ -13604,7 +13663,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       }
       goto __pyx_L78_except_error;
 
-      /* "SRAM/SRAM.pyx":422
+      /* "SRAM/SRAM.pyx":425
  * 
  * 	#
  * 	try:             # <<<<<<<<<<<<<<
@@ -13625,7 +13684,7 @@ __Pyx_RefNannySetupContext("PyInit_SRAM", 0);
       __pyx_L81_try_end:;
     }
 
-    /* "SRAM/SRAM.pyx":227
+    /* "SRAM/SRAM.pyx":230
  * 
  * 
  * if __name__ == "__main__":             # <<<<<<<<<<<<<<
@@ -13834,6 +13893,7 @@ static const __Pyx_StringTabEntry __pyx_string_tab[] = {
   {__pyx_k_base_addr, sizeof(__pyx_k_base_addr), 0, 1, 1}, /* PyObject cname: __pyx_n_u_base_addr */
   {__pyx_k_big, sizeof(__pyx_k_big), 0, 1, 1}, /* PyObject cname: __pyx_n_u_big */
   {__pyx_k_bool, sizeof(__pyx_k_bool), 0, 1, 1}, /* PyObject cname: __pyx_n_u_bool */
+  {__pyx_k_burst_bytes, sizeof(__pyx_k_burst_bytes), 0, 1, 1}, /* PyObject cname: __pyx_n_u_burst_bytes */
   {__pyx_k_burst_count, sizeof(__pyx_k_burst_count), 0, 1, 1}, /* PyObject cname: __pyx_n_u_burst_count */
   {__pyx_k_burst_start_address, sizeof(__pyx_k_burst_start_address), 0, 1, 1}, /* PyObject cname: __pyx_n_u_burst_start_address */
   {__pyx_k_burst_start_row, sizeof(__pyx_k_burst_start_row), 0, 1, 1}, /* PyObject cname: __pyx_n_u_burst_start_row */
@@ -14003,13 +14063,13 @@ static int __Pyx_InitStrings(__Pyx_StringTabEntry const *t, PyObject **target, c
 
 static int __Pyx_InitCachedBuiltins(__pyx_mstatetype *__pyx_mstate) {
   CYTHON_UNUSED_VAR(__pyx_mstate);
-  __pyx_builtin_print = __Pyx_GetBuiltinName(__pyx_mstate->__pyx_n_u_print); if (!__pyx_builtin_print) __PYX_ERR(0, 229, __pyx_L1_error)
-  __pyx_builtin_range = __Pyx_GetBuiltinName(__pyx_mstate->__pyx_n_u_range); if (!__pyx_builtin_range) __PYX_ERR(0, 239, __pyx_L1_error)
-  __pyx_builtin_enumerate = __Pyx_GetBuiltinName(__pyx_mstate->__pyx_n_u_enumerate); if (!__pyx_builtin_enumerate) __PYX_ERR(0, 244, __pyx_L1_error)
-  __pyx_builtin_FileNotFoundError = __Pyx_GetBuiltinName(__pyx_mstate->__pyx_n_u_FileNotFoundError); if (!__pyx_builtin_FileNotFoundError) __PYX_ERR(0, 431, __pyx_L1_error)
+  __pyx_builtin_print = __Pyx_GetBuiltinName(__pyx_mstate->__pyx_n_u_print); if (!__pyx_builtin_print) __PYX_ERR(0, 232, __pyx_L1_error)
+  __pyx_builtin_range = __Pyx_GetBuiltinName(__pyx_mstate->__pyx_n_u_range); if (!__pyx_builtin_range) __PYX_ERR(0, 242, __pyx_L1_error)
+  __pyx_builtin_enumerate = __Pyx_GetBuiltinName(__pyx_mstate->__pyx_n_u_enumerate); if (!__pyx_builtin_enumerate) __PYX_ERR(0, 247, __pyx_L1_error)
+  __pyx_builtin_FileNotFoundError = __Pyx_GetBuiltinName(__pyx_mstate->__pyx_n_u_FileNotFoundError); if (!__pyx_builtin_FileNotFoundError) __PYX_ERR(0, 434, __pyx_L1_error)
   __pyx_builtin_AssertionError = __Pyx_GetBuiltinName(__pyx_mstate->__pyx_n_u_AssertionError); if (!__pyx_builtin_AssertionError) __PYX_ERR(0, 26, __pyx_L1_error)
   __pyx_builtin_ValueError = __Pyx_GetBuiltinName(__pyx_mstate->__pyx_n_u_ValueError); if (!__pyx_builtin_ValueError) __PYX_ERR(0, 28, __pyx_L1_error)
-  __pyx_builtin_open = __Pyx_GetBuiltinName(__pyx_mstate->__pyx_n_u_open); if (!__pyx_builtin_open) __PYX_ERR(0, 39, __pyx_L1_error)
+  __pyx_builtin_open = __Pyx_GetBuiltinName(__pyx_mstate->__pyx_n_u_open); if (!__pyx_builtin_open) __PYX_ERR(0, 40, __pyx_L1_error)
   return 0;
   __pyx_L1_error:;
   return -1;
@@ -14021,96 +14081,107 @@ static int __Pyx_InitCachedConstants(__pyx_mstatetype *__pyx_mstate) {
   CYTHON_UNUSED_VAR(__pyx_mstate);
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "SRAM/SRAM.pyx":51
+  /* "SRAM/SRAM.pyx":52
  * 
  * 				#
  * 				hex_str = ''.join(group[::-1])             # <<<<<<<<<<<<<<
  * 				bytes_list = [int(hex_str[i:i + 2], 16) for i in range(0, len(hex_str), 2)]
  * 
 */
-  __pyx_mstate_global->__pyx_slice[0] = PySlice_New(Py_None, Py_None, __pyx_mstate_global->__pyx_int_neg_1); if (unlikely(!__pyx_mstate_global->__pyx_slice[0])) __PYX_ERR(0, 51, __pyx_L1_error)
+  __pyx_mstate_global->__pyx_slice[0] = PySlice_New(Py_None, Py_None, __pyx_mstate_global->__pyx_int_neg_1); if (unlikely(!__pyx_mstate_global->__pyx_slice[0])) __PYX_ERR(0, 52, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_mstate_global->__pyx_slice[0]);
   __Pyx_GIVEREF(__pyx_mstate_global->__pyx_slice[0]);
 
-  /* "SRAM/SRAM.pyx":39
+  /* "SRAM/SRAM.pyx":40
  * 
  * 	def read_from_file(self, inputfile):
  * 		with open(inputfile, 'r') as f:             # <<<<<<<<<<<<<<
  * 			#
  * 			lines = [line.strip() for line in f if line.strip()]
 */
-  __pyx_mstate_global->__pyx_tuple[0] = PyTuple_Pack(3, Py_None, Py_None, Py_None); if (unlikely(!__pyx_mstate_global->__pyx_tuple[0])) __PYX_ERR(0, 39, __pyx_L1_error)
+  __pyx_mstate_global->__pyx_tuple[0] = PyTuple_Pack(3, Py_None, Py_None, Py_None); if (unlikely(!__pyx_mstate_global->__pyx_tuple[0])) __PYX_ERR(0, 40, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_mstate_global->__pyx_tuple[0]);
   __Pyx_GIVEREF(__pyx_mstate_global->__pyx_tuple[0]);
 
-  /* "SRAM/SRAM.pyx":65
+  /* "SRAM/SRAM.pyx":66
  * 		#
  * 		row_index = (address - self.base_addr) // self.bytes
  * 		cache_data = self.data[row_index][:]             # <<<<<<<<<<<<<<
  * 		if en:
  * 			if row_index < 0 or row_index >= self.height:
 */
-  __pyx_mstate_global->__pyx_slice[1] = PySlice_New(Py_None, Py_None, Py_None); if (unlikely(!__pyx_mstate_global->__pyx_slice[1])) __PYX_ERR(0, 65, __pyx_L1_error)
+  __pyx_mstate_global->__pyx_slice[1] = PySlice_New(Py_None, Py_None, Py_None); if (unlikely(!__pyx_mstate_global->__pyx_slice[1])) __PYX_ERR(0, 66, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_mstate_global->__pyx_slice[1]);
   __Pyx_GIVEREF(__pyx_mstate_global->__pyx_slice[1]);
 
   /* "SRAM/SRAM.pyx":19
  * 
  * class SramSp:
- * 	def __init__(self, width, depth, base_addr=0x00000000):             # <<<<<<<<<<<<<<
+ * 	def __init__(self, width, depth, base_addr=0x00000000, burst_bytes=16):             # <<<<<<<<<<<<<<
  * 		"""
  * 		Byte-aligned SRAM
 */
-  __pyx_mstate_global->__pyx_tuple[1] = PyTuple_Pack(1, ((PyObject*)__pyx_mstate_global->__pyx_int_0)); if (unlikely(!__pyx_mstate_global->__pyx_tuple[1])) __PYX_ERR(0, 19, __pyx_L1_error)
+  __pyx_mstate_global->__pyx_tuple[1] = PyTuple_Pack(2, ((PyObject*)__pyx_mstate_global->__pyx_int_0), ((PyObject*)__pyx_mstate_global->__pyx_int_16)); if (unlikely(!__pyx_mstate_global->__pyx_tuple[1])) __PYX_ERR(0, 19, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_mstate_global->__pyx_tuple[1]);
   __Pyx_GIVEREF(__pyx_mstate_global->__pyx_tuple[1]);
 
-  /* "SRAM/SRAM.pyx":144
+  /* "SRAM/SRAM.pyx":145
  * 		return int.from_bytes(output, byteorder='big', signed=True)
  * 
- * 	def write_burst(self, en: bool, wstrb: int, start_address: int, stride: int, burst_count: int, data_list: List[List[int]], k: int = 1):             # <<<<<<<<<<<<<<
+ * 	def write_burst(self, en: bool, wstrb: List[int], start_address: int, stride: int, burst_count: int, data_list: List[List[int]], k: int = 1):             # <<<<<<<<<<<<<<
  * 		"""
  * 		Burst write operation with stride addressing
 */
-  __pyx_mstate_global->__pyx_tuple[2] = PyTuple_Pack(1, ((PyObject*)__pyx_mstate_global->__pyx_int_1)); if (unlikely(!__pyx_mstate_global->__pyx_tuple[2])) __PYX_ERR(0, 144, __pyx_L1_error)
+  __pyx_mstate_global->__pyx_tuple[2] = PyTuple_Pack(1, ((PyObject*)__pyx_mstate_global->__pyx_int_1)); if (unlikely(!__pyx_mstate_global->__pyx_tuple[2])) __PYX_ERR(0, 145, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_mstate_global->__pyx_tuple[2]);
   __Pyx_GIVEREF(__pyx_mstate_global->__pyx_tuple[2]);
 
-  /* "SRAM/SRAM.pyx":228
+  /* "SRAM/SRAM.pyx":191
+ * 				data_index += 1
+ * 
+ * 	def read_burst(self, en: bool, start_address: int, stride: int, burst_count: int, k: int = 1, burst_bytes: int = 16) -> List[List[int]]:             # <<<<<<<<<<<<<<
+ * 		"""
+ * 		Burst read operation with stride addressing
+*/
+  __pyx_mstate_global->__pyx_tuple[3] = PyTuple_Pack(2, ((PyObject*)__pyx_mstate_global->__pyx_int_1), ((PyObject*)__pyx_mstate_global->__pyx_int_16)); if (unlikely(!__pyx_mstate_global->__pyx_tuple[3])) __PYX_ERR(0, 191, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_mstate_global->__pyx_tuple[3]);
+  __Pyx_GIVEREF(__pyx_mstate_global->__pyx_tuple[3]);
+
+  /* "SRAM/SRAM.pyx":231
  * 
  * if __name__ == "__main__":
  * 	sram = SramSp(128, 8192)             # <<<<<<<<<<<<<<
  * 	print(f"SRAM width: {sram.width}")
  * 	print(f"SRAM height: {sram.height}")
 */
-  __pyx_mstate_global->__pyx_tuple[3] = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_128, __pyx_mstate_global->__pyx_int_8192); if (unlikely(!__pyx_mstate_global->__pyx_tuple[3])) __PYX_ERR(0, 228, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_mstate_global->__pyx_tuple[3]);
-  __Pyx_GIVEREF(__pyx_mstate_global->__pyx_tuple[3]);
+  __pyx_mstate_global->__pyx_tuple[4] = PyTuple_Pack(2, __pyx_mstate_global->__pyx_int_128, __pyx_mstate_global->__pyx_int_8192); if (unlikely(!__pyx_mstate_global->__pyx_tuple[4])) __PYX_ERR(0, 231, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_mstate_global->__pyx_tuple[4]);
+  __Pyx_GIVEREF(__pyx_mstate_global->__pyx_tuple[4]);
 
-  /* "SRAM/SRAM.pyx":245
+  /* "SRAM/SRAM.pyx":248
  * 	print(f"Test data prepared: {len(test_data)} rows")
  * 	for i, row in enumerate(test_data):
  * 		print(f"  Row {i}: {row[:4]}...{row[-4:]}")  # 44             # <<<<<<<<<<<<<<
  * 
  * 	# burst
 */
-  __pyx_mstate_global->__pyx_slice[2] = PySlice_New(Py_None, __pyx_mstate_global->__pyx_int_4, Py_None); if (unlikely(!__pyx_mstate_global->__pyx_slice[2])) __PYX_ERR(0, 245, __pyx_L1_error)
+  __pyx_mstate_global->__pyx_slice[2] = PySlice_New(Py_None, __pyx_mstate_global->__pyx_int_4, Py_None); if (unlikely(!__pyx_mstate_global->__pyx_slice[2])) __PYX_ERR(0, 248, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_mstate_global->__pyx_slice[2]);
   __Pyx_GIVEREF(__pyx_mstate_global->__pyx_slice[2]);
-  __pyx_mstate_global->__pyx_slice[3] = PySlice_New(__pyx_mstate_global->__pyx_int_neg_4, Py_None, Py_None); if (unlikely(!__pyx_mstate_global->__pyx_slice[3])) __PYX_ERR(0, 245, __pyx_L1_error)
+  __pyx_mstate_global->__pyx_slice[3] = PySlice_New(__pyx_mstate_global->__pyx_int_neg_4, Py_None, Py_None); if (unlikely(!__pyx_mstate_global->__pyx_slice[3])) __PYX_ERR(0, 248, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_mstate_global->__pyx_slice[3]);
   __Pyx_GIVEREF(__pyx_mstate_global->__pyx_slice[3]);
 
-  /* "SRAM/SRAM.pyx":361
+  /* "SRAM/SRAM.pyx":364
  * 	try:
  * 		#
  * 		sram.read_burst(True, 0x1000000, 0x10, 3)             # <<<<<<<<<<<<<<
  * 		print(" Should have raised error for out of range address")
  * 	except Exception as e:
 */
-  __pyx_mstate_global->__pyx_tuple[4] = PyTuple_Pack(4, Py_True, __pyx_mstate_global->__pyx_int_16777216, __pyx_mstate_global->__pyx_int_16, __pyx_mstate_global->__pyx_int_3); if (unlikely(!__pyx_mstate_global->__pyx_tuple[4])) __PYX_ERR(0, 361, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_mstate_global->__pyx_tuple[4]);
-  __Pyx_GIVEREF(__pyx_mstate_global->__pyx_tuple[4]);
+  __pyx_mstate_global->__pyx_tuple[5] = PyTuple_Pack(4, Py_True, __pyx_mstate_global->__pyx_int_16777216, __pyx_mstate_global->__pyx_int_16, __pyx_mstate_global->__pyx_int_3); if (unlikely(!__pyx_mstate_global->__pyx_tuple[5])) __PYX_ERR(0, 364, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_mstate_global->__pyx_tuple[5]);
+  __Pyx_GIVEREF(__pyx_mstate_global->__pyx_tuple[5]);
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -14179,44 +14250,44 @@ static int __Pyx_CreateCodeObjects(__pyx_mstatetype *__pyx_mstate) {
   PyObject* tuple_dedup_map = PyDict_New();
   if (unlikely(!tuple_dedup_map)) return -1;
   {
-    const __Pyx_PyCode_New_function_description descr = {4, 0, 0, 7, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 19, 149};
-    PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_self, __pyx_mstate->__pyx_n_u_width, __pyx_mstate->__pyx_n_u_depth, __pyx_mstate->__pyx_n_u_base_addr, __pyx_mstate->__pyx_n_u_e, __pyx_mstate->__pyx_n_u_j, __pyx_mstate->__pyx_n_u_i};
-    __pyx_mstate_global->__pyx_codeobj_tab[0] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_src_SRAM_SRAM_pyx, __pyx_mstate->__pyx_n_u_init, __pyx_k_V1B_7_Q_Cq_1_1B_FlRS_ha_iq_ivS, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[0])) goto bad;
+    const __Pyx_PyCode_New_function_description descr = {5, 0, 0, 8, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 19, 159};
+    PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_self, __pyx_mstate->__pyx_n_u_width, __pyx_mstate->__pyx_n_u_depth, __pyx_mstate->__pyx_n_u_base_addr, __pyx_mstate->__pyx_n_u_burst_bytes, __pyx_mstate->__pyx_n_u_e, __pyx_mstate->__pyx_n_u_j, __pyx_mstate->__pyx_n_u_i};
+    __pyx_mstate_global->__pyx_codeobj_tab[0] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_src_SRAM_SRAM_pyx, __pyx_mstate->__pyx_n_u_init, __pyx_k_8_V1B_7_Q_Cq_1_1B_FlRS_ha_iq_j, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[0])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {2, 0, 0, 11, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 38, 246};
+    const __Pyx_PyCode_New_function_description descr = {2, 0, 0, 11, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 39, 246};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_self, __pyx_mstate->__pyx_n_u_inputfile, __pyx_mstate->__pyx_n_u_f, __pyx_mstate->__pyx_n_u_lines, __pyx_mstate->__pyx_n_u_group_size, __pyx_mstate->__pyx_n_u_idx, __pyx_mstate->__pyx_n_u_group, __pyx_mstate->__pyx_n_u_hex_str, __pyx_mstate->__pyx_n_u_bytes_list, __pyx_mstate->__pyx_n_u_line, __pyx_mstate->__pyx_n_u_i};
     __pyx_mstate_global->__pyx_codeobj_tab[1] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_src_SRAM_SRAM_pyx, __pyx_mstate->__pyx_n_u_read_from_file, __pyx_k_1Kxq_1D_c_XRs_fA_G3c_q_we1Cs_81, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[1])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {5, 0, 0, 8, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 62, 157};
+    const __Pyx_PyCode_New_function_description descr = {5, 0, 0, 8, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 63, 157};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_self, __pyx_mstate->__pyx_n_u_en, __pyx_mstate->__pyx_n_u_wstrb, __pyx_mstate->__pyx_n_u_address, __pyx_mstate->__pyx_n_u_data, __pyx_mstate->__pyx_n_u_row_index, __pyx_mstate->__pyx_n_u_cache_data, __pyx_mstate->__pyx_n_u_i};
     __pyx_mstate_global->__pyx_codeobj_tab[2] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_src_SRAM_SRAM_pyx, __pyx_mstate->__pyx_n_u_write, __pyx_k_L_Zq_xr_D_t5_1_Q_j_Cz_D_AQ_c_4q, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[2])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {3, 0, 0, 5, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 79, 136};
+    const __Pyx_PyCode_New_function_description descr = {3, 0, 0, 5, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 80, 136};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_self, __pyx_mstate->__pyx_n_u_en, __pyx_mstate->__pyx_n_u_address, __pyx_mstate->__pyx_n_u_row_index, __pyx_mstate->__pyx_n_u_output};
     __pyx_mstate_global->__pyx_codeobj_tab[3] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_src_SRAM_SRAM_pyx, __pyx_mstate->__pyx_n_u_read, __pyx_k_xr_D_1Cr_Q_Q_j_Cz_D_uCq_vQb_11T, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[3])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {5, 0, 0, 10, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 94, 195};
+    const __Pyx_PyCode_New_function_description descr = {5, 0, 0, 10, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 95, 195};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_self, __pyx_mstate->__pyx_n_u_en, __pyx_mstate->__pyx_n_u_wstrb, __pyx_mstate->__pyx_n_u_address, __pyx_mstate->__pyx_n_u_data, __pyx_mstate->__pyx_n_u_row_2, __pyx_mstate->__pyx_n_u_offset, __pyx_mstate->__pyx_n_u_cache_data, __pyx_mstate->__pyx_n_u_data_bytes, __pyx_mstate->__pyx_n_u_i};
     __pyx_mstate_global->__pyx_codeobj_tab[4] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_src_SRAM_SRAM_pyx, __pyx_mstate->__pyx_n_u_write_cpu, __pyx_k_4q_82T_t5_Q_t1D_Zq_Q_d_Bc_S_A_A, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[4])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {3, 0, 0, 7, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 125, 165};
+    const __Pyx_PyCode_New_function_description descr = {3, 0, 0, 7, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 126, 165};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_self, __pyx_mstate->__pyx_n_u_en, __pyx_mstate->__pyx_n_u_address, __pyx_mstate->__pyx_n_u_row_2, __pyx_mstate->__pyx_n_u_offset, __pyx_mstate->__pyx_n_u_cache_data, __pyx_mstate->__pyx_n_u_output};
     __pyx_mstate_global->__pyx_codeobj_tab[5] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_src_SRAM_SRAM_pyx, __pyx_mstate->__pyx_n_u_read_cpu, __pyx_k_s_a_HBl_D_t5_Q_1Cr_Q_d_Bc_S_A_A, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[5])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {8, 0, 0, 17, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 144, 364};
+    const __Pyx_PyCode_New_function_description descr = {8, 0, 0, 17, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 145, 376};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_self, __pyx_mstate->__pyx_n_u_en, __pyx_mstate->__pyx_n_u_wstrb, __pyx_mstate->__pyx_n_u_start_address, __pyx_mstate->__pyx_n_u_stride, __pyx_mstate->__pyx_n_u_burst_count, __pyx_mstate->__pyx_n_u_data_list, __pyx_mstate->__pyx_n_u_k, __pyx_mstate->__pyx_n_u_data_index, __pyx_mstate->__pyx_n_u_i, __pyx_mstate->__pyx_n_u_burst_start_address, __pyx_mstate->__pyx_n_u_burst_start_row, __pyx_mstate->__pyx_n_u_j, __pyx_mstate->__pyx_n_u_row_index, __pyx_mstate->__pyx_n_u_current_address, __pyx_mstate->__pyx_n_u_cache_data, __pyx_mstate->__pyx_n_u_byte_idx};
-    __pyx_mstate_global->__pyx_codeobj_tab[6] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_src_SRAM_SRAM_pyx, __pyx_mstate->__pyx_n_u_write_burst, __pyx_k_MI_kk_A_T_fAQ_S_C_2Q_1B_Cq0_jjl, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[6])) goto bad;
+    __pyx_mstate_global->__pyx_codeobj_tab[6] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_src_SRAM_SRAM_pyx, __pyx_mstate->__pyx_n_u_write_burst, __pyx_k_B_Oaaq_r_C_C_F_F_G_T_fAQ_S_C_2Q, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[6])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {6, 0, 0, 14, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 190, 294};
-    PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_self, __pyx_mstate->__pyx_n_u_en, __pyx_mstate->__pyx_n_u_start_address, __pyx_mstate->__pyx_n_u_stride, __pyx_mstate->__pyx_n_u_burst_count, __pyx_mstate->__pyx_n_u_k, __pyx_mstate->__pyx_n_u_output_list, __pyx_mstate->__pyx_n_u_i, __pyx_mstate->__pyx_n_u_burst_start_address, __pyx_mstate->__pyx_n_u_burst_start_row, __pyx_mstate->__pyx_n_u_j, __pyx_mstate->__pyx_n_u_row_index, __pyx_mstate->__pyx_n_u_current_address, __pyx_mstate->__pyx_n_u__11};
-    __pyx_mstate_global->__pyx_codeobj_tab[7] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_src_SRAM_SRAM_pyx, __pyx_mstate->__pyx_n_u_read_burst, __pyx_k_NeSVVbbc_T_fAQ_1E_WD_U_r_e5_r_2, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[7])) goto bad;
+    const __Pyx_PyCode_New_function_description descr = {7, 0, 0, 14, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 191, 304};
+    PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_self, __pyx_mstate->__pyx_n_u_en, __pyx_mstate->__pyx_n_u_start_address, __pyx_mstate->__pyx_n_u_stride, __pyx_mstate->__pyx_n_u_burst_count, __pyx_mstate->__pyx_n_u_k, __pyx_mstate->__pyx_n_u_burst_bytes, __pyx_mstate->__pyx_n_u_output_list, __pyx_mstate->__pyx_n_u_i, __pyx_mstate->__pyx_n_u_burst_start_address, __pyx_mstate->__pyx_n_u_j, __pyx_mstate->__pyx_n_u_current_address, __pyx_mstate->__pyx_n_u_row_index, __pyx_mstate->__pyx_n_u__11};
+    __pyx_mstate_global->__pyx_codeobj_tab[7] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_src_SRAM_SRAM_pyx, __pyx_mstate->__pyx_n_u_read_burst, __pyx_k_NeSVV__llyyz_T_fAQ_1E_WD_U_r_A, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[7])) goto bad;
   }
   Py_DECREF(tuple_dedup_map);
   return 0;

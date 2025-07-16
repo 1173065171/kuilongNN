@@ -2690,9 +2690,15 @@ SWIGINTERN PyObject *SWIG_PyStaticMethod_New(PyObject *SWIGUNUSEDPARM(self), PyO
 /* -------- TYPES TABLE (BEGIN) -------- */
 
 #define SWIGTYPE_p_Spirit swig_types[0]
-#define SWIGTYPE_p_char swig_types[1]
-static swig_type_info *swig_types[3];
-static swig_module_info swig_module = {swig_types, 2, 0, 0, 0, 0};
+#define SWIGTYPE_p_Spirit__CSR swig_types[1]
+#define SWIGTYPE_p_Spirit__CSR_Bus swig_types[2]
+#define SWIGTYPE_p_Spirit__Peripherals_Baseaddr swig_types[3]
+#define SWIGTYPE_p_Spirit__Peripherals_Bus swig_types[4]
+#define SWIGTYPE_p_Spirit__Spirit_Observe swig_types[5]
+#define SWIGTYPE_p_char swig_types[6]
+#define SWIGTYPE_p_uint32_t swig_types[7]
+static swig_type_info *swig_types[9];
+static swig_module_info swig_module = {swig_types, 8, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -3122,6 +3128,36 @@ SWIGINTERN PyObject *_wrap_Spirit_get_csr(PyObject *SWIGUNUSEDPARM(self), PyObje
   } 
   arg2 = static_cast< long >(val2);
   result = (long)(arg1)->get_csr(arg2);
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_get_cpuregs(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  long result;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Spirit_get_cpuregs", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_get_cpuregs" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  ecode2 = SWIG_AsVal_long(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "Spirit_get_cpuregs" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  result = (long)(arg1)->get_cpuregs(arg2);
   resultobj = SWIG_From_long(static_cast< long >(result));
   return resultobj;
 fail:
@@ -4362,6 +4398,1165 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_Spirit_VEUSTATUS_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  uint32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Spirit_VEUSTATUS_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_VEUSTATUS_set" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_uint32_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Spirit_VEUSTATUS_set" "', argument " "2"" of type '" "uint32_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Spirit_VEUSTATUS_set" "', argument " "2"" of type '" "uint32_t""'");
+    } else {
+      uint32_t * temp = reinterpret_cast< uint32_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  if (arg1) (arg1)->VEUSTATUS = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_VEUSTATUS_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  uint32_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_VEUSTATUS_get" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  result =  ((arg1)->VEUSTATUS);
+  resultobj = SWIG_NewPointerObj((new uint32_t(static_cast< const uint32_t& >(result))), SWIGTYPE_p_uint32_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_VEURADDR1_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  uint32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Spirit_VEURADDR1_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_VEURADDR1_set" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_uint32_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Spirit_VEURADDR1_set" "', argument " "2"" of type '" "uint32_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Spirit_VEURADDR1_set" "', argument " "2"" of type '" "uint32_t""'");
+    } else {
+      uint32_t * temp = reinterpret_cast< uint32_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  if (arg1) (arg1)->VEURADDR1 = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_VEURADDR1_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  uint32_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_VEURADDR1_get" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  result =  ((arg1)->VEURADDR1);
+  resultobj = SWIG_NewPointerObj((new uint32_t(static_cast< const uint32_t& >(result))), SWIGTYPE_p_uint32_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_VEURADDR2_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  uint32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Spirit_VEURADDR2_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_VEURADDR2_set" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_uint32_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Spirit_VEURADDR2_set" "', argument " "2"" of type '" "uint32_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Spirit_VEURADDR2_set" "', argument " "2"" of type '" "uint32_t""'");
+    } else {
+      uint32_t * temp = reinterpret_cast< uint32_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  if (arg1) (arg1)->VEURADDR2 = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_VEURADDR2_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  uint32_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_VEURADDR2_get" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  result =  ((arg1)->VEURADDR2);
+  resultobj = SWIG_NewPointerObj((new uint32_t(static_cast< const uint32_t& >(result))), SWIGTYPE_p_uint32_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_VEUWADDR_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  uint32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Spirit_VEUWADDR_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_VEUWADDR_set" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_uint32_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Spirit_VEUWADDR_set" "', argument " "2"" of type '" "uint32_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Spirit_VEUWADDR_set" "', argument " "2"" of type '" "uint32_t""'");
+    } else {
+      uint32_t * temp = reinterpret_cast< uint32_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  if (arg1) (arg1)->VEUWADDR = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_VEUWADDR_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  uint32_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_VEUWADDR_get" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  result =  ((arg1)->VEUWADDR);
+  resultobj = SWIG_NewPointerObj((new uint32_t(static_cast< const uint32_t& >(result))), SWIGTYPE_p_uint32_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_VEUCFG_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  uint32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Spirit_VEUCFG_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_VEUCFG_set" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_uint32_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Spirit_VEUCFG_set" "', argument " "2"" of type '" "uint32_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Spirit_VEUCFG_set" "', argument " "2"" of type '" "uint32_t""'");
+    } else {
+      uint32_t * temp = reinterpret_cast< uint32_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  if (arg1) (arg1)->VEUCFG = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_VEUCFG_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  uint32_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_VEUCFG_get" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  result =  ((arg1)->VEUCFG);
+  resultobj = SWIG_NewPointerObj((new uint32_t(static_cast< const uint32_t& >(result))), SWIGTYPE_p_uint32_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_VEUVLEN_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  uint32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Spirit_VEUVLEN_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_VEUVLEN_set" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_uint32_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Spirit_VEUVLEN_set" "', argument " "2"" of type '" "uint32_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Spirit_VEUVLEN_set" "', argument " "2"" of type '" "uint32_t""'");
+    } else {
+      uint32_t * temp = reinterpret_cast< uint32_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  if (arg1) (arg1)->VEUVLEN = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_VEUVLEN_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  uint32_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_VEUVLEN_get" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  result =  ((arg1)->VEUVLEN);
+  resultobj = SWIG_NewPointerObj((new uint32_t(static_cast< const uint32_t& >(result))), SWIGTYPE_p_uint32_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_VEUMASK_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  uint32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Spirit_VEUMASK_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_VEUMASK_set" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_uint32_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Spirit_VEUMASK_set" "', argument " "2"" of type '" "uint32_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Spirit_VEUMASK_set" "', argument " "2"" of type '" "uint32_t""'");
+    } else {
+      uint32_t * temp = reinterpret_cast< uint32_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  if (arg1) (arg1)->VEUMASK = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_VEUMASK_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  uint32_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_VEUMASK_get" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  result =  ((arg1)->VEUMASK);
+  resultobj = SWIG_NewPointerObj((new uint32_t(static_cast< const uint32_t& >(result))), SWIGTYPE_p_uint32_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_VEUDEBUG_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  uint32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Spirit_VEUDEBUG_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_VEUDEBUG_set" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_uint32_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Spirit_VEUDEBUG_set" "', argument " "2"" of type '" "uint32_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Spirit_VEUDEBUG_set" "', argument " "2"" of type '" "uint32_t""'");
+    } else {
+      uint32_t * temp = reinterpret_cast< uint32_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  if (arg1) (arg1)->VEUDEBUG = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_VEUDEBUG_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  uint32_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_VEUDEBUG_get" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  result =  ((arg1)->VEUDEBUG);
+  resultobj = SWIG_NewPointerObj((new uint32_t(static_cast< const uint32_t& >(result))), SWIGTYPE_p_uint32_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_SAUINS1_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  uint32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Spirit_SAUINS1_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_SAUINS1_set" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_uint32_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Spirit_SAUINS1_set" "', argument " "2"" of type '" "uint32_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Spirit_SAUINS1_set" "', argument " "2"" of type '" "uint32_t""'");
+    } else {
+      uint32_t * temp = reinterpret_cast< uint32_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  if (arg1) (arg1)->SAUINS1 = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_SAUINS1_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  uint32_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_SAUINS1_get" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  result =  ((arg1)->SAUINS1);
+  resultobj = SWIG_NewPointerObj((new uint32_t(static_cast< const uint32_t& >(result))), SWIGTYPE_p_uint32_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_SAUINS2_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  uint32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Spirit_SAUINS2_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_SAUINS2_set" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_uint32_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Spirit_SAUINS2_set" "', argument " "2"" of type '" "uint32_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Spirit_SAUINS2_set" "', argument " "2"" of type '" "uint32_t""'");
+    } else {
+      uint32_t * temp = reinterpret_cast< uint32_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  if (arg1) (arg1)->SAUINS2 = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_SAUINS2_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  uint32_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_SAUINS2_get" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  result =  ((arg1)->SAUINS2);
+  resultobj = SWIG_NewPointerObj((new uint32_t(static_cast< const uint32_t& >(result))), SWIGTYPE_p_uint32_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_SAUINS3_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  uint32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Spirit_SAUINS3_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_SAUINS3_set" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_uint32_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Spirit_SAUINS3_set" "', argument " "2"" of type '" "uint32_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Spirit_SAUINS3_set" "', argument " "2"" of type '" "uint32_t""'");
+    } else {
+      uint32_t * temp = reinterpret_cast< uint32_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  if (arg1) (arg1)->SAUINS3 = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_SAUINS3_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  uint32_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_SAUINS3_get" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  result =  ((arg1)->SAUINS3);
+  resultobj = SWIG_NewPointerObj((new uint32_t(static_cast< const uint32_t& >(result))), SWIGTYPE_p_uint32_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_cpuregs_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  uint32_t *arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Spirit_cpuregs_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_cpuregs_set" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_uint32_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Spirit_cpuregs_set" "', argument " "2"" of type '" "uint32_t [SPIRIT::REGNUM]""'"); 
+  } 
+  arg2 = reinterpret_cast< uint32_t * >(argp2);
+  {
+    if (arg2) {
+      size_t ii = 0;
+      for (; ii < (size_t)SPIRIT::REGNUM; ++ii) *(uint32_t *)&arg1->cpuregs[ii] = *((uint32_t *)arg2 + ii);
+    } else {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in variable '""cpuregs""' of type '""uint32_t [SPIRIT::REGNUM]""'");
+    }
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_cpuregs_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  uint32_t *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_cpuregs_get" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  result = (uint32_t *)(uint32_t *) ((arg1)->cpuregs);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_uint32_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_instr_sram_msb_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  uint32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Spirit_instr_sram_msb_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_instr_sram_msb_set" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_uint32_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Spirit_instr_sram_msb_set" "', argument " "2"" of type '" "uint32_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Spirit_instr_sram_msb_set" "', argument " "2"" of type '" "uint32_t""'");
+    } else {
+      uint32_t * temp = reinterpret_cast< uint32_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  if (arg1) (arg1)->instr_sram_msb = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_instr_sram_msb_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  uint32_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_instr_sram_msb_get" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  result =  ((arg1)->instr_sram_msb);
+  resultobj = SWIG_NewPointerObj((new uint32_t(static_cast< const uint32_t& >(result))), SWIGTYPE_p_uint32_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_instr_sram_lsb_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  uint32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Spirit_instr_sram_lsb_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_instr_sram_lsb_set" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_uint32_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Spirit_instr_sram_lsb_set" "', argument " "2"" of type '" "uint32_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Spirit_instr_sram_lsb_set" "', argument " "2"" of type '" "uint32_t""'");
+    } else {
+      uint32_t * temp = reinterpret_cast< uint32_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  if (arg1) (arg1)->instr_sram_lsb = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_instr_sram_lsb_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  uint32_t result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_instr_sram_lsb_get" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  result =  ((arg1)->instr_sram_lsb);
+  resultobj = SWIG_NewPointerObj((new uint32_t(static_cast< const uint32_t& >(result))), SWIGTYPE_p_uint32_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_spirit_observe_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  Spirit::Spirit_Observe *arg2 = (Spirit::Spirit_Observe *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Spirit_spirit_observe_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_spirit_observe_set" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_Spirit__Spirit_Observe, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Spirit_spirit_observe_set" "', argument " "2"" of type '" "Spirit::Spirit_Observe *""'"); 
+  }
+  arg2 = reinterpret_cast< Spirit::Spirit_Observe * >(argp2);
+  if (arg1) (arg1)->spirit_observe = *arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_spirit_observe_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  Spirit::Spirit_Observe *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_spirit_observe_get" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  result = (Spirit::Spirit_Observe *)& ((arg1)->spirit_observe);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Spirit__Spirit_Observe, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_peripherals_baseaddr_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  Spirit::Peripherals_Baseaddr *arg2 = (Spirit::Peripherals_Baseaddr *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Spirit_peripherals_baseaddr_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_peripherals_baseaddr_set" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_Spirit__Peripherals_Baseaddr, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Spirit_peripherals_baseaddr_set" "', argument " "2"" of type '" "Spirit::Peripherals_Baseaddr *""'"); 
+  }
+  arg2 = reinterpret_cast< Spirit::Peripherals_Baseaddr * >(argp2);
+  if (arg1) (arg1)->peripherals_baseaddr = *arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_peripherals_baseaddr_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  Spirit::Peripherals_Baseaddr *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_peripherals_baseaddr_get" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  result = (Spirit::Peripherals_Baseaddr *)& ((arg1)->peripherals_baseaddr);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Spirit__Peripherals_Baseaddr, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_peripherals_bus_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  Spirit::Peripherals_Bus *arg2 = (Spirit::Peripherals_Bus *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Spirit_peripherals_bus_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_peripherals_bus_set" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_Spirit__Peripherals_Bus, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Spirit_peripherals_bus_set" "', argument " "2"" of type '" "Spirit::Peripherals_Bus *""'"); 
+  }
+  arg2 = reinterpret_cast< Spirit::Peripherals_Bus * >(argp2);
+  if (arg1) (arg1)->peripherals_bus = *arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_peripherals_bus_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  Spirit::Peripherals_Bus *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_peripherals_bus_get" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  result = (Spirit::Peripherals_Bus *)& ((arg1)->peripherals_bus);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Spirit__Peripherals_Bus, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_csr_bus_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  Spirit::CSR_Bus *arg2 = (Spirit::CSR_Bus *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Spirit_csr_bus_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_csr_bus_set" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_Spirit__CSR_Bus, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Spirit_csr_bus_set" "', argument " "2"" of type '" "Spirit::CSR_Bus *""'"); 
+  }
+  arg2 = reinterpret_cast< Spirit::CSR_Bus * >(argp2);
+  if (arg1) (arg1)->csr_bus = *arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_csr_bus_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  Spirit::CSR_Bus *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_csr_bus_get" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  result = (Spirit::CSR_Bus *)& ((arg1)->csr_bus);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Spirit__CSR_Bus, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_csr_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  Spirit::CSR *arg2 = (Spirit::CSR *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Spirit_csr_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_csr_set" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_Spirit__CSR, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Spirit_csr_set" "', argument " "2"" of type '" "Spirit::CSR *""'"); 
+  }
+  arg2 = reinterpret_cast< Spirit::CSR * >(argp2);
+  if (arg1) (arg1)->csr = *arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_csr_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  Spirit::CSR *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_csr_get" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  result = (Spirit::CSR *)& ((arg1)->csr);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Spirit__CSR, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_cidu(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  uint32_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  uint32_t result;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Spirit_cidu", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_cidu" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_uint32_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Spirit_cidu" "', argument " "2"" of type '" "uint32_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Spirit_cidu" "', argument " "2"" of type '" "uint32_t""'");
+    } else {
+      uint32_t * temp = reinterpret_cast< uint32_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  result = (arg1)->cidu(arg2);
+  resultobj = SWIG_NewPointerObj((new uint32_t(static_cast< const uint32_t& >(result))), SWIGTYPE_p_uint32_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Spirit_make_sure_address_legal(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Spirit *arg1 = (Spirit *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_Spirit, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Spirit_make_sure_address_legal" "', argument " "1"" of type '" "Spirit *""'"); 
+  }
+  arg1 = reinterpret_cast< Spirit * >(argp1);
+  (arg1)->make_sure_address_legal();
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *Spirit_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *obj;
   if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
@@ -4381,6 +5576,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "Spirit_emulate", _wrap_Spirit_emulate, METH_O, NULL},
 	 { "Spirit_get_current_pc", _wrap_Spirit_get_current_pc, METH_O, NULL},
 	 { "Spirit_get_csr", _wrap_Spirit_get_csr, METH_VARARGS, NULL},
+	 { "Spirit_get_cpuregs", _wrap_Spirit_get_cpuregs, METH_VARARGS, NULL},
 	 { "Spirit_set_instr", _wrap_Spirit_set_instr, METH_VARARGS, NULL},
 	 { "Spirit_get_peripherals_bus_enable", _wrap_Spirit_get_peripherals_bus_enable, METH_O, NULL},
 	 { "Spirit_get_peripherals_bus_wstrb", _wrap_Spirit_get_peripherals_bus_wstrb, METH_O, NULL},
@@ -4428,6 +5624,46 @@ static PyMethodDef SwigMethods[] = {
 	 { "Spirit_use_one_sram_get", _wrap_Spirit_use_one_sram_get, METH_O, NULL},
 	 { "Spirit_peripherals_req_set", _wrap_Spirit_peripherals_req_set, METH_VARARGS, NULL},
 	 { "Spirit_peripherals_req_get", _wrap_Spirit_peripherals_req_get, METH_O, NULL},
+	 { "Spirit_VEUSTATUS_set", _wrap_Spirit_VEUSTATUS_set, METH_VARARGS, NULL},
+	 { "Spirit_VEUSTATUS_get", _wrap_Spirit_VEUSTATUS_get, METH_O, NULL},
+	 { "Spirit_VEURADDR1_set", _wrap_Spirit_VEURADDR1_set, METH_VARARGS, NULL},
+	 { "Spirit_VEURADDR1_get", _wrap_Spirit_VEURADDR1_get, METH_O, NULL},
+	 { "Spirit_VEURADDR2_set", _wrap_Spirit_VEURADDR2_set, METH_VARARGS, NULL},
+	 { "Spirit_VEURADDR2_get", _wrap_Spirit_VEURADDR2_get, METH_O, NULL},
+	 { "Spirit_VEUWADDR_set", _wrap_Spirit_VEUWADDR_set, METH_VARARGS, NULL},
+	 { "Spirit_VEUWADDR_get", _wrap_Spirit_VEUWADDR_get, METH_O, NULL},
+	 { "Spirit_VEUCFG_set", _wrap_Spirit_VEUCFG_set, METH_VARARGS, NULL},
+	 { "Spirit_VEUCFG_get", _wrap_Spirit_VEUCFG_get, METH_O, NULL},
+	 { "Spirit_VEUVLEN_set", _wrap_Spirit_VEUVLEN_set, METH_VARARGS, NULL},
+	 { "Spirit_VEUVLEN_get", _wrap_Spirit_VEUVLEN_get, METH_O, NULL},
+	 { "Spirit_VEUMASK_set", _wrap_Spirit_VEUMASK_set, METH_VARARGS, NULL},
+	 { "Spirit_VEUMASK_get", _wrap_Spirit_VEUMASK_get, METH_O, NULL},
+	 { "Spirit_VEUDEBUG_set", _wrap_Spirit_VEUDEBUG_set, METH_VARARGS, NULL},
+	 { "Spirit_VEUDEBUG_get", _wrap_Spirit_VEUDEBUG_get, METH_O, NULL},
+	 { "Spirit_SAUINS1_set", _wrap_Spirit_SAUINS1_set, METH_VARARGS, NULL},
+	 { "Spirit_SAUINS1_get", _wrap_Spirit_SAUINS1_get, METH_O, NULL},
+	 { "Spirit_SAUINS2_set", _wrap_Spirit_SAUINS2_set, METH_VARARGS, NULL},
+	 { "Spirit_SAUINS2_get", _wrap_Spirit_SAUINS2_get, METH_O, NULL},
+	 { "Spirit_SAUINS3_set", _wrap_Spirit_SAUINS3_set, METH_VARARGS, NULL},
+	 { "Spirit_SAUINS3_get", _wrap_Spirit_SAUINS3_get, METH_O, NULL},
+	 { "Spirit_cpuregs_set", _wrap_Spirit_cpuregs_set, METH_VARARGS, NULL},
+	 { "Spirit_cpuregs_get", _wrap_Spirit_cpuregs_get, METH_O, NULL},
+	 { "Spirit_instr_sram_msb_set", _wrap_Spirit_instr_sram_msb_set, METH_VARARGS, NULL},
+	 { "Spirit_instr_sram_msb_get", _wrap_Spirit_instr_sram_msb_get, METH_O, NULL},
+	 { "Spirit_instr_sram_lsb_set", _wrap_Spirit_instr_sram_lsb_set, METH_VARARGS, NULL},
+	 { "Spirit_instr_sram_lsb_get", _wrap_Spirit_instr_sram_lsb_get, METH_O, NULL},
+	 { "Spirit_spirit_observe_set", _wrap_Spirit_spirit_observe_set, METH_VARARGS, NULL},
+	 { "Spirit_spirit_observe_get", _wrap_Spirit_spirit_observe_get, METH_O, NULL},
+	 { "Spirit_peripherals_baseaddr_set", _wrap_Spirit_peripherals_baseaddr_set, METH_VARARGS, NULL},
+	 { "Spirit_peripherals_baseaddr_get", _wrap_Spirit_peripherals_baseaddr_get, METH_O, NULL},
+	 { "Spirit_peripherals_bus_set", _wrap_Spirit_peripherals_bus_set, METH_VARARGS, NULL},
+	 { "Spirit_peripherals_bus_get", _wrap_Spirit_peripherals_bus_get, METH_O, NULL},
+	 { "Spirit_csr_bus_set", _wrap_Spirit_csr_bus_set, METH_VARARGS, NULL},
+	 { "Spirit_csr_bus_get", _wrap_Spirit_csr_bus_get, METH_O, NULL},
+	 { "Spirit_csr_set", _wrap_Spirit_csr_set, METH_VARARGS, NULL},
+	 { "Spirit_csr_get", _wrap_Spirit_csr_get, METH_O, NULL},
+	 { "Spirit_cidu", _wrap_Spirit_cidu, METH_VARARGS, NULL},
+	 { "Spirit_make_sure_address_legal", _wrap_Spirit_make_sure_address_legal, METH_O, NULL},
 	 { "Spirit_swigregister", Spirit_swigregister, METH_O, NULL},
 	 { "Spirit_swiginit", Spirit_swiginit, METH_VARARGS, NULL},
 	 { NULL, NULL, 0, NULL }
@@ -4441,19 +5677,43 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 /* -------- TYPE CONVERSION AND EQUIVALENCE RULES (BEGIN) -------- */
 
 static swig_type_info _swigt__p_Spirit = {"_p_Spirit", "Spirit *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_Spirit__CSR = {"_p_Spirit__CSR", "Spirit::CSR *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_Spirit__CSR_Bus = {"_p_Spirit__CSR_Bus", "Spirit::CSR_Bus *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_Spirit__Peripherals_Baseaddr = {"_p_Spirit__Peripherals_Baseaddr", "Spirit::Peripherals_Baseaddr *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_Spirit__Peripherals_Bus = {"_p_Spirit__Peripherals_Bus", "Spirit::Peripherals_Bus *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_Spirit__Spirit_Observe = {"_p_Spirit__Spirit_Observe", "Spirit::Spirit_Observe *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_char = {"_p_char", "char *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_uint32_t = {"_p_uint32_t", "uint32_t *", 0, 0, (void*)0, 0};
 
 static swig_type_info *swig_type_initial[] = {
   &_swigt__p_Spirit,
+  &_swigt__p_Spirit__CSR,
+  &_swigt__p_Spirit__CSR_Bus,
+  &_swigt__p_Spirit__Peripherals_Baseaddr,
+  &_swigt__p_Spirit__Peripherals_Bus,
+  &_swigt__p_Spirit__Spirit_Observe,
   &_swigt__p_char,
+  &_swigt__p_uint32_t,
 };
 
 static swig_cast_info _swigc__p_Spirit[] = {  {&_swigt__p_Spirit, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_Spirit__CSR[] = {  {&_swigt__p_Spirit__CSR, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_Spirit__CSR_Bus[] = {  {&_swigt__p_Spirit__CSR_Bus, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_Spirit__Peripherals_Baseaddr[] = {  {&_swigt__p_Spirit__Peripherals_Baseaddr, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_Spirit__Peripherals_Bus[] = {  {&_swigt__p_Spirit__Peripherals_Bus, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_Spirit__Spirit_Observe[] = {  {&_swigt__p_Spirit__Spirit_Observe, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_char[] = {  {&_swigt__p_char, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_uint32_t[] = {  {&_swigt__p_uint32_t, 0, 0, 0},{0, 0, 0, 0}};
 
 static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_Spirit,
+  _swigc__p_Spirit__CSR,
+  _swigc__p_Spirit__CSR_Bus,
+  _swigc__p_Spirit__Peripherals_Baseaddr,
+  _swigc__p_Spirit__Peripherals_Bus,
+  _swigc__p_Spirit__Spirit_Observe,
   _swigc__p_char,
+  _swigc__p_uint32_t,
 };
 
 

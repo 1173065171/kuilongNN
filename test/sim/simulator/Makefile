@@ -31,14 +31,14 @@ build:
 	cd ./src/UART && make swig_uart -B
 
 all:
-	${PYTHON} main_kui.py | tee ${SIMULATOR_HOME}/log/record.log
+	python3 main_kui_8.py | tee ${SIMULATOR_HOME}/log/record.log
 
 test:
-	${PYTHON} main_kui.py
+	python3 main_kui_8.py
 
 # remove \x1b
 r1b:
-	${PYTHON} remove_ansi_escapes.py
+	python3 remove_ansi_escapes.py
 
 clean_log:
 	rm -vrf *.log
@@ -48,13 +48,3 @@ clean:
 	cd ./src/Device && make clean_device
 	cd ./src/UART && make clean_uart
 	rm -vrf *.log
-
-package:
-	rm -rf .idea
-	rm -rf build
-	rm -rf test
-	rm -rf tmp
-	find ./src/ -name "*.cpp" -exec rm -rf {} \;
-	find ./src/ -name "*.hpp" -exec rm -rf {} \;
-	find ./ -name "__pycache__" -exec rm -rf {} \;
-	sh package.sh
