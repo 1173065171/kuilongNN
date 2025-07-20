@@ -11,6 +11,8 @@ rm -rf .idea
 rm -rf build
 rm -rf test
 rm -rf tmp
+rm -rf .gitignore
+
 
 # 删除源代码目录中的C++文件
 find ./src/ -name "*.cpp" -exec rm -rf {} \;
@@ -24,7 +26,6 @@ find ./firmware -mindepth 1 -maxdepth 1 -type d ! -name "gcc_backend" -exec rm -
 
 # 删除Cython的编译脚本
 rm -rf cython_setup.py
-rm -rf .gitignore
 rm -rf command.md
 rm -rf main.py
 mv main_kui.py main.py

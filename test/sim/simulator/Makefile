@@ -31,14 +31,14 @@ build:
 	cd ./src/UART && make swig_uart -B
 
 all:
-	python3 main_kui_8.py | tee ${SIMULATOR_HOME}/log/record.log
+	${PYTHON} main_kui.py | tee ${SIMULATOR_HOME}/log/record.log
 
 test:
-	python3 main_kui_8.py
+	${PYTHON} main_kui.py
 
 # remove \x1b
 r1b:
-	python3 remove_ansi_escapes.py
+	${PYTHON} remove_ansi_escapes.py
 
 clean_log:
 	rm -vrf *.log

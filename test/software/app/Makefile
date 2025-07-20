@@ -57,8 +57,6 @@ mod4:
 move:
 	cp ./*.hex ../../sim/simulator/firmware/gcc_backend/
 	cp $(BUILD_DIR)/*.txt ../../sim/simulator/firmware/gcc_backend/
-	cp ./*.hex ../../sim/lpnpu_sim/firmware/gcc_backend/
-	cp $(BUILD_DIR)/*.txt ../../sim/lpnpu_sim/firmware/gcc_backend/
 
 menu:
 	@menuconfig

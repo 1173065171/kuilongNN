@@ -4967,7 +4967,7 @@ static PyObject *__pyx_pf_3VEU_3VEU_3VEU___init__(CYTHON_UNUSED PyObject *__pyx_
  * 		"""
  * 		# base information
  * 		self.sram_addr = 0x00000000             # <<<<<<<<<<<<<<
- * 		self.sram_wstrb = 0xF
+ * 		self.sram_wstrb = 0xFFFF
  * 		self.slide_addr = 0x00000000
 */
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_sram_addr, __pyx_mstate_global->__pyx_int_0) < 0) __PYX_ERR(0, 137, __pyx_L1_error)
@@ -4975,15 +4975,15 @@ static PyObject *__pyx_pf_3VEU_3VEU_3VEU___init__(CYTHON_UNUSED PyObject *__pyx_
   /* "VEU/VEU.pyx":138
  * 		# base information
  * 		self.sram_addr = 0x00000000
- * 		self.sram_wstrb = 0xF             # <<<<<<<<<<<<<<
+ * 		self.sram_wstrb = 0xFFFF             # <<<<<<<<<<<<<<
  * 		self.slide_addr = 0x00000000
  * 		self.pccdu_mask = 0xFFFF
 */
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_sram_wstrb, __pyx_mstate_global->__pyx_int_15) < 0) __PYX_ERR(0, 138, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_sram_wstrb, __pyx_mstate_global->__pyx_int_65535) < 0) __PYX_ERR(0, 138, __pyx_L1_error)
 
   /* "VEU/VEU.pyx":139
  * 		self.sram_addr = 0x00000000
- * 		self.sram_wstrb = 0xF
+ * 		self.sram_wstrb = 0xFFFF
  * 		self.slide_addr = 0x00000000             # <<<<<<<<<<<<<<
  * 		self.pccdu_mask = 0xFFFF
  * 		self.id =unit_id
@@ -4991,7 +4991,7 @@ static PyObject *__pyx_pf_3VEU_3VEU_3VEU___init__(CYTHON_UNUSED PyObject *__pyx_
   if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_mstate_global->__pyx_n_u_slide_addr, __pyx_mstate_global->__pyx_int_0) < 0) __PYX_ERR(0, 139, __pyx_L1_error)
 
   /* "VEU/VEU.pyx":140
- * 		self.sram_wstrb = 0xF
+ * 		self.sram_wstrb = 0xFFFF
  * 		self.slide_addr = 0x00000000
  * 		self.pccdu_mask = 0xFFFF             # <<<<<<<<<<<<<<
  * 		self.id =unit_id
