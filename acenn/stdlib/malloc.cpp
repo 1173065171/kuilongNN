@@ -36,8 +36,10 @@ int malloc_init(void)
 
 void *malloc(uint32_t size)
 {
-    #ifdef USE_SLAB
-        if (size <= SLAB_MAX_SIZE) {
+#ifdef USE_SLAB
+        // FIXME：此处为两种分配的兼容性代码，请根据分配需要使用
+        // 阈值判断的方法可能会造成malloc卡顿
+        if (size < SLAB_MAX_SIZE) {
             return kmalloc(size);
         } else if (size <= BUDDY_MAX_SIZE) {
             int order = get_buddy_order(size);
@@ -57,15 +59,19 @@ void *malloc(uint32_t size)
             }
 #ifdef DEBUG_MALLOC
             ACENN_DEBUG("10 buddy blocks have already been allocated, please release them before applying for memory allocation!");
+            asm("ebreak;"); // 中断，停止运行
 #endif
             return nullptr;
         }
 #ifdef DEBUG_MALLOC
         ACENN_DEBUG("The memory size you want to allocate is %d, but the maximum size that malloc can allocate is %d", size, BUDDY_MAX_SIZE);
+        asm("ebreak;"); // 中断，停止运行
 #endif
-    #else
+        return nullptr;
+
+#else
         return kmalloc(size);
-    #endif
+#endif
 }
 
 void free(void *addr)
@@ -120,16 +126,50 @@ void test_malloc(void)
     p1 = (char *)malloc(4096);
 	printf_("the first alloced address is %x\n",p1);
 	free(p1);
+}
 
-    p2 = (char *)malloc(1024*256);
+
+void test_malloc_boundary(void)
+{
+    init_page_map();
+	int result = malloc_init();
+    if (result == -1) {
+        printf_("failed to malloc_init!\n");
+    }
+	char *p1, *p2, *p3;
+
+	p1 = (char *)malloc(128);
+	printf_("the first alloced address is %x\n",p1);
+	p2 = (char *)malloc(128);
 	printf_("the second alloced address is %x\n",p2);
-    p3 = (char *)malloc(1024*512);
+	p3 = (char *)malloc(128);
 	printf_("the third alloced address is %x\n",p3);
-	p4 = (char *)malloc(1024*128);
-	printf_("the forth alloced address is %x\n",p4);
+
+	free(p1);
     free(p2);
     free(p3);
-	free(p4);
+
+    p1 = (char *)malloc(256);
+	printf_("the first alloced address is %x\n",p1);
+	p2 = (char *)malloc(256);
+	printf_("the second alloced address is %x\n",p2);
+	p3 = (char *)malloc(256);
+	printf_("the third alloced address is %x\n",p3);
+
+	free(p1);
+    free(p2);
+    free(p3);
+
+    p1 = (char *)malloc(512);
+	printf_("the first alloced address is %x\n",p1);
+	p2 = (char *)malloc(512);
+	printf_("the second alloced address is %x\n",p2);
+	p3 = (char *)malloc(512);
+	printf_("the third alloced address is %x\n",p3);
+
+	free(p1);
+    free(p2);
+    free(p3);
 }
 
 #endif

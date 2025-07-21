@@ -1,26 +1,15 @@
+// component
 #include "stdint.h"
 #include "string.h"
 #include "stdlib/printf.hpp"
 #include "stdlib/malloc.hpp"
-#include "veu_benchmark.hpp"
-#include "sau_benchmark.hpp"
+
+// testcase
+// #include "veu_benchmark.hpp"
+// #include "sau_benchmark.hpp"
 #include "sau_benchmark_8x8.hpp"
-#include "sau_benchmark_8x8_16b.hpp"
+// #include "sau_benchmark_8x8_16b.hpp"
 
-// #include "matrixA.hpp"
-// #include "matrixB.hpp"
-// #include "matrixD.hpp"
-// #include "bias.hpp"
-// #include "input_block.hpp"
-// #include "output_block.hpp"
-// #include "kernel.hpp"
-
-// #define SIZE 32
-// #define BLOCK_SIZE 16
-// #define PADDING       1 
-// #define STRIDE        1  
-// #define KERNEL_SIZE   3
-// #define OUT_SIZE 32
 
 #define Printf printf_
 
@@ -32,149 +21,14 @@ long insn()
 	return insns;
 }
 
-// void matrix_dot() {
-// 	// ACENN_DEBUG("Matrix dot start!");
-// 	int8_t matrixC[SIZE * SIZE] = {0};
 
-// 	__kuiloong_ace_vsetcsr( 
-// 							SCALAR_EN(0) |  
-// 							WRITE_BACK(1) | 
-// 							CLEAR_OB(0) | 
-// 							MODE(CFG_I8) | 
-// 							SHIFT(0) | 
-// 							RESET(0), VEUCFG);     
-// 	__kuiloong_ace_vsetcsr(128, VEUVLEN);   
-// 	__kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
-// 	__kuiloong_ace_vsetcsr((uint32_t)matrixC, VEUWADDR);
-// 	for (int i = 0; i < SIZE * SIZE; i+=16) {
-// 		__kuiloong_ace_vsetcsr(128, VEUVLEN);   
-// 		__kuiloong_ace_vmul((uint32_t)&matrixA[i],  (uint32_t)&matrixB[i]); 
-// 	}
-// 	for (int i = 0; i < SIZE * SIZE; i++) {
-// 		// if (matrixC[i] != matrixD[i]) {
-// 		ACENN_DEBUG("Mistake at C[%d]: expected %d, got %d", 
-// 					i, matrixD[i], matrixC[i]);
-// 		// }
-// 	}
-// 	ACENN_DEBUG("Matrix dot PASS!");
-// }
-
-
-// void matrix_dotcpu(int8_t *matrix1,int8_t *matrix2) {
-// 	int8_t matrixC[SIZE * SIZE] = {0};
-// 	for (int i = 0; i < 1024; ++i){
-// 		matrix1[i]=matrixA[i] ;
-// 		matrix2[i]=matrixB[i] ;
-// 	}
-// 	for(int i = 0; i < SIZE * SIZE; ++i){
-// 		matrixC[i]=matrix1[i] * matrix2[i] ;
-// 	}
-// 	//   return matrixC[0];
-// }
-
-
-// void matrix_add() {
-// 	// ACENN_DEBUG("Matrix add start!");
-// 	int8_t matrixC[SIZE * SIZE] = {0};
-
-// 	__kuiloong_ace_vsetcsr( 
-// 							SCALAR_EN(0) |  
-// 							WRITE_BACK(1) | 
-// 							CLEAR_OB(0) | 
-// 							MODE(CFG_I8) | 
-// 							SHIFT(0) | 
-// 							RESET(0), VEUCFG);     
-// 	__kuiloong_ace_vsetcsr(128, VEUVLEN);   
-// 	__kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
-// 	__kuiloong_ace_vsetcsr((uint32_t)matrixC, VEUWADDR);
-// 	for (int i = 0; i < SIZE * SIZE; i+=16) {
-// 		__kuiloong_ace_vsetcsr(128, VEUVLEN);   
-// 		__kuiloong_ace_vadd((uint32_t)&matrixA[i],  (uint32_t)&matrixB[i]); 
-// 	}
-// 	for (int k = 0; k < 16 ; k++){
-// 	  ACENN_DEBUG("Avalue%d is hex: %x dec: %d\n", k,matrixA[k],matrixA[k]);
-// 	  ACENN_DEBUG("Bvalue%d is hex: %x dec: %d\n", k,matrixB[k],matrixB[k]);
-// 	  ACENN_DEBUG("Cvalue%d is hex: %x dec: %d\n", k,matrixC[k],matrixC[k]);
-// 	}
-// 	for (int i = 0; i < SIZE * SIZE; i++) {
-// 	    if (matrixC[i] != matrixD[i]) {
-// 	        ACENN_DEBUG("Mistake at C[%d]: expected %d, got %d", 
-// 	                  i, matrixD[i], matrixC[i]);
-// 	        asm("ebreak;");
-// 	    }
-// 	}
-// 	ACENN_DEBUG("Matrix add PASS!");
-// }
-
-
-// void matrix_addcpu(int8_t *matrix1,int8_t *matrix2) {
-// 	int8_t matrixC[SIZE * SIZE] = {0};
-// 	for (int i = 0; i < 1024; ++i){
-// 		matrix1[i]=matrixA[i] ;
-// 		matrix2[i]=matrixB[i] ;
-// 	}
-// 	for(int i = 0; i < SIZE * SIZE; ++i){
-// 		matrixC[i]=matrix1[i] + matrix2[i] ;
-// 	}
-// 	//   return matrixC[0];
-// }
-
-
-
-// void matrix_comparecpu(int8_t *matrix1,int8_t *matrix2) {
-// 	int8_t matrixC[SIZE * SIZE] = {0};
-// 	for (int i = 0; i < 1024; ++i){
-// 		matrix1[i]=matrixA[i] ;
-// 		matrix2[i]=matrixB[i] ;
-// 	}
-// 	for(int i = 0; i < SIZE * SIZE; ++i){
-// 		if (matrix1[i] <= matrix2[i]){
-// 			matrixC[i]=matrix1[i];
-// 		}
-// 		else{
-// 			matrixC[i]=matrix2[i] ;
-// 		}
-// 	}
-
-// }
-
-
-// void matrix_compare() {
-// 	// ACENN_DEBUG("Matrix compare start!");
-// 	int8_t matrixC[SIZE * SIZE] = {0};
-
-// 	__kuiloong_ace_vsetcsr( 
-// 							SCALAR_EN(0) |  
-// 							WRITE_BACK(1) | 
-// 							CLEAR_OB(0) | 
-// 							MODE(CFG_I8) | 
-// 							SHIFT(0) | 
-// 							RESET(0), VEUCFG);     
-// 	__kuiloong_ace_vsetcsr(128, VEUVLEN);   
-// 	__kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
-// 	__kuiloong_ace_vsetcsr((uint32_t)matrixC, VEUWADDR);
-// 	for (int i = 0; i < SIZE * SIZE; i+=16) {
-// 		__kuiloong_ace_vsetcsr(128, VEUVLEN);   
-// 		__kuiloong_ace_vmin((uint32_t)&matrixA[i],  (uint32_t)&matrixB[i]);
-// 	}
-// 	for (int k = 0; k < 16 ; k++){
-// 		ACENN_DEBUG("Avalue%d is %d\n", k,matrixA[k]);
-// 		ACENN_DEBUG("Bvalue%d is %d\n", k,matrixB[k]);
-// 		ACENN_DEBUG("Cvalue%d is %d\n", k,matrixC[k]);
-// 	}
-// 	for (int i = 0; i < SIZE * SIZE; i++) {
-// 	    if (matrixC[i] != matrixD[i]) {
-// 	        ACENN_DEBUG("Mistake at C[%d]: expected %d, got %d", 
-// 	                  i, matrixD[i], matrixC[i]);
-// 	        asm("ebreak;");
-// 	    }
-// 	}
-// 	ACENN_DEBUG("Matrix compare PASS!");
-// }
-
-
-
-
+void test_component(){
+	ACENN_DEBUG("hello kuiloong!");
+	test_printf_();
+	test_malloc();
+	test_malloc_boundary();
+	ACENN_DEBUG("test component over!");
+}
 
 
 int main()
@@ -184,18 +38,20 @@ int main()
 	BeginInsn = insn();
 
 	malloc_initial();
+
 	int8_t  *matrix1 = (int8_t  *)malloc(1024 * sizeof(int8_t));
-	// int16_t *matrix1 = (int16_t *)malloc(1024 * sizeof(int16_t));
 	int8_t  *matrix2 = (int8_t  *)malloc(1024 * sizeof(int8_t));
 	int8_t  *matrix3 = (int8_t  *)malloc(1024 * sizeof(int8_t));
-	// int16_t *matrix3 = (int16_t *)malloc(1024 * sizeof(int16_t));
 	int8_t  *matrix4 = (int8_t  *)malloc(1024 * sizeof(int8_t));
+
+	// int16_t *matrix1 = (int16_t *)malloc(1024 * sizeof(int16_t));
+	// int8_t  *matrix2 = (int8_t  *)malloc(1024 * sizeof(int8_t));
+	// int16_t *matrix3 = (int16_t *)malloc(1024 * sizeof(int16_t));
 	// int16_t  *matrix4 = (int16_t  *)malloc(1024 * sizeof(int16_t));
 
-	// test_printf_();
-	// test_malloc();
+
 	// veu_benchmark();
-	sau_benchmark(matrix1, matrix2, matrix3, matrix4);
+	// sau_benchmark(matrix1, matrix2, matrix3, matrix4);
 	// sau_benchmark_8x8(matrix1, matrix2, matrix3, matrix4);
 	// sau_benchmark_8x8_16b(matrix1, matrix2, matrix3, matrix4);
 	

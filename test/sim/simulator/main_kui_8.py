@@ -123,8 +123,8 @@ def sim():
 	veu_debug_flag = None
 
 	# sau init
-	sau = SAU(1, 8)
-	sau_debug_flag = None
+	sau_debug_flag = True
+	sau = SAU(1, 8, unit_debug=sau_debug_flag)
 
 	# sram init
 	sram_ins =SramSp(width=32, depth=65536, base_addr=0x00000000)

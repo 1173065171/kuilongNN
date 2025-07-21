@@ -29,4 +29,6 @@ void malloc_initial();
 
 void test_malloc(void);
 
+void test_malloc_boundary(void);
+
 #endif
