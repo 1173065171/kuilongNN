@@ -105,7 +105,7 @@ def plot_memory_allocation(malloc_size):
     plt.savefig('memory_allocation_plot.png')
 
 if __name__ == "__main__":
-    file_path = './gcc_backend.log'
+    file_path = '../log/gcc_backend.log'
     text = read_file(file_path)
     all_matches = extract_matches(text)
     malloc_size = process_matches(all_matches)

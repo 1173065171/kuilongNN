@@ -14,6 +14,25 @@
 #ifndef __COMMON_HPP__
 #define __COMMON_HPP__
 
+
+#include "type_traits"
+#include "stdint.h"
+#include "stdlib/malloc.hpp"
+#include "stdlib/printf.hpp"
+#include "common/common.hpp"
+
+
+
+// inline define struct
+template<typename T>
+struct acenn_matrix {
+    uint32_t dims;
+    uint32_t channels;
+    uint32_t rows;
+    uint32_t cols;
+    T* matrix;
+};
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Function : create_tensor
 // Description:
@@ -59,6 +78,38 @@
 template<typename T>
 inline T* create_tensor(uint32_t dims, uint32_t channels, uint32_t rows, uint32_t cols);
 
+
+template<typename T>
+inline T* create_tensor(uint32_t dims, uint32_t channels, uint32_t rows, uint32_t cols) {
+    T* matrix = nullptr;
+    if constexpr (std::is_same<T, uint8_t>::value) {
+        matrix = reinterpret_cast<T*>(malloc((dims * channels * rows * cols) * sizeof(uint8_t)));
+    }
+    else if constexpr (std::is_same<T, int8_t>::value) {
+        matrix = reinterpret_cast<T*>(malloc((dims * channels * rows * cols) * sizeof(int8_t)));
+    }
+    else if constexpr (std::is_same<T, uint16_t>::value) {
+        matrix = reinterpret_cast<T*>(malloc((dims * channels * rows * cols) * sizeof(uint16_t)));
+    }
+    else if constexpr (std::is_same<T, int16_t>::value) {
+        matrix = reinterpret_cast<T*>(malloc((dims * channels * rows * cols) * sizeof(int16_t)));
+    }
+    else if constexpr (std::is_same<T, uint32_t>::value) {
+        matrix = reinterpret_cast<T*>(malloc((dims * channels * rows * cols) * sizeof(uint32_t)));
+    }
+    else if constexpr (std::is_same<T, int32_t>::value) {
+        matrix = reinterpret_cast<T*>(malloc((dims * channels * rows * cols) * sizeof(int32_t)));
+    }
+    else if constexpr (std::is_same<T, float>::value) {
+        matrix = reinterpret_cast<T*>(malloc((dims * channels * rows * cols) * sizeof(float)));
+    }
+    else {
+        ACENN_DEBUG("Unsupported data type in create_tensor function!");
+    }
+    return matrix;
+}
+
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Function : free_tensor
 // Description:
@@ -82,5 +133,11 @@ inline T* create_tensor(uint32_t dims, uint32_t channels, uint32_t rows, uint32_
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 template<typename T>
 inline void free_tensor(T* matrix);
+
+template<typename T>
+inline void free_tensor(T* matrix) {
+    free(matrix);
+}
+
 
 #endif

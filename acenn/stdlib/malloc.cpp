@@ -36,6 +36,7 @@ int malloc_init(void)
 
 void *malloc(uint32_t size)
 {
+    // ACENN_DEBUG("malloc size: %x", size);
 #ifdef USE_SLAB
         // FIXME：此处为两种分配的兼容性代码，请根据分配需要使用
         // 阈值判断的方法可能会造成malloc卡顿
@@ -104,6 +105,7 @@ void malloc_initial()
 
 void test_malloc(void)
 {
+    // test malloc function
     init_page_map();
 	int result = malloc_init();
     if (result == -1) {
@@ -131,6 +133,7 @@ void test_malloc(void)
 
 void test_malloc_boundary(void)
 {
+    // test slab/buddy function
     init_page_map();
 	int result = malloc_init();
     if (result == -1) {

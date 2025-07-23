@@ -11,6 +11,7 @@ TARGET=firmware.elf
 C_FILE=$(wildcard *.cpp)
 C_FILE+=$(wildcard $(INCLUDE_DIR)/common/*.cpp)
 C_FILE+=$(wildcard $(INCLUDE_DIR)/stdlib/*.cpp)
+C_FILE+=$(wildcard $(INCLUDE_DIR)/scalar/*.cpp)
 ASM_FILE=$(realpath ./start.S)
 LINK_FILE=firmware.lds
 INCLUDE_DIR=$(realpath ../../../acenn)
