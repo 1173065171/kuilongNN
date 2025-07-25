@@ -1,7 +1,7 @@
 #include "sau_benchmark_func8b.hpp"
 
 bool matmul_multi8_single_test() {
-  ACENN_DEBUG("SAU matmul_multi8 BATCH TEST START");
+  ACENN_DEBUG("SAU matmul_multi8 SINGLE TEST START");
   bool pass, all_pass = 1;
   int8_t *matrixA, *matrixB, *matrixD;
   int M, K, N;
@@ -55,7 +55,7 @@ static const int8_t D_sa[128] = {
     free(matrixB);
     free(matrixD);
     all_pass = all_pass && pass;
-  ACENN_DEBUG(all_pass?"PASS SAU matmul_multi8 BATCH TEST END":"FAIL SAU matmul_multi8 BATCH TEST END");
+  ACENN_DEBUG(all_pass?"PASS SAU matmul_multi8 SINGLE TEST END":"FAIL SAU matmul_multi8 SINGLE TEST END");
   return all_pass;
 }
 
