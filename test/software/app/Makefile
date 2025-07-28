@@ -76,7 +76,7 @@ endif
 
 sim:
 	make all -B
-	make move
+	# make move
 
 clean:
 	@rm -rf build
