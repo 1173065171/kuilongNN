@@ -33,8 +33,11 @@ void test_component(){
 
 extern bool matmul_multi8_test();
 extern bool matmul_multi8_single_test();
+extern bool fc_multi8_single_test();
+extern bool fc_multi8_multi8_test();
 extern bool matmul_multi16_single_test();
 extern bool matmul_multi16_test();
+extern bool fc_multi8_single_test_128_128_128();
 
 int main()
 {
@@ -57,7 +60,10 @@ int main()
 	// bool pass = matmul_multi8_test();
 	// minimum_matmul_multi_8x8_16b(matrix1, matrix2, matrix3);
 	// matmul_multi16_single_test();
-	matmul_multi16_single_test();
+	// matmul_multi16_single_test();
+	// fc_multi8_single_test();
+	ACENN_DEBUG("ENTERN FC MULTI TEST");
+	fc_multi8_single_test_128_128_128();
 	// bool pass = matmul_multi8_single_test();
 	// bool pass = matmul_multi8_test();
 	// minimum_matmul_multi_8x8(matrix1, matrix2, matrix3);
