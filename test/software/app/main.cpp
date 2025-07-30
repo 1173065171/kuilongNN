@@ -63,7 +63,8 @@ int main()
 	// matmul_multi16_single_test();
 	// fc_multi8_single_test();
 	ACENN_DEBUG("ENTERN FC MULTI TEST");
-	fc_multi8_single_test_128_128_128();
+	// fc_multi8_single_test_128_128_128();
+	matmul_multi8_single_test();
 	// bool pass = matmul_multi8_single_test();
 	// bool pass = matmul_multi8_test();
 	// minimum_matmul_multi_8x8(matrix1, matrix2, matrix3);
