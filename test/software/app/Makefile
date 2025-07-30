@@ -49,7 +49,7 @@ all: build $(patsubst %.cpp,%.o,$(C_FILE)) $(patsubst %.S,%.o,$(ASM_FILE))
 		fi \
 	done
 	$(PYTHON) $(SCRIPT_DIR)/make_instr_hex.py $(BUILD_DIR)/$(patsubst %.elf,%.bin,$(TARGET)) 65536 > ./build/instruction.hex
-	$(PYTHON) $(SCRIPT_DIR)/make_mem_hex.py $(BUILD_DIR)/$(patsubst %.elf,%.bin,$(TARGET)) 65536 > ./build/memory.hex
+	$(PYTHON) $(SCRIPT_DIR)/make_mem_hex.py $(BUILD_DIR)/$(patsubst %.elf,%.bin,$(TARGET)) 131072 > ./build/memory.hex
 
 mod4:
 	$(PYTHON) $(SCRIPT_DIR)/genhex_mod4.py ./build/instruction.hex

@@ -107,8 +107,9 @@ static inline int list_empty(const struct list_head *head)
 /*                                      buddy algorithms                                            */
 /****************************************************************************************************/
 //  frac{4*(1-2^{9})}{1-2} = 2044 Byte
-#define MEM_END    0x10050000
-#define MEM_START  0x10030000
+//  sram 最大 0x1010_0000 = 1MB
+#define MEM_END    0x100D0000
+#define MEM_START  0x10070000
 
 //  1 page = 4096 Byte
 // #define PAGE_SHIFT  (12)
@@ -143,7 +144,7 @@ struct page {
 //  max size = 1024 K Byte = 1 M Byte
 //  #define MAX_BUDDY_PAGE_NUM          (8)
 //  64 KB
-#define MAX_BUDDY_PAGE_NUM          (6)
+#define MAX_BUDDY_PAGE_NUM          (7)
 #define AVERAGE_PAGE_NUM_PER_BUDDY  (KERNEL_PAGE_NUM / MAX_BUDDY_PAGE_NUM)
 #define PAGE_NUM_FOR_MAX_BUDDY      ((1 << MAX_BUDDY_PAGE_NUM) - 1)
 #define BUDDY_MAX_SIZE              ((PAGE_SIZE) * (1 << MAX_BUDDY_PAGE_NUM))
