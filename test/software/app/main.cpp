@@ -39,6 +39,9 @@ extern bool matmul_multi16_single_test();
 extern bool matmul_multi16_test();
 extern bool fc_multi8_single_test_128_128_128();
 
+extern void vssrl_testcase1();
+extern void vector_gather_single_test();
+
 int main()
 {
 	long BeginInsn, EndInsn;
@@ -62,9 +65,9 @@ int main()
 	// matmul_multi16_single_test();
 	// matmul_multi16_single_test();
 	// fc_multi8_single_test();
-	ACENN_DEBUG("ENTERN FC MULTI TEST");
+	// ACENN_DEBUG("ENTERN FC MULTI TEST");
 	// fc_multi8_single_test_128_128_128();
-	matmul_multi8_single_test();
+	vector_gather_single_test();
 	// bool pass = matmul_multi8_single_test();
 	// bool pass = matmul_multi8_test();
 	// minimum_matmul_multi_8x8(matrix1, matrix2, matrix3);
