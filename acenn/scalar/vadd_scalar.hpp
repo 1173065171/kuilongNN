@@ -3,35 +3,46 @@
 //                                                                              //
 // Additional contributions by:                                                 //
 //                                                                              //
-// File Name:       relu.hpp                                                    //
+// File Name:       vadd_scalar.hpp                                            //
 // Project Name:    ACENN                                                       //
 // Language:        cpp                                                         //
 //                                                                              //
-// Description:     ReLU activation function                                    //
+// Description:     Vector addition operations                                  //
 //                                                                              //
 //////////////////////////////////////////////////////////////////////////////////
 
-#ifndef __RELU_HPP__
-#define __RELU_HPP__
+#ifndef __VADD_SCALAR_HPP__
+#define __VADD_SCALAR_HPP__
 
+#include "type_traits"
 #include "stdint.h"
 #include "common/common.hpp"
 
-// Function : relu
+
+// Function : vadd_scalar
 
 template<typename T>
-acenn_matrix<T> *relu(acenn_matrix<T> *fm);
+acenn_matrix<T> *vadd_scalar(acenn_matrix<T> *matrix_a, acenn_matrix<T> *matrix_b);
 
 template<typename T>
-acenn_matrix<T> *relu(acenn_matrix<T> *fm) {
+acenn_matrix<T> *vadd_scalar(acenn_matrix<T> *matrix_a, acenn_matrix<T> *matrix_b) {
     // check input validity
-    if (fm == nullptr || fm->matrix == nullptr) {
-        printf_("ERROR: input feature map is null!\n");
+    if (matrix_a == nullptr || matrix_a->matrix == nullptr || 
+        matrix_b == nullptr || matrix_b->matrix == nullptr) {
+        printf_("ERROR: input matrices are null!\n");
         asm("ebreak;"); // 中断，停止运行
         return nullptr;
     }
 
-    // allocate memory space for output feature map
+    // check if dimensions match
+    if (matrix_a->dims != matrix_b->dims || matrix_a->channels != matrix_b->channels ||
+        matrix_a->rows != matrix_b->rows || matrix_a->cols != matrix_b->cols) {
+        printf_("ERROR: matrix dimensions do not match!\n");
+        asm("ebreak;"); // 中断，停止运行
+        return nullptr;
+    }
+
+    // allocate memory space for output matrix
     acenn_matrix<T> *output = static_cast<acenn_matrix<T>*>(malloc(sizeof(acenn_matrix<T>)));
     if (output == nullptr) {
         printf_("ERROR: failed to allocate output!\n");
@@ -39,11 +50,11 @@ acenn_matrix<T> *relu(acenn_matrix<T> *fm) {
         return nullptr;
     }
 
-    // copy dimensions from input feature map
-    output->dims = fm->dims;
-    output->channels = fm->channels;
-    output->rows = fm->rows;
-    output->cols = fm->cols;
+    // copy dimensions from input matrices
+    output->dims = matrix_a->dims;
+    output->channels = matrix_a->channels;
+    output->rows = matrix_a->rows;
+    output->cols = matrix_a->cols;
     
     // allocate memory for output matrix
     output->matrix = create_tensor<T>(output->dims, output->channels, output->rows, output->cols);
@@ -54,16 +65,16 @@ acenn_matrix<T> *relu(acenn_matrix<T> *fm) {
         return nullptr;
     }
 
-    // apply ReLU activation function element-wise
-    uint32_t total_elements = output->channels * output->rows * output->cols * 8;
-
-    __kuiloong_ace_vsetcsr(SCALAR_EN(1) | WRITE_BACK(1) | CLEAR_OB(1) | MODE(CFG_I8) | SHIFT(0) | RESET(0), VEUCFG);
-    __kuiloong_ace_vsetcsr(total_elements, VEUVLEN);
-    __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
-    __kuiloong_ace_vsetcsr((uint32_t)output->matrix, VEUWADDR);
-    __kuiloong_ace_vmax((uint32_t)(0), (uint32_t)fm->matrix);
+    // apply vector addition element-wise
+    uint32_t total_elements = output->channels * output->rows * output->cols;
+    for (uint32_t i = 0; i < total_elements; ++i) {
+        // Vector addition: result[i] = a[i] + b[i]
+        output->matrix[i] = matrix_a->matrix[i] + matrix_b->matrix[i];
+    }
 
     return output;
 }
+
+
 
 #endif

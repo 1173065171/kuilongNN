@@ -17,13 +17,14 @@
 #include "stdint.h"
 #include "common/common.hpp"
 
+
 // Function : relu
 
 template<typename T>
-acenn_matrix<T> *relu(acenn_matrix<T> *fm);
+acenn_matrix<T> *relu_scalar(acenn_matrix<T> *fm);
 
 template<typename T>
-acenn_matrix<T> *relu(acenn_matrix<T> *fm) {
+acenn_matrix<T> *relu_scalar(acenn_matrix<T> *fm) {
     // check input validity
     if (fm == nullptr || fm->matrix == nullptr) {
         printf_("ERROR: input feature map is null!\n");
@@ -55,13 +56,16 @@ acenn_matrix<T> *relu(acenn_matrix<T> *fm) {
     }
 
     // apply ReLU activation function element-wise
-    uint32_t total_elements = output->channels * output->rows * output->cols * 8;
-
-    __kuiloong_ace_vsetcsr(SCALAR_EN(1) | WRITE_BACK(1) | CLEAR_OB(1) | MODE(CFG_I8) | SHIFT(0) | RESET(0), VEUCFG);
-    __kuiloong_ace_vsetcsr(total_elements, VEUVLEN);
-    __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
-    __kuiloong_ace_vsetcsr((uint32_t)output->matrix, VEUWADDR);
-    __kuiloong_ace_vmax((uint32_t)(0), (uint32_t)fm->matrix);
+    uint32_t total_elements = output->channels * output->rows * output->cols;
+    for (uint32_t i = 0; i < total_elements; ++i) {
+        // ReLU function: f(x) = max(0, x)
+        T input_val = fm->matrix[i];
+        if (input_val > 0) {
+            output->matrix[i] = input_val;
+        } else {
+            output->matrix[i] = 0;
+        }
+    }
 
     return output;
 }

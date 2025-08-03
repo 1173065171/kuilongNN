@@ -1188,11 +1188,6 @@ void veu_benchmark()
 	ACENN_DEBUG("raddr4: %x", (uint32_t)raddr4);
 	ACENN_DEBUG("waddr: %x", (uint32_t)waddr);
 
-	// waddr[0] = 0xA;
-	// asm("ebreak;");
-	// waddr[0] = 0xC;
-	// asm("ebreak;");
-
 	vorcsr_testcase1();
 	vandcsr_testcase1();
 	vsetcsr_testcase1();
