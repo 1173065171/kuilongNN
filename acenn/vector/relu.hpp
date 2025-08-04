@@ -3,67 +3,38 @@
 //                                                                              //
 // Additional contributions by:                                                 //
 //                                                                              //
-// File Name:       relu.hpp                                                    //
+// File Name:       standard_conv2d_scalar.hpp                                  //
 // Project Name:    ACENN                                                       //
 // Language:        cpp                                                         //
 //                                                                              //
-// Description:     ReLU activation function                                    //
+// Description:     Standard convolution                                        //
 //                                                                              //
 //////////////////////////////////////////////////////////////////////////////////
 
-#ifndef __RELU_HPP__
-#define __RELU_HPP__
+#ifndef __VECTOR_RELU_HPP__
+#define __VECTOR_RELU_HPP__
 
 #include "stdint.h"
 #include "common/common.hpp"
+#include "common/xcvnn.hpp"
 
-// Function : relu
 
-template<typename T>
-acenn_matrix<T> *relu(acenn_matrix<T> *fm);
+void relu(int8_t *input_block, int M, int K, int col, int8_t *output_vector)
+{
+    ACENN_DEBUG("VEU gather_trick START: In[%d,%d] col = %d -> Out[%d]", M, K, col, K);
+    uint32_t raddr = (uint32_t)(uintptr_t)(input_block + col*K);
+    uint32_t waddr = (uint32_t)(uintptr_t)output_vector;
 
-template<typename T>
-acenn_matrix<T> *relu(acenn_matrix<T> *fm) {
-    // check input validity
-    if (fm == nullptr || fm->matrix == nullptr) {
-        printf_("ERROR: input feature map is null!\n");
-        asm("ebreak;"); // 中断，停止运行
-        return nullptr;
-    }
-
-    // allocate memory space for output feature map
-    acenn_matrix<T> *output = static_cast<acenn_matrix<T>*>(malloc(sizeof(acenn_matrix<T>)));
-    if (output == nullptr) {
-        printf_("ERROR: failed to allocate output!\n");
-        asm("ebreak;"); // 中断，停止运行
-        return nullptr;
-    }
-
-    // copy dimensions from input feature map
-    output->dims = fm->dims;
-    output->channels = fm->channels;
-    output->rows = fm->rows;
-    output->cols = fm->cols;
-    
-    // allocate memory for output matrix
-    output->matrix = create_tensor<T>(output->dims, output->channels, output->rows, output->cols);
-    if (output->matrix == nullptr) {
-        free(output);
-        printf_("ERROR: failed to allocate output->matrix!\n");
-        asm("ebreak;"); // 中断，停止运行
-        return nullptr;
-    }
-
-    // apply ReLU activation function element-wise
-    uint32_t total_elements = output->channels * output->rows * output->cols * 8;
-
-    __kuiloong_ace_vsetcsr(SCALAR_EN(1) | WRITE_BACK(1) | CLEAR_OB(1) | MODE(CFG_I8) | SHIFT(0) | RESET(0), VEUCFG);
-    __kuiloong_ace_vsetcsr(total_elements, VEUVLEN);
-    __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
-    __kuiloong_ace_vsetcsr((uint32_t)output->matrix, VEUWADDR);
-    __kuiloong_ace_vmax((uint32_t)(0), (uint32_t)fm->matrix);
-
-    return output;
+  __kuiloong_ace_vsetcsr( 
+                          SCALAR_EN(1) | 
+                          WRITE_BACK(1) | 
+                          CLEAR_OB(1) | 
+                          MODE(CFG_I8) | 
+                          SHIFT(0) | 
+                          RESET(0), VEUCFG);
+  __kuiloong_ace_vsetcsr(8*K, VEUVLEN);
+  __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
+  __kuiloong_ace_vmax(0, waddr);
 }
 
 #endif

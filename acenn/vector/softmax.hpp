@@ -11,19 +11,19 @@
 //                                                                              //
 //////////////////////////////////////////////////////////////////////////////////
 
-#ifndef __VECTOR_VADD_HPP__
-#define __VECTOR_VADD_HPP__
+#ifndef __VECTOR_SOFTMAX_HPP__
+#define __VECTOR_SOFTMAX_HPP__
 
 #include "stdint.h"
 #include "common/common.hpp"
 #include "common/xcvnn.hpp"
 
 
-void vadd(int8_t *input_block, int M, int K, int col, int8_t *output_vector)
+void softmax(int8_t *input_block, int M, int K, int col, int8_t *output_vector)
 {
     ACENN_DEBUG("VEU gather_trick START: In[%d,%d] col = %d -> Out[%d]", M, K, col, K);
     uint32_t raddr1 = (uint32_t)(uintptr_t)(input_block + col*K);
-    uint32_t waddr1 = (uint32_t)(uintptr_t)output_vector;
+    uint32_t waddr = (uint32_t)(uintptr_t)output_vector;
 
   __kuiloong_ace_vsetcsr( 
                           SCALAR_EN(0) | 
