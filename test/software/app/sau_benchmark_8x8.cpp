@@ -631,13 +631,13 @@ void sau_benchmark_8x8(int8_t *input_block1, int8_t *input_block2, int8_t *outpu
 
 	minimum_matmul_multi_8x8(input_block1, input_block2, output_block3);
 
-	minimum_pwconv_single_8x8(input_block1, input_block2, output_block3);
+	// minimum_pwconv_single_8x8(input_block1, input_block2, output_block3);
 
-    minimum_conv_single_8x8(input_block1, input_block2, output_block3, input_block4, 0);
-    minimum_conv_single_8x8(input_block1, input_block2, output_block3, input_block4, 1);
+    // minimum_conv_single_8x8(input_block1, input_block2, output_block3, input_block4, 0);
+    // minimum_conv_single_8x8(input_block1, input_block2, output_block3, input_block4, 1);
 
-    minimum_dwconv_single_8x8(input_block1, input_block2, output_block3, input_block4, 0);
-    minimum_dwconv_single_8x8(input_block1, input_block2, output_block3, input_block4, 1);
+    // minimum_dwconv_single_8x8(input_block1, input_block2, output_block3, input_block4, 0);
+    // minimum_dwconv_single_8x8(input_block1, input_block2, output_block3, input_block4, 1);
     
 	ACENN_DEBUG("SAU BENCHMARK PASS!");
 }

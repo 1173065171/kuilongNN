@@ -1,0 +1,45 @@
+从文件 'onnx_filelist.f' 中读取到 1 个模型路径
+
+成功加载ONNX模型: ./model/mmoe_v2_quant.onnx
+  该模型包含 16 种不同的节点类型
+
+===== 所有模型的汇总统计 =====
+总共有 16 种不同的节点类型
+所有模型中出现的节点类型(按字母顺序排列):
+- Add (出现在 1 个模型中，总计 56 次)
+- Cast (出现在 1 个模型中，总计 146 次)
+- Clip (出现在 1 个模型中，总计 58 次)
+- Concat (出现在 1 个模型中，总计 28 次)
+- Gather (出现在 1 个模型中，总计 146 次)
+- Gemm (出现在 1 个模型中，总计 20 次)
+- MatMul (出现在 1 个模型中，总计 36 次)
+- Mul (出现在 1 个模型中，总计 70 次)
+- ReduceProd (出现在 1 个模型中，总计 48 次)
+- ReduceSum (出现在 1 个模型中，总计 6 次)
+- Relu (出现在 1 个模型中，总计 44 次)
+- Reshape (出现在 1 个模型中，总计 122 次)
+- Round (出现在 1 个模型中，总计 58 次)
+- Shape (出现在 1 个模型中，总计 24 次)
+- Softmax (出现在 1 个模型中，总计 12 次)
+- Unsqueeze (出现在 1 个模型中，总计 14 次)
+
+
+sau:
+- Gemm
+- MatMul
+
+veu:
+- Add
+- Mul
+- Cast
+- Clip
+- Concat
+- Gather
+- ReduceSum
+- ReduceProd
+- Reshape
+- Round
+- Shape
+- Softmax
+- Unsqueeze
+

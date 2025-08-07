@@ -7,5 +7,6 @@
 #include "stdlib/malloc.hpp"
 
 void gather_trick(int8_t *input_block, int M, int K, int col, int8_t *output_vector);
+void lookup_softmax8(int8_t *input_vector, uint8_t *output_vector, int N);
 
 #endif

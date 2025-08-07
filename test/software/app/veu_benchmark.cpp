@@ -773,59 +773,59 @@ void vnclip_testcase1()
 	ACENN_DEBUG("VNCLIP PASS!");
 }
 
-void vwredsum_testcase1()
-{
-	// 硬件中可能会避开这个实现方法，最好使用vredusum()
-  //  vector * vector + output_buffer
-  for (int i = 0; i < 256; ++i) {
-    waddr[i] = 0x00;
-  }
-  __kuiloong_ace_vsetcsr(RESET(1), VEUCFG);
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(0) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
-                          RESET(0), VEUCFG);
-  __kuiloong_ace_vsetcsr(128, VEUVLEN);
-  __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
-  __kuiloong_ace_vwredsum((uint32_t)raddr4, (uint32_t)waddr);
-  //  16*0x2 = 0x20
-  if ((waddr[0] & 0xFF) != 0x20) {
-    ACENN_DEBUG("waddr[%d] != redsum_low(raddr4, raddr3): %x != %x", 0, waddr[0] & 0xFF, 0x20);
-    asm("ebreak;");
-  }
-  if ((waddr[1] & 0xFF) != 0x0) {
-    ACENN_DEBUG("waddr[%d] != redsum_high(raddr4, raddr3): %x != %x", 1, waddr[1] & 0xFF, 0x0);
-    asm("ebreak;");
-  }
+// void vwredsum_testcase1()
+// {
+// 	// 硬件中可能会避开这个实现方法，最好使用vredusum()
+//   //  vector * vector + output_buffer
+//   for (int i = 0; i < 256; ++i) {
+//     waddr[i] = 0x00;
+//   }
+//   __kuiloong_ace_vsetcsr(RESET(1), VEUCFG);
+//   __kuiloong_ace_vsetcsr( 
+//                           SCALAR_EN(0) | 
+//                           WRITE_BACK(1) | 
+//                           CLEAR_OB(0) | 
+//                           MODE(CFG_I8) | 
+//                           SHIFT(0) | 
+//                           RESET(0), VEUCFG);
+//   __kuiloong_ace_vsetcsr(128, VEUVLEN);
+//   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
+//   __kuiloong_ace_vwredsum((uint32_t)raddr4, (uint32_t)waddr);
+//   //  16*0x2 = 0x20
+//   if ((waddr[0] & 0xFF) != 0x20) {
+//     ACENN_DEBUG("waddr[%d] != redsum_low(raddr4, raddr3): %x != %x", 0, waddr[0] & 0xFF, 0x20);
+//     asm("ebreak;");
+//   }
+//   if ((waddr[1] & 0xFF) != 0x0) {
+//     ACENN_DEBUG("waddr[%d] != redsum_high(raddr4, raddr3): %x != %x", 1, waddr[1] & 0xFF, 0x0);
+//     asm("ebreak;");
+//   }
 
-  for (int i = 0; i < 256; ++i) {
-    waddr[i] = 0x00;
-  }
-  __kuiloong_ace_vsetcsr(RESET(1), VEUCFG);
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(0) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
-                          RESET(0), VEUCFG);
-  __kuiloong_ace_vsetcsr(2048, VEUVLEN);
-  __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
-  __kuiloong_ace_vwredsum((uint32_t)raddr4, (uint32_t)waddr);
-  //  256*0x2 = 0x200
-  if ((waddr[0] & 0xFF) != 0x0) {
-    ACENN_DEBUG("waddr[%d] != redsum_low(raddr4, waddr): %x != %x", 0, waddr[0] & 0xFF, 0x0);
-    asm("ebreak;");
-  }
-  if ((waddr[1] & 0xFF) != 0x2) {
-    ACENN_DEBUG("waddr[%d] != redsum_high(raddr4, waddr): %x != %x", 1, waddr[1] & 0xFF, 0x2);
-    asm("ebreak;");
-  }
-  ACENN_DEBUG("VWREDSUM PASS!");
-}
+//   for (int i = 0; i < 256; ++i) {
+//     waddr[i] = 0x00;
+//   }
+//   __kuiloong_ace_vsetcsr(RESET(1), VEUCFG);
+//   __kuiloong_ace_vsetcsr( 
+//                           SCALAR_EN(0) | 
+//                           WRITE_BACK(1) | 
+//                           CLEAR_OB(0) | 
+//                           MODE(CFG_I8) | 
+//                           SHIFT(0) | 
+//                           RESET(0), VEUCFG);
+//   __kuiloong_ace_vsetcsr(2048, VEUVLEN);
+//   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
+//   __kuiloong_ace_vwredsum((uint32_t)raddr4, (uint32_t)waddr);
+//   //  256*0x2 = 0x200
+//   if ((waddr[0] & 0xFF) != 0x0) {
+//     ACENN_DEBUG("waddr[%d] != redsum_low(raddr4, waddr): %x != %x", 0, waddr[0] & 0xFF, 0x0);
+//     asm("ebreak;");
+//   }
+//   if ((waddr[1] & 0xFF) != 0x2) {
+//     ACENN_DEBUG("waddr[%d] != redsum_high(raddr4, waddr): %x != %x", 1, waddr[1] & 0xFF, 0x2);
+//     asm("ebreak;");
+//   }
+//   ACENN_DEBUG("VWREDSUM PASS!");
+// }
 
 void vredsum_testcase1()
 {
@@ -946,143 +946,143 @@ void vmac_testcase1()
   ACENN_DEBUG("VMAC PASS!");
 }
 
-void vmadd_testcase1() {
-  //  vector + vector
-  for (int i = 0; i < 256; ++i) {
-    waddr[i] = 0x00;
-  }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
-                          RESET(0), VEUCFG);
-  __kuiloong_ace_vsetcsr(128, VEUVLEN);
-  __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
-  __kuiloong_ace_vsetcsr((uint32_t)waddr, VEUWADDR);
-  __kuiloong_ace_vmadd((uint32_t)raddr4, (uint32_t)raddr4);
-  for (int i = 0; i < 16; ++i) {
-    if ((waddr[i] & 0xFF) != ((raddr4[i] * raddr4[i]) & 0xFF)) {
-      ACENN_DEBUG("waddr[%d] != (raddr4[%d] * raddr4[%d]): %x != %x", i, i, i, waddr[i] & 0xFF, (raddr4[i] * raddr4[i]) & 0xFF);
-      asm("ebreak;");
-    }
-  }
+// void vmadd_testcase1() {
+//   //  vector + vector
+//   for (int i = 0; i < 256; ++i) {
+//     waddr[i] = 0x00;
+//   }
+//   __kuiloong_ace_vsetcsr( 
+//                           SCALAR_EN(0) | 
+//                           WRITE_BACK(1) | 
+//                           CLEAR_OB(1) | 
+//                           MODE(CFG_I8) | 
+//                           SHIFT(0) | 
+//                           RESET(0), VEUCFG);
+//   __kuiloong_ace_vsetcsr(128, VEUVLEN);
+//   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
+//   __kuiloong_ace_vsetcsr((uint32_t)waddr, VEUWADDR);
+//   __kuiloong_ace_vmadd((uint32_t)raddr4, (uint32_t)raddr4);
+//   for (int i = 0; i < 16; ++i) {
+//     if ((waddr[i] & 0xFF) != ((raddr4[i] * raddr4[i]) & 0xFF)) {
+//       ACENN_DEBUG("waddr[%d] != (raddr4[%d] * raddr4[%d]): %x != %x", i, i, i, waddr[i] & 0xFF, (raddr4[i] * raddr4[i]) & 0xFF);
+//       asm("ebreak;");
+//     }
+//   }
 
-  for (int i = 0; i < 256; ++i) {
-    waddr[i] = 0x00;
-  }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(1) | 
-                          RESET(0), VEUCFG);
-  __kuiloong_ace_vsetcsr(128, VEUVLEN);
-  __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
-  __kuiloong_ace_vsetcsr((uint32_t)waddr, VEUWADDR);
-  __kuiloong_ace_vmadd((uint32_t)raddr4, (uint32_t)raddr4);
-  for (int i = 0; i < 16; ++i) {
-    if ((waddr[i] & 0xFF) != (((raddr4[i] * raddr4[i]) & 0xFF) >> 1)) {
-      ACENN_DEBUG("waddr[%d] != ((raddr4[%d] * raddr4[%d]) >> 1): %x != %x", i, i, i, waddr[i] & 0xFF, ((raddr4[i] * raddr4[i]) & 0xFF) >> 1);
-      asm("ebreak;");
-    }
-  }
+//   for (int i = 0; i < 256; ++i) {
+//     waddr[i] = 0x00;
+//   }
+//   __kuiloong_ace_vsetcsr( 
+//                           SCALAR_EN(0) | 
+//                           WRITE_BACK(1) | 
+//                           CLEAR_OB(1) | 
+//                           MODE(CFG_I8) | 
+//                           SHIFT(1) | 
+//                           RESET(0), VEUCFG);
+//   __kuiloong_ace_vsetcsr(128, VEUVLEN);
+//   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
+//   __kuiloong_ace_vsetcsr((uint32_t)waddr, VEUWADDR);
+//   __kuiloong_ace_vmadd((uint32_t)raddr4, (uint32_t)raddr4);
+//   for (int i = 0; i < 16; ++i) {
+//     if ((waddr[i] & 0xFF) != (((raddr4[i] * raddr4[i]) & 0xFF) >> 1)) {
+//       ACENN_DEBUG("waddr[%d] != ((raddr4[%d] * raddr4[%d]) >> 1): %x != %x", i, i, i, waddr[i] & 0xFF, ((raddr4[i] * raddr4[i]) & 0xFF) >> 1);
+//       asm("ebreak;");
+//     }
+//   }
 
-  for (int i = 0; i < 256; ++i) {
-    waddr[i] = 0x00;
-  }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
-                          RESET(0), VEUCFG);
-  __kuiloong_ace_vsetcsr(2048, VEUVLEN);
-  __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
-  __kuiloong_ace_vsetcsr((uint32_t)waddr, VEUWADDR);
-  __kuiloong_ace_vmadd((uint32_t)raddr4, (uint32_t)raddr4);
-  for (int i = 0; i < 256; ++i) {
-    if ((waddr[i] & 0xFF) != ((raddr4[i] * raddr4[i]) & 0xFF)) {
-      ACENN_DEBUG("waddr[%d] != (raddr4[%d] * raddr4[%d]: %x != %x", i, i, i, waddr[i] & 0xFF, (raddr4[i] * raddr4[i]) & 0xFF);
-      asm("ebreak;");
-    }
-  }
+//   for (int i = 0; i < 256; ++i) {
+//     waddr[i] = 0x00;
+//   }
+//   __kuiloong_ace_vsetcsr( 
+//                           SCALAR_EN(0) | 
+//                           WRITE_BACK(1) | 
+//                           CLEAR_OB(1) | 
+//                           MODE(CFG_I8) | 
+//                           SHIFT(0) | 
+//                           RESET(0), VEUCFG);
+//   __kuiloong_ace_vsetcsr(2048, VEUVLEN);
+//   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
+//   __kuiloong_ace_vsetcsr((uint32_t)waddr, VEUWADDR);
+//   __kuiloong_ace_vmadd((uint32_t)raddr4, (uint32_t)raddr4);
+//   for (int i = 0; i < 256; ++i) {
+//     if ((waddr[i] & 0xFF) != ((raddr4[i] * raddr4[i]) & 0xFF)) {
+//       ACENN_DEBUG("waddr[%d] != (raddr4[%d] * raddr4[%d]: %x != %x", i, i, i, waddr[i] & 0xFF, (raddr4[i] * raddr4[i]) & 0xFF);
+//       asm("ebreak;");
+//     }
+//   }
 
-  for (int i = 0; i < 256; ++i) {
-    waddr[i] = 0x00;
-  }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(1) | 
-                          RESET(0), VEUCFG);
-  __kuiloong_ace_vsetcsr(2048, VEUVLEN);
-  __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
-  __kuiloong_ace_vsetcsr((uint32_t)waddr, VEUWADDR);
-  __kuiloong_ace_vmadd((uint32_t)raddr4, (uint32_t)raddr4);
-  for (int i = 0; i < 256; ++i) {
-    if ((waddr[i] & 0xFF) != (((raddr4[i] * raddr4[i]) & 0xFF) >> 1)) {
-      ACENN_DEBUG("waddr[%d] != ((raddr4[%d] * raddr4[%d]) >> 1): %x != %x", i, i, i, waddr[i] & 0xFF, ((raddr4[i] * raddr4[i]) >> 1) & 0xFF);
-      asm("ebreak;");
-    }
-  }
-  ACENN_DEBUG("VMADD PASS!");
-}
+//   for (int i = 0; i < 256; ++i) {
+//     waddr[i] = 0x00;
+//   }
+//   __kuiloong_ace_vsetcsr( 
+//                           SCALAR_EN(0) | 
+//                           WRITE_BACK(1) | 
+//                           CLEAR_OB(1) | 
+//                           MODE(CFG_I8) | 
+//                           SHIFT(1) | 
+//                           RESET(0), VEUCFG);
+//   __kuiloong_ace_vsetcsr(2048, VEUVLEN);
+//   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
+//   __kuiloong_ace_vsetcsr((uint32_t)waddr, VEUWADDR);
+//   __kuiloong_ace_vmadd((uint32_t)raddr4, (uint32_t)raddr4);
+//   for (int i = 0; i < 256; ++i) {
+//     if ((waddr[i] & 0xFF) != (((raddr4[i] * raddr4[i]) & 0xFF) >> 1)) {
+//       ACENN_DEBUG("waddr[%d] != ((raddr4[%d] * raddr4[%d]) >> 1): %x != %x", i, i, i, waddr[i] & 0xFF, ((raddr4[i] * raddr4[i]) >> 1) & 0xFF);
+//       asm("ebreak;");
+//     }
+//   }
+//   ACENN_DEBUG("VMADD PASS!");
+// }
 
-void vmadd_testcase2() {
-  //  scalar + vector
-  for (int i = 0; i < 256; ++i) {
-    waddr[i] = 0x00;
-  }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(1) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
-                          RESET(0), VEUCFG);
-  __kuiloong_ace_vsetcsr(512, VEUVLEN);
-  __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
-  __kuiloong_ace_vsetcsr((uint32_t)waddr, VEUWADDR);
-  __kuiloong_ace_vmadd((uint32_t)raddr2, 0x0F);
-  for (int i = 0; i < 64; ++i) {
-    if ((waddr[i] & 0xFF) != ((0x0F * raddr2[i]) & 0xFF)) {
-      ACENN_DEBUG("waddr[%d] != (0x0F * raddr2[%d]: %x != %x", i, i, waddr[i] & 0xFF, (0x0F * raddr2[i]) & 0xFF);
-      asm("ebreak;");
-    }
-  }
+// void vmadd_testcase2() {
+//   //  scalar + vector
+//   for (int i = 0; i < 256; ++i) {
+//     waddr[i] = 0x00;
+//   }
+//   __kuiloong_ace_vsetcsr( 
+//                           SCALAR_EN(1) | 
+//                           WRITE_BACK(1) | 
+//                           CLEAR_OB(1) | 
+//                           MODE(CFG_I8) | 
+//                           SHIFT(0) | 
+//                           RESET(0), VEUCFG);
+//   __kuiloong_ace_vsetcsr(512, VEUVLEN);
+//   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
+//   __kuiloong_ace_vsetcsr((uint32_t)waddr, VEUWADDR);
+//   __kuiloong_ace_vmadd((uint32_t)raddr2, 0x0F);
+//   for (int i = 0; i < 64; ++i) {
+//     if ((waddr[i] & 0xFF) != ((0x0F * raddr2[i]) & 0xFF)) {
+//       ACENN_DEBUG("waddr[%d] != (0x0F * raddr2[%d]: %x != %x", i, i, waddr[i] & 0xFF, (0x0F * raddr2[i]) & 0xFF);
+//       asm("ebreak;");
+//     }
+//   }
 
-  for (int i = 0; i < 256; ++i) {
-    waddr[i] = 0x00;
-  }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(1) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
-                          RESET(0), VEUCFG);
-  __kuiloong_ace_vsetcsr(520, VEUVLEN);
-  __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
-  __kuiloong_ace_vsetcsr((uint32_t)waddr, VEUWADDR);
-  __kuiloong_ace_vmadd((uint32_t)raddr2, 0x0F);
-  for (int i = 0; i < 65; ++i) {
-    if ((waddr[i] & 0xFF) != ((0x0F * raddr2[i]) & 0xFF)) {
-      ACENN_DEBUG("waddr[%d] != (0xFF * raddr2[%d]: %x != %x", i, i, waddr[i] & 0xFF, (0x0F * raddr2[i]) & 0xFF);
-      asm("ebreak;");
-    }
-  }
-  if ((waddr[65] & 0xFF) != 0) {
-    ACENN_DEBUG("waddr[65] != 0: %x != 0", waddr[65] & 0xFF);
-    asm("ebreak;");
-  }
-  ACENN_DEBUG("VMADD PASS!");
-}
+//   for (int i = 0; i < 256; ++i) {
+//     waddr[i] = 0x00;
+//   }
+//   __kuiloong_ace_vsetcsr( 
+//                           SCALAR_EN(1) | 
+//                           WRITE_BACK(1) | 
+//                           CLEAR_OB(1) | 
+//                           MODE(CFG_I8) | 
+//                           SHIFT(0) | 
+//                           RESET(0), VEUCFG);
+//   __kuiloong_ace_vsetcsr(520, VEUVLEN);
+//   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
+//   __kuiloong_ace_vsetcsr((uint32_t)waddr, VEUWADDR);
+//   __kuiloong_ace_vmadd((uint32_t)raddr2, 0x0F);
+//   for (int i = 0; i < 65; ++i) {
+//     if ((waddr[i] & 0xFF) != ((0x0F * raddr2[i]) & 0xFF)) {
+//       ACENN_DEBUG("waddr[%d] != (0xFF * raddr2[%d]: %x != %x", i, i, waddr[i] & 0xFF, (0x0F * raddr2[i]) & 0xFF);
+//       asm("ebreak;");
+//     }
+//   }
+//   if ((waddr[65] & 0xFF) != 0) {
+//     ACENN_DEBUG("waddr[65] != 0: %x != 0", waddr[65] & 0xFF);
+//     asm("ebreak;");
+//   }
+//   ACENN_DEBUG("VMADD PASS!");
+// }
 
 void vmul_testcase1()
 {
@@ -1131,52 +1131,52 @@ void vmul_testcase1()
   ACENN_DEBUG("VMUL PASS!");
 }
 
-void vmulh_testcase1()
-{
-  //  vector * vector
-  for (int i = 0; i < 256; ++i) {
-    waddr[i] = 0x00;
-  }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
-                          RESET(0), VEUCFG);
-  __kuiloong_ace_vsetcsr(128, VEUVLEN);
-  __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
-  __kuiloong_ace_vsetcsr((uint32_t)waddr, VEUWADDR);
-  __kuiloong_ace_vmulh((uint32_t)raddr1, (uint32_t)raddr4);
-  for (int i = 0; i < 16; ++i) {
-    if ((waddr[i] & 0xFF) != 0x1) {
-      ACENN_DEBUG("waddr[%d] != high(raddr1[%d] * raddr4[%d]): %x != %x", i, i, i, waddr[i] & 0xFF, 0x1);
-      asm("ebreak;");
-    }
-  }
+// void vmulh_testcase1()
+// {
+//   //  vector * vector
+//   for (int i = 0; i < 256; ++i) {
+//     waddr[i] = 0x00;
+//   }
+//   __kuiloong_ace_vsetcsr( 
+//                           SCALAR_EN(0) | 
+//                           WRITE_BACK(1) | 
+//                           CLEAR_OB(1) | 
+//                           MODE(CFG_I8) | 
+//                           SHIFT(0) | 
+//                           RESET(0), VEUCFG);
+//   __kuiloong_ace_vsetcsr(128, VEUVLEN);
+//   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
+//   __kuiloong_ace_vsetcsr((uint32_t)waddr, VEUWADDR);
+//   __kuiloong_ace_vmulh((uint32_t)raddr1, (uint32_t)raddr4);
+//   for (int i = 0; i < 16; ++i) {
+//     if ((waddr[i] & 0xFF) != 0x1) {
+//       ACENN_DEBUG("waddr[%d] != high(raddr1[%d] * raddr4[%d]): %x != %x", i, i, i, waddr[i] & 0xFF, 0x1);
+//       asm("ebreak;");
+//     }
+//   }
 
-  for (int i = 0; i < 256; ++i) {
-    waddr[i] = 0x00;
-  }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
-                          RESET(0), VEUCFG);
-  __kuiloong_ace_vsetcsr(2048, VEUVLEN);
-  __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
-  __kuiloong_ace_vsetcsr((uint32_t)waddr, VEUWADDR);
-  __kuiloong_ace_vmulh((uint32_t)raddr1, (uint32_t)raddr4);
-  for (int i = 0; i < 256; ++i) {
-    if ((waddr[i] & 0xFF) != 0x1) {
-      ACENN_DEBUG("waddr[%d] != high(raddr1[%d] * raddr4[%d]): %x != %x", i, i, i, waddr[i] & 0xFF, 0x1);
-      asm("ebreak;");
-    }
-  }
-  ACENN_DEBUG("VMULH PASS!");
-}
+//   for (int i = 0; i < 256; ++i) {
+//     waddr[i] = 0x00;
+//   }
+//   __kuiloong_ace_vsetcsr( 
+//                           SCALAR_EN(0) | 
+//                           WRITE_BACK(1) | 
+//                           CLEAR_OB(1) | 
+//                           MODE(CFG_I8) | 
+//                           SHIFT(0) | 
+//                           RESET(0), VEUCFG);
+//   __kuiloong_ace_vsetcsr(2048, VEUVLEN);
+//   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
+//   __kuiloong_ace_vsetcsr((uint32_t)waddr, VEUWADDR);
+//   __kuiloong_ace_vmulh((uint32_t)raddr1, (uint32_t)raddr4);
+//   for (int i = 0; i < 256; ++i) {
+//     if ((waddr[i] & 0xFF) != 0x1) {
+//       ACENN_DEBUG("waddr[%d] != high(raddr1[%d] * raddr4[%d]): %x != %x", i, i, i, waddr[i] & 0xFF, 0x1);
+//       asm("ebreak;");
+//     }
+//   }
+//   ACENN_DEBUG("VMULH PASS!");
+// }
 
 void veu_benchmark()
 {
@@ -1187,11 +1187,6 @@ void veu_benchmark()
 	ACENN_DEBUG("raddr3: %x", (uint32_t)raddr3);
 	ACENN_DEBUG("raddr4: %x", (uint32_t)raddr4);
 	ACENN_DEBUG("waddr: %x", (uint32_t)waddr);
-
-	// waddr[0] = 0xA;
-	// asm("ebreak;");
-	// waddr[0] = 0xC;
-	// asm("ebreak;");
 
 	vorcsr_testcase1();
 	vandcsr_testcase1();

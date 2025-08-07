@@ -1,7 +1,7 @@
 #include "veu_benchmark_8x8func.hpp"
-  
+
 bool vector_gather_single_test() {
-    
+
     ACENN_DEBUG("VEU gather8 SINGLE TEST START");
     bool pass, all_pass = 1;
     int8_t *input_block, *output_vector;
@@ -176,6 +176,38 @@ static const int8_t out_sa[32] = {
     all_pass = all_pass && pass;
 }
 
+  ACENN_DEBUG(all_pass?"PASS SAU matmul_multi8 SINGLE TEST END":"FAIL SAU matmul_multi8 SINGLE TEST END");
+  return all_pass;
+}
+
+bool vector_softmax_single_test() {
+  ACENN_DEBUG("VEU softmax8 SINGLE TEST START");
+  bool pass, all_pass = 1;
+  int8_t *input_vector;
+  uint8_t *output_vector;
+  int N;
+  {
+    N = 24;
+    input_vector = (int8_t*)malloc(N * sizeof(int8_t));
+    output_vector = (uint8_t*)malloc(N * sizeof(uint8_t));
+static const int8_t in_sa[24] = { -120, -71, 73, 74, -126, 81, -25, 110, 9, -41, -12, -6, 83, -41, 81, -98, 24, 74, -15, -70, 61, -122, 65, 76 };
+
+static const uint8_t out_sa[24] = { 1, 2, 81, 84, 1, 104, 5, 255, 12, 3, 6, 8, 111, 3, 104, 1, 18, 84, 6, 2, 56, 1, 63, 89 };
+
+    for (int i = 0; i < N; i++) input_vector[i] = in_sa[i];
+    for (int i = 0; i < N; i++) output_vector[i] = 0;
+    lookup_softmax8(input_vector, output_vector, N);
+    pass = true;
+    for (int i = 0; i < N; ++i){if(output_vector[i] != out_sa[i]){pass = false; ACENN_DEBUG("Mismatch[%d]: ref=%d out=%d", i, out_sa[i], output_vector[i]);}}
+    if (pass) {
+      ACENN_DEBUG("PASS softmax: In[%d] N = %d -> Out[%d]", N, N, N);
+    } else {
+      ACENN_DEBUG("FAIL softmax: In[%d] N = %d -> Out[%d]", N, N, N);
+    }
+    free(input_vector);
+    free(output_vector);
+    all_pass = all_pass && pass;
+  }
   ACENN_DEBUG(all_pass?"PASS SAU matmul_multi8 SINGLE TEST END":"FAIL SAU matmul_multi8 SINGLE TEST END");
   return all_pass;
 }

@@ -57,7 +57,7 @@
 #define __kuiloong_ace_vmin(rs1, rs2)           __builtin_riscv_ace_vmin(rs1, rs2)          
 #define __kuiloong_ace_vmax(rs1, rs2)           __builtin_riscv_ace_vmax(rs1, rs2)          
 #define __kuiloong_ace_vredmin(rs1, rs2)        __builtin_riscv_ace_vredmin(rs1, rs2)       
-#define __kuiloong_ace_vredmax(rs1, rs2)        __builtin_riscv_ace_vredmax(rs1, rs2)       
+#define __kuiloong_ace_vredmax(rs1)             __builtin_riscv_ace_vredmax(rs1)       
 #define __kuiloong_ace_vand(rs1, rs2)           __builtin_riscv_ace_vand(rs1, rs2)          
 #define __kuiloong_ace_vor(rs1, rs2)            __builtin_riscv_ace_vor(rs1, rs2)           
 #define __kuiloong_ace_vxor(rs1, rs2)           __builtin_riscv_ace_vxor(rs1, rs2)          

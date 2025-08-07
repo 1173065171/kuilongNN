@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.inc": "cpp",
+			"type_traits": "cpp",
+			"utility": "cpp",
+			"cstdint": "cpp",
+			"compare": "cpp",
+			"string_view": "cpp",
+			"random": "cpp"
+		}
+	}
+}

@@ -14,7 +14,6 @@
 #ifndef __MATRIX_MULTIPLY_SCALAR_HPP__
 #define __MATRIX_MULTIPLY_SCALAR_HPP__
 
-#include "type_traits"
 #include "stdint.h"
 #include "common/common.hpp"
 
