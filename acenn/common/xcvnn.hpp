@@ -16,6 +16,7 @@
 #ifndef __XCVNN_H__
 #define __XCVNN_H__
 
+// veu csr addr
 #define SELECTVEUNUM    0x000
 #define SELECTSAUNUM    0x001
 #define VEUSTATUS       0x100
@@ -27,12 +28,15 @@
 #define VEUMASK         0x106
 #define VEUDEBUG        0x107
 
+// sau csr addr
 #define SAUINS1LSB      0x200
 #define SAUINS1MSB      0x201
 #define SAUINS2LSB      0x202
 #define SAUINS2MSB      0x203
 #define SAUINS3LSB      0x204
 #define SAUINS3MSB      0x205
+#define SAUINS4LSB      0x206
+#define SAUINS4MSB      0x207
 
 //  00: uint8, 01: uint16, 10: int8, 11: int16
 #define CFG_UI8             0b00
@@ -56,8 +60,8 @@
 #define __kuiloong_ace_vsub(rs1, rs2)           __builtin_riscv_ace_vsub(rs1, rs2)          
 #define __kuiloong_ace_vmin(rs1, rs2)           __builtin_riscv_ace_vmin(rs1, rs2)          
 #define __kuiloong_ace_vmax(rs1, rs2)           __builtin_riscv_ace_vmax(rs1, rs2)          
-#define __kuiloong_ace_vredmin(rs1, rs2)        __builtin_riscv_ace_vredmin(rs1, rs2)       
-#define __kuiloong_ace_vredmax(rs1)             __builtin_riscv_ace_vredmax(rs1)       
+#define __kuiloong_ace_vredmin(rs1)             __builtin_riscv_ace_vredmin(rs1)            
+#define __kuiloong_ace_vredmax(rs1)             __builtin_riscv_ace_vredmax(rs1)            
 #define __kuiloong_ace_vand(rs1, rs2)           __builtin_riscv_ace_vand(rs1, rs2)          
 #define __kuiloong_ace_vor(rs1, rs2)            __builtin_riscv_ace_vor(rs1, rs2)           
 #define __kuiloong_ace_vxor(rs1, rs2)           __builtin_riscv_ace_vxor(rs1, rs2)          
@@ -67,14 +71,10 @@
 #define __kuiloong_ace_vssrl(rs1, rs2)          __builtin_riscv_ace_vssrl(rs1, rs2)         
 #define __kuiloong_ace_vssra(rs1, rs2)          __builtin_riscv_ace_vssra(rs1, rs2)         
 #define __kuiloong_ace_vnclip(rs1, rs2)         __builtin_riscv_ace_vnclip(rs1, rs2)        
-#define __kuiloong_ace_vwredsum(rs1, rs2)       __builtin_riscv_ace_vwredsum(rs1, rs2)      
-#define __kuiloong_ace_vredsum(rs1, rs2)        __builtin_riscv_ace_vredsum(rs1, rs2)       
+#define __kuiloong_ace_vredsum(rs1)             __builtin_riscv_ace_vredsum(rs1)            
 #define __kuiloong_ace_vcompress(rs1, rs2)      __builtin_riscv_ace_vcompress(rs1, rs2)     
 #define __kuiloong_ace_vmac(rs1, rs2)           __builtin_riscv_ace_vmac(rs1, rs2)          
-#define __kuiloong_ace_vmadd(rs1, rs2)          __builtin_riscv_ace_vmadd(rs1, rs2)         
 #define __kuiloong_ace_vmul(rs1, rs2)           __builtin_riscv_ace_vmul(rs1, rs2)          
-#define __kuiloong_ace_vmulhsu(rs1, rs2)        __builtin_riscv_ace_vmulhsu(rs1, rs2)       
-#define __kuiloong_ace_vmulh(rs1, rs2)          __builtin_riscv_ace_vmulh(rs1, rs2)         
 
 #define __kuiloong_ace_msetins1(rs1, rs2)       __builtin_riscv_ace_msetins1(rs1, rs2)      
 #define __kuiloong_ace_mgetins1lsb()            __builtin_riscv_ace_mgetins1lsb(0, 0)       
@@ -85,5 +85,8 @@
 #define __kuiloong_ace_msetins3(rs1, rs2)       __builtin_riscv_ace_msetins3(rs1, rs2)      
 #define __kuiloong_ace_mgetins3lsb()            __builtin_riscv_ace_mgetins3lsb(0, 0)       
 #define __kuiloong_ace_mgetins3msb()            __builtin_riscv_ace_mgetins3msb(0, 0)       
+#define __kuiloong_ace_msetins4(rs1, rs2)       __builtin_riscv_ace_msetins4(rs1, rs2)      
+#define __kuiloong_ace_mgetins4lsb()            __builtin_riscv_ace_mgetins4lsb(0, 0)       
+#define __kuiloong_ace_mgetins4msb()            __builtin_riscv_ace_mgetins4msb(0, 0)       
 
 #endif
