@@ -74,7 +74,7 @@ SECTIONS
 	{ *(.comment)} > ram
 
 	/* Set Stack after code & data */
-	linker_stack_start = 0x1002FFF0;
+	linker_stack_start = 0x1006FFFC;
 
 	/DISCARD/ : { *(.note.GNU-stack) *(.gnu_debuglink) *(.gnu.lto_*) *(.riscv.attributes)}
 }

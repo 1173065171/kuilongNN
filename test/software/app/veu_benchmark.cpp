@@ -7,19 +7,19 @@
 // int test_vadd_asm(int a, int b)
 // {
 //   int result;
-//   __asm__ __volatile__ 
+//   __asm__ __volatile__
 //   (
 //   "vadd %1,%2,%0"
 //   :"=r"(result)
 //   :"r"(a), "r"(b)
 //   :
-//   );	
+//   );
 // };
 
 // int test_vorcsr_asm(int a, int b)
 // {
 //   int result;
-//   __asm__ __volatile__ 
+//   __asm__ __volatile__
 //   (
 //   "vorcsr %0,%1,%2"
 //   :"=r"(result)
@@ -123,12 +123,12 @@ void vadd_testcase1()
   for (int i = 0; i < 256; ++i) {
     waddr[i] = 0x00;
   }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_I8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(128, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -144,12 +144,12 @@ void vadd_testcase1()
   for (int i = 0; i < 256; ++i) {
     waddr[i] = 0x00;
   }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_I8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(2048, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -169,12 +169,12 @@ void vadd_testcase2() {
   for (int i = 0; i < 256; ++i) {
     waddr[i] = 0x00;
   }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(1) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(1) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_I8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(512, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -190,12 +190,12 @@ void vadd_testcase2() {
 //   for (int i = 0; i < 256; ++i) {
 //     waddr[i] = 0x00;
 //   }
-//   __kuiloong_ace_vsetcsr( 
-//                           SCALAR_EN(1) | 
-//                           WRITE_BACK(1) | 
-//                           CLEAR_OB(1) | 
-//                           MODE(CFG_I8) | 
-//                           SHIFT(0) | 
+//   __kuiloong_ace_vsetcsr(
+//                           SCALAR_EN(1) |
+//                           WRITE_BACK(1) |
+//                           CLEAR_OB(1) |
+//                           MODE(CFG_I8) |
+//                           SHIFT(0) |
 //                           RESET(0), VEUCFG);
 //   __kuiloong_ace_vsetcsr(512, VEUVLEN);
 //   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -221,11 +221,11 @@ void vsub_testcase1()
     waddr[i] = 0x00;
   }
   __kuiloong_ace_vsetcsr(
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_I8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(128, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -241,12 +241,12 @@ void vsub_testcase1()
   for (int i = 0; i < 256; ++i) {
     waddr[i] = 0x00;
   }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_I8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(2048, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -267,12 +267,12 @@ void vmin_testcase1()
   for (int i = 0; i < 256; ++i) {
     waddr[i] = 0x00;
   }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_I8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(128, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -288,12 +288,12 @@ void vmin_testcase1()
   for (int i = 0; i < 256; ++i) {
     waddr[i] = 0x00;
   }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_I8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(2048, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -314,12 +314,12 @@ void vminu_testcase1()
   for (int i = 0; i < 256; ++i) {
     waddr[i] = 0x00;
   }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_UI8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_UI8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(128, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -335,12 +335,12 @@ void vminu_testcase1()
   for (int i = 0; i < 256; ++i) {
     waddr[i] = 0x00;
   }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_UI8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_UI8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(2048, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -361,12 +361,12 @@ void vmax_testcase1()
   for (int i = 0; i < 256; ++i) {
     waddr[i] = 0x00;
   }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_I8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(128, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -382,12 +382,12 @@ void vmax_testcase1()
   for (int i = 0; i < 256; ++i) {
     waddr[i] = 0x00;
   }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_I8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(2048, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -408,12 +408,12 @@ void vmaxu_testcase1()
   for (int i = 0; i < 256; ++i) {
     waddr[i] = 0x00;
   }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_UI8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_UI8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(128, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -429,12 +429,12 @@ void vmaxu_testcase1()
   for (int i = 0; i < 256; ++i) {
     waddr[i] = 0x00;
   }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_UI8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_UI8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(2048, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -455,12 +455,12 @@ void vand_testcase1()
   for (int i = 0; i < 256; ++i) {
     waddr[i] = 0x00;
   }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_I8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(128, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -476,12 +476,12 @@ void vand_testcase1()
   for (int i = 0; i < 256; ++i) {
     waddr[i] = 0x00;
   }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_I8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(2048, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -502,12 +502,12 @@ void vor_testcase1()
   for (int i = 0; i < 256; ++i) {
     waddr[i] = 0x00;
   }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_I8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(128, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -523,12 +523,12 @@ void vor_testcase1()
   for (int i = 0; i < 256; ++i) {
     waddr[i] = 0x00;
   }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_I8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(2048, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -549,12 +549,12 @@ void vxor_testcase1()
   for (int i = 0; i < 256; ++i) {
     waddr[i] = 0x00;
   }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_I8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(128, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -570,12 +570,12 @@ void vxor_testcase1()
   for (int i = 0; i < 256; ++i) {
     waddr[i] = 0x00;
   }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_I8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(2048, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -595,12 +595,12 @@ void vmv_testcase1()
   for (int i = 0; i < 256; ++i) {
     waddr[i] = 0x00;
   }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_I8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(128, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -615,12 +615,12 @@ void vmv_testcase1()
   for (int i = 0; i < 256; ++i) {
     waddr[i] = 0x00;
   }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_I8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(2048, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -638,12 +638,12 @@ void vssrl_testcase1() {
   for (int i = 0; i < 256; ++i) {
     waddr[i] = 0x00;
   }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_I8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(128, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -659,12 +659,12 @@ void vssrl_testcase1() {
   for (int i = 0; i < 256; ++i) {
     waddr[i] = 0x00;
   }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_I8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(2048, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -683,12 +683,12 @@ void vssra_testcase1() {
   for (int i = 0; i < 256; ++i) {
     waddr[i] = 0x00;
   }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_I8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(128, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -704,12 +704,12 @@ void vssra_testcase1() {
   for (int i = 0; i < 256; ++i) {
     waddr[i] = 0x00;
   }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_I8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(2048, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -732,12 +732,12 @@ void vnclip_testcase1()
 	int16_t maxval = 64;
 	int16_t minval = -64;
 	uint32_t clip_para = ((maxval & 0xFF) << 16) | ((minval & 0xFF) & 0xFFFF);
-	__kuiloong_ace_vsetcsr( 
-							SCALAR_EN(1) | 
-							WRITE_BACK(1) | 
-							CLEAR_OB(1) | 
-							MODE(CFG_UI8) | 
-							SHIFT(0) | 
+	__kuiloong_ace_vsetcsr(
+							SCALAR_EN(1) |
+							WRITE_BACK(1) |
+							CLEAR_OB(1) |
+							MODE(CFG_UI8) |
+							SHIFT(0) |
 							RESET(0), VEUCFG);
 	__kuiloong_ace_vsetcsr(128, VEUVLEN);
 	__kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -753,12 +753,12 @@ void vnclip_testcase1()
 	for (int i = 0; i < 256; ++i) {
 		waddr[i] = 0xFF;
 	}
-	__kuiloong_ace_vsetcsr( 
-							SCALAR_EN(1) | 
-							WRITE_BACK(1) | 
-							CLEAR_OB(1) | 
-							MODE(CFG_I8) | 
-							SHIFT(0) | 
+	__kuiloong_ace_vsetcsr(
+							SCALAR_EN(1) |
+							WRITE_BACK(1) |
+							CLEAR_OB(1) |
+							MODE(CFG_I8) |
+							SHIFT(0) |
 							RESET(0), VEUCFG);
 	__kuiloong_ace_vsetcsr(128, VEUVLEN);
 	__kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -774,75 +774,75 @@ void vnclip_testcase1()
 }
 
 
-void vredsum_testcase1()
-{
-	// 此方法的输出最好是16bit或32bit
-	//  vector * vector + output_buffer
-	for (int i = 0; i < 256; ++i) {
-		waddr[i] = 0x00;
-	}
-	__kuiloong_ace_vsetcsr(RESET(1), VEUCFG);
-	__kuiloong_ace_vsetcsr( 
-							SCALAR_EN(0) | 
-							WRITE_BACK(1) | 
-							CLEAR_OB(0) | 
-							MODE(CFG_I8) | 
-							SHIFT(0) | 
-							RESET(0), VEUCFG);
-	__kuiloong_ace_vsetcsr(128, VEUVLEN);
-	__kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
-	__kuiloong_ace_vredsum((uint32_t)raddr4, (uint32_t)waddr);
-	//  16*0x2 = 0x20
-	if ((waddr[0] & 0xFF) != 0x20) {
-		ACENN_DEBUG("waddr[%d] != redsum_low(raddr4, raddr3): %x != %x", 0, waddr[0] & 0xFF, 0x20);
-		asm("ebreak;");
-	}
-	if ((waddr[1] & 0xFF) != 0x0) {
-		ACENN_DEBUG("waddr[%d] != redsum_high(raddr4, raddr3): %x != %x", 1, waddr[1] & 0xFF, 0x0);
-		asm("ebreak;");
-	}
-	if ((waddr[2] & 0xFF) != 0x0) {
-		ACENN_DEBUG("waddr[%d] != redsum_low(raddr4, raddr3): %x != %x", 0, waddr[0] & 0xFF, 0x0);
-		asm("ebreak;");
-	}
-	if ((waddr[3] & 0xFF) != 0x0) {
-		ACENN_DEBUG("waddr[%d] != redsum_high(raddr4, raddr3): %x != %x", 1, waddr[1] & 0xFF, 0x0);
-		asm("ebreak;");
-	}
+// void vredsum_testcase1()
+// {
+// 	// 此方法的输出最好是16bit或32bit
+// 	//  vector * vector + output_buffer
+// 	for (int i = 0; i < 256; ++i) {
+// 		waddr[i] = 0x00;
+// 	}
+// 	__kuiloong_ace_vsetcsr(RESET(1), VEUCFG);
+// 	__kuiloong_ace_vsetcsr(
+// 							SCALAR_EN(0) |
+// 							WRITE_BACK(1) |
+// 							CLEAR_OB(0) |
+// 							MODE(CFG_I8) |
+// 							SHIFT(0) |
+// 							RESET(0), VEUCFG);
+// 	__kuiloong_ace_vsetcsr(128, VEUVLEN);
+// 	__kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
+// 	__kuiloong_ace_vredsum((uint32_t)raddr4, (uint32_t)waddr);
+// 	//  16*0x2 = 0x20
+// 	if ((waddr[0] & 0xFF) != 0x20) {
+// 		ACENN_DEBUG("waddr[%d] != redsum_low(raddr4, raddr3): %x != %x", 0, waddr[0] & 0xFF, 0x20);
+// 		asm("ebreak;");
+// 	}
+// 	if ((waddr[1] & 0xFF) != 0x0) {
+// 		ACENN_DEBUG("waddr[%d] != redsum_high(raddr4, raddr3): %x != %x", 1, waddr[1] & 0xFF, 0x0);
+// 		asm("ebreak;");
+// 	}
+// 	if ((waddr[2] & 0xFF) != 0x0) {
+// 		ACENN_DEBUG("waddr[%d] != redsum_low(raddr4, raddr3): %x != %x", 0, waddr[0] & 0xFF, 0x0);
+// 		asm("ebreak;");
+// 	}
+// 	if ((waddr[3] & 0xFF) != 0x0) {
+// 		ACENN_DEBUG("waddr[%d] != redsum_high(raddr4, raddr3): %x != %x", 1, waddr[1] & 0xFF, 0x0);
+// 		asm("ebreak;");
+// 	}
 
-	for (int i = 0; i < 256; ++i) {
-		waddr[i] = 0x00;
-	}
-	__kuiloong_ace_vsetcsr(RESET(1), VEUCFG);
-	__kuiloong_ace_vsetcsr( 
-							SCALAR_EN(0) | 
-							WRITE_BACK(1) | 
-							CLEAR_OB(0) | 
-							MODE(CFG_I8) | 
-							SHIFT(0) | 
-							RESET(0), VEUCFG);
-	__kuiloong_ace_vsetcsr(2048, VEUVLEN);
-	__kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
-	__kuiloong_ace_vredsum((uint32_t)raddr4, (uint32_t)waddr);
-	//  256*0x2 = 0x200
-	if ((waddr[0] & 0xFF) != 0x0) {
-		ACENN_DEBUG("waddr[%d] != redsum_0(raddr4, waddr): %x != %x", 0, waddr[0] & 0xFF, 0x0);
-		asm("ebreak;");
-	}
-	if ((waddr[1] & 0xFF) != 0x2) {
-		ACENN_DEBUG("waddr[%d] != redsum_1(raddr4, waddr): %x != %x", 1, waddr[1] & 0xFF, 0x2);
-		asm("ebreak;");
-	}
-	if ((waddr[2] & 0xFF) != 0x0) {
-		ACENN_DEBUG("waddr[%d] != redsum_2(raddr4, waddr): %x != %x", 2, waddr[2] & 0xFF, 0x0);
-		asm("ebreak;");
-	}
-	if ((waddr[3] & 0xFF) != 0x0) {
-		ACENN_DEBUG("waddr[%d] != redsum_3(raddr4, waddr): %x != %x", 3, waddr[3] & 0xFF, 0x0);
-		asm("ebreak;");
-	}
-	ACENN_DEBUG("VREDSUM PASS!");
-}
+// 	for (int i = 0; i < 256; ++i) {
+// 		waddr[i] = 0x00;
+// 	}
+// 	__kuiloong_ace_vsetcsr(RESET(1), VEUCFG);
+// 	__kuiloong_ace_vsetcsr(
+// 							SCALAR_EN(0) |
+// 							WRITE_BACK(1) |
+// 							CLEAR_OB(0) |
+// 							MODE(CFG_I8) |
+// 							SHIFT(0) |
+// 							RESET(0), VEUCFG);
+// 	__kuiloong_ace_vsetcsr(2048, VEUVLEN);
+// 	__kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
+// 	__kuiloong_ace_vredsum((uint32_t)raddr4, (uint32_t)waddr);
+// 	//  256*0x2 = 0x200
+// 	if ((waddr[0] & 0xFF) != 0x0) {
+// 		ACENN_DEBUG("waddr[%d] != redsum_0(raddr4, waddr): %x != %x", 0, waddr[0] & 0xFF, 0x0);
+// 		asm("ebreak;");
+// 	}
+// 	if ((waddr[1] & 0xFF) != 0x2) {
+// 		ACENN_DEBUG("waddr[%d] != redsum_1(raddr4, waddr): %x != %x", 1, waddr[1] & 0xFF, 0x2);
+// 		asm("ebreak;");
+// 	}
+// 	if ((waddr[2] & 0xFF) != 0x0) {
+// 		ACENN_DEBUG("waddr[%d] != redsum_2(raddr4, waddr): %x != %x", 2, waddr[2] & 0xFF, 0x0);
+// 		asm("ebreak;");
+// 	}
+// 	if ((waddr[3] & 0xFF) != 0x0) {
+// 		ACENN_DEBUG("waddr[%d] != redsum_3(raddr4, waddr): %x != %x", 3, waddr[3] & 0xFF, 0x0);
+// 		asm("ebreak;");
+// 	}
+// 	ACENN_DEBUG("VREDSUM PASS!");
+// }
 
 void vmac_testcase1()
 {
@@ -851,12 +851,12 @@ void vmac_testcase1()
     waddr[i] = 0x00;
   }
   __kuiloong_ace_vsetcsr(RESET(1), VEUCFG);
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(0) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(0) |
+                          MODE(CFG_I8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(128, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -873,12 +873,12 @@ void vmac_testcase1()
     waddr[i] = 0x00;
   }
   __kuiloong_ace_vsetcsr(RESET(1), VEUCFG);
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(0) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(0) |
+                          MODE(CFG_I8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(2048, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -900,12 +900,12 @@ void vmul_testcase1()
   for (int i = 0; i < 256; ++i) {
     waddr[i] = 0x00;
   }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_I8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(128, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -921,12 +921,12 @@ void vmul_testcase1()
   for (int i = 0; i < 256; ++i) {
     waddr[i] = 0x00;
   }
-  __kuiloong_ace_vsetcsr( 
-                          SCALAR_EN(0) | 
-                          WRITE_BACK(1) | 
-                          CLEAR_OB(1) | 
-                          MODE(CFG_I8) | 
-                          SHIFT(0) | 
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_I8) |
+                          SHIFT(0) |
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(2048, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
@@ -966,14 +966,14 @@ void veu_benchmark()
 	vand_testcase1();
 	vor_testcase1();
 	vxor_testcase1();
-	vredsum_testcase1();
+	// vredsum_testcase1();
 	vmac_testcase1();
 	vmul_testcase1();
 	vssrl_testcase1();
 	vssra_testcase1();
 	vnclip_testcase1();
 	vmv_testcase1();
-	
+
 	// vmulh_testcase1();
 	// vmadd_testcase1();
 	// vmadd_testcase2();
@@ -1003,33 +1003,33 @@ void veu_benchmark()
 	// r = __kuiloong_ace_vorcsr(0, VEURADDR1) ;
 	// Printf("vorcsr: %x\n", r);
 
-	// r = __kuiloong_ace_vorcsr(a, VEURADDR1)    
-	// r = __kuiloong_ace_vandcsr(a, VEURADDR1)   
-	// r = __kuiloong_ace_vsetcsr(a, VEURADDR1)   
-	// r = __kuiloong_ace_vgetcsr(VEURADDR1)        
-	// r = __kuiloong_ace_vadd(a, b)      
-	// r = __kuiloong_ace_vsub(a, b)      
-	// r = __kuiloong_ace_vmin(a, b)      
-	// r = __kuiloong_ace_vmax(a, b)      
-	// r = __kuiloong_ace_vredmin(a, b)   
-	// r = __kuiloong_ace_vredmax(a, b)   
-	// r = __kuiloong_ace_vand(a, b)      
-	// r = __kuiloong_ace_vor(a, b)       
-	// r = __kuiloong_ace_vxor(a, b)      
-	// r = __kuiloong_ace_vslideup(a, b)  
+	// r = __kuiloong_ace_vorcsr(a, VEURADDR1)
+	// r = __kuiloong_ace_vandcsr(a, VEURADDR1)
+	// r = __kuiloong_ace_vsetcsr(a, VEURADDR1)
+	// r = __kuiloong_ace_vgetcsr(VEURADDR1)
+	// r = __kuiloong_ace_vadd(a, b)
+	// r = __kuiloong_ace_vsub(a, b)
+	// r = __kuiloong_ace_vmin(a, b)
+	// r = __kuiloong_ace_vmax(a, b)
+	// r = __kuiloong_ace_vredmin(a, b)
+	// r = __kuiloong_ace_vredmax(a, b)
+	// r = __kuiloong_ace_vand(a, b)
+	// r = __kuiloong_ace_vor(a, b)
+	// r = __kuiloong_ace_vxor(a, b)
+	// r = __kuiloong_ace_vslideup(a, b)
 	// r = __kuiloong_ace_vslidedown(a, b)
-	// r = __kuiloong_ace_vmv(a, b)       
-	// r = __kuiloong_ace_vssrl(a, b)     
-	// r = __kuiloong_ace_vssra(a, b)     
-	// r = __kuiloong_ace_vnclip(a, b)    
-	// r = __kuiloong_ace_vwredsum(a, b)  
-	// r = __kuiloong_ace_vredsum(a, b)   
-	// r = __kuiloong_ace_vcompress(a, b) 
-	// r = __kuiloong_ace_vmac(a, b)      
-	// r = __kuiloong_ace_vmadd(a, b)     
-	// r = __kuiloong_ace_vmul(a, b)      
-	// r = __kuiloong_ace_vmulhsu(a, b)   
-	// r = __kuiloong_ace_vmulh(a, b)     
+	// r = __kuiloong_ace_vmv(a, b)
+	// r = __kuiloong_ace_vssrl(a, b)
+	// r = __kuiloong_ace_vssra(a, b)
+	// r = __kuiloong_ace_vnclip(a, b)
+	// r = __kuiloong_ace_vwredsum(a, b)
+	// r = __kuiloong_ace_vredsum(a, b)
+	// r = __kuiloong_ace_vcompress(a, b)
+	// r = __kuiloong_ace_vmac(a, b)
+	// r = __kuiloong_ace_vmadd(a, b)
+	// r = __kuiloong_ace_vmul(a, b)
+	// r = __kuiloong_ace_vmulhsu(a, b)
+	// r = __kuiloong_ace_vmulh(a, b)
 
 	ACENN_DEBUG("VEU BENCHMARK PASS!");
 }

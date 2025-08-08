@@ -51,7 +51,7 @@ all: build $(patsubst %.cpp,%.o,$(C_FILE)) $(patsubst %.S,%.o,$(ASM_FILE))
 		fi \
 	done
 	$(PYTHON) $(SCRIPT_DIR)/make_instr_hex.py $(BUILD_DIR)/$(patsubst %.elf,%.bin,$(TARGET)) 65536 > ./build/instruction.hex
-	$(PYTHON) $(SCRIPT_DIR)/make_mem_hex.py $(BUILD_DIR)/$(patsubst %.elf,%.bin,$(TARGET)) 65536 > ./build/memory.hex
+	$(PYTHON) $(SCRIPT_DIR)/make_mem_hex.py $(BUILD_DIR)/$(patsubst %.elf,%.bin,$(TARGET)) 131072 > ./build/memory.hex
 
 allkui: build $(patsubst %.cpp,%.o,$(C_FILE)) $(patsubst %.S,%.o,$(ASM_FILE))
 	$(CC) -mabi=$(ABI) -march=$(ARCH) $(LDFLAGS) -o $(BUILD_DIR)/$(TARGET) $(patsubst %.cpp,%.o,$(C_FILE)) $(patsubst %.S,%.o,$(ASM_FILE)) $(EXTRA_OBJ) -lm -lc -lgcc
@@ -98,7 +98,7 @@ endif
 
 sim:
 	make all -B
-	make move
+	# make move
 
 clean:
 	@rm -rf build
