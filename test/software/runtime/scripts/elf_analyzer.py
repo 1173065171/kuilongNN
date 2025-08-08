@@ -295,12 +295,16 @@ def generate_enhanced_report(sections: Dict[str, List[Dict]], report_filename: s
 def main():
     # 读取符号数据
     if len(sys.argv) > 1:
+        # 打开symbols文件
         try:
             with open(sys.argv[1], 'r') as f:
                 symbol_data = f.read()
         except FileNotFoundError:
             print(f"错误: 文件 '{sys.argv[1]}' 不存在")
             sys.exit(1)
+        
+        # 获取输出报告的路径
+        report_filename = sys.argv[2]
     else:
         print("用法: python enhanced_elf_analyzer.py <符号表文件>")
         print("符号表文件可以通过以下命令生成:")
@@ -315,7 +319,7 @@ def main():
     print_comprehensive_analysis(sections)
     
     # 生成详细报告文件
-    generate_enhanced_report(sections)
+    generate_enhanced_report(sections, report_filename)
 
 if __name__ == "__main__":
     main()

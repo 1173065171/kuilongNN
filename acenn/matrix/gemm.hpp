@@ -39,72 +39,7 @@
 //                           If the operation fails, it returns nullptr.
 ////////////////////////////////////////////////////////////////////////////////
 
-void _split_bigmat_400K(int8_t *input_blockA, int8_t *input_blockB, int M, int K, int N, int8_t *newA[4], int8_t *newB[4])
-{
-  if (K != 400) {
-    ACENN_DEBUG("_split_bigmat_400K, K != 400");
-  }
-  int minblock = 128;
-  // For A: M x K →  split into [M x 128, M x 128, M x 128, M x 16]
-  for (int m = 0; m < M; ++m) {
-    for (int k = 0; k < K; ++k) {
-      int8_t val = input_blockA[m * K + k];
-      if (k < 128)
-        newA[0][m * 128 + k] = val;
-      else if (k < 256)
-        newA[1][m * 128 + (k - 128)] = val;
-      else if (k < 384)
-        newA[2][m * 128 + (k - 256)] = val;
-      else
-        newA[3][m * 16 + (k - 384)] = val;
-    }
-  }
-  // For B: K x N → split into [128 x N, 128 x N, 128 x N, 16 x N]
-  for (int n = 0; n < N; ++n) {
-    for (int k = 0; k < K; ++k) {
-      int8_t val = input_blockB[k * N + n];
-      if (k < 128)
-        newB[0][k * N + n] = val;
-      else if (k < 256)
-        newB[1][(k - 128) * N + n] = val;
-      else if (k < 384)
-        newB[2][(k - 256) * N + n] = val;
-      else
-        newB[3][(k - 384) * N + n] = val;
-    }
-  }
-}
-template<typename T>
-void Kui_Gemm(T *input_blockA, T *input_blockB, T *output_blockD, int M, int K, int N);
-
-template<typename T>
-acenn_matrix<T> *standard_gemm(acenn_matrix<T> *matrixA, acenn_matrix<T> *matrixB, uint8_t shift_fig) {
-    // check matrix size
-    if (matrixA->cols != matrixB->rows) {
-        printf_("ERROR: matrixA cols (%d) != matrixB rows (%d)!\n", matrixA->cols, matrixB->rows);
-        asm("ebreak;"); // 中断，停止运行
-        return nullptr;
-    }
-
-    // allocate memory space of output fm
-    acenn_matrix<T> *output = static_cast<acenn_matrix<T>*>(malloc(sizeof(acenn_matrix<T>)));
-
-    output->dims = 1;
-    output->channels = matrixA->channels;
-    output->rows = matrixA->rows;
-    output->cols = matrixB->cols;
-    output->matrix = create_tensor<T>(output->dims, output->channels, output->rows, output->cols);
-    if (output->matrix == nullptr) {
-        free(output);
-        printf_("ERROR: failed to allocate output->matrix!\n");
-        asm("ebreak;"); // 中断，停止运行
-        return nullptr;
-    }
-    return output;
-}
-
-
-int8_t* gemm(int8_t *input_blockA, int8_t *input_blockB, int M, int K, int N, int cutbit) {
+int8_t* Gemm(int8_t *input_blockA, int8_t *input_blockB, int M, int K, int N, int cutbit) {
   const int us=8;
 // ACENN_DEBUG("SAU matmul_multi8 START: A[%d,%d] B[%d,%d] -> D[%d,%d]", M, K, K, N, M, N);
   int8_t *output_blockD = (int8_t*)malloc(M*N * sizeof(int8_t));
@@ -210,41 +145,4 @@ int8_t* gemm(int8_t *input_blockA, int8_t *input_blockB, int M, int K, int N, in
   return output_blockD;
 }
 
-
-int8_t* fc_multi8(int8_t *input_blockA, int8_t *input_blockB, int8_t *intput_bias, int M, int K, int N, uint32_t cutbit) {
-  const int us=8;
-  // ACENN_DEBUG("SAU fc_multi8 START: A[%d,%d] B[%d,%d] + bias[%d] -> D[%d,%d]", M, K, K, N, N, M, N);
-  // 配置寄存器
-  int8_t *output_blockD = (int8_t*)malloc(M*N * sizeof(int8_t));
-  uint32_t ins1,ins2,ins3,ins4,ins5,ins6,ins7,ins8;
-  uint32_t a_addr,b_addr,d_addr;
-  uint32_t a_ch,b_ch,d_ch,a_x,b_x,d_x;
-  a_ch=0,a_x=K/us,b_ch=us,b_x=N/us,d_ch=1,d_x=N/us;
-  uint32_t id=0,bias_address=0;
-  uint32_t stride_mode=0,transpose_mode=1;
-  uint32_t shift_mode=0;
-  uint32_t register_mode=0, conv_kernel=0, work_mode=1;
-  uint32_t flow_loop_times =K/us, flow_mode = 0;
-  for (int i = 0; i < M/us; i++) {
-    for (int j = 0; j < N/us; j++) {
-      a_addr=(int32_t)(uintptr_t)(input_blockA + us*K*i);
-      b_addr=(int32_t)(uintptr_t)(input_blockB + us*j);
-      d_addr=(int32_t)(uintptr_t)(output_blockD + us*(N*i + j));
-      int32_t bias_address=(int32_t)(uintptr_t)(intput_bias + us*j);
-      ins1 = (transpose_mode&0x03)|((cutbit&0x1f) << 2);
-      ins2 = (register_mode&0x3)|((conv_kernel&0x3)<<2)|((stride_mode&0x1)<<4)|((shift_mode&0x1)<< 5);
-      ins3 = (b_ch&0xFF)|((a_ch&0xFF)<<8)|((d_ch&0xFF)<<16);
-      ins4 = (b_x&0x7F)|((a_x&0x7F)<<8)|((d_x&0x7F)<<16);
-      ins5 = a_addr&0xFFFFF;
-      ins6 = b_addr&0xFFFFF;
-      ins7 = (bias_address&0xFFFFF)|((work_mode&0x3)<<20)|((flow_mode&0x3)<<22)|((flow_loop_times&0x3F)<<24);
-      ins8 = (1&0x1)|((id&0xFF)<<1)|((d_addr&0xFFFFF)<<9);
-      __kuiloong_ace_msetins1(ins1, ins2);
-      __kuiloong_ace_msetins2(ins3, ins4);
-      __kuiloong_ace_msetins3(ins5, ins6);
-      __kuiloong_ace_msetins4(ins7, ins8);
-    }
-  }
-  free(input_blockA);
-  return output_blockD;
-}
+#endif

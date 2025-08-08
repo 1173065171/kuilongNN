@@ -3,43 +3,48 @@
 #include "vector/relu.hpp"
 #include "vector/vecadd.hpp"
 #include "vector/vecmul.hpp"
+#include "vector/softmax.hpp"
 
 extern "C" {
     // 为LLVM IR提供的C接口
-    int Kui_Gemm(int m1, int n1, int m2, int n2, int dims, int channels) {
-        printf_("C Interface Kui_Gemm called: %d %d %d %d %d %d\n", m1, n1, m2, n2, dims, channels);
-        int32_t *output_block = (int32_t *)malloc(m1 * n1 * sizeof(int32_t));
-        int8_t *ptr_a = (int8_t*)n1;
+    int Kui_Gemm(int ma, int mb, int M, int N, int K, int cutbit) {
+        int8_t *ptr_a = (int8_t*)ma;
+        int8_t *ptr_b = (int8_t*)mb;
 
-        for (int i = 0; i < 400 * n1; i++) {
-            ACENN_DEBUG("weight[%d] = %hhd", i, ptr_a[i]);
-        }
-        
         // 调用模板函数 - 这里使用int8_t作为示例
-        // acenn_matrix<int8_t> *result = Gemm<int8_t>((uint32_t)m1, (uint32_t)n1, (uint32_t)m2, (uint32_t)n2, (uint32_t)dims, (uint32_t)channels);
-        
-        // return (result != nullptr) ? 0 : -1;  // 返回成功/失败状态
-        return n1;
+        int8_t *result = Gemm(ptr_a, ptr_b, M, N, K, cutbit);
+
+        return (result != nullptr) ? 0 : -1;  // 返回成功/失败状态
     }
 
-    // int Kui_FC(int m1, int n1, int m2, int n2, int dims, int channels) {
-    //     printf_("C Interface Kui_FC called: %d %d %d %d %d %d\n", m1, n1, m2, n2, dims, channels);
-    //     int32_t *output_block = (int32_t *)malloc(m1 * n1 * sizeof(int32_t));
+    int Kui_Fc(int ma, int mb, int mc, int M, int N, int K, int cutbit) {
+        int8_t *ptr_a = (int8_t*)ma;
+        int8_t *ptr_b = (int8_t*)mb;
+        int8_t *ptr_c = (int8_t*)mc;
 
-        
-    //     // 调用模板函数 - 这里使用int8_t作为示例
-    //     acenn_matrix<int8_t> *result = FC<int8_t>((uint32_t)m1, (uint32_t)n1, (uint32_t)m2, (uint32_t)n2, (uint32_t)dims, (uint32_t)channels);
+        // 调用模板函数 - 这里使用int8_t作为示例
+        int8_t *result = Fc(ptr_a, ptr_b, ptr_c, M, N, K, cutbit);
 
-    //     return (result != nullptr) ? 0 : -1;  // 返回成功/失败状态
-    // }
-    
-    int Kui_Relu(int input, int m, int n) {
-        printf_("C Interface Kui_Relu called: %d\n", input);
-        int32_t *output_block = (int32_t *)malloc(m * n * sizeof(int32_t));
+        return (result != nullptr) ? 0 : -1;  // 返回成功/失败状态
+    }
 
-        // Relu(input, output_block);
+    int Kui_Relu(int i_matrix, int M, int N) {
+        int8_t *ptr_a = (int8_t*)i_matrix;
+
+        int8_t *output = Relu(ptr_a, M, N);
+        return (output != nullptr) ? 0 : -1;
+    }
+
+    int Kui_Softmax(int input, int M, int N) {
+        int8_t *ptr_a = (int8_t*)input;
+
+        Softmax8(ptr_a, M);
         return input;
     }
 
-    
+    int Kui_Concat(int input, int m, int n) {
+
+
+        return input;
+    }
 }
