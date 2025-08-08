@@ -20,6 +20,8 @@ BUILD_DIR=$(realpath ./build)
 TESTCASE_DIR=$(realpath ../../testcase)
 TESTCASE_CHOSEN := $(shell grep '^CONFIG_TESTCASE_CHOSEN=' .config | sed 's/^CONFIG_TESTCASE_CHOSEN="\(.*\)"$$/\1/')
 
+EXTRA_OBJ=./kuiloong.o
+
 # 确保 build 文件夹存在
 build:
 	mkdir -p ./build
@@ -50,6 +52,26 @@ all: build $(patsubst %.cpp,%.o,$(C_FILE)) $(patsubst %.S,%.o,$(ASM_FILE))
 	done
 	$(PYTHON) $(SCRIPT_DIR)/make_instr_hex.py $(BUILD_DIR)/$(patsubst %.elf,%.bin,$(TARGET)) 65536 > ./build/instruction.hex
 	$(PYTHON) $(SCRIPT_DIR)/make_mem_hex.py $(BUILD_DIR)/$(patsubst %.elf,%.bin,$(TARGET)) 65536 > ./build/memory.hex
+
+allkui: build $(patsubst %.cpp,%.o,$(C_FILE)) $(patsubst %.S,%.o,$(ASM_FILE))
+	$(CC) -mabi=$(ABI) -march=$(ARCH) $(LDFLAGS) -o $(BUILD_DIR)/$(TARGET) $(patsubst %.cpp,%.o,$(C_FILE)) $(patsubst %.S,%.o,$(ASM_FILE)) $(EXTRA_OBJ) -lm -lc -lgcc
+	$(OBJCOPY) -O binary $(BUILD_DIR)/$(TARGET) $(BUILD_DIR)/$(patsubst %.elf,%.bin,$(TARGET))
+	$(OBJDUMP) -d -a $(BUILD_DIR)/$(TARGET) > $(BUILD_DIR)/$(patsubst %.elf,%.txt,$(TARGET))
+# 移动 .o 文件到 build 文件夹
+	@for file in $(patsubst %.cpp,%.o,$(C_FILE)) $(patsubst %.S,%.o,$(ASM_FILE)); do \
+		if [ -f "$$file" ]; then \
+			mv "$$file" $(BUILD_DIR)/; \
+		fi \
+	done
+# 移动 .d 文件到 build 文件夹
+	@for file in $(patsubst %.cpp,%.d,$(C_FILE)) $(patsubst %.S,%.d,$(ASM_FILE)); do \
+		if [ -f "$$file" ]; then \
+			mv "$$file" $(BUILD_DIR)/; \
+		fi \
+	done
+	$(PYTHON) $(SCRIPT_DIR)/make_instr_hex.py $(BUILD_DIR)/$(patsubst %.elf,%.bin,$(TARGET)) 65536 > ./build/instruction.hex
+	$(PYTHON) $(SCRIPT_DIR)/make_mem_hex.py $(BUILD_DIR)/$(patsubst %.elf,%.bin,$(TARGET)) 65536 > ./build/memory.hex
+
 
 mod4:
 	$(PYTHON) $(SCRIPT_DIR)/genhex_mod4.py ./build/instruction.hex

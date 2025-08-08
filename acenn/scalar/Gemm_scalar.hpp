@@ -60,70 +60,100 @@
 //                                Returns nullptr if the operation fails due to invalid
 //                                dimensions, memory allocation errors, or other issues.
 ////////////////////////////////////////////////////////////////////////////////
-template<typename T>
-acenn_matrix<T> *matrix_multiply(acenn_matrix<T> *matrix_a, acenn_matrix<T> *matrix_b, uint8_t shift_fig);
+// template<typename T>
+// acenn_matrix<T> *Kui_Gemm(acenn_matrix<T> *matrix_a, acenn_matrix<T> *matrix_b, uint8_t shift_fig);
 
 template<typename T>
-acenn_matrix<T> *matrix_multiply(acenn_matrix<T> *matrix_a, acenn_matrix<T> *matrix_b, uint8_t shift_fig) {
-    // Check if input matrices are valid
-    if (matrix_a == nullptr || matrix_b == nullptr) {
-        printf_("ERROR: Input matrices are null!\n");
-        asm("ebreak;"); // 中断，停止运行
-        return nullptr;
-    }
+acenn_matrix<T> *Kui_Gemm(uint32_t m1, uint32_t n1, uint32_t m2, uint32_t n2, 
+                          uint32_t dims = 1, uint32_t channels = 1);
 
-    // Check if matrix dimensions are compatible for multiplication
-    if (matrix_a->cols != matrix_b->rows) {
-        printf_("ERROR: Matrix dimensions incompatible for multiplication!\n");
-        printf_("Matrix A cols: %d, Matrix B rows: %d\n", matrix_a->cols, matrix_b->rows);
-        asm("ebreak;"); // 中断，停止运行
-        return nullptr;
-    }
 
-    // Allocate memory space for output matrix
+// template<typename T>
+// acenn_matrix<T> *Kui_Gemm(acenn_matrix<T> *matrix_a, acenn_matrix<T> *matrix_b, uint8_t shift_fig) {
+//     // Check if input matrices are valid
+//     if (matrix_a == nullptr || matrix_b == nullptr) {
+//         printf_("ERROR: Input matrices are null!\n");
+//         asm("ebreak;"); // 中断，停止运行
+//         return nullptr;
+//     }
+
+//     // Check if matrix dimensions are compatible for multiplication
+//     if (matrix_a->cols != matrix_b->rows) {
+//         printf_("ERROR: Matrix dimensions incompatible for multiplication!\n");
+//         printf_("Matrix A cols: %d, Matrix B rows: %d\n", matrix_a->cols, matrix_b->rows);
+//         asm("ebreak;"); // 中断，停止运行
+//         return nullptr;
+//     }
+
+//     // Allocate memory space for output matrix
+//     acenn_matrix<T> *output = static_cast<acenn_matrix<T>*>(malloc(sizeof(acenn_matrix<T>)));
+//     if (output == nullptr) {
+//         printf_("ERROR: failed to allocate output matrix!\n");
+//         asm("ebreak;"); // 中断，停止运行
+//         return nullptr;
+//     }
+
+//     // Set output matrix dimensions
+//     output->dims = 1;
+//     output->channels = 1;
+//     output->rows = matrix_a->rows;
+//     output->cols = matrix_b->cols;
+//     output->matrix = create_tensor<T>(output->dims, output->channels, output->rows, output->cols);
+    
+//     if (output->matrix == nullptr) {
+//         free(output);
+//         printf_("ERROR: failed to allocate output->matrix!\n");
+//         asm("ebreak;"); // 中断，停止运行
+//         return nullptr;
+//     }
+
+//     // Perform matrix multiplication
+//     for (uint32_t i = 0; i < output->rows; ++i) {
+//         for (uint32_t j = 0; j < output->cols; ++j) {
+//             T sum = 0;  // Define accumulative variable based on template type T
+
+//             // Compute dot product of row i from matrix_a and column j from matrix_b
+//             for (uint32_t k = 0; k < matrix_a->cols; ++k) {
+//                 T a_val = matrix_a->matrix[i * matrix_a->cols + k];
+//                 T b_val = matrix_b->matrix[k * matrix_b->cols + j];
+//                 sum += a_val * b_val;
+//             }
+            
+//             // Apply shift operation if needed (for fixed-point arithmetic or optimization)
+//             if (shift_fig > 0 && shift_fig <= 63) {
+//                 sum = sum >> (shift_fig & 0x3F);  // Use only lower 6 bits
+//             }
+            
+//             output->matrix[i * output->cols + j] = sum >> shift_fig;
+//         }
+//     }
+
+//     return output;
+// }
+
+// 新的Pass函数实现 - 定义时不要重复默认参数
+template<typename T>
+acenn_matrix<T> *Kui_Gemm(uint32_t m1, uint32_t n1, uint32_t m2, uint32_t n2, 
+                          uint32_t dims, uint32_t channels) {
+    printf_("Kui_Gemm Pass! m1=%u, n1=%u, m2=%u, n2=%u, dims=%u, channels=%u\n", 
+            m1, n1, m2, n2, dims, channels);
+    
+    // 分配一个简单的矩阵结构作为占位符
     acenn_matrix<T> *output = static_cast<acenn_matrix<T>*>(malloc(sizeof(acenn_matrix<T>)));
     if (output == nullptr) {
         printf_("ERROR: failed to allocate output matrix!\n");
-        asm("ebreak;"); // 中断，停止运行
         return nullptr;
     }
-
-    // Set output matrix dimensions
-    output->dims = 1;
-    output->channels = 1;
-    output->rows = matrix_a->rows;
-    output->cols = matrix_b->cols;
-    output->matrix = create_tensor<T>(output->dims, output->channels, output->rows, output->cols);
     
-    if (output->matrix == nullptr) {
-        free(output);
-        printf_("ERROR: failed to allocate output->matrix!\n");
-        asm("ebreak;"); // 中断，停止运行
-        return nullptr;
-    }
-
-    // Perform matrix multiplication
-    for (uint32_t i = 0; i < output->rows; ++i) {
-        for (uint32_t j = 0; j < output->cols; ++j) {
-            T sum = 0;  // Define accumulative variable based on template type T
-
-            // Compute dot product of row i from matrix_a and column j from matrix_b
-            for (uint32_t k = 0; k < matrix_a->cols; ++k) {
-                T a_val = matrix_a->matrix[i * matrix_a->cols + k];
-                T b_val = matrix_b->matrix[k * matrix_b->cols + j];
-                sum += a_val * b_val;
-            }
-            
-            // Apply shift operation if needed (for fixed-point arithmetic or optimization)
-            if (shift_fig > 0 && shift_fig <= 63) {
-                sum = sum >> (shift_fig & 0x3F);  // Use only lower 6 bits
-            }
-            
-            output->matrix[i * output->cols + j] = sum >> shift_fig;
-        }
-    }
-
+    // 设置基本参数
+    output->dims = dims;
+    output->channels = channels;
+    output->rows = m1;
+    output->cols = n2;
+    output->matrix = nullptr;  // Pass函数不分配实际数据
+    
     return output;
 }
+
 
 #endif

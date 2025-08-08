@@ -1,3 +1,8 @@
+// ----- kuiloong
+#include "kuiloong.hpp"
+// #include "matrix/gemm.hpp"
+// #include "vector/relu.hpp"
+
 // ----- component
 #include "stdint.h"
 #include "string.h"
@@ -5,11 +10,11 @@
 #include "stdlib/malloc.hpp"
 
 // ----- testcase
-#include "veu_benchmark.hpp"
+// #include "cpu_benchmark.hpp"
+// #include "veu_benchmark.hpp"
 // #include "sau_benchmark.hpp"
 // #include "sau_benchmark_8x8.hpp"
 // #include "sau_benchmark_8x8_16b.hpp"
-#include "cpu_benchmark.hpp"
 
 
 #define Printf printf_
@@ -36,7 +41,7 @@ void test_benchmark(){
 	// int16_t *matrix4 = (int16_t  *)malloc(1024 * sizeof(int16_t));
 
 
-	veu_benchmark();
+	// veu_benchmark();
 	// sau_benchmark(matrix1, matrix2, matrix3, matrix4);
 	// sau_benchmark_8x8(matrix1, matrix2, matrix3, matrix4);
 	// sau_benchmark_8x8_16b(matrix1, matrix2, matrix3, matrix4);
@@ -71,7 +76,16 @@ int main()
 	malloc_initial();
 
 	// test function
-    test_benchmark();
+    // test_benchmark();
+
+	int m1 = 1;
+	int m2 = 400;
+	int m3 = 16;
+	int m4 = 16;
+	int m5 = 16;
+	int m6 = 16;
+	// main graph
+	int result = main_graph(m1, m2, m3, m4, m5, m6);
 
     // end time
 	EndInsn = insn();

@@ -1,6 +1,4 @@
 #include "sau_benchmark.hpp"
-#include "matrixA.hpp"
-#include "matrixB.hpp"
 #define SIZE 32
 #define BLOCK_SIZE 16
 

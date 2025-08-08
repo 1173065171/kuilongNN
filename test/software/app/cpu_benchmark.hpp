@@ -6,7 +6,7 @@
 #include "common/xcvnn.hpp"
 
 #include "matrix/gemm.hpp"
-#include "scalar/matrix_multiply_scalar.hpp"
+#include "scalar/Gemm_scalar.hpp"
 
 
 void test_component();

@@ -15,6 +15,7 @@ command.md
 
 # build rep
 /test/software/app/build
+/test/software/runtime
 
 # testcase files
 /test/testcase

@@ -39,10 +39,10 @@
 //                           If the operation fails, it returns nullptr.
 ////////////////////////////////////////////////////////////////////////////////
 template<typename T>
-acenn_matrix<T> *fullconnection(acenn_matrix<T> *matrixA, acenn_matrix<T> *matrixB, uint8_t shift_fig);
+acenn_matrix<T> *FullConnection(acenn_matrix<T> *matrixA, acenn_matrix<T> *matrixB, uint8_t shift_fig);
 
 template<typename T>
-acenn_matrix<T> *fullconnection(acenn_matrix<T> *matrixA, acenn_matrix<T> *matrixB, uint8_t shift_fig) {
+acenn_matrix<T> *FullConnection(acenn_matrix<T> *matrixA, acenn_matrix<T> *matrixB, uint8_t shift_fig) {
     // check matrix size
     if (matrixA->cols != matrixB->rows) {
         printf_("ERROR: matrixA cols (%d) != matrixB rows (%d)!\n", matrixA->cols, matrixB->rows);
