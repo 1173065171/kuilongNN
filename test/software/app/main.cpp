@@ -50,9 +50,13 @@ int main()
 
 	// test_printf_();
 	// test_malloc();
-	veu_benchmark();
+	// veu_benchmark();
 	// matmul_multi8(matrix1, matrix2, matrix3);
 	// bool pass = matmul_multi8_test();
+	// matmul_multi8_single_test();
+	// matmul_multi8_single_test();
+	// fc_multi8_single_test_128_128_128();
+	vector_softmax_single_test();
 	// minimum_matmul_multi_8x8_16b(matrix1, matrix2, matrix3);
 	// matmul_multi16_single_test();
 	// matmul_multi16_single_test();
@@ -60,7 +64,7 @@ int main()
 	// ACENN_DEBUG("ENTERN FC MULTI TEST");
 	// fc_multi8_single_test_128_128_128();
 	// vector_gather_single_test();
-	vector_softmax_single_test();
+	// vector_softmax_single_test();
 	// matmul_multi8_test();
 	// bool pass = matmul_multi8_single_test();
 	// bool pass = matmul_multi8_test();
@@ -93,7 +97,7 @@ void test_operator(){
 // extern bool vector_softmax_single_test();
 
 // int main()
-// { 
+// {
 // 	ACENN_DEBUG("kuiloongNN main function started!");
 // 	long BeginInsn, EndInsn;
 //     // start time

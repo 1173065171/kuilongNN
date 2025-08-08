@@ -187,12 +187,12 @@ bool vector_softmax_single_test() {
   uint8_t *output_vector;
   int N;
   {
-    N = 24;
+    N = 32;
     input_vector = (int8_t*)malloc(N * sizeof(int8_t));
     output_vector = (uint8_t*)malloc(N * sizeof(uint8_t));
-static const int8_t in_sa[24] = { -120, -71, 73, 74, -126, 81, -25, 110, 9, -41, -12, -6, 83, -41, 81, -98, 24, 74, -15, -70, 61, -122, 65, 76 };
+static const int8_t in_sa[32] = { 2, 55, 43, -74, 102, -71, 59, -45, -56, 27, 120, -30, -102, -104, -63, -76, 121, 90, -77, -39, -113, -113, 1, 10, 72, 2, -35, 74, -73, 98, 81, 68 };
 
-static const uint8_t out_sa[24] = { 1, 2, 81, 84, 1, 104, 5, 255, 12, 3, 6, 8, 111, 3, 104, 1, 18, 84, 6, 2, 56, 1, 63, 89 };
+static const uint8_t out_sa[32] = { 7, 33, 23, 1, 142, 2, 37, 2, 2, 14, 248, 3, 1, 1, 2, 1, 255, 97, 1, 3, 1, 1, 7, 9, 56, 7, 3, 59, 1, 125, 73, 49 };
 
     for (int i = 0; i < N; i++) input_vector[i] = in_sa[i];
     for (int i = 0; i < N; i++) output_vector[i] = 0;

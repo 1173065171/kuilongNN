@@ -66,9 +66,12 @@ void lookup_softmax8(int8_t *input_vector, uint8_t *output_vector, int N) {
 
     __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
   ACENN_DEBUG("5");
+  ACENN_DEBUG("raddr = %p", raddr);
+  ACENN_DEBUG("waddr = %p", waddr);
   __kuiloong_ace_vsetcsr(waddr, VEUWADDR);
-  __kuiloong_ace_vredmax(raddr);
   ACENN_DEBUG("6");
+  __kuiloong_ace_vredmax(raddr);
+  ACENN_DEBUG("7");
   }
   ACENN_DEBUG("max = %d", *max_val);
   for (int i = 0; i < N; ++i) {
