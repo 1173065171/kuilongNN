@@ -40,8 +40,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 int8_t* Fc(int8_t *input_blockA, int8_t *input_blockB, int8_t *intput_bias, int M, int K, int N, uint32_t cutbit) {
 	const int us=8;
-	// ACENN_DEBUG("SAU fc_multi8 START: A[%d,%d] B[%d,%d] + bias[%d] -> D[%d,%d]", M, K, K, N, N, M, N);
-	// 配置寄存器
+	
 	int8_t *output_blockD = (int8_t*)malloc(M*N * sizeof(int8_t));
 	uint32_t ins1,ins2,ins3,ins4,ins5,ins6,ins7,ins8;
 	uint32_t a_addr,b_addr,d_addr;

@@ -22,8 +22,8 @@
 #pragma once
 #define PRINTF_FTOA_BUFFER_SIZE    32U
 
-#pragma once
-#define PRINTF_SUPPORT_FLOAT
+// #pragma once
+// #define PRINTF_SUPPORT_FLOAT
 
 #pragma once
 #define PRINTF_SUPPORT_EXPONENTIAL

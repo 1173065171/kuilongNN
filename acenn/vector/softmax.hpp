@@ -37,8 +37,9 @@ const uint8_t piecewise_exp_lut_32[256] = {
     160,166,171,177,182,188,193,199,206,213,220,227,234,241,248,255
 };
 
-uint8_t* Softmax8(int8_t *input_vector, int N) {
-    // ACENN_DEBUG("VEU lookup_softmax8 START: In[%d] N = %d -> Out[%d]", N, N, N);
+uint8_t* Softmax8(int8_t *input_vector, int M, int N) {
+    ACENN_DEBUG("Get in Softmax8");
+    ACENN_DEBUG("VEU lookup_softmax8 START: In[%d] N = %d -> Out[%d]", N, N, N);
     int8_t* max_val = (int8_t*)malloc(sizeof(int8_t));
     uint8_t *output_vector = (uint8_t*)malloc(N * sizeof(uint8_t));
 

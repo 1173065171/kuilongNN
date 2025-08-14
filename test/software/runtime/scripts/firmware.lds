@@ -26,7 +26,7 @@ SECTIONS
 	} > rom
 	. = ALIGN(4);
 
-	__rodata_start__ = .;
+	__rodata_start__ = 0x10000000;
 	.rodata : ALIGN(16)
 	{
 		*(.rodata .rodata.* .gnu.linkonce.r.*)    

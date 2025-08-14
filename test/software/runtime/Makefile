@@ -78,7 +78,7 @@ else ifeq ($(filter testcase3 testcase4 testcase5 testcase6 testcase7, $(TESTCAS
 endif
 
 sim:
-	make all -B
+	make allkui -B
 	make move
 
 clean:

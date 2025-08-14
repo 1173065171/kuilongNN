@@ -22,6 +22,7 @@
 int8_t* Relu(int8_t *input_block, int M, int N)
 {
     // 参考 Softmax8 的内存分配模式
+    ACENN_DEBUG("Get in Relu")
     int8_t *output_vector = (int8_t*)malloc(M * N * sizeof(int8_t));
     
     uint32_t raddr = (uint32_t)(uintptr_t)input_block;

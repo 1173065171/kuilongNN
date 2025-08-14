@@ -13,18 +13,24 @@
 
 int main()
 { 
-	ACENN_DEBUG("kuiloongNN main function started!");
+	ACENN_DEBUG("kuiloongNN main() started!");
 	malloc_initial();
-	int8_t  *input_matrix = (int8_t *)malloc(8 * 400 * sizeof(int8_t));
-	int8_t  *output_matrix = (int8_t *)malloc(64 * 128 * sizeof(int8_t));
 
+	ACENN_DEBUG("kuiloongNN input/output malloc!");
+	int8_t  *input_matrix = (int8_t *)malloc(8 * 64 * sizeof(int8_t));
+	int8_t  *output_matrix = (int8_t *)malloc(8 * 12 * sizeof(int8_t));
+
+	ACENN_DEBUG("kuiloongNN main_graph() started!");
 	// main graph
 	output_matrix = main_graph(
-		input_matrix,
-		KuiGemm_model_dense_MatMul_model_dense_Relu_model_dense_BiasAdd_Gemm__142_const_fold_opt__359_quant_1
+		input_matrix
 	);
+	free(input_matrix);
+    free(output_matrix);
+	ACENN_DEBUG("kuiloongNN main_graph() over!");
 
 	asm("ebreak;"); // 中断，停止运行
+	return 0;
 }
 
 
