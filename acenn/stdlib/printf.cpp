@@ -22,6 +22,7 @@
 #pragma once
 #define PRINTF_FTOA_BUFFER_SIZE    32U
 
+// 这里注释是因为要防止float相关库编译到目标文件中
 // #pragma once
 // #define PRINTF_SUPPORT_FLOAT
 
