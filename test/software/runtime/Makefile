@@ -79,7 +79,6 @@ endif
 
 sim:
 	make allkui -B
-	make move
 
 clean:
 	@rm -rf build
