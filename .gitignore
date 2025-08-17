@@ -14,8 +14,9 @@ command.md
 *.log
 
 # build rep
-/test/software/app/build
-/test/software/runtime/build
+test/sim/simulator/firmware/gcc_backend
+test/software/app/build
+test/software/runtime/build
 
 # testcase files
-/test/testcase
+test/testcase
