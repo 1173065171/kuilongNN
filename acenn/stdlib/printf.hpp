@@ -23,7 +23,7 @@
 #include "stddef.h"
 #include "stdarg.h"
 
-// #define KUILOONG_DEBUG
+#define KUILOONG_DEBUG
 
 // 条件编译 print功能是否执行， 不执行可以减少cpu操作数
 #ifndef KUILOONG_DEBUG

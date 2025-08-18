@@ -35,7 +35,7 @@ extern "C" {
         // 调用模板函数 - 这里使用int8_t作为示例
         ACENN_DEBUG("Get in FC");
         ACENN_DEBUG("malloc size-- M:%d, K:%d, N:%d", M1, K1, N2);
-        int8_t *result = Gemm(MA, MB, M1, N2, K2, cutbit);
+        int8_t *result = Gemm(MA, MB, M1, K1, N2, cutbit);
 
         return result;
     }

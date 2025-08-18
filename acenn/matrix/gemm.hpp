@@ -56,6 +56,7 @@ int8_t* Gemm(int8_t *input_blockA, int8_t *input_blockB, int M, int K, int N, in
         for (int j = 0; j < N/us; j++) {
 
             int32_t flow_loop_times=K/us;
+            ACENN_DEBUG("flow_times : %d", flow_loop_times);
             int32_t new_flow_loop_times;
             int32_t flow_mode=0;
             if (flow_loop_times >= 64) {
