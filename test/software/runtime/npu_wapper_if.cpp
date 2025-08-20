@@ -43,7 +43,7 @@ extern "C" {
     int8_t* Kui_Mul(int8_t* MA, int M1, int N1, int K1, int8_t* MB, int M2, int N2, int K2, int cutbit) {
 
         // 调用模板函数 - 这里使用int8_t作为示例
-        ACENN_DEBUG("Get in VecMul");
+        ACENN_DEBUG("Get in Kui_VecMul");
         ACENN_DEBUG("malloc size-- M:%d, K:%d, N:%d", M1, K1, N1);
         int8_t *result = VecMul(MA, MB, M1, K1, N1);
 
@@ -51,9 +51,9 @@ extern "C" {
     }
 
     int8_t* Kui_ReduceSum(int8_t* i_matrix, int M, int K, int N, int axes, int axesn) {
-        ACENN_DEBUG("Get in VecMul");
+        ACENN_DEBUG("Get in Kui_ReduceSum");
         ACENN_DEBUG("malloc size-- M:%d, N:%d", M, N);
-        int8_t *result = CpuReduceSum_K(i_matrix, M, K, N);
+        int8_t *result = VecReduceSumK(i_matrix, M, K, N);
 
         return result;
     }
@@ -61,7 +61,7 @@ extern "C" {
     int8_t* Kui_Relu(int8_t* i_matrix, int M, int N) {
 
         int8_t *result = Relu(i_matrix, M, N);
-        
+
         return result;
     }
 

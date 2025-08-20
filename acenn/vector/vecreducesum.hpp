@@ -19,11 +19,11 @@
 #include "common/xcvnn.hpp"
 
 
-int8_t* VecReduceSum(int8_t *input_block, int M, int K, int N)
+int8_t* VecReduceSumM(int8_t *input_block, int M, int K, int N)
 {
     ACENN_DEBUG("Get in VecAdd");
-    ACENN_DEBUG("malloc size-- M:%d, K:%d", M, K);
-    int8_t *output_vector = (int8_t*)malloc(M*K * sizeof(int8_t));
+    ACENN_DEBUG("malloc size-- M:%d, K:%d", M, N);
+    int8_t *output_vector = (int8_t*)malloc(M*N * sizeof(int8_t));
     
     uint32_t raddr1 = (uint32_t)(uintptr_t)input_block;
     uint32_t waddr = (uint32_t)(uintptr_t)output_vector;
@@ -35,14 +35,94 @@ int8_t* VecReduceSum(int8_t *input_block, int M, int K, int N)
                             MODE(CFG_I8) | 
                             SHIFT(0) | 
                             RESET(0), VEUCFG);
-    __kuiloong_ace_vsetcsr(8*M*K, VEUVLEN);
+    __kuiloong_ace_vsetcsr(8*N, VEUVLEN);
     __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
-    __kuiloong_ace_vsetcsr(waddr, VEUWADDR);
-    __kuiloong_ace_vredsum(raddr1);
+
+    for(int i=0;i<M;i++){
+        raddr1 += K * N;
+        waddr += N;
+        for(int j=1;j<K;j++){
+            uint32_t raddr2 =  raddr1 + j * N;
+
+            __kuiloong_ace_vsetcsr(waddr, VEUWADDR);
+            __kuiloong_ace_vadd(raddr1, raddr2);
+        }
+    }
 
     free(input_block);
     return output_vector;
 }
+
+
+int8_t* VecReduceSumK(int8_t *input_block, int M, int K, int N)
+{
+    ACENN_DEBUG("Get in VecAdd");
+    ACENN_DEBUG("malloc size-- M:%d, K:%d", M, N);
+    int8_t *output_vector = (int8_t*)malloc(M*N * sizeof(int8_t));
+    
+    uint32_t raddr1 = (uint32_t)(uintptr_t)input_block;
+    uint32_t waddr = (uint32_t)(uintptr_t)output_vector;
+
+    __kuiloong_ace_vsetcsr( 
+                            SCALAR_EN(0) | 
+                            WRITE_BACK(1) | 
+                            CLEAR_OB(1) | 
+                            MODE(CFG_I8) | 
+                            SHIFT(0) | 
+                            RESET(0), VEUCFG);
+    __kuiloong_ace_vsetcsr(8*N, VEUVLEN);
+    __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
+
+    for(int i=0;i<M;i++){
+        raddr1 += K * N;
+        waddr += N;
+        for(int j=1;j<K;j++){
+            uint32_t raddr2 =  raddr1 + j * N;
+
+            __kuiloong_ace_vsetcsr(waddr, VEUWADDR);
+            __kuiloong_ace_vadd(raddr1, raddr2);
+        }
+    }
+
+    free(input_block);
+    return output_vector;
+}
+
+
+int8_t* VecReduceSumN(int8_t *input_block, int M, int K, int N)
+{
+    ACENN_DEBUG("Get in VecAdd");
+    ACENN_DEBUG("malloc size-- M:%d, K:%d", M, N);
+    int8_t *output_vector = (int8_t*)malloc(M*N * sizeof(int8_t));
+    
+    uint32_t raddr1 = (uint32_t)(uintptr_t)input_block;
+    uint32_t waddr = (uint32_t)(uintptr_t)output_vector;
+
+    __kuiloong_ace_vsetcsr( 
+                            SCALAR_EN(0) | 
+                            WRITE_BACK(1) | 
+                            CLEAR_OB(1) | 
+                            MODE(CFG_I8) | 
+                            SHIFT(0) | 
+                            RESET(0), VEUCFG);
+    __kuiloong_ace_vsetcsr(8*N, VEUVLEN);
+    __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
+
+    for(int i=0;i<M;i++){
+        raddr1 += K * N;
+        waddr += N;
+        for(int j=1;j<K;j++){
+            uint32_t raddr2 =  raddr1 + j * N;
+
+            __kuiloong_ace_vsetcsr(waddr, VEUWADDR);
+            __kuiloong_ace_vadd(raddr1, raddr2);
+        }
+    }
+
+    free(input_block);
+    return output_vector;
+}
+
 
 
 // 对M维求和，输出K×N

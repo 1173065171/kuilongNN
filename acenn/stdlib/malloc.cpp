@@ -19,9 +19,9 @@
 
 typedef unsigned int uint32_t;
 
-int buddy_addr[100] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-int buddy_order[100] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-int buddy_use[100] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+int buddy_addr[10] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+int buddy_order[10] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+int buddy_use[10] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 
 #define USE_SLAB 1
 
@@ -45,7 +45,7 @@ void *malloc(uint32_t size)
         } else if (size <= BUDDY_MAX_SIZE) {
             int order = get_buddy_order(size);
             void *addr = (void *)get_free_pages(0,order);
-            for (int i=0; i<100; ++i) {
+            for (int i=0; i<10; ++i) {
                 if (buddy_use[i] == 0) {
                     buddy_use[i] = 1;
                     buddy_addr[i] = (uint32_t)addr;
@@ -81,7 +81,7 @@ void free(void *addr)
 #ifdef DEBUG_MALLOC
         ACENN_DEBUG("free addr: %x", (uint32_t)addr);
 #endif
-        for (int i=99; i>=0; i--) {
+        for (int i=9; i>=0; i--) {
             if (buddy_use[i] && (buddy_addr[i] == (uint32_t)addr)) {
                 buddy_use[i] = 0;
                 put_free_pages((void *)buddy_addr[i], buddy_order[i]);
