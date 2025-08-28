@@ -19,18 +19,22 @@
 
 typedef unsigned int uint32_t;
 
+#ifdef USE_SLAB
 int buddy_addr[10] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 int buddy_order[10] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 int buddy_use[10] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-
-#define USE_SLAB 1
+#endif
 
 int malloc_init(void)
 {   
     #ifdef USE_SLAB
         return kmalloc_init();
     #else
-        return kmalloc_init();
+        #ifdef USE_FIRST_FIT
+            return init_heap();
+        #else
+            return kmalloc_init();
+        #endif
     #endif
 }
 
@@ -71,7 +75,11 @@ void *malloc(uint32_t size)
         return nullptr;
 
 #else
+    #ifdef USE_FIRST_FIT
+        return ff_malloc(size);
+    #else
         return kmalloc(size);
+    #endif
 #endif
 }
 
@@ -90,10 +98,15 @@ void free(void *addr)
         }
         kfree(addr);
     #else
-        kfree(addr);
+        #ifdef USE_FIRST_FIT
+            ff_free(addr);
+        #else
+            kfree(addr);
+        #endif
     #endif
 }
 
+#ifdef USE_SLAB
 void malloc_initial()
 {
     init_page_map();
@@ -174,5 +187,6 @@ void test_malloc_boundary(void)
     free(p2);
     free(p3);
 }
+#endif
 
 #endif

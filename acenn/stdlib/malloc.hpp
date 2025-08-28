@@ -15,9 +15,13 @@
 #ifndef __MALLOC_HPP__
 #define __MALLOC_HPP__
 
-#include "stdlib/slab.hpp"
+// #define USE_SLAB 1
+#define USE_FIRST_FIT 1
+
+// #include "stdlib/slab.hpp"
+// #include "stdlib/slab.hpp"
 #include "stdlib/printf.hpp"
-#include "stdlib/slab.hpp"
+#include "stdlib/first_fit.hpp"
 
 int malloc_init(void);
 
@@ -27,8 +31,10 @@ void free(void *addr);
 
 void malloc_initial();
 
+#ifdef USE_SLAB
 void test_malloc(void);
 
 void test_malloc_boundary(void);
+#endif
 
 #endif
