@@ -15,13 +15,15 @@
 #ifndef __MALLOC_HPP__
 #define __MALLOC_HPP__
 
-// #define USE_SLAB 1
-#define USE_FIRST_FIT 1
+#include "stdlib/config.hpp"
 
-// #include "stdlib/slab.hpp"
-// #include "stdlib/slab.hpp"
+#ifdef USE_SLAB
+#include "stdlib/slab.hpp"
+#include "stdlib/slab.hpp"
+#elif USE_FIRST_FIT
 #include "stdlib/printf.hpp"
 #include "stdlib/first_fit.hpp"
+#endif
 
 int malloc_init(void);
 

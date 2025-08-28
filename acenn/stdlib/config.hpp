@@ -38,3 +38,7 @@
 #define MAX_PAGE_NUM_EXP 4
 
 #endif
+
+// select malloc algo
+// #define USE_SLAB 1
+#define USE_FIRST_FIT 1

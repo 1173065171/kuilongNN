@@ -33,7 +33,6 @@ int main()
     ACENN_DEBUG("kuiloongNN main_graph() completed!");
     
     // 释放内存
-    free(input_0);
     free(output_matrix);
     
     ACENN_DEBUG("kuiloongNN main_graph() over!");

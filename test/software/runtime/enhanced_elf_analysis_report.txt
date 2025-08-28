@@ -3,34 +3,34 @@ ELF符号综合分析报告
 ================================================================================
 
 📊 总体统计:
-   符号总数: 104
-   CODE段: 81个符号, 7232 bytes (7.1 KB)
+   符号总数: 85
+   CODE段: 64个符号, 8444 bytes (8.2 KB)
    DATA段: 1个符号, Unknown
-   READONLY段: 12个符号, 29228 bytes (28.5 KB)
-   BSS段: 8个符号, 1704 bytes (1.7 KB)
+   READONLY段: 12个符号, 28620 bytes (27.9 KB)
+   BSS段: 6个符号, 24 bytes
    OTHER段: 2个符号, 196592 bytes (192.0 KB)
 
 📂 CODE 段分析:
 ============================================================
-   总符号数量: 81
-   可分析大小: 69
-   总段大小: 7232 bytes (7.1 KB)
-   平均符号大小: 104 bytes
+   总符号数量: 64
+   可分析大小: 53
+   总段大小: 8444 bytes (8.2 KB)
+   平均符号大小: 159 bytes
 
 🔝 最大的10个符号:
 ------------------------------------------------------------
 地址           大小               类型                   符号名
 ------------------------------------------------------------
-00000fe6     1316 bytes (1.3 KB) Text (Local Code)    printf_related
-0000189a     934 bytes        Text (Global Code)   __udivdi3
-0000004e     550 bytes        Text (Global Code)   _Z4GemmPaS_iiii
-00000c90     470 bytes        Text (Local Code)    _ZL12_ntoa_formatPFvcPvjjEPcjjS2_jbjjjj
-00000b72     272 bytes        Text (Global Code)   malloc_related
-00000274     268 bytes        Text (Global Code)   _Z2FcPaS_S_iiij
-00000eee     230 bytes        Text (Local Code)    _ZL15_ntoa_long_longPFvcPvjjEPcjjybyjjj
-00000652     182 bytes        Text (Global Code)   _Z8Softmax8Paii
-00000ac4     174 bytes        Text (Global Code)   malloc_related
-0000088c     146 bytes        Text (Global Code)   _Z17put_pages_to_listP4pagei
+0000169c     1316 bytes (1.3 KB) Text (Local Code)    printf_related
+00001d56     934 bytes        Text (Global Code)   __udivdi3
+00000132     656 bytes        Text (Global Code)   _Z4GemmPaS_iiii
+000004d0     652 bytes        Text (Global Code)   _Z6MatmulPaS_iiii
+0000134a     470 bytes        Text (Local Code)    _ZL12_ntoa_formatPFvcPvjjEPcjjS2_jbjjjj
+0000000e     292 bytes        Text (Global Code)   main
+00000d66     292 bytes        Text (Global Code)   _Z8Softmax8Paii
+000003c2     270 bytes        Text (Global Code)   _Z2FcPaS_S_iiij
+00000a04     236 bytes        Text (Global Code)   _Z13VecReduceSumKPaiii
+00000af0     236 bytes        Text (Global Code)   _Z13VecReduceSumNPaiii
 
 📂 DATA 段分析:
 ============================================================
@@ -41,48 +41,46 @@ ELF符号综合分析报告
 ============================================================
    总符号数量: 12
    可分析大小: 9
-   总段大小: 29228 bytes (28.5 KB)
-   平均符号大小: 3247 bytes (3.2 KB)
+   总段大小: 28620 bytes (27.9 KB)
+   平均符号大小: 3180 bytes (3.1 KB)
 
 🔝 最大的10个符号:
 ------------------------------------------------------------
 地址           大小               类型                   符号名
 ------------------------------------------------------------
-100002d0     25344 bytes (24.8 KB) Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
-100066d8     2808 bytes (2.7 KB) Read-only Data (Global) __rodata_end__
-10000000     640 bytes        Read-only Data (Local) _ZL20piecewise_exp_lut_32
-100065d0     264 bytes        Read-only Data (Local) __clz_tab
-100071d0     92 bytes         Read-only Data (Local) $d
-10000290     64 bytes         Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
-10000282     14 bytes         Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
-10000280     1 bytes          Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
-10000281     1 bytes          Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
+10000600     25344 bytes (24.8 KB) Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
+10006a08     2580 bytes (2.5 KB) Read-only Data (Global) __rodata_end__
+10006900     264 bytes        Read-only Data (Local) __clz_tab
+100004ac     260 bytes        Read-only Data (Local) _ZL20piecewise_exp_lut_32
+1000741c     92 bytes         Read-only Data (Local) $d
+100005c0     64 bytes         Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
+100005b2     14 bytes         Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
+100005b0     1 bytes          Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
+100005b1     1 bytes          Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
 
 🎯 READONLY段模式分析:
 ------------------------------------------------------------
    常量: 1个, 25344 bytes (24.8 KB)
-     • 100002d0: 25344 bytes (24.8 KB) - KuiGemm_model_dense_MatMul_model_dense_Relu_model_
-   其他: 8个, 3884 bytes (3.8 KB)
-     • 100066d8: 2808 bytes (2.7 KB) - __rodata_end__
-     • 10000000: 640 bytes - _ZL20piecewise_exp_lut_32
-     • 100065d0: 264 bytes - __clz_tab
+     • 10000600: 25344 bytes (24.8 KB) - KuiGemm_model_dense_MatMul_model_dense_Relu_model_
+   其他: 8个, 3276 bytes (3.2 KB)
+     • 10006a08: 2580 bytes (2.5 KB) - __rodata_end__
+     • 10006900: 264 bytes - __clz_tab
+     • 100004ac: 260 bytes - _ZL20piecewise_exp_lut_32
 
 📂 BSS 段分析:
 ============================================================
-   总符号数量: 8
-   可分析大小: 5
-   总段大小: 1704 bytes (1.7 KB)
-   平均符号大小: 340 bytes
+   总符号数量: 6
+   可分析大小: 3
+   总段大小: 24 bytes
+   平均符号大小: 8 bytes
 
 🔝 最大的10个符号:
 ------------------------------------------------------------
 地址           大小               类型                   符号名
 ------------------------------------------------------------
-10007724     448 bytes        BSS (Global Uninitialized) kmalloc_cache
-10007274     400 bytes        BSS (Global Uninitialized) buddy_use
-10007404     400 bytes        BSS (Global Uninitialized) buddy_addr
-10007594     400 bytes        BSS (Global Uninitialized) buddy_order
-1000723c     56 bytes         BSS (Global Uninitialized) page_buddy
+10007490     16 bytes         BSS (Local Uninitialized) _ZL4list
+10007488     4 bytes          BSS (Global Uninitialized) __data_end__
+1000748c     4 bytes          BSS (Local Uninitialized) _ZL5first
 
 📂 OTHER 段分析:
 ============================================================
@@ -100,7 +98,7 @@ ELF符号综合分析报告
 🔍 跨段分析:
 ============================================================
 KuiLoong相关符号分布:
-   Text (Global Code): 8个, 62 bytes
+   Text (Global Code): 8个, 722 bytes
    Read-only Data (Global): 5个, 25424 bytes (24.8 KB)
 
 ================================================================================
@@ -109,25 +107,25 @@ CODE段详细符号列表
 
 📂 CODE 段分析:
 ============================================================
-   总符号数量: 81
-   可分析大小: 69
-   总段大小: 7232 bytes (7.1 KB)
-   平均符号大小: 104 bytes
+   总符号数量: 64
+   可分析大小: 53
+   总段大小: 8444 bytes (8.2 KB)
+   平均符号大小: 159 bytes
 
 🔝 最大的10个符号:
 ------------------------------------------------------------
 地址           大小               类型                   符号名
 ------------------------------------------------------------
-00000fe6     1316 bytes (1.3 KB) Text (Local Code)    printf_related
-0000189a     934 bytes        Text (Global Code)   __udivdi3
-0000004e     550 bytes        Text (Global Code)   _Z4GemmPaS_iiii
-00000c90     470 bytes        Text (Local Code)    _ZL12_ntoa_formatPFvcPvjjEPcjjS2_jbjjjj
-00000b72     272 bytes        Text (Global Code)   malloc_related
-00000274     268 bytes        Text (Global Code)   _Z2FcPaS_S_iiij
-00000eee     230 bytes        Text (Local Code)    _ZL15_ntoa_long_longPFvcPvjjEPcjjybyjjj
-00000652     182 bytes        Text (Global Code)   _Z8Softmax8Paii
-00000ac4     174 bytes        Text (Global Code)   malloc_related
-0000088c     146 bytes        Text (Global Code)   _Z17put_pages_to_listP4pagei
+0000169c     1316 bytes (1.3 KB) Text (Local Code)    printf_related
+00001d56     934 bytes        Text (Global Code)   __udivdi3
+00000132     656 bytes        Text (Global Code)   _Z4GemmPaS_iiii
+000004d0     652 bytes        Text (Global Code)   _Z6MatmulPaS_iiii
+0000134a     470 bytes        Text (Local Code)    _ZL12_ntoa_formatPFvcPvjjEPcjjS2_jbjjjj
+0000000e     292 bytes        Text (Global Code)   main
+00000d66     292 bytes        Text (Global Code)   _Z8Softmax8Paii
+000003c2     270 bytes        Text (Global Code)   _Z2FcPaS_S_iiij
+00000a04     236 bytes        Text (Global Code)   _Z13VecReduceSumKPaiii
+00000af0     236 bytes        Text (Global Code)   _Z13VecReduceSumNPaiii
 
 📋 完整符号列表:
 ------------------------------------------------------------
@@ -136,84 +134,67 @@ CODE段详细符号列表
 00000000     Unknown      Text (Global Code)   __text_start__
 00000000     14 bytes     Text (Global Code)   _start
 0000000e     Unknown      Text (Local Code)    $xrv32i2p1_m2p0_c2p0_zmmul1p0_xcvnn1p0
-0000000e     64 bytes     Text (Global Code)   main
-0000004e     Unknown      Text (Local Code)    $xrv32i2p1_m2p0_c2p0_zmmul1p0_xcvnn1p0
-0000004e     550 bytes    Text (Global Code)   _Z4GemmPaS_iiii
-00000274     268 bytes    Text (Global Code)   _Z2FcPaS_S_iiij
-00000380     2 bytes      Text (Global Code)   _Z6MatmulPaS_iiii
-00000382     70 bytes     Text (Global Code)   _Z4ReluPaii
-000003c8     74 bytes     Text (Global Code)   _Z6VecAddPaS_ii
-00000412     116 bytes    Text (Global Code)   _Z6VecMulPaS_iii
-00000486     70 bytes     Text (Global Code)   _Z12VecReduceSumPaiii
-000004cc     128 bytes    Text (Global Code)   _Z14CpuReduceSum_MPaiii
-0000054c     130 bytes    Text (Global Code)   _Z14CpuReduceSum_KPaiii
-000005ce     132 bytes    Text (Global Code)   _Z14CpuReduceSum_NPaiii
-00000652     182 bytes    Text (Global Code)   _Z8Softmax8Paii
-00000708     2 bytes      Text (Global Code)   Kui_Gemm
-0000070a     14 bytes     Text (Global Code)   Kui_FC
-00000718     10 bytes     Text (Global Code)   Kui_Mul
-00000722     2 bytes      Text (Global Code)   Kui_ReduceSum
-00000724     2 bytes      Text (Global Code)   Kui_Relu
-00000726     20 bytes     Text (Global Code)   Kui_Softmax
-0000073a     2 bytes      Text (Global Code)   Kui_Concat
-0000073c     2 bytes      Text (Global Code)   Concat3
-0000073e     10 bytes     Text (Global Code)   Kui_Add
-00000748     Unknown      Text (Local Code)    $xrv32i2p1_m2p0_c2p0_zmmul1p0_xcvnn1p0
-00000748     38 bytes     Text (Global Code)   _Z12virt_to_pagej
-0000076e     24 bytes     Text (Global Code)   _Z15init_page_buddyv
-00000786     124 bytes    Text (Global Code)   _Z13init_page_mapv
-00000802     138 bytes    Text (Global Code)   _Z19get_pages_from_listi
-0000088c     146 bytes    Text (Global Code)   _Z17put_pages_to_listP4pagei
-0000091e     4 bytes      Text (Global Code)   _Z12page_addressP4page
-00000922     52 bytes     Text (Global Code)   _Z11alloc_pagesji
-00000956     30 bytes     Text (Global Code)   _Z10free_pagesP4pagei
-00000974     20 bytes     Text (Global Code)   _Z14get_free_pagesji
-00000988     16 bytes     Text (Global Code)   _Z14put_free_pagesPvi
-00000998     92 bytes     Text (Global Code)   _Z15get_buddy_orderj
-000009f4     Unknown      Text (Local Code)    $xrv32i2p1_m2p0_c2p0_zmmul1p0_xcvnn1p0
-000009f4     90 bytes     Text (Local Code)    malloc_related
-00000a4e     4 bytes      Text (Global Code)   malloc_related
-00000a52     14 bytes     Text (Global Code)   malloc_related
-00000a60     62 bytes     Text (Global Code)   _Z4freePv
-00000a9e     38 bytes     Text (Global Code)   malloc_related
-00000ac4     174 bytes    Text (Global Code)   malloc_related
-00000b72     272 bytes    Text (Global Code)   malloc_related
-00000c82     Unknown      Text (Local Code)    $xrv32i2p1_m2p0_c2p0_zmmul1p0_xcvnn1p0
-00000c82     12 bytes     Text (Local Code)    _ZL11_out_buffercPvjj
-00000c8e     2 bytes      Text (Local Code)    _ZL9_out_nullcPvjj
-00000c90     470 bytes    Text (Local Code)    _ZL12_ntoa_formatPFvcPvjjEPcjjS2_jbjjjj
-00000e66     136 bytes    Text (Local Code)    _ZL10_ntoa_longPFvcPvjjEPcjjmbmjjj
-00000eee     230 bytes    Text (Local Code)    _ZL15_ntoa_long_longPFvcPvjjEPcjjybyjjj
-00000fd4     8 bytes      Text (Local Code)    _ZL9_out_charcPvjj
-00000fdc     10 bytes     Text (Local Code)    _ZL8_out_fctcPvjj
-00000fe6     1316 bytes (1.3 KB) Text (Local Code)    printf_related
-0000150a     2 bytes      Text (Global Code)   _Z8_putcharc
-0000150c     42 bytes     Text (Global Code)   printf_related
-00001536     40 bytes     Text (Global Code)   printf_related
-0000155e     38 bytes     Text (Global Code)   printf_related
-00001584     26 bytes     Text (Global Code)   printf_related
-0000159e     16 bytes     Text (Global Code)   printf_related
-000015ae     42 bytes     Text (Global Code)   printf_related
-000015d8     76 bytes     Text (Global Code)   printf_related
-00001624     Unknown      Text (Local Code)    $xrv32i2p1_m2p0_c2p0_zmmul1p0_xcvnn1p0
-00001624     52 bytes     Text (Global Code)   _Z16find_right_orderj
-00001658     44 bytes     Text (Global Code)   _Z22kmem_cache_line_objectPvji
-00001684     104 bytes    Text (Global Code)   _Z17kmem_cache_createP10kmem_cachejj
-000016ec     56 bytes     Text (Global Code)   _Z18kmem_cache_destroyP10kmem_cache
-00001724     14 bytes     Text (Global Code)   _Z15kmem_cache_freeP10kmem_cachePv
-00001732     110 bytes    Text (Global Code)   _Z16kmem_cache_allocP10kmem_cachej
-000017a0     60 bytes     Text (Global Code)   malloc_related
-000017dc     46 bytes     Text (Global Code)   malloc_related
-0000180a     20 bytes     Text (Global Code)   _Z5kfreePv
-0000181e     Unknown      Text (Local Code)    $xrv32i2p1_m2p0_c2p0_zmmul1p0_xcvnn1p0
-0000181e     8 bytes      Text (Global Code)   _Z9uart_putci
-00001826     20 bytes     Text (Global Code)   _Z9uart_putsPc
-0000183a     Unknown      Text (Local Code)    $x
-0000183a     96 bytes     Text (Global Code)   main_graph
-0000189a     Unknown      Text (Local Code)    $xrv32i2p1_m2p0_a2p1_c2p0_zmmul1p0_xcvnn
-0000189a     934 bytes    Text (Global Code)   __udivdi3
-00001c40     Unknown      Text (Local Code)    $xrv32i2p1_m2p0_a2p1_c2p0_zmmul1p0_xcvnn
-00001c40     Unknown      Text (Global Code)   __umoddi3
+0000000e     292 bytes    Text (Global Code)   main
+00000132     Unknown      Text (Local Code)    $xrv32i2p1_m2p0_c2p0_zmmul1p0_xcvnn1p0
+00000132     656 bytes    Text (Global Code)   _Z4GemmPaS_iiii
+000003c2     270 bytes    Text (Global Code)   _Z2FcPaS_S_iiij
+000004d0     652 bytes    Text (Global Code)   _Z6MatmulPaS_iiii
+0000075c     132 bytes    Text (Global Code)   _Z4ReluPaii
+000007e0     194 bytes    Text (Global Code)   _Z6VecAddPaS_ii
+000008a2     122 bytes    Text (Global Code)   _Z6VecMulPaS_iii
+0000091c     232 bytes    Text (Global Code)   _Z13VecReduceSumMPaiii
+00000a04     236 bytes    Text (Global Code)   _Z13VecReduceSumKPaiii
+00000af0     236 bytes    Text (Global Code)   _Z13VecReduceSumNPaiii
+00000bdc     132 bytes    Text (Global Code)   _Z14CpuReduceSum_MPaiii
+00000c60     130 bytes    Text (Global Code)   _Z14CpuReduceSum_KPaiii
+00000ce2     132 bytes    Text (Global Code)   _Z14CpuReduceSum_NPaiii
+00000d66     292 bytes    Text (Global Code)   _Z8Softmax8Paii
+00000e8a     180 bytes    Text (Global Code)   Kui_Gemm
+00000f3e     174 bytes    Text (Global Code)   Kui_FC
+00000fec     170 bytes    Text (Global Code)   Kui_Mul
+00001096     160 bytes    Text (Global Code)   Kui_ReduceSum
+00001136     4 bytes      Text (Global Code)   Kui_Relu
+0000113a     20 bytes     Text (Global Code)   Kui_Softmax
+0000114e     2 bytes      Text (Global Code)   Kui_Concat
+00001150     2 bytes      Text (Global Code)   Concat3
+00001152     12 bytes     Text (Global Code)   Kui_Add
+0000115e     Unknown      Text (Local Code)    $xrv32i2p1_m2p0_c2p0_zmmul1p0_xcvnn1p0
+0000115e     58 bytes     Text (Global Code)   _Z9init_heapv
+00001198     102 bytes    Text (Global Code)   _Z7ff_freePv
+000011fe     102 bytes    Text (Global Code)   malloc_related
+00001264     42 bytes     Text (Global Code)   _Z6callocjj
+0000128e     154 bytes    Text (Global Code)   _Z7reallocPvj
+00001328     Unknown      Text (Local Code)    $xrv32i2p1_m2p0_c2p0_zmmul1p0_xcvnn1p0
+00001328     14 bytes     Text (Global Code)   malloc_related
+00001336     2 bytes      Text (Global Code)   malloc_related
+00001338     2 bytes      Text (Global Code)   _Z4freePv
+0000133a     2 bytes      Text (Global Code)   malloc_related
+0000133c     Unknown      Text (Local Code)    $xrv32i2p1_m2p0_c2p0_zmmul1p0_xcvnn1p0
+0000133c     12 bytes     Text (Local Code)    _ZL11_out_buffercPvjj
+00001348     2 bytes      Text (Local Code)    _ZL9_out_nullcPvjj
+0000134a     470 bytes    Text (Local Code)    _ZL12_ntoa_formatPFvcPvjjEPcjjS2_jbjjjj
+00001520     136 bytes    Text (Local Code)    _ZL10_ntoa_longPFvcPvjjEPcjjmbmjjj
+000015a8     228 bytes    Text (Local Code)    _ZL15_ntoa_long_longPFvcPvjjEPcjjybyjjj
+0000168c     6 bytes      Text (Local Code)    _ZL9_out_charcPvjj
+00001692     10 bytes     Text (Local Code)    _ZL8_out_fctcPvjj
+0000169c     1316 bytes (1.3 KB) Text (Local Code)    printf_related
+00001bc0     2 bytes      Text (Global Code)   _Z8_putcharc
+00001bc2     42 bytes     Text (Global Code)   printf_related
+00001bec     40 bytes     Text (Global Code)   printf_related
+00001c14     38 bytes     Text (Global Code)   printf_related
+00001c3a     26 bytes     Text (Global Code)   printf_related
+00001c54     16 bytes     Text (Global Code)   printf_related
+00001c64     42 bytes     Text (Global Code)   printf_related
+00001c8e     76 bytes     Text (Global Code)   printf_related
+00001cda     Unknown      Text (Local Code)    $xrv32i2p1_m2p0_c2p0_zmmul1p0_xcvnn1p0
+00001cda     8 bytes      Text (Global Code)   _Z9uart_putci
+00001ce2     20 bytes     Text (Global Code)   _Z9uart_putsPc
+00001cf6     Unknown      Text (Local Code)    $x
+00001cf6     96 bytes     Text (Global Code)   main_graph
+00001d56     Unknown      Text (Local Code)    $xrv32i2p1_m2p0_a2p1_c2p0_zmmul1p0_xcvnn
+00001d56     934 bytes    Text (Global Code)   __udivdi3
+000020fc     Unknown      Text (Local Code)    $xrv32i2p1_m2p0_a2p1_c2p0_zmmul1p0_xcvnn
+000020fc     Unknown      Text (Global Code)   __umoddi3
 
 ================================================================================
 DATA段详细符号列表
@@ -228,7 +209,7 @@ DATA段详细符号列表
 ------------------------------------------------------------
 地址           大小           类型                   符号名
 ------------------------------------------------------------
-1000722c     Unknown      Data (Local Initialized) _GLOBAL_OFFSET_TABLE_
+10007478     Unknown      Data (Local Initialized) _GLOBAL_OFFSET_TABLE_
 
 ================================================================================
 READONLY段详细符号列表
@@ -238,48 +219,48 @@ READONLY段详细符号列表
 ============================================================
    总符号数量: 12
    可分析大小: 9
-   总段大小: 29228 bytes (28.5 KB)
-   平均符号大小: 3247 bytes (3.2 KB)
+   总段大小: 28620 bytes (27.9 KB)
+   平均符号大小: 3180 bytes (3.1 KB)
 
 🔝 最大的10个符号:
 ------------------------------------------------------------
 地址           大小               类型                   符号名
 ------------------------------------------------------------
-100002d0     25344 bytes (24.8 KB) Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
-100066d8     2808 bytes (2.7 KB) Read-only Data (Global) __rodata_end__
-10000000     640 bytes        Read-only Data (Local) _ZL20piecewise_exp_lut_32
-100065d0     264 bytes        Read-only Data (Local) __clz_tab
-100071d0     92 bytes         Read-only Data (Local) $d
-10000290     64 bytes         Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
-10000282     14 bytes         Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
-10000280     1 bytes          Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
-10000281     1 bytes          Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
+10000600     25344 bytes (24.8 KB) Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
+10006a08     2580 bytes (2.5 KB) Read-only Data (Global) __rodata_end__
+10006900     264 bytes        Read-only Data (Local) __clz_tab
+100004ac     260 bytes        Read-only Data (Local) _ZL20piecewise_exp_lut_32
+1000741c     92 bytes         Read-only Data (Local) $d
+100005c0     64 bytes         Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
+100005b2     14 bytes         Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
+100005b0     1 bytes          Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
+100005b1     1 bytes          Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
 
 🎯 READONLY段模式分析:
 ------------------------------------------------------------
    常量: 1个, 25344 bytes (24.8 KB)
-     • 100002d0: 25344 bytes (24.8 KB) - KuiGemm_model_dense_MatMul_model_dense_Relu_model_
-   其他: 8个, 3884 bytes (3.8 KB)
-     • 100066d8: 2808 bytes (2.7 KB) - __rodata_end__
-     • 10000000: 640 bytes - _ZL20piecewise_exp_lut_32
-     • 100065d0: 264 bytes - __clz_tab
+     • 10000600: 25344 bytes (24.8 KB) - KuiGemm_model_dense_MatMul_model_dense_Relu_model_
+   其他: 8个, 3276 bytes (3.2 KB)
+     • 10006a08: 2580 bytes (2.5 KB) - __rodata_end__
+     • 10006900: 264 bytes - __clz_tab
+     • 100004ac: 260 bytes - _ZL20piecewise_exp_lut_32
 
 📋 完整符号列表:
 ------------------------------------------------------------
 地址           大小           类型                   符号名
 ------------------------------------------------------------
-10000000     640 bytes    Read-only Data (Local) _ZL20piecewise_exp_lut_32
-10000280     Unknown      Read-only Data (Local) $d
-10000280     1 bytes      Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
-10000281     1 bytes      Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
-10000282     14 bytes     Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
-10000290     64 bytes     Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
-100002d0     25344 bytes (24.8 KB) Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
-100065d0     264 bytes    Read-only Data (Local) __clz_tab
-100066d8     Unknown      Read-only Data (Local) __GNU_EH_FRAME_HDR
-100066d8     2808 bytes (2.7 KB) Read-only Data (Global) __rodata_end__
-100071d0     92 bytes     Read-only Data (Local) $d
-1000722c     Unknown      Read-only Data (Global) __data_start__
+100004ac     260 bytes    Read-only Data (Local) _ZL20piecewise_exp_lut_32
+100005b0     Unknown      Read-only Data (Local) $d
+100005b0     1 bytes      Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
+100005b1     1 bytes      Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
+100005b2     14 bytes     Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
+100005c0     64 bytes     Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
+10000600     25344 bytes (24.8 KB) Read-only Data (Global) KuiGemm_model_dense_MatMul_model_dense_R
+10006900     264 bytes    Read-only Data (Local) __clz_tab
+10006a08     Unknown      Read-only Data (Local) __GNU_EH_FRAME_HDR
+10006a08     2580 bytes (2.5 KB) Read-only Data (Global) __rodata_end__
+1000741c     92 bytes     Read-only Data (Local) $d
+10007478     Unknown      Read-only Data (Global) __data_start__
 
 ================================================================================
 BSS段详细符号列表
@@ -287,33 +268,29 @@ BSS段详细符号列表
 
 📂 BSS 段分析:
 ============================================================
-   总符号数量: 8
-   可分析大小: 5
-   总段大小: 1704 bytes (1.7 KB)
-   平均符号大小: 340 bytes
+   总符号数量: 6
+   可分析大小: 3
+   总段大小: 24 bytes
+   平均符号大小: 8 bytes
 
 🔝 最大的10个符号:
 ------------------------------------------------------------
 地址           大小               类型                   符号名
 ------------------------------------------------------------
-10007724     448 bytes        BSS (Global Uninitialized) kmalloc_cache
-10007274     400 bytes        BSS (Global Uninitialized) buddy_use
-10007404     400 bytes        BSS (Global Uninitialized) buddy_addr
-10007594     400 bytes        BSS (Global Uninitialized) buddy_order
-1000723c     56 bytes         BSS (Global Uninitialized) page_buddy
+10007490     16 bytes         BSS (Local Uninitialized) _ZL4list
+10007488     4 bytes          BSS (Global Uninitialized) __data_end__
+1000748c     4 bytes          BSS (Local Uninitialized) _ZL5first
 
 📋 完整符号列表:
 ------------------------------------------------------------
 地址           大小           类型                   符号名
 ------------------------------------------------------------
-1000723c     Unknown      BSS (Global Uninitialized) __bss_start__
-1000723c     Unknown      BSS (Global Uninitialized) __data_end__
-1000723c     56 bytes     BSS (Global Uninitialized) page_buddy
-10007274     400 bytes    BSS (Global Uninitialized) buddy_use
-10007404     400 bytes    BSS (Global Uninitialized) buddy_addr
-10007594     400 bytes    BSS (Global Uninitialized) buddy_order
-10007724     448 bytes    BSS (Global Uninitialized) kmalloc_cache
-100078e4     Unknown      BSS (Global Uninitialized) __bss_end__
+10007488     Unknown      BSS (Local Uninitialized) _ZL16heap_initialized
+10007488     Unknown      BSS (Global Uninitialized) __bss_start__
+10007488     4 bytes      BSS (Global Uninitialized) __data_end__
+1000748c     4 bytes      BSS (Local Uninitialized) _ZL5first
+10007490     16 bytes     BSS (Local Uninitialized) _ZL4list
+100074a0     Unknown      BSS (Global Uninitialized) __bss_end__
 
 ================================================================================
 OTHER段详细符号列表

@@ -29,12 +29,11 @@ int malloc_init(void)
 {   
     #ifdef USE_SLAB
         return kmalloc_init();
+    #elif USE_FIRST_FIT
+        init_heap();
+        return 0;
     #else
-        #ifdef USE_FIRST_FIT
-            return init_heap();
-        #else
-            return kmalloc_init();
-        #endif
+        return kmalloc_init();
     #endif
 }
 
@@ -42,80 +41,78 @@ void *malloc(uint32_t size)
 {
     // ACENN_DEBUG("malloc size: %x", size);
 #ifdef USE_SLAB
-        // FIXME：此处为两种分配的兼容性代码，请根据分配需要使用
-        // 阈值判断的方法可能会造成malloc卡顿
-        if (size < SLAB_MAX_SIZE) {
-            return kmalloc(size);
-        } else if (size <= BUDDY_MAX_SIZE) {
-            int order = get_buddy_order(size);
-            void *addr = (void *)get_free_pages(0,order);
-            for (int i=0; i<10; ++i) {
-                if (buddy_use[i] == 0) {
-                    buddy_use[i] = 1;
-                    buddy_addr[i] = (uint32_t)addr;
-                    buddy_order[i] = order;
+    // FIXME：此处为两种分配的兼容性代码，请根据分配需要使用
+    // 阈值判断的方法可能会造成malloc卡顿
+    if (size < SLAB_MAX_SIZE) {
+        return kmalloc(size);
+    } else if (size <= BUDDY_MAX_SIZE) {
+        int order = get_buddy_order(size);
+        void *addr = (void *)get_free_pages(0,order);
+        for (int i=0; i<10; ++i) {
+            if (buddy_use[i] == 0) {
+                buddy_use[i] = 1;
+                buddy_addr[i] = (uint32_t)addr;
+                buddy_order[i] = order;
 #ifdef DEBUG_MALLOC
-                    ACENN_DEBUG("buddy order: %d", order);
-                    ACENN_DEBUG("buddy size: %x", (1 << order)*PAGE_SIZE);
-                    ACENN_DEBUG("buddy addr: %x", (uint32_t)addr);
+                ACENN_DEBUG("buddy order: %d", order);
+                ACENN_DEBUG("buddy size: %x", (1 << order)*PAGE_SIZE);
+                ACENN_DEBUG("buddy addr: %x", (uint32_t)addr);
 #endif
-                    return addr;
-                }
+                return addr;
             }
-#ifdef DEBUG_MALLOC
-            ACENN_DEBUG("10 buddy blocks have already been allocated, please release them before applying for memory allocation!");
-            asm("ebreak;"); // 中断，停止运行
-#endif
-            return nullptr;
         }
 #ifdef DEBUG_MALLOC
-        ACENN_DEBUG("The memory size you want to allocate is %d, but the maximum size that malloc can allocate is %d", size, BUDDY_MAX_SIZE);
+        ACENN_DEBUG("10 buddy blocks have already been allocated, please release them before applying for memory allocation!");
         asm("ebreak;"); // 中断，停止运行
 #endif
         return nullptr;
+    }
+#ifdef DEBUG_MALLOC
+    ACENN_DEBUG("The memory size you want to allocate is %d, but the maximum size that malloc can allocate is %d", size, BUDDY_MAX_SIZE);
+    asm("ebreak;"); // 中断，停止运行
+#endif
+    return nullptr;
 
+#elif USE_FIRST_FIT
+    return ff_malloc(size);
 #else
-    #ifdef USE_FIRST_FIT
-        return ff_malloc(size);
-    #else
-        return kmalloc(size);
-    #endif
+    return kmalloc(size);
 #endif
 }
 
 void free(void *addr)
 {
-    #ifdef USE_SLAB
+#ifdef USE_SLAB
 #ifdef DEBUG_MALLOC
-        ACENN_DEBUG("free addr: %x", (uint32_t)addr);
+    ACENN_DEBUG("free addr: %x", (uint32_t)addr);
 #endif
-        for (int i=9; i>=0; i--) {
-            if (buddy_use[i] && (buddy_addr[i] == (uint32_t)addr)) {
-                buddy_use[i] = 0;
-                put_free_pages((void *)buddy_addr[i], buddy_order[i]);
-                return ;
-            }
+    for (int i=9; i>=0; i--) {
+        if (buddy_use[i] && (buddy_addr[i] == (uint32_t)addr)) {
+            buddy_use[i] = 0;
+            put_free_pages((void *)buddy_addr[i], buddy_order[i]);
+            return ;
         }
-        kfree(addr);
-    #else
-        #ifdef USE_FIRST_FIT
-            ff_free(addr);
-        #else
-            kfree(addr);
-        #endif
-    #endif
+    }
+    kfree(addr);
+#elif USE_FIRST_FIT
+    ff_free(addr);
+#else
+    kfree(addr);
+#endif
 }
 
-#ifdef USE_SLAB
 void malloc_initial()
 {
+#ifdef USE_SLAB
     init_page_map();
+#endif
 	int result = malloc_init();
     if (result == -1) {
         printf_("failed to malloc_init!\n");
     }
 }
 
+#ifdef USE_SLAB
 void test_malloc(void)
 {
     // test malloc function

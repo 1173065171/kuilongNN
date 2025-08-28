@@ -4,8 +4,9 @@
 void test_component(){
 	ACENN_DEBUG("-------- hello kuiloong! ----------");
 	test_printf_();
-	test_malloc();
-	test_malloc_boundary();
+    // // 测试slab、buddy算法
+	// test_malloc();
+	// test_malloc_boundary();
 	ACENN_DEBUG("-------- test component over! ----------");
 }
 
