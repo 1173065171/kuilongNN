@@ -5,10 +5,12 @@ PYTHON=python3
 ABI=ilp32
 ARCH=rv32imc_xcvnn
 CFLAGS=-c -MD -MF $(BUILD_DIR)/acenn.d -Os  -ffreestanding -nostdlib -I$(INCLUDE_DIR) -I$(INCLUDE_DIR)/stdlib
-LDFLAGS=-MD -Os -ffreestanding -nostdlib -Wl,-Bstatic,-T,$(SCRIPT_DIR)/firmware.lds,-Map,$(BUILD_DIR)/$(patsubst %.elf,%.map,$(TARGET)),--strip-debug \
-		-Xlinker -verbose
+LDFLAGS=-MD -Os -ffreestanding -nostdlib -Wl,-Bstatic,-T,$(SCRIPT_DIR)/firmware.lds,-Map,$(BUILD_DIR)/$(patsubst %.elf,%.map,$(TARGET)),--strip-debug 
+LDFLAGS+=-Xlinker -verbose -ffunction-sections -fdata-sections -Wl,--gc-sections
+		
 TARGET=firmware.elf
 C_FILE=$(wildcard *.cpp)
+C_FILE+=$(wildcard ./benchmark/*.cpp)
 C_FILE+=$(wildcard $(INCLUDE_DIR)/common/*.cpp)
 C_FILE+=$(wildcard $(INCLUDE_DIR)/stdlib/*.cpp)
 C_FILE+=$(wildcard $(INCLUDE_DIR)/scalar/*.cpp)
@@ -51,27 +53,7 @@ all: build $(patsubst %.cpp,%.o,$(C_FILE)) $(patsubst %.S,%.o,$(ASM_FILE))
 		fi \
 	done
 	$(PYTHON) $(SCRIPT_DIR)/make_instr_hex.py $(BUILD_DIR)/$(patsubst %.elf,%.bin,$(TARGET)) 65536 > ./build/instruction.hex
-	$(PYTHON) $(SCRIPT_DIR)/make_mem_hex.py $(BUILD_DIR)/$(patsubst %.elf,%.bin,$(TARGET)) 131072 > ./build/memory.hex
-
-allkui: build $(patsubst %.cpp,%.o,$(C_FILE)) $(patsubst %.S,%.o,$(ASM_FILE))
-	$(CC) -mabi=$(ABI) -march=$(ARCH) $(LDFLAGS) -o $(BUILD_DIR)/$(TARGET) $(patsubst %.cpp,%.o,$(C_FILE)) $(patsubst %.S,%.o,$(ASM_FILE)) $(EXTRA_OBJ) -lm -lc -lgcc
-	$(OBJCOPY) -O binary $(BUILD_DIR)/$(TARGET) $(BUILD_DIR)/$(patsubst %.elf,%.bin,$(TARGET))
-	$(OBJDUMP) -d -a $(BUILD_DIR)/$(TARGET) > $(BUILD_DIR)/$(patsubst %.elf,%.txt,$(TARGET))
-# 移动 .o 文件到 build 文件夹
-	@for file in $(patsubst %.cpp,%.o,$(C_FILE)) $(patsubst %.S,%.o,$(ASM_FILE)); do \
-		if [ -f "$$file" ]; then \
-			mv "$$file" $(BUILD_DIR)/; \
-		fi \
-	done
-# 移动 .d 文件到 build 文件夹
-	@for file in $(patsubst %.cpp,%.d,$(C_FILE)) $(patsubst %.S,%.d,$(ASM_FILE)); do \
-		if [ -f "$$file" ]; then \
-			mv "$$file" $(BUILD_DIR)/; \
-		fi \
-	done
-	$(PYTHON) $(SCRIPT_DIR)/make_instr_hex.py $(BUILD_DIR)/$(patsubst %.elf,%.bin,$(TARGET)) 65536 > ./build/instruction.hex
 	$(PYTHON) $(SCRIPT_DIR)/make_mem_hex.py $(BUILD_DIR)/$(patsubst %.elf,%.bin,$(TARGET)) 65536 > ./build/memory.hex
-
 
 mod4:
 	$(PYTHON) $(SCRIPT_DIR)/genhex_mod4.py ./build/instruction.hex

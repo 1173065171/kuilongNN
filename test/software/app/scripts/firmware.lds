@@ -12,7 +12,7 @@ ENTRY(_start)
 MEMORY
 {
 	rom (x!raiw) : ORIGIN = 0x00000000, LENGTH = 256k
-	ram (rw!xai) : ORIGIN = 0x10000000, LENGTH = 2560k
+	ram (rw!xai) : ORIGIN = 0x10020000, LENGTH = 2560k
 }
 
 SECTIONS
@@ -74,7 +74,7 @@ SECTIONS
 	{ *(.comment)} > ram
 
 	/* Set Stack after code & data */
-	linker_stack_start = 0x1006FFFC;
+	linker_stack_start = 0x1003FFFC;
 
 	/DISCARD/ : { *(.note.GNU-stack) *(.gnu_debuglink) *(.gnu.lto_*) *(.riscv.attributes)}
 }

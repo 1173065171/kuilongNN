@@ -19,7 +19,7 @@
 /*                                      debug flag                                                  */
 /****************************************************************************************************/
 // switch of ACENN_DEBUG() print func
-// #define KUILOONG_DEBUG
+#define KUILOONG_DEBUG
 
 // switch of memory allocation debug
 #define DEBUG_MALLOC 1
@@ -28,8 +28,13 @@
 /*                                      buddy algorithms                                            */
 /****************************************************************************************************/
 //  frac{4*(1-2^{9})}{1-2} = 2044 Byte
-//  sram 最大 0x1010_0000 = 1MB
-#define MEM_END    0x10090000
-#define MEM_START  0x10070000
+//  sram 最大 0x1001_0000 = 64KB
+#define MEM_END    0x1003E000
+#define MEM_START  0x10030000
+
+// 一个页的大小
+#define PAGE_SHIFT_ 10
+// buddy算法最大分配的阶
+#define MAX_PAGE_NUM_EXP 4
 
 #endif

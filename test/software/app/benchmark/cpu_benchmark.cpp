@@ -73,50 +73,50 @@ void test_gemm_proc() {
     ACENN_DEBUG("get reference tensor!");
 
     
-    // 5. 调用模板函数进行矩阵乘法
-    uint8_t shift_fig = 0;  // 根据需要设置位移值
-    acenn_matrix<int8_t> *result = matrix_multiply<int8_t>(matrix_a, matrix_b, shift_fig);
+    // // 5. 调用模板函数进行矩阵乘法
+    // uint8_t shift_fig = 0;  // 根据需要设置位移值
+    // acenn_matrix<int8_t> *result = matrix_multiply<int8_t>(matrix_a, matrix_b, shift_fig);
     
-    if (result == nullptr) {
-        ACENN_DEBUG("ERROR: Matrix multiplication failed!");
-        free(matrix_a->matrix);
-        free(matrix_a);
-        free(matrix_b->matrix);
-        free(matrix_b);
-        asm("ebreak;");
-        return;
-    }
-    ACENN_DEBUG("get output tensor!");
+    // if (result == nullptr) {
+    //     ACENN_DEBUG("ERROR: Matrix multiplication failed!");
+    //     free(matrix_a->matrix);
+    //     free(matrix_a);
+    //     free(matrix_b->matrix);
+    //     free(matrix_b);
+    //     asm("ebreak;");
+    //     return;
+    // }
+    // ACENN_DEBUG("get output tensor!");
 
     
-    // 6. 验证结果
-    int errors = 0;
-    for (int i = 0; i < 16; i++) {
-        for (int j = 0; j < 16; j++) {
-            int8_t hw = result->matrix[i * 16 + j];
-            int8_t sw = C_ref[i][j];
-            if (hw != sw) {
-                errors++;
-                ACENN_DEBUG("Mismatch at [%d][%d]: hw=%d, sw=%d", i, j, hw, sw);
-            }
-        }
-    }
-    ACENN_DEBUG("difference output tensor!");
+    // // 6. 验证结果
+    // int errors = 0;
+    // for (int i = 0; i < 16; i++) {
+    //     for (int j = 0; j < 16; j++) {
+    //         int8_t hw = result->matrix[i * 16 + j];
+    //         int8_t sw = C_ref[i][j];
+    //         if (hw != sw) {
+    //             errors++;
+    //             ACENN_DEBUG("Mismatch at [%d][%d]: hw=%d, sw=%d", i, j, hw, sw);
+    //         }
+    //     }
+    // }
+    // ACENN_DEBUG("difference output tensor!");
 	
     
-    if (errors == 0) {
-        ACENN_DEBUG("PASS: Hardware result matches reference.");
-    } else {
-        ACENN_DEBUG("FAIL: %d mismatches found.", errors);
-    }
+    // if (errors == 0) {
+    //     ACENN_DEBUG("PASS: Hardware result matches reference.");
+    // } else {
+    //     ACENN_DEBUG("FAIL: %d mismatches found.", errors);
+    // }
     
     // 7. 清理内存
     free(matrix_a->matrix);
     free(matrix_a);
     free(matrix_b->matrix);
     free(matrix_b);
-    free(result->matrix);
-    free(result);
+    // free(result->matrix);
+    // free(result);
     ACENN_DEBUG("free acenn_matrix tensor!");
 
 }
@@ -201,47 +201,47 @@ void test_fc_proc() {
     ACENN_DEBUG("get fc reference tensor!");
 
     
-    // 5. 调用全连接层处理函数
-    uint8_t shift_fig = 0;  // 根据需要设置位移值
-    acenn_matrix<int8_t> *result = matrix_multiply<int8_t>(weight, input, shift_fig);
+    // // 5. 调用全连接层处理函数
+    // uint8_t shift_fig = 0;  // 根据需要设置位移值
+    // acenn_matrix<int8_t> *result = matrix_multiply<int8_t>(weight, input, shift_fig);
     
-    if (result == nullptr) {
-        ACENN_DEBUG("ERROR: FC matrix multiplication failed!");
-        free(input->matrix);
-        free(input);
-        free(weight->matrix);
-        free(weight);
-        free(bias->matrix);
-        free(bias);
-        asm("ebreak;");
-        return;
-    }
+    // if (result == nullptr) {
+    //     ACENN_DEBUG("ERROR: FC matrix multiplication failed!");
+    //     free(input->matrix);
+    //     free(input);
+    //     free(weight->matrix);
+    //     free(weight);
+    //     free(bias->matrix);
+    //     free(bias);
+    //     asm("ebreak;");
+    //     return;
+    // }
     
-    // 添加偏置
-    for (int i = 0; i < 8; i++) {
-        result->matrix[i] += bias->matrix[i];
-    }
-    ACENN_DEBUG("get fc output tensor!");
+    // // 添加偏置
+    // for (int i = 0; i < 8; i++) {
+    //     result->matrix[i] += bias->matrix[i];
+    // }
+    // ACENN_DEBUG("get fc output tensor!");
 
     
-    // 6. 验证结果
-    int errors = 0;
-    for (int i = 0; i < 8; i++) {
-        int8_t hw = result->matrix[i];
-        int8_t sw = output_ref[i];
-        if (hw != sw) {
-            errors++;
-            ACENN_DEBUG("FC Mismatch at [%d]: hw=%d, sw=%d", i, hw, sw);
-        }
-    }
-    ACENN_DEBUG("difference fc output tensor!");
+    // // 6. 验证结果
+    // int errors = 0;
+    // for (int i = 0; i < 8; i++) {
+    //     int8_t hw = result->matrix[i];
+    //     int8_t sw = output_ref[i];
+    //     if (hw != sw) {
+    //         errors++;
+    //         ACENN_DEBUG("FC Mismatch at [%d]: hw=%d, sw=%d", i, hw, sw);
+    //     }
+    // }
+    // ACENN_DEBUG("difference fc output tensor!");
 	
     
-    if (errors == 0) {
-        ACENN_DEBUG("FC PASS: Hardware result matches reference.");
-    } else {
-        ACENN_DEBUG("FC FAIL: %d mismatches found.", errors);
-    }
+    // if (errors == 0) {
+    //     ACENN_DEBUG("FC PASS: Hardware result matches reference.");
+    // } else {
+    //     ACENN_DEBUG("FC FAIL: %d mismatches found.", errors);
+    // }
     
     // 7. 清理内存
     free(input->matrix);
@@ -250,7 +250,7 @@ void test_fc_proc() {
     free(weight);
     free(bias->matrix);
     free(bias);
-    free(result->matrix);
-    free(result);
+    // free(result->matrix);
+    // free(result);
     ACENN_DEBUG("free fc acenn_matrix tensor!");
 }

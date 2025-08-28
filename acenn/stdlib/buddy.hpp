@@ -110,7 +110,7 @@ static inline int list_empty(const struct list_head *head)
 //  1 page = 4096 Byte
 // #define PAGE_SHIFT  (12)
 //  1 page = 1024 Byte
-#define PAGE_SHIFT  (10)
+#define PAGE_SHIFT  (PAGE_SHIFT_)
 #define PAGE_SIZE   (1 << PAGE_SHIFT)
 #define PAGE_MASK   (~(PAGE_SIZE - 1))
 
@@ -140,7 +140,7 @@ struct page {
 //  max size = 1024 K Byte = 1 M Byte
 //  #define MAX_BUDDY_PAGE_NUM          (8)
 //  64 KB
-#define MAX_BUDDY_PAGE_NUM          (7)
+#define MAX_BUDDY_PAGE_NUM          (MAX_PAGE_NUM_EXP)
 #define AVERAGE_PAGE_NUM_PER_BUDDY  (KERNEL_PAGE_NUM / MAX_BUDDY_PAGE_NUM)
 #define PAGE_NUM_FOR_MAX_BUDDY      ((1 << MAX_BUDDY_PAGE_NUM) - 1)
 #define BUDDY_MAX_SIZE              ((PAGE_SIZE) * (1 << MAX_BUDDY_PAGE_NUM))

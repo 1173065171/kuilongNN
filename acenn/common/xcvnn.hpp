@@ -39,8 +39,6 @@
 #define SAUINS3MSB      0x205
 #define SAUINS4LSB      0x206
 #define SAUINS4MSB      0x207
-#define SAUINS4LSB      0x206
-#define SAUINS4MSB      0x207
 
 //  00: uint8, 01: uint16, 10: int8, 11: int16
 #define CFG_UI8             0b00
