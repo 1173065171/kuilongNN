@@ -19,4 +19,4 @@ test/software/app/build
 test/software/runtime/build
 
 # testcase files
-test/testcase
+test/testcase/test_*
