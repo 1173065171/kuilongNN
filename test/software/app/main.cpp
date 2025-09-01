@@ -121,25 +121,29 @@ void test_operator(){
 	ACENN_DEBUG("-------- test operator over! --------");
 }
 
-
+extern bool sau_test();
 int main()
 {
 	long BeginCycles, EndCycles;
 	BeginCycles = time();
 	malloc_initial();
 	ACENN_DEBUG("-------- test benchmark start! --------");
-	
+
 	// printf测试
 	// test_printf_();
 
 	// malloc测试
 	// test_malloc();
-	
+
 	// built-in测试
 	// test_builtin_norun();
 
 	// 算子测试
-	test_operator();
+	// test_operator();
+	sau_test();
+	// malloc(64);
+	// malloc(64);
+	// malloc(64);
 
 	// benchmark测试
 	// veu_benchmark();
