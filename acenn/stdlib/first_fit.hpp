@@ -3,7 +3,7 @@
 #include "stdlib/printf.hpp"
 #include <cstddef>
 #define HEAP_START  MEM_START   // 堆起始地址
-#define HEAP_SIZE   (MEM_END - MEM_START)  // 1MB 堆空间
+#define HEAP_SIZE   (MEM_END - MEM_START)  // 堆空间计算
 #define NALLOC      128            // 最小分配单位
 #define ALIGNMENT   16             // 128 bit 对齐
 #define NULL        0

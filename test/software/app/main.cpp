@@ -126,7 +126,7 @@ int main()
 {
 	long BeginCycles, EndCycles;
 	BeginCycles = time();
-	malloc_initial();
+	// malloc_initial();
 	ACENN_DEBUG("-------- test benchmark start! --------");
 
 	// printf测试

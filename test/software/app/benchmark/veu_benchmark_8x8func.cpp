@@ -44,14 +44,16 @@ void lookup_softmax8(int8_t *input_vector, uint8_t *output_vector, int N) {
   *max_val = input_vector[0];
   uint32_t raddr = (uint32_t)(uintptr_t)input_vector;
   uint32_t waddr = (uint32_t)(uintptr_t)max_val;
-  ACENN_DEBUG("1");
   if (N < 16) {
     for (int i = 1; i < N; ++i) {
       if (input_vector[i] > *max_val)
         *max_val = input_vector[i];
     }
   } else {
-  ACENN_DEBUG("2");
+
+    while(__kuiloong_ace_vgetcsr(VEUSTATUS)){
+
+    }
     __kuiloong_ace_vsetcsr(
                             SCALAR_EN(0) |
                             WRITE_BACK(1) |
@@ -59,19 +61,11 @@ void lookup_softmax8(int8_t *input_vector, uint8_t *output_vector, int N) {
                             MODE(CFG_I8) |
                             SHIFT(0) |
                             RESET(0), VEUCFG);
-  ACENN_DEBUG("3");
-
     __kuiloong_ace_vsetcsr(8*N, VEUVLEN);
-  ACENN_DEBUG("4");
 
     __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
-  ACENN_DEBUG("5");
-  ACENN_DEBUG("raddr = %p", raddr);
-  ACENN_DEBUG("waddr = %p", waddr);
-  __kuiloong_ace_vsetcsr(waddr, VEUWADDR);
-  ACENN_DEBUG("6");
-  __kuiloong_ace_vredmax(raddr);
-  ACENN_DEBUG("7");
+    __kuiloong_ace_vsetcsr(waddr, VEUWADDR);
+    __kuiloong_ace_vredmax(raddr);
   }
   ACENN_DEBUG("max = %d", *max_val);
   for (int i = 0; i < N; ++i) {
