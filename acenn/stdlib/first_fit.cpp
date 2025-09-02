@@ -26,7 +26,7 @@ static void* ff_memmove(void* dest, const void* src, unsigned int size) {
 }
 
 void init_heap() {
-  printf_("First fit Initializing heap...");
+  printf_("First fit Initializing heap...\n");
   if (heap_initialized) return;
   
   // 验证堆起始地址是否16字节对齐

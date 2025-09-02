@@ -76,7 +76,6 @@ void matmul_multi8(int8_t *input_blockA, int8_t *input_blockB, int8_t *output_bl
             ins5 = b_addr&0xFFFFF;
             ins8 = (0&0xFFFFF)|((work_mode&0x3)<<20)|((flow_mode&0x3)<<22)|((new_flow_loop_times&0x3F)<<24);
             ins7 = (1&0x1)|((id&0xFF)<<1)|((d_addr&0xFFFFF)<<9);
-            ACENN_DEBUG("%d", ins2);
             while(__kuiloong_ace_mgetins4lsb() & 0x80000000){}
             __kuiloong_ace_msetins1(ins1, ins2);
             __kuiloong_ace_msetins2(ins3, ins4);
@@ -98,7 +97,6 @@ void matmul_multi8(int8_t *input_blockA, int8_t *input_blockB, int8_t *output_bl
             ins5 = b_addr&0xFFFFF;
             ins8 = (0&0xFFFFF)|((work_mode&0x3)<<20)|((flow_mode&0x3)<<22)|((new_flow_loop_times&0x3F)<<24);
             ins7 = (1&0x1)|((id&0xFF)<<1)|((d_addr&0xFFFFF)<<9);
-            ACENN_DEBUG("%d", ins2);
             while(__kuiloong_ace_mgetins4lsb() & 0x80000000){}
             __kuiloong_ace_msetins1(ins1, ins2);
             __kuiloong_ace_msetins2(ins3, ins4);
@@ -118,7 +116,6 @@ void matmul_multi8(int8_t *input_blockA, int8_t *input_blockB, int8_t *output_bl
           ins5 = b_addr&0xFFFFF;
           ins8 = (0&0xFFFFF)|((work_mode&0x3)<<20)|((flow_mode&0x3)<<22)|((new_flow_loop_times&0x3F)<<24);
           ins7 = (1&0x1)|((id&0xFF)<<1)|((d_addr&0xFFFFF)<<9);
-          ACENN_DEBUG("%d", ins2);
           while(__kuiloong_ace_mgetins4lsb() & 0x80000000){}
           __kuiloong_ace_msetins1(ins1, ins2);
           __kuiloong_ace_msetins2(ins3, ins4);
@@ -194,7 +191,6 @@ void fc_multi8(int8_t *input_blockA, int8_t *input_blockB, int8_t *intput_bias, 
       ins5 = b_addr&0xFFFFF;
       ins8 = (bias_address&0xFFFFF)|((work_mode&0x3)<<20)|((flow_mode&0x3)<<22)|((flow_loop_times&0x3F)<<24);
       ins7 = (1&0x1)|((id&0xFF)<<1)|((d_addr&0xFFFFF)<<9);
-      ACENN_DEBUG("%d", ins2);
       while(__kuiloong_ace_mgetins4lsb() & 0x80000000){}
       __kuiloong_ace_msetins1(ins1, ins2);
       __kuiloong_ace_msetins2(ins3, ins4);
