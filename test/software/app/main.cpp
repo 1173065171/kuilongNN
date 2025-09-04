@@ -122,6 +122,7 @@ void test_operator(){
 }
 
 extern bool sau_test();
+extern bool veu_test();
 int main()
 {
 	long BeginCycles, EndCycles;
@@ -140,7 +141,8 @@ int main()
 
 	// 算子测试
 	// test_operator();
-	sau_test();
+	// sau_test();
+	veu_test();
 	// malloc(64);
 	// malloc(64);
 	// malloc(64);
