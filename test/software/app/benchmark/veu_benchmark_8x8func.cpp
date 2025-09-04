@@ -5,7 +5,7 @@ void gather_trick(int8_t *input_block, int M, int K, int col, int8_t *output_vec
   ACENN_DEBUG("VEU gather_trick START: In[%d,%d] col = %d -> Out[%d]", M, K, col, K);
   uint32_t raddr = (uint32_t)(uintptr_t)(input_block + col*K);
   uint32_t waddr = (uint32_t)(uintptr_t)output_vector;
-
+  ACENN_DEBUG("raddr=0x%x, waddr=0x%x", raddr, waddr);
   __kuiloong_ace_vsetcsr(
                           SCALAR_EN(0) |
                           WRITE_BACK(1) |
@@ -15,6 +15,7 @@ void gather_trick(int8_t *input_block, int M, int K, int col, int8_t *output_vec
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(8*K, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
+  __kuiloong_ace_vsetcsr(waddr, VEUWADDR);
   __kuiloong_ace_vmv(raddr);
 }
 
