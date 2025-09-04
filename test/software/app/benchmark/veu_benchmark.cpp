@@ -604,7 +604,7 @@ void vmv_testcase1()
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(128, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
-  __kuiloong_ace_vmv((uint32_t)raddr4, (uint32_t)waddr);
+  __kuiloong_ace_vmv((uint32_t)raddr4);
   for (int i = 0; i < 16; ++i) {
     if ((waddr[i] & 0xFF) != (raddr4[i] & 0xFF)) {
       ACENN_DEBUG("waddr[%d] != raddr4[%d]: %x != %x", i, i, waddr[i] & 0xFF, raddr4[i] & 0xFF);
@@ -624,7 +624,7 @@ void vmv_testcase1()
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(2048, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
-  __kuiloong_ace_vmv((uint32_t)raddr4, (uint32_t)waddr);
+  __kuiloong_ace_vmv((uint32_t)raddr4);
   for (int i = 0; i < 256; ++i) {
     if ((waddr[i] & 0xFF) != (raddr4[i] & 0xFF)) {
       ACENN_DEBUG("waddr[%d] != raddr4[%d]: %x != %x", i, i, waddr[i] & 0xFF, raddr4[i] & 0xFF);

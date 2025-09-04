@@ -211,3 +211,52 @@ static const uint8_t out_sa[32] = { 7, 33, 23, 1, 142, 2, 37, 2, 2, 14, 248, 3, 
   ACENN_DEBUG(all_pass?"PASS SAU matmul_multi8 SINGLE TEST END":"FAIL SAU matmul_multi8 SINGLE TEST END");
   return all_pass;
 }
+
+
+
+bool vector_reduce_single_test() {
+
+    ACENN_DEBUG("VEU Reduce SINGLE TEST START");
+    bool pass, all_pass = 1;
+    int8_t *input_block, *output_vector;
+    int M, K, N;
+    M = 16, K = 16, N = 16;
+    input_block  = (int8_t*)malloc(M*K * sizeof(int8_t));
+    output_vector  = (int8_t*)malloc(N * sizeof(int8_t));
+
+    static const int8_t in_sa[256] = {
+    4,-27,17,-5,22,-11,-32,-26,15,-21,-13,25,0,31,-26,8,
+    15,15,18,-4,-6,-24,14,25,-5,12,-16,-24,-4,0,-6,-9,
+    17,27,-29,26,-14,-3,-2,9,-21,26,28,-3,8,7,-3,-13,
+    11,29,-28,-1,10,9,23,14,23,20,7,1,-5,12,-14,-4,
+    4,-29,-18,-27,-26,-30,-13,-20,8,0,23,23,-25,-8,12,23,
+    -17,-6,13,-21,-26,-1,16,-31,-16,13,-15,14,-13,-16,28,-8,
+    -10,-19,-16,-15,28,27,-8,1,-12,-12,1,-24,-17,21,-5,-29,
+    10,-16,5,17,-7,24,16,13,21,29,23,27,1,-12,11,0,
+    9,-25,20,22,15,28,4,-9,10,2,10,-1,26,6,-26,-11,
+    20,-29,4,8,-30,25,-31,-23,-14,-16,-18,13,-8,31,-7,31,
+    25,7,-19,-7,11,7,-6,-14,-28,-27,-7,-29,8,-13,-23,7,
+    31,-13,-20,23,-3,-16,-1,-20,13,-30,-10,-18,-8,17,-6,-31,
+    -3,-11,-9,10,20,11,-4,12,24,-25,3,9,-1,-31,-22,-30,
+    -12,29,-11,11,-29,13,14,-7,-18,31,30,24,-30,30,28,-19,
+    3,-5,0,-2,-28,-20,30,4,15,11,-12,12,18,-4,-32,12,
+    -5,25,-18,-12,8,-2,5,-31,20,0,15,23,20,27,20,-11
+    };
+    static const int8_t out_sa[16] = {31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
+    for (int i = 0; i < M*K; i++) input_block[i] = in_sa[i];
+    for (int i = 0; i < N; i++) output_vector[i] = 0;
+
+    ReduceMax(input_block, output_vector, 256);
+
+    pass = true;
+    for (int i = 0; i < K; ++i){if(output_vector[i] != out_sa[i]){pass = false; ACENN_DEBUG("Mismatch[%d]: ref=%d out=%d", i, out_sa[i], output_vector[i]);}}
+    if (pass) {
+      ACENN_DEBUG("PASS reduce: In[%d,%d] col=%d -> Out[%d]", M, K, N, K);
+    } else {
+      ACENN_DEBUG("FAIL reduce: In[%d,%d] col=%d -> Out[%d]", M, K, N, K);
+    }
+    free(input_block);
+    free(output_vector);
+    all_pass = all_pass && pass;
+    return all_pass;
+}

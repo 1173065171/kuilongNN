@@ -15,7 +15,7 @@ void gather_trick(int8_t *input_block, int M, int K, int col, int8_t *output_vec
                           RESET(0), VEUCFG);
   __kuiloong_ace_vsetcsr(8*K, VEUVLEN);
   __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
-  __kuiloong_ace_vmv(raddr, waddr);
+  __kuiloong_ace_vmv(raddr);
 }
 
 // 注意：这里使用的是 uint8_t 类型，模拟的是 exp(-x) 的递减行为
@@ -74,4 +74,30 @@ void lookup_softmax8(int8_t *input_vector, uint8_t *output_vector, int N) {
     output_vector[i] = piecewise_exp_lut_32[index];
   }
   free(max_val);
+}
+
+
+
+void ReduceMax(int8_t *input_vector, int8_t *output_vector, int N) {
+  ACENN_DEBUG("VEU ReduceMax START: In[%d] N = %d -> Out[%d]", N, N, N);
+  uint32_t raddr = (uint32_t)(uintptr_t)input_vector;
+  uint32_t waddr = (uint32_t)(uintptr_t)output_vector;
+
+  while(__kuiloong_ace_vgetcsr(VEUSTATUS)){
+
+  }
+  __kuiloong_ace_vsetcsr(
+                          SCALAR_EN(0) |
+                          WRITE_BACK(1) |
+                          CLEAR_OB(1) |
+                          MODE(CFG_I8) |
+                          SHIFT(0) |
+                          RESET(0), VEUCFG);
+  __kuiloong_ace_vsetcsr(8*N, VEUVLEN);
+
+  __kuiloong_ace_vsetcsr(0xFFFFFFFF, VEUMASK);
+  __kuiloong_ace_vsetcsr(waddr, VEUWADDR);
+  __kuiloong_ace_vredmax(raddr);
+
+  ACENN_DEBUG("max = %d", *output_vector);
 }
